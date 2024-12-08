@@ -130,6 +130,8 @@ if __name__ == "__main__":
     url = "https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?search=&showall=1&aaaaaaaaaaaaanr=&frist=&aaaaaaaaaaaaanq=&aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft&aaaaaaaaaaaaans=&aaaaaaaaaaaaanw=&aaaaaaaaaaaaanv=&aaaaaaaaaaaaanx="
     content = get_content(url)
     print(content[:300])
+    asyncio.run(send_message(content[:300]))
+
     # dump content into textfile
     with open("site_content.txt", "w", encoding='utf-8') as file:
         file.write(content)
