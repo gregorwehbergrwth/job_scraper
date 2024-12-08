@@ -107,10 +107,10 @@ if __name__ == "__main__":
 
     # Fetch job content
     content = get_content(url)
-    asyncio.run(send_message(content[:30]))
 
     if not content or content == "No content found":
         print("Failed to fetch job content.")
+        asyncio.run(send_message("Failed to fetch job content. Something went wrong with Selenium."))
         exit(1)
 
     # Parse job information
