@@ -1,0 +1,1823 @@
+<html xml:lang="de" lang="de-DE" style="" class="js canvas canvastext geolocation boxshadow opacity cssanimations csscolumns csstransforms csstransforms3d csstransitions video audio localstorage sessionstorage no-mobile no-advancedcssanimation js-on smaller-than-1024 hcm"><head>
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" value="notranslate">
+<meta name="googlebot" value="notranslate">
+<script src="/custom/rwth/js_mobile/aw_mobile.asp"></script>
+<title>RWTH Jobportal - RWTH AACHEN UNIVERSITY  - Deutsch</title>
+<meta name="keywords" lang="de" content="Aachen, Forschung, Hochschule, Lehre, RWTH, Studium, TH, Technisch, Universitaet, Institute, Exzellenzinitiative">
+<meta name="robots" content="index,follow">
+<meta name="author" content="RWTH Aachen University">
+<meta name="geo.placename" content="Templergraben 55, 52062 Aachen, Germany">
+<meta name="geo.position" content="50.7776;6.0783">
+<meta name="geo.region" content="DE-NW">
+<meta name="ICBM" content="50.7776, 6.0783">
+<link rel="alternate" hreflang="de" href="https://www.rwth-aachen.de/cms/root/die-rwth/arbeiten-an-der-rwth/~buym/rwth-jobportal/?aaaaaaaaaaaaany=Einstellung als Studentische Hilfskraft&amp;showall=1">
+<link rel="alternate" hreflang="en" href="https://www.rwth-aachen.de/cms/root/die-rwth/arbeiten-an-der-rwth/~buym/rwth-jobportal/?aaaaaaaaaaaaany=Einstellung als Studentische Hilfskraft&amp;showall=1&amp;lidx=1">
+<link rel="canonical" href="https://www.rwth-aachen.de/cms/root/die-rwth/arbeiten-an-der-rwth/~buym/rwth-jobportal/?showall=1">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="icon" type="image/png" href="/favicon-196x196.png" sizes="196x196">
+<link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+<link rel="icon" type="image/png" href="/favicon-160x160.png" sizes="160x160">
+<link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
+<link rel="icon" type="image/png" href="/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/android-chrome-192x192.png" sizes="192x192">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#00529f">
+<meta name="msapplication-TileColor" content="#00529f">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<meta name="theme-color" content="#00529f">
+<link rel="contents" title="Inhaltsverzeichnis" href="https://www.rwth-aachen.de/inhalt">
+<link rel="copyright" title="Impressum" href="https://www.rwth-aachen.de/impressum">
+<link rel="help" title="Feedback-Formular" href="https://www.rwth-aachen.de/feedback">
+<link rel="search" title="Suche auf dieser Webseite" href="https://www.rwth-aachen.de/suche">
+<link rel="start" title="Startseite" href="https://www.rwth-aachen.de/cms/~a/root/">
+<link rel="up" title="Up" href="/cms/root/Die-RWTH/~emt/Arbeiten-an-der-RWTH/">
+<link rel="alternate" type="application/rss+xml" title="RWTH-Aachen University - RWTH Jobportal" href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?rss=1&amp;dateid=1">
+<meta name="date" content="D:20241208000000+01'00'">
+<meta name="domain" content="www.rwth-aachen.de">
+<meta name="breadcrumb" content="Startseite > Die RWTH > Arbeiten an der RWTH">
+<meta name="ipzone" content="[0]">
+<link rel="stylesheet" type="text/css" href="/custom/rwth/css/styles.css?date=20240514" media="screen">
+<link rel="stylesheet" type="text/css" href="/custom/rwth/css/tablet.css" media="only screen and (max-width: 1024px)">
+<link rel="stylesheet" type="text/css" href="/custom/rwth/css/tablet-portrait.css" media="only screen and (max-width: 900px)">
+<link rel="stylesheet" type="text/css" href="/custom/rwth/css/print.css" media="print">
+<!--[if IE 9]>
+<link rel="stylesheet" href="/custom/rwth/css/ie9.css" media="screen" />
+<![endif]-->
+
+<!--[if lte IE 9]>
+<link rel="stylesheet" href="/custom/rwth/css/ie7-8-9.css" media="screen" />
+<![endif]-->
+<script src="/custom/rwth/js/libs/jquery-3.6.0.js"></script>
+<script src="/custom/rwth/js/libs/jquery.ui-1.13.0.js"></script>
+<script src="/custom/rwth/js/__basic-behaviour.js"></script>
+<script src="/custom/rwth/js/__base-modules.js"></script>
+<script src="/custom/rwth/js/__base-modules-2.js?date=20240131"></script>
+<script src="/custom/rwth/js/__rwth.js?date=20230113"></script>
+<script src="/custom/rwth/js/customscript.js"></script>
+<script src="/custom/rwth/js_mobile/aw_mobile_jquery.js"></script>
+<style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style></head>
+<body class="nav-col" id="search-results">
+<!--googleoff: all-->
+<div style="display: none !important; visibility: hidden !important; font-size: 200% !important;"><h1>h1</h1><h2>h2</h2><h3>h3</h3><h4>h4</h4><h5>h5</h5><h6>h6</h6></div>
+<div id="rwth-cb" class="slide-in">
+<div data-nosnippet="true" class="text">Diese Webseite nutzt technisch notwendige Cookies, um bestmögliche Funktionalität bieten zu können.</div>
+<a href="/cms/root/Footer/Services/~cesv/Datenschutzerklaerung/#cookie-paragraph" class="cb-button">Weitere Informationen</a>
+<button id="accept-rwth-cb" class="cb-button">Verstanden!</button>
+</div>
+<div id="wrapper" class="notranslate">
+<div id="branding" role="banner" style="margin-top: 0px;">
+<div id="branding-box">
+<div id="branding-inner">
+<p class="skip">
+<a href="#main">Zum Inhaltsbereich</a>
+<a href="#nav-global">Zur Hauptnavigation</a>
+<a href="#site-info">Zum Footer</a>
+<a href="#search-box">Zur Suche</a>
+</p>
+<div id="logo">
+<a href="/cms/~a/root/">
+<img src="https://www.rwth-aachen.de/global/show_picture.asp?id=aaaaaaaaaaagazb" alt="Logo der RWTH Aachen" title="Logo der RWTH Aachen">
+</a>
+</div>
+<div id="search-box" role="search">
+<h6>Suche</h6>
+<form method="get" accept-charset="ISO-8859-1" action="/go/un/search_aaaaaaaaaaaaaaa">
+<input id="lidx" name="lidx" type="hidden" value="">
+<input name="institution" type="hidden" value="RWTH Aachen University">
+<div>
+<label for="searchbar">Suche nach</label>
+<input id="searchbar" name="search" type="text" placeholder="Suche" data-source="/custom/rwth/ajax-content/autocomplete.asp?topfolder=aaaaaaaaaaaaaaa" class="ui-autocomplete-input" autocomplete="off">
+<input class="button" type="submit" value="Suchen">
+</div>
+</form>
+</div>
+<h2 id="logo-extension" style="text-indent: -9999px;">RWTH</h2>
+<div id="nav-meta" role="navigation">
+<ul>
+<li>
+<a href="/cms/root/die-rwth/arbeiten-an-der-rwth/~buym/rwth-jobportal/?aaaaaaaaaaaaany=Einstellung als Studentische Hilfskraft&amp;showall=1&amp;lidx=1">English</a>
+</li>
+<li>
+<a href="https://www.rwth-aachen.de/cms/root/Zielgruppenportale/~baxqdk/Die-RWTH-in-Deutscher-Gebaerdensprache/">Gebärdensprache</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="navigator" role="navigation">
+<div id="navigator-inner" style="height: 0px;">
+<h2 style="left: 235px; display: block; opacity: 0.00837255;">
+<a aria-controls="ID-1733660245928" tabindex="0" aria-expanded="false" role="button" data-href="https://www.rwth-aachen.de/go/id/chcj/">
+<span>Fakultäten und Einrichtungen</span>
+</a>
+</h2>
+<div class="navigator-content" id="ID-1733660245928" aria-expanded="false" role="group" style="visibility: hidden; display: block; height: 0px;">
+<p class="navigator-breadcrumb">Sie sind hier: <strong>RWTH Jobportal</strong></p>
+<div class="col-1">
+<div class="col-box">
+<h3>RWTH</h3>
+<ul>
+<li>
+<a href="https://www.rwth-aachen.de/cms/~a/root/" title="Hauptseite (Facultynavigator)">Hauptseite</a>
+</li>
+<li>
+<a href="https://intranet.rwth-aachen.de" title="Intranet (Facultynavigator)" class="intranet" target="_blank">Intranet</a>
+</li>
+</ul>
+</div>
+</div>
+<div class="col-2">
+<div class="col-box">
+<h3>Fakultäten und Institute</h3>
+<ul class="first">
+<li>
+<a href="https://www.fb1.rwth-aachen.de/cms/~fvp/Mathematik-Informatik-Naturwissenschaf/" title="Mathematik, Informatik, Naturwissenschaften (Facultynavigator)">Mathematik, Informatik, Naturwissenschaften<span>Fakultät 1</span>
+</a>
+</li>
+<li>
+<a href="https://arch.rwth-aachen.de/cms/~gfa/Architektur/" title="Architektur (Facultynavigator)">Architektur<span>Fakultät 2</span>
+</a>
+</li>
+<li>
+<a href="https://www.fb3.rwth-aachen.de/cms/~goh/Bauingenieurwesen/" title="Bauingenieurwesen (Facultynavigator)">Bauingenieurwesen<span>Fakultät 3</span>
+</a>
+</li>
+<li>
+<a href="https://www.maschinenbau.rwth-aachen.de/cms/~gxo/Maschinenbau/" title="Maschinenwesen (Facultynavigator)">Maschinenwesen<span>Fakultät 4</span>
+</a>
+</li>
+<li>
+<a href="https://www.fb5.rwth-aachen.de/cms/~hgv/Georessourcen/" title="Georessourcen und Materialtechnik (Facultynavigator)">Georessourcen und Materialtechnik<span>Fakultät 5</span>
+</a>
+</li>
+</ul>
+<ul>
+<li>
+<a href="https://www.elektrotechnik.rwth-aachen.de/cms/~mp/Elektrotechnik-und-Informationstechnik/" title="Elektrotechnik und Informationstechnik (Facultynavigator)">Elektrotechnik und Informationstechnik<span>Fakultät 6</span>
+</a>
+</li>
+<li>
+<a href="https://www.philosophische-fakultaet.rwth-aachen.de/cms/~hqc/Philosophie/" title="Philosophische Fakultät (Facultynavigator)">Philosophische Fakultät<span>Fakultät 7</span>
+</a>
+</li>
+<li>
+<a href="https://www.wiwi.rwth-aachen.de/cms/~hzj/Wirtschaftswissenschaften/" title="Wirtschaftswissenschaften (Facultynavigator)">Wirtschaftswissenschaften<span>Fakultät 8</span>
+</a>
+</li>
+<li>
+<a href="https://www.medizin.rwth-aachen.de/cms/~iiq/Medizin/" title="Medizin (Facultynavigator)">Medizin<span>Fakultät 10</span>
+</a>
+</li>
+</ul>
+<div class="insitut-search">
+<h3>Institut suchen:</h3>
+<form onsubmit="return false;">
+<div>
+<label for="searchbar2">Suche nach</label>
+<input id="searchbar2" name="link" type="text" data-source="/custom/rwth/ajax-content/autocomplete_simple.asp" class="ui-autocomplete-input" autocomplete="off">
+<input class="button" type="submit" value="Suchen">
+</div>
+</form>
+</div>
+</div>
+</div>
+<div class="col-3">
+<h3>Einrichtungen</h3>
+<ul>
+<li>
+<a href="https://www.ub.rwth-aachen.de/cms/~hame/UB/" title="Universitätsbibliothek (Facultynavigator)">Universitätsbibliothek</a>
+</li>
+<li>
+<a href="https://www.itc.rwth-aachen.de/cms/~rbnjb/IT-Center/" title="IT Center (Facultynavigator)">IT Center</a>
+</li>
+<li>
+<a href="https://cls.rwth-aachen.de/cms/~wqacp/cls/" title="Center für Lehr- und Lernservices (Facultynavigator)">Center für Lehr- und Lernservices</a>
+</li>
+<li>
+<a href="https://hochschulsport.rwth-aachen.de/cms/~icgi/HSZ/" title="Hochschulsport (Facultynavigator)">Hochschulsport</a>
+</li>
+<li>
+<a href="https://www.rwth-aachen.de/cms/root/Die-RWTH/Einrichtungen/~eoh/Verwaltung/" title="Zentrale Hochschulverwaltung (Facultynavigator)">Zentrale Hochschulverwaltung</a>
+</li>
+<li>
+<a href="https://www.rwth-aachen.de/cms/root/Die-RWTH/Einrichtungen/Einrichtungen-A-Z/~bzwt/Liste-aller-Organisationseinheiten/" title="Alle Einrichtungen (Facultynavigator)">Alle Einrichtungen</a>
+</li>
+</ul>
+</div>
+<a class="close" href="#" style="display: none;">schließen</a></div>
+</div>
+</div>
+<div id="nav-global" role="navigation" class="has-subnav">
+<h2>Navigation</h2>
+<div class="nav-global-toc">
+<ol class="toc">
+<li class="rwth_jsopen">
+<a class="panel" title="Studium (Hauptnavigation)" aria-controls="nav-section-1" tabindex="0" aria-expanded="false" role="button" data-href="/cms/root/~eeu/studium/">Studium</a>
+</li>
+<li class="rwth_jsopen">
+<a class="panel" title="Forschung (Hauptnavigation)" aria-controls="nav-section-2" tabindex="0" aria-expanded="false" role="button" data-href="/cms/root/~eev/forschung/">Forschung</a>
+</li>
+<li class="rwth_jsopen">
+<a class="panel" title="Wirtschaft (Hauptnavigation)" aria-controls="nav-section-3" tabindex="0" aria-expanded="false" role="button" data-href="/cms/root/~eew/wirtschaft/">Wirtschaft</a>
+</li>
+<li class="rwth_jsopen">
+<a class="panel open" title="Die RWTH (Hauptnavigation)" aria-controls="nav-section-4" tabindex="0" aria-expanded="false" role="button" data-href="/cms/root/~eex/Die-RWTH/">Die RWTH</a>
+</li>
+</ol>
+</div>
+<div class="nav-global-inner" style="clear: both;">
+<div class="nav-global-group">
+<div class="nav-global-wrapper" style="display: none;">
+<div class="nav-global-item a11y-js-overflow" id="nav-section-1" aria-expanded="false" role="group">
+<div class="menu">
+<div class="menu-box">
+<h3>Studium</h3>
+<div class="overview">
+<p>
+<em class="more">
+<a href="/cms/root/~eeu/studium/" title="Zur Portalseite (Studium)">Zur Portalseite</a>
+</em>
+</p>
+</div>
+<div class="menu-list-box">
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/studium/~eey/Aktuell/" title="Studium > Aktuell">Aktuell</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/studium/Aktuell/~bxaw/Meldungen/" title="Studium > Aktuell > Meldungen">Meldungen</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Aktuell/~bxas/Veranstaltungen/" title="Studium > Aktuell > Veranstaltungen">Veranstaltungen</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/studium/~eez/Vor-dem-Studium/" title="Studium > Vor dem Studium">Vor dem Studium</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/studium/Vor-dem-Studium/~efk/Warum-die-RWTH-Aachen/" title="Studium > Vor dem Studium > Warum die RWTH Aachen?">Warum die RWTH Aachen?</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Vor-dem-Studium/~ccuo/Schnupperangebote-Infotage/" title="Studium > Vor dem Studium > Veranstaltungskalender für Schülerinnen, Schüler und Studieninteressierte">Veranstaltungskalender für Schülerinnen, Schüler und Studieninteressierte</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Vor-dem-Studium/~rmv/Studienentscheidung/" title="Studium > Vor dem Studium > Studienentscheidung">Studienentscheidung</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Vor-dem-Studium/~efv/Studiengaenge/" title="Studium > Vor dem Studium > Studienangebot">Studienangebot</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Vor-dem-Studium/~ege/Zugangsvoraussetzungen/" title="Studium > Vor dem Studium > Zugangsvoraussetzungen">Zugangsvoraussetzungen</a>
+</li>
+<li>
+<a href="/cms/root/studium/~eez/Vor-dem-Studium/" title="Studium > Vor dem Studium > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/studium/~efa/Im-Studium/" title="Studium > Im Studium">Im Studium</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/studium/Im-Studium/~egv/Semestertermine/" title="Studium > Im Studium > Semestertermine">Semestertermine</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Im-Studium/~bjhbw/Studieneingangsphase/" title="Studium > Im Studium > Studieneingangsphase">Studieneingangsphase</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Im-Studium/~egw/Rueckmeldung/" title="Studium > Im Studium > Rückmeldung zum Wintersemester 2024/25">Rückmeldung zum Wintersemester 2024/25</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Im-Studium/~egx/Beurlaubung/" title="Studium > Im Studium > Beurlaubung">Beurlaubung</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Im-Studium/~ehb/Studienplatztausch/" title="Studium > Im Studium > Studienplatztausch">Studienplatztausch</a>
+</li>
+<li>
+<a href="/cms/root/studium/~efa/Im-Studium/" title="Studium > Im Studium > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/studium/~efb/Nach-dem-Studium/" title="Studium > Nach dem Studium">Nach dem Studium</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/studium/Nach-dem-Studium/~ejw/Promotion/" title="Studium > Nach dem Studium > Promotion von A bis Z">Promotion von A bis Z</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Nach-dem-Studium/~ejx/Karriere/" title="Studium > Nach dem Studium > Karriere für Absolventinnen und Absolventen">Karriere für Absolventinnen und Absolventen</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Nach-dem-Studium/~ekj/Alumni/" title="Studium > Nach dem Studium > Alumni-Netzwerk">Alumni-Netzwerk</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Nach-dem-Studium/~emes/Graduiertenfest/" title="Studium > Nach dem Studium > Graduiertenfest 2025">Graduiertenfest 2025</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Nach-dem-Studium/~iibzo/Start-up-gruenden/" title="Studium > Nach dem Studium > Start-up gründen">Start-up gründen</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/studium/~hihq/Lehre/" title="Studium > Lehre">Lehre</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/studium/Lehre/~hjfu/Digitalisierungsstrategie-der-Lehre/" title="Studium > Lehre > Digitalisierungsstrategie der Lehre">Digitalisierungsstrategie der Lehre</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Lehre/~bjmc/Lehre/" title="Studium > Lehre > Qualitätsmanagement Lehre">Qualitätsmanagement Lehre</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Lehre/~ccbd/Exzellente-Lehre/" title="Studium > Lehre > Strategiekonzept exzellente Lehre">Strategiekonzept exzellente Lehre</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Lehre/~dxla/RWTHonline/" title="Studium > Lehre > RWTHonline">RWTHonline</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Lehre/~qoita/Student-Lifecycle-Management/" title="Studium > Lehre > Student-Lifecycle-Management">Student-Lifecycle-Management</a>
+</li>
+<li>
+<a href="/cms/root/studium/~hihq/Lehre/" title="Studium > Lehre > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/studium/~hzvj/Beratung-Hilfe/" title="Studium > Beratung &amp; Hilfe">Beratung &amp; Hilfe</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/studium/Beratung-Hilfe/~oeeh/Beratung-und-Angebote-fuer-Schuelerinnen/" title="Studium > Beratung &amp; Hilfe > Beratung und Angebote für Schülerinnen, Schüler und Studieninteressierte">Beratung und Angebote für Schülerinnen, Schüler und Studieninteressierte</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Beratung-Hilfe/~rcw/Studienberatung-fuer-Studierende/" title="Studium > Beratung &amp; Hilfe > Studienberatung für Studierende">Studienberatung für Studierende</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Beratung-Hilfe/~sei/Psychologische-Beratung/" title="Studium > Beratung &amp; Hilfe > Psychologische Beratung">Psychologische Beratung</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Beratung-Hilfe/~iybf/Career-Center/" title="Studium > Beratung &amp; Hilfe > Karriereberatung für Absolventinnen und Absolventen">Karriereberatung für Absolventinnen und Absolventen</a>
+</li>
+<li class="">
+<a href="/cms/root/studium/Beratung-Hilfe/~tmy/Fachstudienberatungen/" title="Studium > Beratung &amp; Hilfe > Fachstudienberatungen">Fachstudienberatungen</a>
+</li>
+<li>
+<a href="/cms/root/studium/~hzvj/Beratung-Hilfe/" title="Studium > Beratung &amp; Hilfe > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<a class="close" href="#">Schliessen</a>
+</div>
+</div>
+</div>
+<div class="nav-global-wrapper" style="display: none;">
+<div class="nav-global-item a11y-js-overflow" id="nav-section-2" aria-expanded="false" role="group">
+<div class="menu">
+<div class="menu-box">
+<h3>Forschung</h3>
+<div class="overview">
+<p>
+<em class="more">
+<a href="/cms/root/~eev/forschung/" title="Zur Portalseite (Forschung)">Zur Portalseite</a>
+</em>
+</p>
+</div>
+<div class="menu-list-box">
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/forschung/~ogu/Aktuell/" title="Forschung > Aktuell">Aktuell</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/forschung/Aktuell/~cfwl/Meldungen/" title="Forschung > Aktuell > Meldungen">Meldungen</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Aktuell/~bxdr/Veranstaltungen/" title="Forschung > Aktuell > Veranstaltungen">Veranstaltungen</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/forschung/~lskl/Projekte/" title="Forschung > Projekte">Projekte</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/forschung/Projekte/~ohg/Exzellenzcluster/" title="Forschung > Projekte > Exzellenzcluster">Exzellenzcluster</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Projekte/~oho/Koordinierte-DFG-Programme/" title="Forschung > Projekte > Koordinierte DFG-Programme">Koordinierte DFG-Programme</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Projekte/~ohl/Graduiertenschulen-und-kollegs/" title="Forschung > Projekte > Strukturierte Doktorandenprogramme">Strukturierte Doktorandenprogramme</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Projekte/~gmka/ERC-Projekte/" title="Forschung > Projekte > ERC-Projekte">ERC-Projekte</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Projekte/~lslb/Nachwuchsgruppen-foerderprogramme/" title="Forschung > Projekte > Nachwuchsgruppenförderprogramme">Nachwuchsgruppen­förderprogramme</a>
+</li>
+<li>
+<a href="/cms/root/forschung/~lskl/Projekte/" title="Forschung > Projekte > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/forschung/~lskm/Strukturen/" title="Forschung > Strukturen">Strukturen</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/forschung/Strukturen/~oha/Fakultaeten/" title="Forschung > Strukturen > Fakultäten">Fakultäten</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Strukturen/~ohe/JARA/" title="Forschung > Strukturen > JARA">JARA</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Strukturen/~ptz/Profilbereiche/" title="Forschung > Strukturen > RWTH-Profilbereiche">RWTH-Profilbereiche</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Strukturen/~ohk/Projekthaeuser/" title="Forschung > Strukturen > Projekthäuser">Projekthäuser</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Strukturen/~tbb/Interdisziplinaere-Forschungsverbuende/" title="Forschung > Strukturen > Interdisziplinäre Forschungsverbünde">Interdisziplinäre Forschungsverbünde</a>
+</li>
+<li>
+<a href="/cms/root/forschung/~lskm/Strukturen/" title="Forschung > Strukturen > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/forschung/~lskn/Angebote-fuer-Forschende/" title="Forschung > Angebote für Forschende">Angebote für Forschende</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/forschung/Angebote-fuer-Forschende/~ohp/Warum-die-RWTH-/" title="Forschung > Angebote für Forschende > Warum an der RWTH forschen?">Warum an der RWTH forschen?</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Angebote-fuer-Forschende/~luxe/Die-RWTH-heisst-Sie-willkommen/" title="Forschung > Angebote für Forschende > Die RWTH heißt Sie willkommen">Die RWTH heißt Sie willkommen</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Angebote-fuer-Forschende/~psbp/RWTH-Center-for-Young-Academics/" title="Forschung > Angebote für Forschende > RWTH Center for Young Academics">RWTH Center for Young Academics</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Angebote-fuer-Forschende/~ohy/ERS-Angebote/" title="Forschung > Angebote für Forschende > Exploratory Research Space – ERS">Exploratory Research Space – ERS</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Angebote-fuer-Forschende/~oia/Forschungsfoerderung/" title="Forschung > Angebote für Forschende > Forschungsförderung und Drittmittel">Forschungsförderung und Drittmittel</a>
+</li>
+<li>
+<a href="/cms/root/forschung/~lskn/Angebote-fuer-Forschende/" title="Forschung > Angebote für Forschende > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/forschung/~lnaw/Forschungsdatenmanagement/" title="Forschung > Forschungsdatenmanagement">Forschungsdaten­management</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/forschung/Forschungsdatenmanagement/~revpm/FDM-Netzwerk/" title="Forschung > Forschungsdatenmanagement > FDM Netzwerk">FDM Netzwerk</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Forschungsdatenmanagement/~vfgd/Blog/" title="Forschung > Forschungsdatenmanagement > Meldungen">Meldungen</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Forschungsdatenmanagement/~bkdvby/FDM-Veranstaltungen/" title="Forschung > Forschungsdatenmanagement > FDM-Veranstaltungen">FDM-Veranstaltungen</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Forschungsdatenmanagement/~ncfw/Leitlinie-zum-Forschungsdatenmanagement/" title="Forschung > Forschungsdatenmanagement > FDM-Leitlinie an der RWTH Aachen">FDM-Leitlinie an der RWTH Aachen</a>
+</li>
+<li class="">
+<a href="/cms/root/forschung/Forschungsdatenmanagement/~hdlbr/Nationale-Forschungsdaten-shy-infrastruk/" title="Forschung > Forschungsdatenmanagement > Nationale Forschungsdateninfrastruktur – NFDI">Nationale Forschungsdaten­infrastruktur – NFDI</a>
+</li>
+<li>
+<a href="/cms/root/forschung/~lnaw/Forschungsdatenmanagement/" title="Forschung > Forschungsdaten&amp;shy;management > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<a class="close" href="#">Schliessen</a>
+</div>
+</div>
+</div>
+<div class="nav-global-wrapper" style="display: none;">
+<div class="nav-global-item a11y-js-overflow" id="nav-section-3" aria-expanded="false" role="group">
+<div class="menu">
+<div class="menu-box">
+<h3>Wirtschaft</h3>
+<div class="overview">
+<p>
+<em class="more">
+<a href="/cms/root/~eew/wirtschaft/" title="Zur Portalseite (Wirtschaft)">Zur Portalseite</a>
+</em>
+</p>
+</div>
+<div class="menu-list-box">
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/wirtschaft/~ekp/Kooperation/" title="Wirtschaft > Kooperationen">Kooperationen</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/wirtschaft/Kooperation/~bjyb/Warum-kooperieren-/" title="Wirtschaft > Kooperationen > Warum kooperieren?">Warum kooperieren?</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Kooperation/~bkae/Kooperationsangebote/" title="Wirtschaft > Kooperationen > Kooperationsangebote">Kooperationsangebote</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Kooperation/~sfnr/Patentvewertung-Entwicklung-und-Technol/" title="Wirtschaft > Kooperationen > Patentverwertung, Entwicklung und Technologieangebote">Patentverwertung, Entwicklung und Technologieangebote</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/wirtschaft/~ekt/Campusprojekt/" title="Wirtschaft > RWTH Aachen Campus">RWTH Aachen Campus</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/wirtschaft/Campusprojekt/~elf/RWTH-Aachen-Campus/" title="Wirtschaft > RWTH Aachen Campus > Wissenschaft und Wirtschaft unter einem Dach">Wissenschaft und Wirtschaft unter einem Dach</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Campusprojekt/~elg/Campus-Melaten/" title="Wirtschaft > RWTH Aachen Campus > Campus Melaten">Campus Melaten</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Campusprojekt/~elh/Campus-West/" title="Wirtschaft > RWTH Aachen Campus > Campus West">Campus West</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/wirtschaft/~eku/Recruiting/" title="Wirtschaft > Recruiting">Recruiting</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/wirtschaft/Recruiting/~eln/Absolventinnen-Absolventen-anwerben/" title="Wirtschaft > Recruiting > Nachwuchskräfte finden">Nachwuchskräfte finden</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Recruiting/~qnms/Career-Days-und-Messen/" title="Wirtschaft > Recruiting > Career Days und Messen">Career Days und Messen</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Recruiting/~bjdn/Unternehmenspraesentationen/" title="Wirtschaft > Recruiting > Unternehmenspräsentationen">Unternehmenspräsentationen</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Recruiting/~bdedfv/Dean-s-List-Angebote-fuer-Unternehmen/" title="Wirtschaft > Recruiting > Dean’s List – Angebote für Unternehmen">Dean’s List – Angebote für Unternehmen</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Recruiting/~qnmx/Employer-Branding/" title="Wirtschaft > Recruiting > Employer Branding und Dauerpräsenz">Employer Branding und Dauerpräsenz</a>
+</li>
+<li>
+<a href="/cms/root/wirtschaft/~eku/Recruiting/" title="Wirtschaft > Recruiting > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/wirtschaft/~ekv/Fundraising/" title="Wirtschaft > Fundraising">Fundraising</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/wirtschaft/Fundraising/~elo/Foerdermoeglichkeiten/" title="Wirtschaft > Fundraising > Fördermöglichkeiten">Fördermöglichkeiten</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Fundraising/~elr/Foerderprojekte-Erfolge/" title="Wirtschaft > Fundraising > Förderprojekte &amp; Erfolge">Förderprojekte &amp; Erfolge</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Fundraising/~elu/Bildungsfonds/" title="Wirtschaft > Fundraising > Bildungsfonds">Bildungsfonds</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Fundraising/~rgr/Stiftungen/" title="Wirtschaft > Fundraising > Stiftungen">Stiftungen</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Fundraising/~bamh/Partnerschaften-Foerdernde/" title="Wirtschaft > Fundraising > Partnerschaften &amp; Fördernde">Partnerschaften &amp; Fördernde</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/wirtschaft/~nmvd/Sponsoring/" title="Wirtschaft > Sponsoring">Sponsoring</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/wirtschaft/Sponsoring/~nnep/Kontakt/" title="Wirtschaft > Sponsoring > Beratung und Kontakt">Beratung und Kontakt</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Sponsoring/~nnah/Hoersaalsponsoring/" title="Wirtschaft > Sponsoring > Hörsaalsponsoring">Hörsaalsponsoring</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Sponsoring/~qjvy/Graduiertenfest/" title="Wirtschaft > Sponsoring > Graduiertenfest">Graduiertenfest</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Sponsoring/~nndx/RWTH-Sponsoringpakete/" title="Wirtschaft > Sponsoring > RWTH Sponsoringpakete">RWTH Sponsoringpakete</a>
+</li>
+<li class="">
+<a href="/cms/root/wirtschaft/Sponsoring/~nmvg/Meldungen/" title="Wirtschaft > Sponsoring > Meldungen">Meldungen</a>
+</li>
+<li>
+<a href="/cms/root/wirtschaft/~nmvd/Sponsoring/" title="Wirtschaft > Sponsoring > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<a class="close" href="#">Schliessen</a>
+</div>
+</div>
+</div>
+<div class="nav-global-wrapper" style="display: none;">
+<div class="nav-global-item a11y-js-overflow" id="nav-section-4" aria-expanded="false" role="group">
+<div class="menu">
+<div class="menu-box">
+<h3>Die RWTH</h3>
+<div class="overview">
+<p>
+<em class="more">
+<a href="/cms/root/~eex/Die-RWTH/" title="Zur Portalseite (Die RWTH)">Zur Portalseite</a>
+</em>
+</p>
+</div>
+<div class="menu-list-box">
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/Die-RWTH/~emo/Aktuell/" title="Die RWTH > Aktuell">Aktuell</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/Die-RWTH/Aktuell/~uma/Pressemitteilungen/" title="Die RWTH > Aktuell > Pressemitteilungen">Pressemitteilungen</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Aktuell/~ulx/Veranstaltungen/" title="Die RWTH > Aktuell > Veranstaltungen">Veranstaltungen</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Aktuell/~bbnqse/Im-Fokus/" title="Die RWTH > Aktuell > Im Fokus">Im Fokus</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Aktuell/~trwsa/Spendenaktion-RWTH-und-UKA-helfen-in-de/" title="Die RWTH > Aktuell > Spendenaktion „RWTH und Uniklinik RWTH Aachen helfen in der Ukraine“">Spendenaktion „RWTH und Uniklinik RWTH Aachen helfen in der Ukraine“</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Aktuell/~wsqil/Impulsgebende-Veranstaltungen/" title="Die RWTH > Aktuell > Impulsgebende Veranstaltungen">Impulsgebende Veranstaltungen</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Aktuell/~emw/Magazine-Periodika/" title="Die RWTH > Aktuell > Magazine &amp; Periodika">Magazine &amp; Periodika</a>
+</li>
+<li>
+<a href="/cms/root/Die-RWTH/~emo/Aktuell/" title="Die RWTH > Aktuell > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/Die-RWTH/~emp/Profil/" title="Die RWTH > Profil">Profil</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/Die-RWTH/Profil/~eng/Reputation/" title="Die RWTH > Profil > Reputation">Reputation</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Profil/~eni/Gender-Diversity/" title="Die RWTH > Profil > Gender &amp; Diversity">Gender &amp; Diversity</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Profil/~yarxv/Rankings/" title="Die RWTH > Profil > Rankings">Rankings</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Profil/~enw/Daten-Fakten/" title="Die RWTH > Profil > Daten &amp; Fakten">Daten &amp; Fakten</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Profil/~bdaqze/Kerndatensatz-Forschung-und-Forschungsin/" title="Die RWTH > Profil > Kerndatensatz Forschung und Forschungsinformationssystem">Kerndatensatz Forschung und Forschungs­informationssystem</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Profil/~xfa/Familiengerechte-Hochschule/" title="Die RWTH > Profil > Familiengerechte Hochschule und Work-Life-Balance">Familiengerechte Hochschule und Work-Life-Balance</a>
+</li>
+<li>
+<a href="/cms/root/Die-RWTH/~emp/Profil/" title="Die RWTH > Profil > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/Die-RWTH/~emq/Exzellenzinitiative/" title="Die RWTH > Exzellenz">Exzellenz</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/Die-RWTH/Exzellenzinitiative/~eob/Exzellenzinitiative/" title="Die RWTH > Exzellenz > Die RWTH im Exzellenzwettbewerb">Die RWTH im Exzellenzwettbewerb</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Exzellenzinitiative/~ukmbg/Aktuelles/" title="Die RWTH > Exzellenz > Aktuelles">Aktuelles</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Exzellenzinitiative/~cqnwy/Exzellenzuniversitaet/" title="Die RWTH > Exzellenz > Exzellenzuniversität">Exzellenzuniversität</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Exzellenzinitiative/~cccs/Exzellenzcluster/" title="Die RWTH > Exzellenz > Exzellenzcluster">Exzellenzcluster</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Exzellenzinitiative/~cccq/Graduiertenschule/" title="Die RWTH > Exzellenz > Graduiertenschule">Graduiertenschule</a>
+</li>
+<li>
+<a href="/cms/root/Die-RWTH/~emq/Exzellenzinitiative/" title="Die RWTH > Exzellenz > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/Die-RWTH/~rzwho/Nachhaltigkeit/" title="Die RWTH > Nachhaltigkeit">Nachhaltigkeit</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/Die-RWTH/Nachhaltigkeit/~beyhua/Nachhaltigkeitsstrategie-der-RWTH-Aachen/" title="Die RWTH > Nachhaltigkeit > Nachhaltigkeitsstrategie">Nachhaltigkeitsstrategie</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Nachhaltigkeit/~sygeo/Nachhaltigkeitsbericht/" title="Die RWTH > Nachhaltigkeit > Nachhaltigkeitsbericht">Nachhaltigkeitsbericht</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Nachhaltigkeit/~ppuld/Nachhaltigkeitsleitbild/" title="Die RWTH > Nachhaltigkeit > Nachhaltigkeitsleitbild">Nachhaltigkeitsleitbild</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Nachhaltigkeit/~scaqk/Digitale-Nachhaltigkeitslandschaft/" title="Die RWTH > Nachhaltigkeit > Digitale Nachhaltigkeitslandschaft">Digitale Nachhaltigkeitslandschaft</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Nachhaltigkeit/~ykele/Netzwerke/" title="Die RWTH > Nachhaltigkeit > Netzwerke">Netzwerke</a>
+</li>
+<li>
+<a href="/cms/root/Die-RWTH/~rzwho/Nachhaltigkeit/" title="Die RWTH > Nachhaltigkeit > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/Die-RWTH/~ems/Einrichtungen/" title="Die RWTH > Einrichtungen">Einrichtungen</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/Die-RWTH/Einrichtungen/~enz/Organisation/" title="Die RWTH > Einrichtungen > Hochschulorgane">Hochschulorgane</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Einrichtungen/~eoh/Verwaltung/" title="Die RWTH > Einrichtungen > Verwaltung">Verwaltung</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Einrichtungen/~eoi/Personalrat-Vertretungen/" title="Die RWTH > Einrichtungen > Personalräte &amp; Vertretungen">Personalräte &amp; Vertretungen</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Einrichtungen/~eok/Einrichtungen-A-Z/" title="Die RWTH > Einrichtungen > Einrichtungen A-Z">Einrichtungen A-Z</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Einrichtungen/~eoj/Zentrale-Einrichtungen/" title="Die RWTH > Einrichtungen > Zentrale Einrichtungen">Zentrale Einrichtungen</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/Die-RWTH/~emt/Arbeiten-an-der-RWTH/" title="Die RWTH > Arbeiten an der RWTH">Arbeiten an der RWTH</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~owv/Warum-an-der-RWTH-Aachen-arbeiten-/" title="Die RWTH > Arbeiten an der RWTH > Die RWTH als Arbeitgeberin">Die RWTH als Arbeitgeberin</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/" title="Die RWTH > Arbeiten an der RWTH > RWTH Jobportal">RWTH Jobportal</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~lxdm/Leben-in-Aachen-und-der-Region/" title="Die RWTH > Arbeiten an der RWTH > Leben in Aachen und der Region">Leben in Aachen und der Region</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~eom/Wissenswertes/" title="Die RWTH > Arbeiten an der RWTH > Wissenswertes">Wissenswertes</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~ewgh/RWTH-Welcome-Center/" title="Die RWTH > Arbeiten an der RWTH > RWTH Welcome Center">RWTH Welcome Center</a>
+</li>
+<li>
+<a href="/cms/root/Die-RWTH/~emt/Arbeiten-an-der-RWTH/" title="Die RWTH > Arbeiten an der RWTH > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/Die-RWTH/~jgbq/Karriere/" title="Die RWTH > Karriere">Karriere</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/Die-RWTH/Karriere/~jgbx/Karriere-fuer-Absolventinnen-und-Absolve/" title="Die RWTH > Karriere > Karriere für Absolventinnen und Absolventen">Karriere für Absolventinnen und Absolventen</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Karriere/~jgdl/Karriere-fuer-Wissenschaftlerinnen-und-W/" title="Die RWTH > Karriere > Karriere für Wissenschaftlerinnen und Wissenschaftler">Karriere für Wissenschaftlerinnen und Wissenschaftler</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Karriere/~jjhq/Karriere-und-Ausbildung-fuer-Personal-in/" title="Die RWTH > Karriere > Karriere für Personal in Technik und Verwaltung">Karriere für Personal in Technik und Verwaltung</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Karriere/~pfz/Personalentwicklung-an-der-RWTH-Aachen/" title="Die RWTH > Karriere > Personalentwicklung an der RWTH">Personalentwicklung an der RWTH</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/Die-RWTH/~emr/RWTH-Events/" title="Die RWTH > RWTH-Events">RWTH-Events</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/Die-RWTH/RWTH-Events/~beiycj/Oeffentlichkeitswirksame-Wissenschaftsev/" title="Die RWTH > RWTH-Events > Öffentlichkeitswirksame Wissenschaftsevents">Öffentlichkeitswirksame Wissenschaftsevents</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/RWTH-Events/~beiyew/Hochschule-zum-Anfassen-RWTHextern/" title="Die RWTH > RWTH-Events > Hochschule zum Anfassen – RWTHextern">Hochschule zum Anfassen – RWTHextern</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/RWTH-Events/~beiygb/Wuerdigung-unserer-Absolvierenden-und-un/" title="Die RWTH > RWTH-Events > Würdigung unserer Absolvierenden und unseres wissenschaftlichen Nachwuchses">Würdigung unserer Absolvierenden und unseres wissenschaftlichen Nachwuchses</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/RWTH-Events/~beiyjl/RWTH-und-Stadt-Aachen-zeichnen-aus/" title="Die RWTH > RWTH-Events > RWTH und Stadt Aachen zeichnen aus">RWTH und Stadt Aachen zeichnen aus</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/RWTH-Events/~beiyms/RWTH-ehrt-besondere-Verdienste/" title="Die RWTH > RWTH-Events > RWTH ehrt besondere Verdienste">RWTH ehrt besondere Verdienste</a>
+</li>
+<li>
+<a href="/cms/root/Die-RWTH/~emr/RWTH-Events/" title="Die RWTH > RWTH-Events > mehr ...">mehr ...</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/Die-RWTH/~bebe/Sicherheit/" title="Die RWTH > Sicherheit">Sicherheit</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/Die-RWTH/Sicherheit/~udb/Sicherheit-auf-dem-Campus/" title="Die RWTH > Sicherheit > Sicherheit auf dem Campus">Sicherheit auf dem Campus</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Sicherheit/~epg/Hochschulwache/" title="Die RWTH > Sicherheit > Hochschulwache">Hochschulwache</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Sicherheit/~cjgp/Brandschutz/" title="Die RWTH > Sicherheit > Brandschutz">Brandschutz</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Sicherheit/~bssq/Arbeitssicherheit-und-Strahlenschutz/" title="Die RWTH > Sicherheit > Arbeitssicherheit und Strahlenschutz">Arbeitssicherheit und Strahlenschutz</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Sicherheit/~qntx/Umgang-mit-gefaehrlichen-Abfaellen/" title="Die RWTH > Sicherheit > Umgang mit gefährlichen Abfällen">Umgang mit gefährlichen Abfällen</a>
+</li>
+</ul>
+</div>
+<div class="menu-list">
+<h4 class="">
+<a href="/cms/root/Die-RWTH/~emu/Kontakt-Anreise/" title="Die RWTH > Kontakt &amp; Anreise">Kontakt &amp; Anreise</a>
+</h4>
+<ul>
+<li class="">
+<a href="/cms/root/Die-RWTH/Kontakt-Anreise/~cxdn/Kontakt/" title="Die RWTH > Kontakt &amp; Anreise > Kontakt">Kontakt</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Kontakt-Anreise/~jgtm/Anreise-und-Mobilitaet/" title="Die RWTH > Kontakt &amp; Anreise > Anreise und Mobilität">Anreise und Mobilität</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Kontakt-Anreise/~epe/RWTH-Navigator/" title="Die RWTH > Kontakt &amp; Anreise > RWTH-Navigator">RWTH-Navigator</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Kontakt-Anreise/~cqjq/Feedback/" title="Die RWTH > Kontakt &amp; Anreise > Feedback">Feedback</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Kontakt-Anreise/~epf/Raumverwaltung/" title="Die RWTH > Kontakt &amp; Anreise > Raumvergabe">Raumvergabe</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<a class="close" href="#">Schliessen</a>
+</div>
+</div>
+</div>
+<div class="nav-global-subnav">
+<ul>
+<li class="">
+<a href="/cms/root/Die-RWTH/~emo/Aktuell/" title="Die RWTH > Aktuell">Aktuell</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/~emp/Profil/" title="Die RWTH > Profil">Profil</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/~emq/Exzellenzinitiative/" title="Die RWTH > Exzellenz">Exzellenz</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/~rzwho/Nachhaltigkeit/" title="Die RWTH > Nachhaltigkeit">Nachhaltigkeit</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/~ems/Einrichtungen/" title="Die RWTH > Einrichtungen">Einrichtungen</a>
+</li>
+<li class="on">
+<a href="/cms/root/Die-RWTH/~emt/Arbeiten-an-der-RWTH/" title="Die RWTH > Arbeiten an der RWTH">Arbeiten an der RWTH</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/~jgbq/Karriere/" title="Die RWTH > Karriere">Karriere</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/~emr/RWTH-Events/" title="Die RWTH > RWTH-Events">RWTH-Events</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/~bebe/Sicherheit/" title="Die RWTH > Sicherheit">Sicherheit</a>
+</li>
+<li class="">
+<a href="/cms/root/Die-RWTH/~emu/Kontakt-Anreise/" title="Die RWTH > Kontakt &amp; Anreise">Kontakt &amp; Anreise</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+<div id="site-navigation">
+<div class="site-navigation-box">
+<div id="breadcrumb">
+<h2>Sie sind hier:</h2>
+<ol>
+<li class="home">
+<a href="/cms/~a/root/" title="Startseite">Home</a>
+</li>
+<li>
+<a href="/cms/root/~eex/Die-RWTH/" title="Startseite > Die RWTH">Die RWTH</a>
+</li>
+<li>
+<a href="/cms/root/Die-RWTH/~emt/Arbeiten-an-der-RWTH/" title="Startseite > Die RWTH > Arbeiten an der RWTH">Arbeiten an der RWTH</a>
+</li>
+<li>
+<strong>RWTH Jobportal</strong>
+</li>
+</ol>
+</div>
+<div class="article-functions">
+<div class="article-functions-box">
+<div class="print">
+<a href="javascript:self.print();" title="Drucken">
+<span>Drucken</span>
+</a>
+</div>
+<div class="share-content linkedin">
+<a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3A%2F%2Fwww.rwth-aachen.de%2Fcms%2Froot%2Fdie-rwth%2Farbeiten-an-der-rwth%2F~buym%2Frwth-jobportal%2F%3Fshowall%3D1" target="_blank" title="Auf LinkedIn teilen">
+<span>Auf LinkedIn teilen</span>
+</a>
+</div>
+<div class="share-content xing">
+<a href="https://www.xing.com/spi/shares/new?url=https%3A%2F%2Fwww.rwth-aachen.de%2Fcms%2Froot%2Fdie-rwth%2Farbeiten-an-der-rwth%2F~buym%2Frwth-jobportal%2F%3Fshowall%3D1" target="_blank" title="Auf Xing teilen">
+<span>Auf Xing teilen</span>
+</a>
+</div>
+<div class="share-content facebook">
+<a href="https://www.facebook.com/sharer.php?u=https%3A%2F%2Fwww.rwth-aachen.de%2Fcms%2Froot%2Fdie-rwth%2Farbeiten-an-der-rwth%2F~buym%2Frwth-jobportal%2F%3Fshowall%3D1" target="_blank" title="Auf Facebook teilen">
+<span>Auf Facebook teilen</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="wrapper-2-outer">
+<div id="wrapper-2">
+<!--googleon: all-->
+<div id="wrapper-3" role="main">
+<div id="nav" role="navigation">
+<div id="filter">
+<h2>Auflistung verfeinern</h2>
+<form action="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/" method="get" id="resetallfilterform">
+<input type="hidden" name="search" value="">
+<input type="hidden" name="showall" value="1"><input type="hidden" name="resetallfilter" value="" id="resetallfilter">
+<div class="filter-box">
+<div class="entries">
+<a class="reset" href="javascript:$('#resetallfilter').val('1');$('#resetallfilterform').submit();" style="margin: 2px 0;">Alle Filter aufheben</a>
+</div>
+</div>
+</form>
+<form action="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/" method="get" id="filterdate">
+<input name="search" value="" type="hidden">
+<input type="hidden" name="showall" value="1"><div class="filter-box">
+<h3>Stellentyp</h3>
+<div data-length="5" class="entries">
+<fieldset>
+<legend style="display: none !important;">Stellentyp</legend>
+<span class="form-row">
+<input id="checkbox-1000" type="radio" name="aaaaaaaaaaaaanr" value="" checked="checked" class="ui-helper-hidden-accessible"><span class="ui-radio ui-radio-checked ui-radio-state-checked"></span>
+<label for="checkbox-1000" class="ui-radio ui-radio-checked ui-radio-state-checked">Alle</label>
+</span>
+<span class="form-row">
+<input id="checkbox-1002" type="radio" name="aaaaaaaaaaaaanr" value="Wissenschaftliches Personal" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-1002" class="ui-radio">Wissenschaftliches Personal</label>
+</span>
+<span class="form-row">
+<input id="checkbox-1003" type="radio" name="aaaaaaaaaaaaanr" value="Personal in Technik und Verwaltung" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-1003" class="ui-radio">Personal in Technik und Verwaltung</label>
+</span>
+<span class="form-row">
+<input id="checkbox-1004" type="radio" name="aaaaaaaaaaaaanr" value="Studentische Hilfskraft" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-1004" class="ui-radio">Studentische Hilfskraft</label>
+</span>
+<input type="submit" value="Filtern">
+</fieldset>
+</div>
+</div>
+<div class="filter-box">
+<h3>Befristung</h3>
+<div data-length="5" class="entries">
+<fieldset>
+<legend style="display: none !important;">Befristung</legend>
+<span class="form-row">
+<input id="checkbox-2000" type="radio" name="frist" value="" checked="checked" class="ui-helper-hidden-accessible"><span class="ui-radio ui-radio-checked ui-radio-state-checked"></span>
+<label for="checkbox-2000" class="ui-radio ui-radio-checked ui-radio-state-checked">Alle</label>
+</span>
+<span class="form-row">
+<input id="checkbox-2002" type="radio" name="frist" value="Befristet" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-2002" class="ui-radio">Befristet</label>
+</span>
+<span class="form-row">
+<input id="checkbox-2003" type="radio" name="frist" value="Unbefristet" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-2003" class="ui-radio">Unbefristet</label>
+</span>
+<input type="submit" value="Filtern">
+</fieldset>
+</div>
+</div>
+<div class="filter-box">
+<h3>Arbeitszeit</h3>
+<div data-length="5" class="entries">
+<fieldset>
+<legend style="display: none !important;">Arbeitszeit</legend>
+<span class="form-row">
+<input id="checkbox-3000" type="radio" name="aaaaaaaaaaaaanq" value="" checked="checked" class="ui-helper-hidden-accessible"><span class="ui-radio ui-radio-checked ui-radio-state-checked"></span>
+<label for="checkbox-3000" class="ui-radio ui-radio-checked ui-radio-state-checked">Alle</label>
+</span>
+<span class="form-row">
+<input id="checkbox-3002" type="radio" name="aaaaaaaaaaaaanq" value="Teilzeit" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-3002" class="ui-radio">Teilzeit</label>
+</span>
+<span class="form-row">
+<input id="checkbox-3003" type="radio" name="aaaaaaaaaaaaanq" value="Teilzeit 1/2" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-3003" class="ui-radio">Teilzeit 1/2</label>
+</span>
+<span class="form-row">
+<input id="checkbox-3004" type="radio" name="aaaaaaaaaaaaanq" value="Teilzeit 3/4" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-3004" class="ui-radio">Teilzeit 3/4</label>
+</span>
+<span class="form-row">
+<input id="checkbox-3005" type="radio" name="aaaaaaaaaaaaanq" value="Vollzeit" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-3005" class="ui-radio">Vollzeit</label>
+</span>
+<div class="toggleContainer" style="display: none;"><span class="form-row">
+<input id="checkbox-3006" type="radio" name="aaaaaaaaaaaaanq" value="Vollzeit, aber Teilzeit möglich" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-3006" class="ui-radio">Vollzeit, aber Teilzeit möglich</label>
+</span></div><span class="more">Mehr</span>
+<input type="submit" value="Filtern">
+</fieldset>
+</div>
+</div>
+<div class="filter-box">
+<h3>Beschäftigungsart</h3>
+<div data-length="5" class="entries oneselected">
+<fieldset>
+<legend style="display: none !important;">Beschäftigungsart</legend>
+<span class="form-row">
+<input id="checkbox-4000" type="radio" name="aaaaaaaaaaaaany" value="" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-4000" class="ui-radio">Alle</label>
+</span>
+<span class="form-row">
+<input id="checkbox-4001" type="radio" name="aaaaaaaaaaaaany" value="Einstellung als Studentische Hilfskraft" checked="checked" class="ui-helper-hidden-accessible"><span class="ui-radio ui-radio-checked ui-radio-state-checked"></span>
+<label for="checkbox-4001" class="ui-radio ui-radio-checked ui-radio-state-checked">Einstellung als Studentische Hilfskraft</label>
+</span>
+<span class="form-row">
+<input id="checkbox-4002" type="radio" name="aaaaaaaaaaaaany" value="* Keine Angabe *" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-4002" class="ui-radio">* Keine Angabe *</label>
+</span>
+<span class="form-row">
+<input id="checkbox-4003" type="radio" name="aaaaaaaaaaaaany" value="Einstellung im Beamtenverhältnis" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-4003" class="ui-radio">Einstellung im Beamtenverhältnis</label>
+</span>
+<span class="form-row">
+<input id="checkbox-4004" type="radio" name="aaaaaaaaaaaaany" value="Einstellung im Beschäftigten- oder Beamtenverhältnis" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-4004" class="ui-radio">Einstellung im Beschäftigten- oder Beamtenverhältnis</label>
+</span>
+<div class="toggleContainer" style="display: none;"><span class="form-row">
+<input id="checkbox-4005" type="radio" name="aaaaaaaaaaaaany" value="Einstellung im Beschäftigtenverhältnis" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-4005" class="ui-radio">Einstellung im Beschäftigtenverhältnis</label>
+</span></div><span class="more">Mehr</span>
+<input type="submit" value="Filtern">
+</fieldset>
+</div>
+</div>
+<div class="filter-box">
+<h3>Beamtenstelle</h3>
+<div data-length="5" class="entries">
+<fieldset>
+<legend style="display: none !important;">Beamtenstelle</legend>
+<span class="form-row">
+<input id="checkbox-5000" type="radio" name="aaaaaaaaaaaaans" value="" checked="checked" class="ui-helper-hidden-accessible"><span class="ui-radio ui-radio-checked ui-radio-state-checked"></span>
+<label for="checkbox-5000" class="ui-radio ui-radio-checked ui-radio-state-checked">Alle</label>
+</span>
+<span class="form-row">
+<input id="checkbox-5002" type="radio" name="aaaaaaaaaaaaans" value="* Keine Angabe *" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-5002" class="ui-radio">* Keine Angabe *</label>
+</span>
+<span class="form-row">
+<input id="checkbox-5003" type="radio" name="aaaaaaaaaaaaans" value="Ja" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-5003" class="ui-radio">Ja</label>
+</span>
+<span class="form-row">
+<input id="checkbox-5004" type="radio" name="aaaaaaaaaaaaans" value="Nein" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-5004" class="ui-radio">Nein</label>
+</span>
+<input type="submit" value="Filtern">
+</fieldset>
+</div>
+</div>
+<div class="filter-box">
+<h3>Sprache</h3>
+<div data-length="5" class="entries">
+<fieldset>
+<legend style="display: none !important;">Sprache</legend>
+<span class="form-row">
+<input id="checkbox-6000" type="radio" name="aaaaaaaaaaaaanw" value="" checked="checked" class="ui-helper-hidden-accessible"><span class="ui-radio ui-radio-checked ui-radio-state-checked"></span>
+<label for="checkbox-6000" class="ui-radio ui-radio-checked ui-radio-state-checked">Alle</label>
+</span>
+<span class="form-row">
+<input id="checkbox-6002" type="radio" name="aaaaaaaaaaaaanw" value="Deutsch" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-6002" class="ui-radio">Deutsch</label>
+</span>
+<span class="form-row">
+<input id="checkbox-6003" type="radio" name="aaaaaaaaaaaaanw" value="Englisch" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-6003" class="ui-radio">Englisch</label>
+</span>
+<input type="submit" value="Filtern">
+</fieldset>
+</div>
+</div>
+<div class="filter-box">
+<h3>Promotionsstelle</h3>
+<div data-length="5" class="entries">
+<fieldset>
+<legend style="display: none !important;">Promotionsstelle</legend>
+<span class="form-row">
+<input id="checkbox-7000" type="radio" name="aaaaaaaaaaaaanv" value="" checked="checked" class="ui-helper-hidden-accessible"><span class="ui-radio ui-radio-checked ui-radio-state-checked"></span>
+<label for="checkbox-7000" class="ui-radio ui-radio-checked ui-radio-state-checked">Alle</label>
+</span>
+<span class="form-row">
+<input id="checkbox-7002" type="radio" name="aaaaaaaaaaaaanv" value="Ja" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-7002" class="ui-radio">Ja</label>
+</span>
+<span class="form-row">
+<input id="checkbox-7003" type="radio" name="aaaaaaaaaaaaanv" value="Nein" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-7003" class="ui-radio">Nein</label>
+</span>
+<input type="submit" value="Filtern">
+</fieldset>
+</div>
+</div>
+<div class="filter-box">
+<h3>Fachbereich</h3>
+<div data-length="5" class="entries">
+<fieldset>
+<legend style="display: none !important;">Fachbereich</legend>
+<span class="form-row">
+<input id="checkbox-8000" type="radio" name="aaaaaaaaaaaaanx" value="" checked="checked" class="ui-helper-hidden-accessible"><span class="ui-radio ui-radio-checked ui-radio-state-checked"></span>
+<label for="checkbox-8000" class="ui-radio ui-radio-checked ui-radio-state-checked">Alle</label>
+</span>
+<span class="form-row">
+<input id="checkbox-8002" type="radio" name="aaaaaaaaaaaaanx" value="Bauingenieurwesen" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8002" class="ui-radio">Bauingenieurwesen</label>
+</span>
+<span class="form-row">
+<input id="checkbox-8003" type="radio" name="aaaaaaaaaaaaanx" value="Biologie" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8003" class="ui-radio">Biologie</label>
+</span>
+<span class="form-row">
+<input id="checkbox-8004" type="radio" name="aaaaaaaaaaaaanx" value="Chemie" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8004" class="ui-radio">Chemie</label>
+</span>
+<span class="form-row">
+<input id="checkbox-8005" type="radio" name="aaaaaaaaaaaaanx" value="Elektrotechnik und Informationstechnik" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8005" class="ui-radio">Elektrotechnik und Informationstechnik</label>
+</span>
+<div class="toggleContainer" style="display: none;"><span class="form-row">
+<input id="checkbox-8006" type="radio" name="aaaaaaaaaaaaanx" value="Empirische Humanwissenschaften" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8006" class="ui-radio">Empirische Humanwissenschaften</label>
+</span><span class="form-row">
+<input id="checkbox-8007" type="radio" name="aaaaaaaaaaaaanx" value="Geowissenschaften und Geographie" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8007" class="ui-radio">Geowissenschaften und Geographie</label>
+</span><span class="form-row">
+<input id="checkbox-8008" type="radio" name="aaaaaaaaaaaaanx" value="Gesellschaftswissenschaften" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8008" class="ui-radio">Gesellschaftswissenschaften</label>
+</span><span class="form-row">
+<input id="checkbox-8009" type="radio" name="aaaaaaaaaaaaanx" value="Informatik" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8009" class="ui-radio">Informatik</label>
+</span><span class="form-row">
+<input id="checkbox-8010" type="radio" name="aaaaaaaaaaaaanx" value="Literaturwissenschaft, Sprachwissenschaft, Philosophie" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8010" class="ui-radio">Literaturwissenschaft, Sprachwissenschaft, Philosophie</label>
+</span><span class="form-row">
+<input id="checkbox-8011" type="radio" name="aaaaaaaaaaaaanx" value="Maschinenwesen" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8011" class="ui-radio">Maschinenwesen</label>
+</span><span class="form-row">
+<input id="checkbox-8012" type="radio" name="aaaaaaaaaaaaanx" value="Materialwissenschaft und Werkstofftechnik" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8012" class="ui-radio">Materialwissenschaft und Werkstofftechnik</label>
+</span><span class="form-row">
+<input id="checkbox-8013" type="radio" name="aaaaaaaaaaaaanx" value="Mathematik" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8013" class="ui-radio">Mathematik</label>
+</span><span class="form-row">
+<input id="checkbox-8014" type="radio" name="aaaaaaaaaaaaanx" value="Mensch, Technologie und Gesellschaft" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8014" class="ui-radio">Mensch, Technologie und Gesellschaft</label>
+</span><span class="form-row">
+<input id="checkbox-8015" type="radio" name="aaaaaaaaaaaaanx" value="Philosophie" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8015" class="ui-radio">Philosophie</label>
+</span><span class="form-row">
+<input id="checkbox-8016" type="radio" name="aaaaaaaaaaaaanx" value="Physik" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8016" class="ui-radio">Physik</label>
+</span><span class="form-row">
+<input id="checkbox-8017" type="radio" name="aaaaaaaaaaaaanx" value="Rohstoffe und Entsorgungstechnik" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8017" class="ui-radio">Rohstoffe und Entsorgungstechnik</label>
+</span><span class="form-row">
+<input id="checkbox-8018" type="radio" name="aaaaaaaaaaaaanx" value="Wirtschaftsingenieurwesen" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8018" class="ui-radio">Wirtschaftsingenieurwesen</label>
+</span><span class="form-row">
+<input id="checkbox-8019" type="radio" name="aaaaaaaaaaaaanx" value="Wirtschaftswissenschaften" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8019" class="ui-radio">Wirtschaftswissenschaften</label>
+</span><span class="form-row">
+<input id="checkbox-8020" type="radio" name="aaaaaaaaaaaaanx" value="Zentrale Einrichtungen" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8020" class="ui-radio">Zentrale Einrichtungen</label>
+</span><span class="form-row">
+<input id="checkbox-8021" type="radio" name="aaaaaaaaaaaaanx" value="Zentrale Hochschulverwaltung" class="ui-helper-hidden-accessible"><span class="ui-radio"></span>
+<label for="checkbox-8021" class="ui-radio">Zentrale Hochschulverwaltung</label>
+</span></div><span class="more">Mehr</span>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<input type="submit" value="Filtern">
+</fieldset>
+</div>
+</div>
+</form>
+</div>
+</div>
+<div id="main" role="article">
+<a id="top" class="hiddenmark">&nbsp;</a>
+<h1>RWTH Jobportal</h1>
+<div class="text">
+<a id="aaaaaaaaaaqrkne" class="hiddenmark">&nbsp;</a><p>Hier finden Sie laufend die aktuellen Stellenanzeigen der RWTH Aachen.<br>
+Wir freuen uns auf Ihre Bewerbung.</p>
+	<p>Interne Stellenangebote finden Sie im <a class="intranet" href="https://intranet.rwth-aachen.de/de" target="_blank">RWTH-Intranet</a> unter dem Suchbegriff „interne Jobs“.</p>
+	<p>Bitte beachten Sie, dass die Ausbildungsstellen und dualen Studiengänge der RWTH nicht im Jobportal  ausgeschrieben werden. Bewerbungen werden ganzjährig zentral über die <a class="internal" href="/go/id/eon" target="_self">Abteilung Ausbildung</a> angenommen.</p>
+	<p>Stellenangebote der Fakultät Medizin finden Sie im Stellenmarkt der <a class="external" href="https://www.ukaachen.de/fuer-bewerber/stellenmarkt/?Mode=debug&amp;cHash=314ae7d03242876c4d3e91a51c0a4d73" target="_blank">Uniklinik RWTH Aachen</a>.</p>
+	<p>Antworten auf Fragen zum RWTH Jobportal, weitere Stellenanzeigen sowie Kontakte finden Sie auf <a class="internal" href="/go/id/qrhza">folgender Seite</a>.<br>
+Weitere Links zu Stellenangeboten finden Sie am Ende dieser Seite unter <a class="internal" href="/go/id/qrvdb">Verwandte Themen</a>.</p></div>
+<div class="new-search" role="search" style="clear: both;">
+<form action="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/" id="searchform">
+<div>
+<label for="new-searchbar">Suche nach</label>
+<input id="new-searchbar" value="" name="search" class="main-search" type="text">
+<input type="hidden" id="page" name="page">
+<input type="hidden" name="aaaaaaaaaaaaany" value="Einstellung als Studentische Hilfskraft">
+<input type="hidden" name="showall" value="1"><input class="button" type="submit" value="Suchen">
+</div>
+</form>
+</div>
+<h2 class="result">Treffer&nbsp;1&nbsp;-&nbsp;91&nbsp;von&nbsp;91&nbsp;Ergebnissen</h2>
+<div style="width: auto; float: right; margin: -46px 0 20px 0; text-transform: uppercase;" class="pagination">
+<ul>
+<li class="nextfive">
+<span>
+<a style="width: 15em; padding: 5px; line-height: 110%;" href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?page=1&amp;aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft&amp;showall=0">Seitenweise anzeigen</a>
+</span>
+</li>
+</ul>
+</div>
+<div class="listing">
+<ul class="mod">
+<li class="listheadline odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;">
+<a href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?sortby=STELLENBEZ&amp;asc=1&amp;showall=1&amp;aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft" class="sortable">Stelle</a>
+</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">
+<a href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?sortby=ANTRAGSTELLER&amp;asc=1&amp;showall=1&amp;aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft" class="sortable">Anbieter</a>
+</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">
+<a href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?sortby=BEWERBUNGSDATUM-->Datum&amp;asc=1&amp;showall=1&amp;aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft" class="sortable">Bewerbungsfrist</a>
+</div>
+</li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008873/" target="_self">Studentische Hilfskraft (w/m/d) – Aufsicht Lesesaal [V000008873]</a><br>[veröffentlicht am 05.12.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Physikbibliothek [130002]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">19.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008880/" target="_self">Studentische Hilfskraft (w/m/d) –  Als Assistenz im Rektorat der RWTH Aachen [V000008880]</a><br>[veröffentlicht am 04.12.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Rektor [001100]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">15.01.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008884/" target="_self">Studentische Hilfskraft (w/m/d) – Automatisierung und Digitalisierung in der Produktionstechnik [V000008884]</a><br>[veröffentlicht am 04.12.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Werkzeugmaschinen [417310]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">21.03.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008890/" target="_self">Studentische Hilfskraft (w/m/d) – Forschungsprojekte im Bereich Nachhaltige Wertschöpfungsketten und Kreislaufwirtschaft für Kunststoffe [V000008890]</a><br>[veröffentlicht am 04.12.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Operations Management [813510]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008878/" target="_self">Studentische Hilfskraft (w/m/d) – Vorlesung Kosten und Wirtschaftlichkeit von Bioprozessen [V000008878]</a><br>[veröffentlicht am 03.12.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Bioverfahrenstechnik [416510]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008881/" target="_self">Studentische Hilfskraft (w/m/d) – Abteilung Produktionsmanagement – Gruppe Globale Produktion [V000008881]</a><br>[veröffentlicht am 03.12.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Produktionssystematik [417210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">03.06.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008871/" target="_self">Studentische Hilfskraft (w/m/d) – Entwicklung innovativer elektrischer Antriebskomponenten für nachhaltige Mobilität [V000008871]</a><br>[veröffentlicht am 02.12.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehr- und Forschungsgebiet Mechatronik in mobilen Antrieben [422320]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">15.01.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008781/" target="_self">Studentische Hilfskraft (w/m/d) – In der Lehre von Robotic Systems und FANUC-Programmierung [V000008781]</a><br>[veröffentlicht am 28.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Getriebetechnik, Maschinendynamik und Robotik [411910]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">23.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008858/" target="_self">Studentische Hilfskraft (w/m/d) – Datenteilen im gamifizierten Smart Forest Lab [V000008858]</a><br>[veröffentlicht am 28.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Mensch-Maschine-Interaktion [615210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">15.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008859/" target="_self">Studentische Hilfskraft (w/m/d) – App-Entwicklung mit Flutter [V000008859]</a><br>[veröffentlicht am 28.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Mensch-Maschine-Interaktion [615210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">15.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008860/" target="_self">Studentische Hilfskraft (w/m/d) – Unterstützung bei der Umsetzung von Life Cycle Assessments in stationären und mobilen Batteriespeicheranwendungen [V000008860]</a><br>[veröffentlicht am 28.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Elektrochemische Energiewandlung und Speichersystemtechnik [618310]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.01.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008864/" target="_self">Studentische Hilfskraft (w/m/d) – Montageplanung und -steuerung [V000008864]</a><br>Flexible und nachhaltige Montagesysteme gestalten!<br>[veröffentlicht am 28.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Informations-, Qualitäts- und Sensorsysteme in der Produktion [417510]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">30.03.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008840/" target="_self">Studentische Hilfskraft (w/m/d) [V000008840]</a><br>[veröffentlicht am 26.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Psychologische Diagnostik und Intervention [721810]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">10.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008849/" target="_self">Studentische Hilfskraft (w/m/d) – Condition Monitoring – Embedded Systems [V000008849]</a><br>[veröffentlicht am 26.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Maschinenelemente und Systementwicklung [411710]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">07.01.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008851/" target="_self">Studentische Hilfskraft (w/m/d) – Entwicklung von Messmethoden sowie Machine Learning zur Quantifizierung von Pulverwerkstoffen [V000008851]</a><br>[veröffentlicht am 26.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008795/" target="_self">Studentische Hilfskraft (w/m/d) – Im Bereich Elektronik [V000008795]</a><br>[veröffentlicht am 25.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehr- und Forschungsgebiet Technologien zur Aufbereitung mineralischer Rohstoffe [512320]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.01.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008801/" target="_self">Studentische Hilfskraft (w/m/d) – Im IT-ServiceDesk (Dokumentation und 1st-Level-Support) [V000008801]</a><br>[veröffentlicht am 25.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">IT Center [022000]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">29.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008826/" target="_self">Studentische Hilfskraft (w/m/d) – Akustiksimulation Elektroauto [V000008826]</a><br>[veröffentlicht am 25.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Maschinenelemente und Systementwicklung [411710]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">09.01.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008835/" target="_self">Studentische Hilfskraft (w/m/d) – Im Bereich "Numerische Simulation elektro-optischer Systeme" [V000008835]</a><br>[veröffentlicht am 25.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Technologie optischer Systeme [418910]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">05.01.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008842/" target="_self">Studentische Hilfskraft (w/m/d) – ML basierter Stoffeigenschaftsvorhersage von Molekülen [V000008842]</a><br>[veröffentlicht am 25.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Systemverfahrenstechnik [416710]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">10.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008828/" target="_self">Studentische Hilfskraft (w/m/d) – Produktionsplanung und Digitalisierung [V000008828]</a><br>[veröffentlicht am 22.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Production Engineering of E-Mobility Components [420910]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">20.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008829/" target="_self">Studentische Hilfskraft (w/m/d) [V000008829]</a><br>[veröffentlicht am 22.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Production Engineering of E-Mobility Components [420910]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">20.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008817/" target="_self">Studentische Hilfskraft (w/m/d) – Virtual Reality für Batteriespeicher [V000008817]</a><br>[veröffentlicht am 20.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Elektrochemische Energiewandlung und Speichersystemtechnik [618310]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008799/" target="_self">Studentische Hilfskraft (w/m/d) – Grundlagen der Maschinenkomponenten [V000008799]</a><br>[veröffentlicht am 19.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Advanced Mining Technologies [513310]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">12.01.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008802/" target="_self">Studentische Hilfskraft (w/m/d) – Roboterprogrammierung [V000008802]</a><br>[veröffentlicht am 19.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Getriebetechnik, Maschinendynamik und Robotik [411910]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">01.01.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008805/" target="_self">Studentische Hilfskraft (w/m/d) – Fasertribologie [V000008805]</a><br>Fasertribologie<br>[veröffentlicht am 19.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Textilmaschinenbau und Institut für Textiltechnik [419110]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">28.02.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008790/" target="_self">Studentische Hilfskraft (w/m/d) – Unterstützung im Kundensupport [V000008790]</a><br>[veröffentlicht am 18.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">IT Center [022000]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">27.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008792/" target="_self">Studentische Hilfskraft (w/m/d) – Simulation Bewetterung [V000008792]</a><br>[veröffentlicht am 18.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Advanced Mining Technologies [513310]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008800/" target="_self">Studentische Hilfskraft (w/m/d) – Unterstützung im Bereich Anwendungstests, Support und Dokumentation [V000008800]</a><br>[veröffentlicht am 18.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">IT Center [022000]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">15.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008787/" target="_self">Studentische Hilfskraft (w/m/d) – Entwicklung adaptiver Werkzeuge zum Falten textilbewehrter Beton-Origami [V000008787]</a><br>[veröffentlicht am 14.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für fluidtechnische Antriebe und Systeme [412810]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008776/" target="_self">Studentische Hilfskraft (w/m/d) – Schaltungs-/ PCB-Design/ Mikrocontrollerprogrammierung/ Angewandte Regelungstechnik [V000008776]</a><br>[veröffentlicht am 13.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für fluidtechnische Antriebe und Systeme [412810]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008777/" target="_self">Studentische Hilfskraft (w/m/d) – Arbeit am Prüfstand/ Versuchsdurchführung [V000008777]</a><br>[veröffentlicht am 13.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für fluidtechnische Antriebe und Systeme [412810]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008784/" target="_self">Studentische Hilfskraft (w/m/d) – im Bereich Produktionsgestaltung – Schwerpunkt Digitale Fabrikplanung [V000008784]</a><br>Gestalte mit uns die Zukunft der Produktion!<br>[veröffentlicht am 13.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Produktionssystematik [417210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">01.01.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008766/" target="_self">Studentische Hilfskraft (w/m/d) – Mitarbeit an der Weiterentwicklung eines physikalisch-chemischen Batteriemodells [V000008766]</a><br>[veröffentlicht am 12.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Elektrochemische Energiewandlung und Speichersystemtechnik [618310]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">15.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008526/" target="_self">Studentische Hilfskraft (w/m/d) – Abteilung Marketing, Presse und Öffentlichkeitsarbeit am Werkzeugmaschinenlabor WZL der RWTH Aachen [V000008526]</a><br>[veröffentlicht am 08.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Werkzeugmaschinenlabor WZL der RWTH Aachen [417200]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">07.02.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008717/" target="_self">Studentische Hilfskraft (w/m/d) – Unterstützung des KI-Centers in den Bereichen Events, Kommunikation und Administration [V000008717]</a><br>[veröffentlicht am 08.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">RWTH Center for Artificial Intelligence [121004]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000006551/" target="_self">Studentische Hilfskraft (w/m/d) – Im Bereich Künstliche Intelligenz [V000006551]</a><br>[veröffentlicht am 07.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Informations-, Qualitäts- und Sensorsysteme in der Produktion [417510]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.03.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008736/" target="_self">Studentische Hilfskraft (w/m/d) – Simulationsgestützte Montageplanung und -steuerung [V000008736]</a><br>[veröffentlicht am 06.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Informations-, Qualitäts- und Sensorsysteme in der Produktion [417510]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">06.05.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008718/" target="_self">Studentische Hilfskraft (w/m/d) – Im Bereich Additive Fertigung [V000008718]</a><br>[veröffentlicht am 05.11.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Werkstoffanwendungen im Maschinenbau [418110]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.01.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008684/" target="_self">Studentische Hilfskraft (w/m/d) – Auf dem Weg zu einer grünen Luftfahrt: Die Mission des Production Launch Center für nachhaltigen Flugverkehr [V000008684]</a><br>[veröffentlicht am 30.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Fertigungstechnologie [417410]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008689/" target="_self">Studentische Hilfskraft (w/m/d) [V000008689]</a><br>Entwicklung eines Stahlrotorblattes<br>[veröffentlicht am 30.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Chair for Wind Power Drives [412010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">10.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008690/" target="_self">Studentische Hilfskraft (w/m/d) [V000008690]</a><br>Kobalt vermeiden – Umwelt und Menschen schützen: Schleifen von kobaltfreiem und -reduziertem Hartmetall<br>[veröffentlicht am 30.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Fertigungstechnologie [417410]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008692/" target="_self">Studentische Hilfskraft (w/m/d) [V000008692]</a><br>Public Relations<br>[veröffentlicht am 30.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Fakultät für Maschinenwesen [400000]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">08.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008693/" target="_self">Studentische Hilfskraft (w/m/d) – In der Verwaltung [V000008693]</a><br>[veröffentlicht am 30.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Elektrochemische Energiewandlung und Speichersystemtechnik [618310]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">10.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008695/" target="_self">Studentische Hilfskraft (w/m/d) – Digitalisierung in der Produktionstechnik [V000008695]</a><br>[veröffentlicht am 30.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Werkzeugmaschinen [417310]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.01.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008649/" target="_self">Studentische Hilfskraft (w/m/d) [V000008649]</a><br>Schleifprozesse nachhaltig auslegen: Ungeführtes Vibrationsgleitschleifen von Hartmetall<br>[veröffentlicht am 29.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Fertigungstechnologie [417410]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008672/" target="_self">Studentische Hilfskraft (w/m/d) – Zur Unterstützung in der Elektronischen Werkstatt [V000008672]</a><br>[veröffentlicht am 28.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Kraftfahrzeuge (ika) [414110]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008673/" target="_self">Studentische Hilfskraft (w/m/d) – Zur Unterstützung in der Kfz-Werkstatt [V000008673]</a><br>[veröffentlicht am 28.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Kraftfahrzeuge (ika) [414110]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">15.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008680/" target="_self">Studentische Hilfskraft (w/m/d) – Unterstützung bei der Softwareentwicklung Embedded Systems [V000008680]</a><br>[veröffentlicht am 28.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehr- und Forschungsgebiet Mechatronik in mobilen Antrieben [422320]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.01.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008667/" target="_self">Studentische Hilfskraft (w/m/d) – Im Bereich Digitalisierung und Nachhaltigkeit [V000008667]</a><br>[veröffentlicht am 24.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für fluidtechnische Antriebe und Systeme [412810]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">15.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008652/" target="_self">Studentische Hilfskraft (w/m/d) – Entwicklung neuartiger Werkzeugbeschichtungen, Machine Learning, Werkstoffprüfung [V000008652]</a><br>[veröffentlicht am 22.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">22.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008626/" target="_self">Studentische Hilfskraft (w/m/d) – In der Anwendungsentwicklung [V000008626]</a><br>[veröffentlicht am 18.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehr- und Forschungsgebiet Entscheidungsforschung und Finanzdienstleistungen [812520]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">13.04.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008629/" target="_self">Studentische Hilfskraft (w/m/d) – Entwicklung innovativer Fügetechniken für den Maschinenbau [V000008629]</a><br>[veröffentlicht am 15.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">15.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008632/" target="_self">Studentische Hilfskraft (w/m/d) – Marketing und PR [V000008632]</a><br>[veröffentlicht am 15.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Production Engineering of E-Mobility Components [420910]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.01.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008596/" target="_self">Studentische Hilfskraft (w/m/d) – Unterstützung bei der Instituts-IT-Betreuung [V000008596]</a><br>[veröffentlicht am 09.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Informations- und Automatisierungssysteme für die Prozess- und Werkstofftechnik [526610]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008592/" target="_self">Studentische Hilfskraft (w/m/d) – Im Bereich Marketing und Grafik [V000008592]</a><br>Kommunikationsdesign / Grafikdesign<br>[veröffentlicht am 08.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Digitale Additive Produktion [421510]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008586/" target="_self">Studentische Hilfskraft (w/m/d) – Im Bereich Produktionsmanagement, Gruppe Produktionslogistik [V000008586]</a><br>[veröffentlicht am 07.10.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Produktionssystematik [417210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">07.04.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008546/" target="_self">Studentische Hilfskraft (w/m/d) –  Im Bereich Kommunikation und Marketing [V000008546]</a><br>[veröffentlicht am 30.09.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Technologie optischer Systeme [418910]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">15.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008551/" target="_self">Studentische Hilfskraft (w/m/d) – Betreuung PLS-Labor [V000008551]</a><br>[veröffentlicht am 30.09.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Informations- und Automatisierungssysteme für die Prozess- und Werkstofftechnik [526610]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008506/" target="_self">Studentische Hilfskraft (w/m/d) – Im Bereich Fabrikplanung – Werkstrukturplanung [V000008506]</a><br>[veröffentlicht am 23.09.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Produktionssystematik [417210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">23.03.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008509/" target="_self">Studentische Hilfskraft (w/m/d) – Unterstützung für das Marketingmanagement [V000008509]</a><br>[veröffentlicht am 23.09.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Produktionssystematik [417210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008478/" target="_self">Studentische Hilfskraft (w/m/d) – Entwicklung, Auftrag und Prüfung neuartiger Beschichtungen [V000008478]</a><br>[veröffentlicht am 17.09.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">16.02.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008479/" target="_self">Studentische Hilfskraft (w/m/d) – Entwicklung, Auftrag und Prüfung neuartiger Beschichtungen PVD-Technologie [V000008479]</a><br>[veröffentlicht am 16.09.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.01.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008480/" target="_self">Studentische Hilfskraft (w/m/d) – Nanokompositschichten für die Zerspanung [V000008480]</a><br>[veröffentlicht am 16.09.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008445/" target="_self">Studentische Hilfskraft (w/m/d) [V000008445]</a><br>Entwicklung, Auftrag und Prüfung neuartiger Beschichtungen<br>[veröffentlicht am 05.09.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">01.09.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008446/" target="_self">Studentische Hilfskraft (w/m/d) [V000008446]</a><br>Entwicklung, Auftrag und Prüfung neuartiger Beschichtungen<br>[veröffentlicht am 05.09.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">01.04.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008346/" target="_self">Studentische Hilfskraft (w/m/d) [V000008346]</a><br>Entwicklung innovativer Fügetechniken für den Maschinenbau<br>[veröffentlicht am 26.08.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008360/" target="_self">Studentische Hilfskraft (w/m/d) [V000008360]</a><br>Battery Production Bereich Digitalisierung<br>[veröffentlicht am 26.08.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Production Engineering of E-Mobility Components [420910]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.01.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008311/" target="_self">Studentische Hilfskraft (w/m/d) – Entwicklung innovativer Fügetechniken für den Maschinenbau [V000008311]</a><br>[veröffentlicht am 19.08.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008262/" target="_self">Studentische Hilfskraft (w/m/d) – Hochleistungsbeschichtungen für die E-Mobilität [V000008262]</a><br>[veröffentlicht am 07.08.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008250/" target="_self">Studentische Hilfskraft (w/m/d) – Abteilung Unternehmensentwicklung – Gruppen Wertschöpfungs- und Kompetenzmanagement [V000008250]</a><br>[veröffentlicht am 06.08.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Produktionssystematik [417210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008251/" target="_self">Studentische Hilfskraft (w/m/d) – Abteilung Unternehmensentwicklung – Gruppe Additive Fertigungssysteme [V000008251]</a><br>[veröffentlicht am 06.08.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Produktionssystematik [417210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008206/" target="_self">Studentische Hilfskraft (w/m/d) – Innovation und Digitalisierung in der Zerspanung [V000008206]</a><br>[veröffentlicht am 29.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Fertigungstechnologie [417410]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008138/" target="_self">Studentische Hilfskraft (w/m/d) – Machine Learning für die Analyse des Partikelaufprallverhaltens beim Plasmaspritzen [V000008138]</a><br>[veröffentlicht am 25.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008188/" target="_self">Studentische Hilfskraft (w/m/d) – Weiterentwicklung einer Leistungsflussberechnung und Netzbetriebssimulation im Rahmen der kontinuierlichen Softwareentwicklung am IAEW (ÜEW) [V000008188]</a><br>[veröffentlicht am 24.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Übertragungsnetze und Energiewirtschaft [614110]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">23.01.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008190/" target="_self">Studentische Hilfskraft (w/m/d) – Fokus Komplexitätsmanagement [V000008190]</a><br>[veröffentlicht am 24.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Produktionssystematik [417210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.05.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000007105/" target="_self">Studentische Hilfskraft (w/m/d) – Fokus Entwicklungsmanagement [V000007105]</a><br>[veröffentlicht am 23.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Produktionssystematik [417210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">29.05.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008110/" target="_self">Studentische Hilfskraft (w/m/d) – Institut für Elektrische Anlagen und Netze, Digitalisierung und Energiewirtschaft [V000008110]</a><br>[veröffentlicht am 23.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Institut für Elektrische Anlagen und Netze, Digitalisierung und Energiewirtschaft [614000]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">23.01.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008164/" target="_self">Studentische Hilfskraft (w/m/d) – Entwicklung, Auftrag und Prüfung neuartiger Beschichtungen [V000008164]</a><br>[veröffentlicht am 22.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008157/" target="_self">Studentische Hilfskraft (w/m/d) – Bremsbeschichtungen zur Erfüllung der EURO-7-Norm [V000008157]</a><br>[veröffentlicht am 18.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">18.01.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008125/" target="_self">Studentische Hilfskraft (w/m/d) [V000008125]</a><br>[veröffentlicht am 17.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.03.2025</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008142/" target="_self">Studentische Hilfskraft (w/m/d) – Im Themenfeld Qualitätsmanagement und Nachhaltigkeitsmanagement für die Industrie 4.0 – Quality Intelligence [V000008142]</a><br>Im Forschungsbereich Sustainable Quality am WZL<br>[veröffentlicht am 17.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Informations-, Qualitäts- und Sensorsysteme in der Produktion [417510]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">17.01.2025</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008068/" target="_self">Studentische Hilfskraft (w/m/d) – Energieeffiziente Schichten auf Zahnrädern und Kettenbolzen im E-Antrieb [V000008068]</a><br>[veröffentlicht am 09.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008036/" target="_self">Studentische Hilfskraft (w/m/d) – Im Bereich Fabrikplanung – Schwerpunkt digitale Produktionsgestaltung [V000008036]</a><br>Mit der digitalen Fabrikplanung gestalten wir gemeinsam die Produktion von Morgen!<br>[veröffentlicht am 02.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Produktionssystematik [417210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008027/" target="_self">Studentische Hilfskraft (w/m/d) – Simulation und Hochleistungsrechnen [V000008027]</a><br>[veröffentlicht am 01.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008037/" target="_self">Studentische Hilfskraft (w/m/d) – Im Bereich Fabrikplanung – Schwerpunkt Modellierung und Visualisierung [V000008037]</a><br>Mit der digitalen Fabrikplanung gestalten wir gemeinsam die Produktion von Morgen!<br>[veröffentlicht am 01.07.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl für Produktionssystematik [417210]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008020/" target="_self">Studentische Hilfskraft (w/m/d) – Entwicklung innovativer Fügetechniken für den Maschinenbau [V000008020]</a><br>[veröffentlicht am 27.06.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">26.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000008018/" target="_self">Studentische Hilfskraft (w/m/d) – Entwicklung der Spritzschichten als Heizelemente [V000008018]</a><br>[veröffentlicht am 26.06.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">26.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000007939/" target="_self">Simulation im thermischen Spritzen (w/m/d) – CFD-Simulation im thermischen Spritzen [V000007939]</a><br>[veröffentlicht am 14.06.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">14.12.2024</div></li>
+<li class="odd">
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000006969/" target="_self">Studentische Hilfskraft (w/m/d) [V000006969]</a><br>Schichtentwicklung für die Wasserstoffelektrolyse<br>[veröffentlicht am 10.01.2024]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">31.12.2024</div></li>
+<li>
+<div class="location" style="width: 48%; text-align: left; padding-left: 1%; padding-right: 1%;"><a href="/go/id/kbag/file/V000006890/" target="_self">Studentische Hilfskraft (w/m/d) [V000006890]</a><br>Schichtentwicklung für Hochtemperaturanwendungen<br>[veröffentlicht am 20.12.2023]</div>
+<div class="location" style="width: 28%; text-align: left; padding-left: 1%; padding-right: 1%;">Lehrstuhl und Institut für Oberflächentechnik im Maschinenbau [419010]</div>
+<div class="location" style="width: 18%; text-align: center; padding-left: 1%; padding-right: 1%;">20.12.2024</div></li>
+</ul>
+</div>
+<div class="further-informations under_listing"><div class="one-column-box"><div class="tcb-first">
+<a id="aaaaaaaaaaqrvdb" class="hiddenmark">&nbsp;</a>
+<h3>Verwandte Themen</h3><ul>
+<li class="">
+<a href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/RWTH-Jobportal/~qrhza/Weitere-Informationen-zum-RWTH-Jobportal/" class="internal">Weitere Informationen zum RWTH Jobportal</a></li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/RWTH-Jobportal/~crfe/Stellenangebote-fuer-Professuren/" class="internal">Stellenangebote für Professuren</a></li>
+<li class="">
+<a href="/cms/root/studium/Nach-dem-Studium/Karriere/~buvi/Stellenangebote-fuer-Absolvierende-der-R/" class="internal">Stellenangebote für Absolvierende der RWTH</a></li>
+<li class="">
+<a href="/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~eon/Berufsausbildung/" class="internal">Berufsausbildung an der RWTH</a></li>
+<li class="">
+<a href="https://oes-careers.com/" class="external" target="_blank">Stellenangebote der GUtech: German University of Technology in Oman</a></li>
+<li class="">
+<a href="https://www.ukaachen.de/fuer-bewerber/stellenmarkt/?Mode=debug&amp;cHash=314ae7d03242876c4d3e91a51c0a4d73" class="external" target="_blank">Stellenmarkt der Uniklinik RWTH Aachen und der Medizinischen Fakultät</a></li>
+<li class="">
+<a href="http://www.fz-juelich.de/portal/DE/Karriere/AktuelleStellenausschreibungen/_Stellenangebote/alleStellenangebote_node.html" class="external" target="_blank">Stellenangebote des Forschungszentrums Jülich</a></li>
+<li class="">
+<a href="https://www.asta.rwth-aachen.de/service/jobboerse/" class="external" target="_blank">Jobbörse des AStA für Studierende der RWTH</a></li>
+</ul>
+</div></div></div>
+<div class="teaser-row first-child"></div>
+</div>
+</div>
+<p class="to-top-link">
+<a href="#">nach oben</a>
+</p>
+</div>
+</div>
+<!--googleoff: all-->
+<div id="site-info">
+<div style="display: none !important; visibility: hidden !important;"><h2>Footer</h2></div>
+<div id="site-info-inner">
+<div>
+<h3 class="">Service</h3>
+<ul>
+<li class="">
+<a href="/go/id/emu/" title="Kontakt &amp; Anreise (Footer)">Kontakt &amp; Anreise</a>
+</li>
+<li class="">
+<a href="/cms/root/Footer/Services/~bw/Impressum/" title="Impressum (Footer)">Impressum</a>
+</li>
+<li class="">
+<a href="/cms/root/Footer/Services/~cesv/Datenschutzerklaerung/" title="Datenschutzerklärung (Footer)">Datenschutzerklärung</a>
+</li>
+<li class="">
+<a href="/cms/root/Footer/Services/~jzbek/Barrierefreiheitserklaerung/" title="Barrierefreiheitserklärung (Footer)">Barrierefreiheitserklärung</a>
+</li>
+<li class="">
+<a href="/cms/root/Footer/Services/~hn/Sitemap/" title="Sitemap (Footer)">Sitemap</a>
+</li>
+<li class="">
+<a href="/go/id/epg/" title="Hochschulwache (Footer)">Hochschulwache</a>
+</li>
+<li class="">
+<a href="/go/id/boi/" title="Feedback (Footer)">Feedback</a>
+</li>
+<li class="">
+<a href="/go/id/dvdo/" title="Studienglossar (Footer)">Studienglossar</a>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="">Weitere Angebote</h3>
+<ul>
+<li class="">
+<a href="https://online.rwth-aachen.de" title="RWTHonline (Footer)" class="external" target="_blank">RWTHonline</a>
+</li>
+<li class="">
+<a href="https://rwthcontacts.rwth-aachen.de" title="RWTHcontacts (Footer)" class="external" target="_blank">RWTHcontacts</a>
+</li>
+<li class="">
+<a href="https://moodle.rwth-aachen.de/" title="RWTHmoodle (Footer)" class="external" target="_blank">RWTHmoodle</a>
+</li>
+<li class="">
+<a href="/go/id/buym/" title="RWTH Jobportal (Footer)">RWTH Jobportal</a>
+</li>
+<li class="">
+<a href="https://www.ub.rwth-aachen.de/cms/~hame/ub/" title="Universitätsbibliothek (Footer)" class="external" target="_blank">Universitätsbibliothek</a>
+</li>
+<li class="">
+<a href="https://hochschulsport.rwth-aachen.de/cms/~icgi/HSZ/" title="Hochschulsport (Footer)" class="external" target="_blank">Hochschulsport</a>
+</li>
+<li class="">
+<a href="https://intranet.rwth-aachen.de/de" title="Intranet (Footer)" class="intranet" target="_blank">Intranet</a>
+</li>
+<li class="">
+<a href="/go/id/srcq/" title="Die RWTH in leichter Sprache (Footer)">Die RWTH in leichter Sprache</a>
+</li>
+</ul>
+</div>
+<div>
+<h3 class="">Soziale Medien</h3><ul>
+<li class="instagram"><a href="https://www.instagram.com/rwthaachenuniversity/" title="Instagram (Footer)" target="_blank">Instagram</a></li>
+<li class="linkedin"><a href="https://de.linkedin.com/school/rwth-aachen-university/" title="LinkedIn(Footer)" target="_blank">LinkedIn</a></li>
+<li class="youtube"><a href="https://www.youtube.com/user/RWTHAachenUniversity" title="YouTube (Footer)" target="_blank">YouTube</a></li>
+<li class="tiktok"><a href="https://www.tiktok.com/@rwth_aachen_university" title="TikTok (Footer)" target="_blank">TikTok</a></li>
+<li class="facebook"><a href="https://de-de.facebook.com/RWTHAachenUniversity" title="Facebook (Footer)" target="_blank">Facebook</a></li>
+<li class="moresocial"><a href="https://www.rwth-aachen.de/socialmedia/" title="RWTH Social Media (Footer)">RWTH Social Media</a></li>
+</ul></div>
+<div class="last-child">
+<h3 class="">Weitere Einrichtungen</h3>
+<ul class="facilities">
+<li>
+<a href="https://www.jara.org/de/" target="_blank">
+<img src="/global/show_picture.asp?id=aaaaaaaaaaaaafa" alt="Logo JARA - Jülich Aachen Research Alliance" title="Logo JARA - Jülich Aachen Research Alliance" style="border: 0;">
+</a>
+</li>
+<li>
+<a href="https://www.ukaachen.de" target="_blank">
+<img src="/global/show_picture.asp?id=aaaaaaaaaaescnc" alt="Logo Uniklinik RWTH Aachen" title="Logo Uniklinik RWTH Aachen" style="border: 0;">
+</a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<!--googleon: all-->
+</div>
+
+
+
+
+
+
+<div style="position: absolute; left: -999em; top: -999px; width: 0px; height: 0px; background-color: rgb(255, 255, 255);"></div><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div class="a11y-wrapper"><div class="tooltip-wrapper a11y-js-overflow" aria-hidden="true" style="visibility: hidden;" role="tooltip"><div class="tooltip"></div><span class="close-button">schließen</span></div><div class="showbox showbox-light showbox--single-image a11y-js-overflow" aria-hidden="true" style="visibility: hidden;"><div class="showbox-box"><div class="content-box"><a role="button" class="close-button" tabindex="0">schließen</a></div></div></div><div class="showbox showbox-light video-showbox a11y-js-overflow" aria-hidden="true" style="visibility: hidden;"><div class="showbox-box"><div class="content-box"><div class="multimedia-box"></div><a role="button" class="close-button" tabindex="0">schließen</a></div></div></div></div><div class="mask" style="top: 0px; left: 0px; display: none; position: fixed; z-index: 100;"></div><div class="mask" style="top: 0px; left: 0px; display: none; position: fixed; z-index: 100;"></div></body></html>

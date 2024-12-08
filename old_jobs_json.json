@@ -1,0 +1,730 @@
+[
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008873/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Aufsicht Lesesaal ",
+        "listing_number": "V000008873",
+        "deadline": "19.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 05.12.2024",
+        "location": "Physikbibliothek [130002]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008880/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013  Als Assistenz im Rektorat der RWTH Aachen ",
+        "listing_number": "V000008880",
+        "deadline": "15.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 04.12.2024",
+        "location": "Rektor [001100]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008884/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Automatisierung und Digitalisierung in der Produktionstechnik ",
+        "listing_number": "V000008884",
+        "deadline": "21.03.2025",
+        "pub_date": "ver\u00f6ffentlicht am 04.12.2024",
+        "location": "Lehrstuhl f\u00fcr Werkzeugmaschinen [417310]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008890/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Forschungsprojekte im Bereich Nachhaltige Wertsch\u00f6pfungsketten und Kreislaufwirtschaft f\u00fcr Kunststoffe ",
+        "listing_number": "V000008890",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 04.12.2024",
+        "location": "Lehrstuhl f\u00fcr Operations Management [813510]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008878/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Vorlesung Kosten und Wirtschaftlichkeit von Bioprozessen ",
+        "listing_number": "V000008878",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 03.12.2024",
+        "location": "Lehrstuhl f\u00fcr Bioverfahrenstechnik [416510]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008881/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Abteilung Produktionsmanagement \u2013 Gruppe Globale Produktion ",
+        "listing_number": "V000008881",
+        "deadline": "03.06.2025",
+        "pub_date": "ver\u00f6ffentlicht am 03.12.2024",
+        "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008871/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung innovativer elektrischer Antriebskomponenten f\u00fcr nachhaltige Mobilit\u00e4t ",
+        "listing_number": "V000008871",
+        "deadline": "15.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 02.12.2024",
+        "location": "Lehr- und Forschungsgebiet Mechatronik in mobilen Antrieben [422320]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008781/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 In der Lehre von Robotic Systems und FANUC-Programmierung ",
+        "listing_number": "V000008781",
+        "deadline": "23.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 28.11.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Getriebetechnik, Maschinendynamik und Robotik [411910]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008858/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Datenteilen im gamifizierten Smart Forest Lab ",
+        "listing_number": "V000008858",
+        "deadline": "15.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 28.11.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Mensch-Maschine-Interaktion [615210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008859/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 App-Entwicklung mit Flutter ",
+        "listing_number": "V000008859",
+        "deadline": "15.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 28.11.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Mensch-Maschine-Interaktion [615210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008860/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung bei der Umsetzung von Life Cycle Assessments in station\u00e4ren und mobilen Batteriespeicheranwendungen ",
+        "listing_number": "V000008860",
+        "deadline": "31.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 28.11.2024",
+        "location": "Lehrstuhl f\u00fcr Elektrochemische Energiewandlung und Speichersystemtechnik [618310]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008864/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Montageplanung und -steuerung ",
+        "listing_number": "V000008864",
+        "deadline": "30.03.2025",
+        "pub_date": "ver\u00f6ffentlicht am 28.11.2024",
+        "location": "Lehrstuhl f\u00fcr Informations-, Qualit\u00e4ts- und Sensorsysteme in der Produktion [417510]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008840/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008840",
+        "deadline": "10.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 26.11.2024",
+        "location": "Lehrstuhl f\u00fcr Psychologische Diagnostik und Intervention [721810]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008849/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Condition Monitoring \u2013 Embedded Systems ",
+        "listing_number": "V000008849",
+        "deadline": "07.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 26.11.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Maschinenelemente und Systementwicklung [411710]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008851/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung von Messmethoden sowie Machine Learning zur Quantifizierung von Pulverwerkstoffen ",
+        "listing_number": "V000008851",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 26.11.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008795/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Elektronik ",
+        "listing_number": "V000008795",
+        "deadline": "31.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 25.11.2024",
+        "location": "Lehr- und Forschungsgebiet Technologien zur Aufbereitung mineralischer Rohstoffe [512320]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008801/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Im IT-ServiceDesk (Dokumentation und 1st-Level-Support) ",
+        "listing_number": "V000008801",
+        "deadline": "29.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 25.11.2024",
+        "location": "IT Center [022000]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008826/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Akustiksimulation Elektroauto ",
+        "listing_number": "V000008826",
+        "deadline": "09.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 25.11.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Maschinenelemente und Systementwicklung [411710]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008835/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich \"Numerische Simulation elektro-optischer Systeme\" ",
+        "listing_number": "V000008835",
+        "deadline": "05.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 25.11.2024",
+        "location": "Lehrstuhl f\u00fcr Technologie optischer Systeme [418910]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008842/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 ML basierter Stoffeigenschaftsvorhersage von Molek\u00fclen ",
+        "listing_number": "V000008842",
+        "deadline": "10.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 25.11.2024",
+        "location": "Lehrstuhl f\u00fcr Systemverfahrenstechnik [416710]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008828/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Produktionsplanung und Digitalisierung ",
+        "listing_number": "V000008828",
+        "deadline": "20.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 22.11.2024",
+        "location": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008829/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008829",
+        "deadline": "20.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 22.11.2024",
+        "location": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008817/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Virtual Reality f\u00fcr Batteriespeicher ",
+        "listing_number": "V000008817",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 20.11.2024",
+        "location": "Lehrstuhl f\u00fcr Elektrochemische Energiewandlung und Speichersystemtechnik [618310]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008799/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Grundlagen der Maschinenkomponenten ",
+        "listing_number": "V000008799",
+        "deadline": "12.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 19.11.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Advanced Mining Technologies [513310]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008802/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Roboterprogrammierung ",
+        "listing_number": "V000008802",
+        "deadline": "01.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 19.11.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Getriebetechnik, Maschinendynamik und Robotik [411910]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008805/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Fasertribologie ",
+        "listing_number": "V000008805",
+        "deadline": "28.02.2025",
+        "pub_date": "ver\u00f6ffentlicht am 19.11.2024",
+        "location": "Lehrstuhl f\u00fcr Textilmaschinenbau und Institut f\u00fcr Textiltechnik [419110]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008790/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung im Kundensupport ",
+        "listing_number": "V000008790",
+        "deadline": "27.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 18.11.2024",
+        "location": "IT Center [022000]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008792/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Simulation Bewetterung ",
+        "listing_number": "V000008792",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 18.11.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Advanced Mining Technologies [513310]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008800/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung im Bereich Anwendungstests, Support und Dokumentation ",
+        "listing_number": "V000008800",
+        "deadline": "15.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 18.11.2024",
+        "location": "IT Center [022000]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008787/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung adaptiver Werkzeuge zum Falten textilbewehrter Beton-Origami ",
+        "listing_number": "V000008787",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 14.11.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr fluidtechnische Antriebe und Systeme [412810]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008776/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Schaltungs-/ PCB-Design/ Mikrocontrollerprogrammierung/ Angewandte Regelungstechnik ",
+        "listing_number": "V000008776",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 13.11.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr fluidtechnische Antriebe und Systeme [412810]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008777/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Arbeit am Pr\u00fcfstand/ Versuchsdurchf\u00fchrung ",
+        "listing_number": "V000008777",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 13.11.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr fluidtechnische Antriebe und Systeme [412810]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008784/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 im Bereich Produktionsgestaltung \u2013 Schwerpunkt Digitale Fabrikplanung ",
+        "listing_number": "V000008784",
+        "deadline": "01.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 13.11.2024",
+        "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008766/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Mitarbeit an der Weiterentwicklung eines physikalisch-chemischen Batteriemodells ",
+        "listing_number": "V000008766",
+        "deadline": "15.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 12.11.2024",
+        "location": "Lehrstuhl f\u00fcr Elektrochemische Energiewandlung und Speichersystemtechnik [618310]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008526/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Abteilung Marketing, Presse und \u00d6ffentlichkeitsarbeit am Werkzeugmaschinenlabor WZL der RWTH Aachen ",
+        "listing_number": "V000008526",
+        "deadline": "07.02.2025",
+        "pub_date": "ver\u00f6ffentlicht am 08.11.2024",
+        "location": "Werkzeugmaschinenlabor WZL der RWTH Aachen [417200]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008717/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung des KI-Centers in den Bereichen Events, Kommunikation und Administration ",
+        "listing_number": "V000008717",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 08.11.2024",
+        "location": "RWTH Center for Artificial Intelligence [121004]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000006551/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich K\u00fcnstliche Intelligenz ",
+        "listing_number": "V000006551",
+        "deadline": "31.03.2025",
+        "pub_date": "ver\u00f6ffentlicht am 07.11.2024",
+        "location": "Lehrstuhl f\u00fcr Informations-, Qualit\u00e4ts- und Sensorsysteme in der Produktion [417510]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008736/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Simulationsgest\u00fctzte Montageplanung und -steuerung ",
+        "listing_number": "V000008736",
+        "deadline": "06.05.2025",
+        "pub_date": "ver\u00f6ffentlicht am 06.11.2024",
+        "location": "Lehrstuhl f\u00fcr Informations-, Qualit\u00e4ts- und Sensorsysteme in der Produktion [417510]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008718/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Additive Fertigung ",
+        "listing_number": "V000008718",
+        "deadline": "31.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 05.11.2024",
+        "location": "Lehrstuhl f\u00fcr Werkstoffanwendungen im Maschinenbau [418110]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008684/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Auf dem Weg zu einer gr\u00fcnen Luftfahrt: Die Mission des Production Launch Center f\u00fcr nachhaltigen Flugverkehr ",
+        "listing_number": "V000008684",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 30.10.2024",
+        "location": "Lehrstuhl f\u00fcr Fertigungstechnologie [417410]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008689/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008689",
+        "deadline": "10.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 30.10.2024",
+        "location": "Chair for Wind Power Drives [412010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008690/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008690",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 30.10.2024",
+        "location": "Lehrstuhl f\u00fcr Fertigungstechnologie [417410]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008692/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008692",
+        "deadline": "08.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 30.10.2024",
+        "location": "Fakult\u00e4t f\u00fcr Maschinenwesen [400000]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008693/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 In der Verwaltung ",
+        "listing_number": "V000008693",
+        "deadline": "10.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 30.10.2024",
+        "location": "Lehrstuhl f\u00fcr Elektrochemische Energiewandlung und Speichersystemtechnik [618310]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008695/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Digitalisierung in der Produktionstechnik ",
+        "listing_number": "V000008695",
+        "deadline": "31.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 30.10.2024",
+        "location": "Lehrstuhl f\u00fcr Werkzeugmaschinen [417310]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008649/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008649",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 29.10.2024",
+        "location": "Lehrstuhl f\u00fcr Fertigungstechnologie [417410]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008672/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Zur Unterst\u00fctzung in der Elektronischen Werkstatt ",
+        "listing_number": "V000008672",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 28.10.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Kraftfahrzeuge (ika) [414110]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008673/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Zur Unterst\u00fctzung in der Kfz-Werkstatt ",
+        "listing_number": "V000008673",
+        "deadline": "15.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 28.10.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Kraftfahrzeuge (ika) [414110]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008680/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung bei der Softwareentwicklung Embedded Systems ",
+        "listing_number": "V000008680",
+        "deadline": "31.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 28.10.2024",
+        "location": "Lehr- und Forschungsgebiet Mechatronik in mobilen Antrieben [422320]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008667/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Digitalisierung und Nachhaltigkeit ",
+        "listing_number": "V000008667",
+        "deadline": "15.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 24.10.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr fluidtechnische Antriebe und Systeme [412810]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008652/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung neuartiger Werkzeugbeschichtungen, Machine Learning, Werkstoffpr\u00fcfung ",
+        "listing_number": "V000008652",
+        "deadline": "22.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 22.10.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008626/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 In der Anwendungsentwicklung ",
+        "listing_number": "V000008626",
+        "deadline": "13.04.2025",
+        "pub_date": "ver\u00f6ffentlicht am 18.10.2024",
+        "location": "Lehr- und Forschungsgebiet Entscheidungsforschung und Finanzdienstleistungen [812520]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008629/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung innovativer F\u00fcgetechniken f\u00fcr den Maschinenbau ",
+        "listing_number": "V000008629",
+        "deadline": "15.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 15.10.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008632/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Marketing und PR ",
+        "listing_number": "V000008632",
+        "deadline": "31.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 15.10.2024",
+        "location": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008596/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung bei der Instituts-IT-Betreuung ",
+        "listing_number": "V000008596",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 09.10.2024",
+        "location": "Lehrstuhl f\u00fcr Informations- und Automatisierungssysteme f\u00fcr die Prozess- und Werkstofftechnik [526610]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008592/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Marketing und Grafik ",
+        "listing_number": "V000008592",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 08.10.2024",
+        "location": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008586/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Produktionsmanagement, Gruppe Produktionslogistik ",
+        "listing_number": "V000008586",
+        "deadline": "07.04.2025",
+        "pub_date": "ver\u00f6ffentlicht am 07.10.2024",
+        "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008546/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013  Im Bereich Kommunikation und Marketing ",
+        "listing_number": "V000008546",
+        "deadline": "15.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 30.09.2024",
+        "location": "Lehrstuhl f\u00fcr Technologie optischer Systeme [418910]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008551/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Betreuung PLS-Labor ",
+        "listing_number": "V000008551",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 30.09.2024",
+        "location": "Lehrstuhl f\u00fcr Informations- und Automatisierungssysteme f\u00fcr die Prozess- und Werkstofftechnik [526610]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008506/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Fabrikplanung \u2013 Werkstrukturplanung ",
+        "listing_number": "V000008506",
+        "deadline": "23.03.2025",
+        "pub_date": "ver\u00f6ffentlicht am 23.09.2024",
+        "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008509/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung f\u00fcr das Marketingmanagement ",
+        "listing_number": "V000008509",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 23.09.2024",
+        "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008478/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung, Auftrag und Pr\u00fcfung neuartiger Beschichtungen ",
+        "listing_number": "V000008478",
+        "deadline": "16.02.2025",
+        "pub_date": "ver\u00f6ffentlicht am 17.09.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008479/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung, Auftrag und Pr\u00fcfung neuartiger Beschichtungen PVD-Technologie ",
+        "listing_number": "V000008479",
+        "deadline": "31.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 16.09.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008480/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Nanokompositschichten f\u00fcr die Zerspanung ",
+        "listing_number": "V000008480",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 16.09.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008445/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008445",
+        "deadline": "01.09.2025",
+        "pub_date": "ver\u00f6ffentlicht am 05.09.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008446/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008446",
+        "deadline": "01.04.2025",
+        "pub_date": "ver\u00f6ffentlicht am 05.09.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008346/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008346",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 26.08.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008360/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008360",
+        "deadline": "31.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 26.08.2024",
+        "location": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008311/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung innovativer F\u00fcgetechniken f\u00fcr den Maschinenbau ",
+        "listing_number": "V000008311",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 19.08.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008262/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Hochleistungsbeschichtungen f\u00fcr die E-Mobilit\u00e4t ",
+        "listing_number": "V000008262",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 07.08.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008250/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Abteilung Unternehmensentwicklung \u2013 Gruppen Wertsch\u00f6pfungs- und Kompetenzmanagement ",
+        "listing_number": "V000008250",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 06.08.2024",
+        "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008251/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Abteilung Unternehmensentwicklung \u2013 Gruppe Additive Fertigungssysteme ",
+        "listing_number": "V000008251",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 06.08.2024",
+        "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008206/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Innovation und Digitalisierung in der Zerspanung ",
+        "listing_number": "V000008206",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 29.07.2024",
+        "location": "Lehrstuhl f\u00fcr Fertigungstechnologie [417410]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008138/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Machine Learning f\u00fcr die Analyse des Partikelaufprallverhaltens beim Plasmaspritzen ",
+        "listing_number": "V000008138",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 25.07.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008188/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Weiterentwicklung einer Leistungsflussberechnung und Netzbetriebssimulation im Rahmen der kontinuierlichen Softwareentwicklung am IAEW (\u00dcEW) ",
+        "listing_number": "V000008188",
+        "deadline": "23.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 24.07.2024",
+        "location": "Lehrstuhl f\u00fcr \u00dcbertragungsnetze und Energiewirtschaft [614110]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008190/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Fokus Komplexit\u00e4tsmanagement ",
+        "listing_number": "V000008190",
+        "deadline": "31.05.2025",
+        "pub_date": "ver\u00f6ffentlicht am 24.07.2024",
+        "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000007105/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Fokus Entwicklungsmanagement ",
+        "listing_number": "V000007105",
+        "deadline": "29.05.2025",
+        "pub_date": "ver\u00f6ffentlicht am 23.07.2024",
+        "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008110/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Institut f\u00fcr Elektrische Anlagen und Netze, Digitalisierung und Energiewirtschaft ",
+        "listing_number": "V000008110",
+        "deadline": "23.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 23.07.2024",
+        "location": "Institut f\u00fcr Elektrische Anlagen und Netze, Digitalisierung und Energiewirtschaft [614000]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008164/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung, Auftrag und Pr\u00fcfung neuartiger Beschichtungen ",
+        "listing_number": "V000008164",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 22.07.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008157/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Bremsbeschichtungen zur Erf\u00fcllung der EURO-7-Norm ",
+        "listing_number": "V000008157",
+        "deadline": "18.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 18.07.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008125/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008125",
+        "deadline": "31.03.2025",
+        "pub_date": "ver\u00f6ffentlicht am 17.07.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008142/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Im Themenfeld Qualit\u00e4tsmanagement und Nachhaltigkeitsmanagement f\u00fcr die Industrie 4.0 \u2013 Quality Intelligence ",
+        "listing_number": "V000008142",
+        "deadline": "17.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 17.07.2024",
+        "location": "Lehrstuhl f\u00fcr Informations-, Qualit\u00e4ts- und Sensorsysteme in der Produktion [417510]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008068/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Energieeffiziente Schichten auf Zahnr\u00e4dern und Kettenbolzen im E-Antrieb ",
+        "listing_number": "V000008068",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 09.07.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008036/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Fabrikplanung \u2013 Schwerpunkt digitale Produktionsgestaltung ",
+        "listing_number": "V000008036",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 02.07.2024",
+        "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008027/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Simulation und Hochleistungsrechnen ",
+        "listing_number": "V000008027",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 01.07.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008037/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Fabrikplanung \u2013 Schwerpunkt Modellierung und Visualisierung ",
+        "listing_number": "V000008037",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 01.07.2024",
+        "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008020/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung innovativer F\u00fcgetechniken f\u00fcr den Maschinenbau ",
+        "listing_number": "V000008020",
+        "deadline": "26.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 27.06.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008018/",
+        "title": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung der Spritzschichten als Heizelemente ",
+        "listing_number": "V000008018",
+        "deadline": "26.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 26.06.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000007939/",
+        "title": "Simulation im thermischen Spritzen (w/m/d) \u2013 CFD-Simulation im thermischen Spritzen ",
+        "listing_number": "V000007939",
+        "deadline": "14.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 14.06.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000006969/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000006969",
+        "deadline": "31.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 10.01.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000006890/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000006890",
+        "deadline": "20.12.2024",
+        "pub_date": "ver\u00f6ffentlicht am 20.12.2023",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    }
+]
