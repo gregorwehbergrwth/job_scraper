@@ -45,7 +45,7 @@ jobs:
           USER_ID: ${{ secrets.USER_ID }}  # Access Telegram user ID from GitHub Secrets
           TZ: Europe/Berlin  # Set the time zone to Central European Time
         run: |
-          python main.py
+          python scraper.py
 
       # Commit and push changes
       - name: Commit and push changes
