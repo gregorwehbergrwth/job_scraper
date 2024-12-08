@@ -1,11 +1,6 @@
 name: Run Job search
 
-on:
-  schedule:
-#    # Run every 12 hours
-#    - cron: "0 */2 * * *"
-# run on button press
-    - workflow_dispatch
+on: [workflow_dispatch]
 
 jobs:
     build:
