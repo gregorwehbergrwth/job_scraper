@@ -46,7 +46,8 @@ def get_content(url):
         # Define your ChromeDriver path
         # service = Service(r"C:\Users\grego\Downloads\chromedriver-win64_2\chromedriver-win64\chromedriver.exe")
         # service = Service(r"C:\Users\grego\Downloads\chromedriver-win64_3\chromedriver-win64\chromedriver.exe")
-        service = Service(r"C:\Users\grego\Downloads\chromedriver-win64_4\chromedriver-win64\chromedriver.exe")
+        # service = Service(r"C:\Users\grego\Downloads\chromedriver-win64_4\chromedriver-win64\chromedriver.exe")
+        service = Service('chromedriver.exe')
         driver = webdriver.Chrome(service=service, options=options)
 
         if True:
@@ -71,12 +72,14 @@ def get_content(url):
                 print(content)
             except TimeoutException:
                 print(f"Timeout loading content for {url}")
+                content = "No content found"
             # break  # Remove or adjust as needed based on your use case
 
         driver.quit()
 
     except Exception as e:
         print("Error in get_content:", e)
+        content = "No content found"
 
     return content
 
