@@ -150,3 +150,4 @@ if __name__ == "__main__":
 
     with open("old_jobs_json.json", "w") as file:
         json.dump(job_infos, file, indent=4)
+
