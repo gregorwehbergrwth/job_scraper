@@ -66,14 +66,11 @@ def get_content(url):
 
                 # Navigate to the job URL
                 driver.get(url)
-                #
-                # # check for response, alert when none
-                # WebDriverWait(driver, 20).until(
-                #     EC.presence_of_element_located((By.XPATH, "//*[contains(text(),'Expand All')]"))
-                # )
 
-
-
+                # Wait for the content to load
+                WebDriverWait(driver, 15).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "li"))
+                )
 
 
                 # Get the page source
@@ -129,16 +126,16 @@ if __name__ == "__main__":
     # url = "https://www.rwth-aachen.de/cms/root/die-rwth/arbeiten-an-der-rwth/~buym/rwth-jobportal/?showall=1"
     url = "https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?search=&showall=1&aaaaaaaaaaaaanr=&frist=&aaaaaaaaaaaaanq=&aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft&aaaaaaaaaaaaans=&aaaaaaaaaaaaanw=&aaaaaaaaaaaaanv=&aaaaaaaaaaaaanx="
     content = get_content(url)
-    print(content[:300])
-    asyncio.run(send_message(content[:300]))
-
-    # dump content into textfile
-    with open("site_content.txt", "w", encoding='utf-8') as file:
-        file.write(content)
-    # #
-
-    with open("site_content.txt", "r", encoding='utf-8') as file:
-        content = file.read()
+    print(content[:50])
+    asyncio.run(send_message(content[:50]))
+    #
+    # # dump content into textfile
+    # with open("site_content.txt", "w", encoding='utf-8') as file:
+    #     file.write(content)
+    # # #
+    #
+    # with open("site_content.txt", "r", encoding='utf-8') as file:
+    #     content = file.read()
 
     job_infos = extract_job_infos(content)
     # for job in job_infos:
