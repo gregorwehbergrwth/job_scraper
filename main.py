@@ -8,6 +8,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from bs4 import BeautifulSoup
 import pprint
 import json
+import lxml
 
 import telegram
 import asyncio
