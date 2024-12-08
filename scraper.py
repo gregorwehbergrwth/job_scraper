@@ -16,8 +16,8 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 
 # Environment variables for API keys and User ID (set in GitHub Secrets)
-api_key = os.getenv('API_KEY')
-user_id = os.getenv('USER_ID')
+api_key = '7542268069:AAF7-SuiukANQ9gAhMiRQ51CIGnDRlcCANc'
+user_id = '5623557325'
 
 
 async def send_message(text):
