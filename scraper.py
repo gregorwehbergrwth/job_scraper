@@ -133,10 +133,10 @@ if __name__ == "__main__":
             txt.append(
                 f"{job['title']}\nLink: {job['link']}\nDeadline: {job['deadline']}\n"
                 f"{job['pub_date']}\nArbeitgeber: {job['location']}\nNummer: {job['listing_number']}\n\n"
+
             )
-        # txt = "\n".join(txt)
+            txt = "\n".join(txt)
             asyncio.run(send_message(txt))
-            break # temp
 
     # Update the jobs file
     with open("old_jobs_json.json", "w") as file:
