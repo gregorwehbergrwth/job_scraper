@@ -107,6 +107,7 @@ if __name__ == "__main__":
 
     # Fetch job content
     content = get_content(url)
+    asyncio.run(send_message(content[:30]))
 
     if not content or content == "No content found":
         print("Failed to fetch job content.")
@@ -133,8 +134,9 @@ if __name__ == "__main__":
                 f"{job['title']}\nLink: {job['link']}\nDeadline: {job['deadline']}\n"
                 f"{job['pub_date']}\nArbeitgeber: {job['location']}\nNummer: {job['listing_number']}\n\n"
             )
-        txt = "\n".join(txt)
-        asyncio.run(send_message(txt))
+        # txt = "\n".join(txt)
+            asyncio.run(send_message(txt))
+            break # temp
 
     # Update the jobs file
     with open("old_jobs_json.json", "w") as file:
