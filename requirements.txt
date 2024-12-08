@@ -1,4 +1,7 @@
 beautifulsoup4==4.9.3
-python-telegram-bot==21.6
-selenium==4.24.0
+lxml==4.5.2
+lxml==5.3.0
 lxml==5.2.1
+python-telegram-bot==21.9
+selenium==4.24.0
+webdriver_manager==4.0.2

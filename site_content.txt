@@ -1,4 +1,4 @@
-<html xml:lang="de" lang="de-DE" style="" class="js canvas canvastext geolocation boxshadow opacity cssanimations csscolumns csstransforms csstransforms3d csstransitions video audio localstorage sessionstorage no-mobile no-advancedcssanimation js-on smaller-than-1024 hcm"><head>
+<html xml:lang="de" lang="de-DE" class="js canvas canvastext geolocation boxshadow opacity cssanimations csscolumns csstransforms csstransforms3d csstransitions video audio localstorage sessionstorage no-mobile no-advancedcssanimation js-on smaller-than-1024 hcm" style=""><head>
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta http-equiv="content-type" content="text/html;charset=iso-8859-1">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -119,12 +119,12 @@
 </div>
 <div id="navigator" role="navigation">
 <div id="navigator-inner" style="height: 0px;">
-<h2 style="left: 235px; display: block; opacity: 0.00837255;">
-<a aria-controls="ID-1733660245928" tabindex="0" aria-expanded="false" role="button" data-href="https://www.rwth-aachen.de/go/id/chcj/">
+<h2 style="left: 235px; display: block; opacity: 0.0380602;">
+<a aria-controls="ID-1733695715965" tabindex="0" aria-expanded="false" role="button" data-href="https://www.rwth-aachen.de/go/id/chcj/">
 <span>Fakultäten und Einrichtungen</span>
 </a>
 </h2>
-<div class="navigator-content" id="ID-1733660245928" aria-expanded="false" role="group" style="visibility: hidden; display: block; height: 0px;">
+<div class="navigator-content" id="ID-1733695715965" aria-expanded="false" role="group" style="visibility: hidden; display: block; height: 0px;">
 <p class="navigator-breadcrumb">Sie sind hier: <strong>RWTH Jobportal</strong></p>
 <div class="col-1">
 <div class="col-box">
@@ -1820,4 +1820,4 @@ Weitere Links zu Stellenangeboten finden Sie am Ende dieser Seite unter <a class
 
 
 
-<div style="position: absolute; left: -999em; top: -999px; width: 0px; height: 0px; background-color: rgb(255, 255, 255);"></div><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div class="a11y-wrapper"><div class="tooltip-wrapper a11y-js-overflow" aria-hidden="true" style="visibility: hidden;" role="tooltip"><div class="tooltip"></div><span class="close-button">schließen</span></div><div class="showbox showbox-light showbox--single-image a11y-js-overflow" aria-hidden="true" style="visibility: hidden;"><div class="showbox-box"><div class="content-box"><a role="button" class="close-button" tabindex="0">schließen</a></div></div></div><div class="showbox showbox-light video-showbox a11y-js-overflow" aria-hidden="true" style="visibility: hidden;"><div class="showbox-box"><div class="content-box"><div class="multimedia-box"></div><a role="button" class="close-button" tabindex="0">schließen</a></div></div></div></div><div class="mask" style="top: 0px; left: 0px; display: none; position: fixed; z-index: 100;"></div><div class="mask" style="top: 0px; left: 0px; display: none; position: fixed; z-index: 100;"></div></body></html>
+<div style="position: absolute; left: -999em; top: -999px; width: 0px; height: 0px; background-color: rgb(255, 255, 255);"></div><ul id="ui-id-1" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none; left: 991.666px;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><ul id="ui-id-2" tabindex="0" class="ui-menu ui-widget ui-widget-content ui-autocomplete ui-front" unselectable="on" style="display: none; left: 741.698px;"></ul><div role="status" aria-live="assertive" aria-relevant="additions" class="ui-helper-hidden-accessible"></div><div class="a11y-wrapper"><div class="tooltip-wrapper a11y-js-overflow" aria-hidden="true" style="visibility: hidden;" role="tooltip"><div class="tooltip"></div><span class="close-button">schließen</span></div><div class="showbox showbox-light showbox--single-image a11y-js-overflow" aria-hidden="true" style="visibility: hidden;"><div class="showbox-box"><div class="content-box"><a role="button" class="close-button" tabindex="0">schließen</a></div></div></div><div class="showbox showbox-light video-showbox a11y-js-overflow" aria-hidden="true" style="visibility: hidden;"><div class="showbox-box"><div class="content-box"><div class="multimedia-box"></div><a role="button" class="close-button" tabindex="0">schließen</a></div></div></div></div><div class="mask" style="top: 0px; left: 0px; display: none; position: fixed; z-index: 100;"></div><div class="mask" style="top: 0px; left: 0px; display: none; position: fixed; z-index: 100;"></div></body></html>

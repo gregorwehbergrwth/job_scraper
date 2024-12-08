@@ -9,6 +9,8 @@ from bs4 import BeautifulSoup
 import pprint
 import json
 import lxml
+from webdriver_manager.chrome import ChromeDriverManager
+from selenium.webdriver.chrome.options import Options
 
 import telegram
 import asyncio
@@ -40,7 +42,9 @@ def get_content(url):
     """Fetch the content for each job posting using Selenium."""
     try:
         # Selenium WebDriver setup (make sure you have the correct ChromeDriver installed)
-        options = webdriver.ChromeOptions()
+        # options = webdriver.ChromeOptions()
+        options = Options()
+
         options.add_argument("--no-default-browser-check")
         options.add_argument("--no-first-run")
         options.add_argument("--disable-default-apps")
@@ -48,7 +52,11 @@ def get_content(url):
         # service = Service(r"C:\Users\grego\Downloads\chromedriver-win64_2\chromedriver-win64\chromedriver.exe")
         # service = Service(r"C:\Users\grego\Downloads\chromedriver-win64_3\chromedriver-win64\chromedriver.exe")
         # service = Service(r"C:\Users\grego\Downloads\chromedriver-win64_4\chromedriver-win64\chromedriver.exe")
-        service = Service('chromedriver.exe')
+        # service = Service('chromedriver.exe')  # todo temp
+        # driver = webdriver.Chrome(service=service, options=options)  #
+        service = Service(ChromeDriverManager().install())
+
+        # driver = webdriver.Chrome(ChromeDriverManager().install(), options=options)
         driver = webdriver.Chrome(service=service, options=options)
 
         if True:
@@ -121,6 +129,7 @@ if __name__ == "__main__":
     # url = "https://www.rwth-aachen.de/cms/root/die-rwth/arbeiten-an-der-rwth/~buym/rwth-jobportal/?showall=1"
     url = "https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?search=&showall=1&aaaaaaaaaaaaanr=&frist=&aaaaaaaaaaaaanq=&aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft&aaaaaaaaaaaaans=&aaaaaaaaaaaaanw=&aaaaaaaaaaaaanv=&aaaaaaaaaaaaanx="
     content = get_content(url)
+    print(content[:300])
     # dump content into textfile
     with open("site_content.txt", "w", encoding='utf-8') as file:
         file.write(content)
