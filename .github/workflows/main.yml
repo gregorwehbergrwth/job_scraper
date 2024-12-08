@@ -1,4 +1,4 @@
-name: Run OpenMeteo API
+name: Run Job search
 
 on:
   schedule:
