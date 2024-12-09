@@ -118,7 +118,7 @@ if __name__ == "__main__":
 
     # Compare new jobs with old jobs
     try:
-        with open("old_jobs_json.json", "r") as file:
+        with open("jobs.json", "r") as file:
             old_job_infos = json.load(file)
     except FileNotFoundError:
         print("Old jobs file not found, creating a new one.")
@@ -128,16 +128,18 @@ if __name__ == "__main__":
 
     # Notify user if new jobs are found
     if new_jobs:
-        txt = []
         for job in new_jobs:
-            txt.append(
-                f"{job['title']}\nLink: {job['link']}\nDeadline: {job['deadline']}\n"
-                f"{job['pub_date']}\nArbeitgeber: {job['location']}\nNummer: {job['listing_number']}\n\n"
-
-            )
+            txt = [
+                f"{job['title']}\n"
+                f"Link: {job['link']}\n"
+                f"Deadline: {job['deadline']}\n"
+                f"{job['pub_date']}\n"
+                f"Arbeitgeber: {job['location']}\n"
+                f"Nummer: {job['listing_number']}\n\n"
+            ]
             txt = "\n".join(txt)
             asyncio.run(send_message(txt))
 
     # Update the jobs file
-    with open("old_jobs_json.json", "w") as file:
+    with open("jobs.json", "w") as file:
         json.dump(job_infos, file, indent=4)
