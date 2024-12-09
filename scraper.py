@@ -1,8 +1,6 @@
-import os
 import re
 import json
 import asyncio
-import pprint
 from selenium import webdriver
 from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.service import Service
@@ -118,7 +116,7 @@ if __name__ == "__main__":
 
     # Compare new jobs with old jobs
     try:
-        with open("jobs.json", "r") as file:
+        with open("rwth_jobs.json", "r") as file:
             old_job_infos = json.load(file)
     except FileNotFoundError:
         print("Old jobs file not found, creating a new one.")
@@ -141,5 +139,5 @@ if __name__ == "__main__":
             asyncio.run(send_message(txt))
 
     # Update the jobs file
-    with open("jobs.json", "w") as file:
+    with open("rwth_jobs.json", "w") as file:
         json.dump(job_infos, file, indent=4)

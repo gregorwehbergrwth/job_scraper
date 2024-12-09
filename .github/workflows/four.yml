@@ -1,0 +1,67 @@
+name: Run Job Search Four
+
+on:
+  push:
+    branches:
+      - main
+
+  schedule:
+    - cron: '0 6,8,10,12,15,18,21 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Checkout the repository
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      # Set up Python
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.8
+
+      # Install Python dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Install Google Chrome
+      - name: Install Google Chrome
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y google-chrome-stable
+
+      # Install ChromeDriver
+      - name: Install ChromeDriver
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y wget unzip
+          wget -O /tmp/chromedriver.zip https://chromedriver.storage.googleapis.com/$(curl -sS chromedriver.storage.googleapis.com/LATEST_RELEASE)/chromedriver_linux64.zip
+          sudo unzip /tmp/chromedriver.zip -d /usr/local/bin/
+          sudo chmod +x /usr/local/bin/chromedriver
+
+      # Run the script
+      - name: Run script
+        env:
+          API_KEY: ${{ secrets.API_KEY }}  # Access Telegram bot API key from GitHub Secrets
+          USER_ID: ${{ secrets.USER_ID }}  # Access Telegram user ID from GitHub Secrets
+          TZ: Europe/Berlin  # Set the time zone to Central European Time
+        run: |
+          python runme.py
+
+      # Commit and push changes
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "Checked for jobs"
+            git push
+          else
+            echo "No changes to commit"
+          fi
