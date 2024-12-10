@@ -1,5 +1,6 @@
 import re
 from bs4 import BeautifulSoup
+import json
 
 def extract_rwth_job_infos(content):
     """Extract job information from the fetched content."""
@@ -31,3 +32,40 @@ def extract_rwth_job_infos(content):
                 print(f"Error parsing listing: {e}")
 
     return jobs
+
+def compare_jobs(file, job_infos):
+    try:
+        with open(file, "r") as file:
+            old_job_infos = json.load(file)
+    except FileNotFoundError:
+        print("Old jobs file not found, creating a new one.")
+        old_job_infos = []
+
+    new_jobs = [job for job in job_infos if job not in old_job_infos]
+    return new_jobs
+
+def compare_contents(file, new_content):
+    try:
+        with open(file, "r", encoding="utf-8") as file:
+            old_content = file.read()
+    except FileNotFoundError:
+        print("Old content file not found, creating a new one.")
+        old_content = ""
+    return old_content == new_content
+
+def extract_main_content(content, mouse):
+    soup = BeautifulSoup(content, 'lxml')
+    extractors = {
+        "lbb": lambda soup: soup.find('div', id='main').find('div', class_='text').text,
+        "stb": lambda soup: soup.find('div', class_='listing').text,
+        "imb": lambda soup: soup.find('tbody').text,
+        "icom": lambda soup: soup.find('div', class_='listing').text,
+        "inab": lambda soup: soup.find('div', class_='elementor-section-wrap').text,
+        "e3d": lambda soup: soup.find('div', class_='listing').text,
+        "iww": lambda soup: soup.find('div', class_='listing').text,
+        "ifam": lambda soup: soup.find('div', id="wrapper-2").text,
+        "gut": lambda soup: soup.find('tbody').text,
+        "gia": lambda soup: soup.find('div', class_='listing').text,
+        "isa": lambda soup: soup.find('tbody').text,
+    }
+    return extractors[mouse](soup)

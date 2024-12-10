@@ -7,6 +7,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 
+from message import message
 
 def get_content(url):
     """Fetch the content for each job posting using Selenium."""
@@ -42,8 +43,11 @@ def get_content(url):
     except TimeoutException:
         print(f"Timeout loading content for {url}")
         content = "No content found"
+        message("Failed to fetch job content. Something went wrong with Selenium.")
+
     except Exception as e:
         print("Error in get_content:", e)
         content = "No content found"
+        message("Failed to fetch job content. Something went wrong with Selenium.")
 
     return content

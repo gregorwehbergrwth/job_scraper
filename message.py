@@ -16,3 +16,15 @@ def message(text):
             print(f"Telegram API Error: {e}")
 
     asyncio.run(send_message(text))
+
+def configure_rwth_message(dict):
+    txt = [
+        f"{dict['title']}\n"
+        f"Link: {dict['link']}\n"
+        f"Deadline: {dict['deadline']}\n"
+        f"{dict['pub_date']}\n"
+        f"Arbeitgeber: {dict['location']}\n"
+        f"Nummer: {dict['listing_number']}\n\n"
+    ]
+    txt = "\n".join(txt)
+    return txt
