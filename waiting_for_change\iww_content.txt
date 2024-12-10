@@ -1,0 +1,64 @@
+
+
+
+Titel der Arbeit
+Art der Arbeit
+Fachbereich
+WEB
+PDF
+
+
+Satellite-based remote sensing of vegetation distribution on dunesKontakt: Herr Guillaume Bonduelle
+Bachelorarbeit 
+F3[314410]
+ 
+
+
+Optimierung der Betriebsziele im Talsperrenverbund zur Bewältigung von ExtremereignissenKontakt: Herr Alexander Menz
+Bachelorarbeit 
+F3[314410]
+ 
+
+
+Experimental Investigation of Unsteady flows over Stepped SpillwaysKontakt: Frau Anne Mozer
+Masterarbeit 
+F3[314410]
+ 
+
+
+Exciting Thesis Opportunities in Fluid mechanics, Hydraulic and Coastal engineeringKontakt: Herr Harish Selvam
+Bachelorarbeit Masterarbeit 
+F3;F1;F4;F5.3[314410]
+ 
+
+
+Development of an ML model: Optimizing the design and arrangement of the bufferblocks Kontakt: Frau Nandhini Duraimurugan
+Bachelorarbeit Masterarbeit 
+F3;F5;F1;F1.1;F4[314410]
+ 
+
+
+OpenFOAM simulation of energy dissipation due to breaking of wavesKontakt: Herr Harish Selvam
+Masterarbeit 
+F3[314410]
+ 
+
+
+Ship-induced waves and damage at the river bank (A Literature Study)Kontakt: Frau Nandhini Duraimurugan
+Bachelorarbeit 
+F3[314410]
+ 
+
+
+OpenFOAM simulation of scour around the river spur dikesKontakt: Frau Nandhini Duraimurugan
+Masterarbeit 
+F3[314410]
+ 
+
+
+Identification and Mapping of River Dikes in Germany Using QGIS and Google EarthKontakt: Frau Samantha Rodriguez Rosas
+Magisterarbeit Bachelorarbeit Masterarbeit 
+F1[314410]
+ 
+
+
