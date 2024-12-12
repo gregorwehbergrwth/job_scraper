@@ -31,11 +31,12 @@ def hawk(sites, dir):
         main_content = extract_main_content(content, key)
 
         # Compare new content with old content
-        if not compare_contents(file=f"{dir}\\{'waiting_for_change'}\\{key}_content.txt", new_content=main_content):
+        # if not compare_contents(file=f"{dir}\\{'waiting_for_change'}\\{key}_content.txt", new_content=main_content):
+        if not compare_contents(file=f"{'waiting_for_change'}/{key}_content.txt", new_content=main_content):
             message(f"New content found for {key}:\n{url}")
 
         # Update the content file
-        with open(f"{dir}\\{'waiting_for_change'}\\{key}_content.txt", "w", encoding="utf-8") as file:
+        with open(f"{'waiting_for_change'}/{key}_content.txt", "w", encoding="utf-8") as file:
             file.write(main_content)
 
 if __name__ == "__main__":
