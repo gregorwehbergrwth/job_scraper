@@ -1,5 +1,5 @@
 from message import message
-from message import configure_rwth_message
+from message import *
 from content_scraper import get_content
 from extract import *
 
@@ -10,7 +10,6 @@ def rwth(url):
 
     # Compare new jobs with old jobs
     new_jobs = compare_jobs(file="jobs/rwth_jobs.json", job_infos=job_infos)
-
     # Notify user if new jobs are found
     if new_jobs:
         for job in new_jobs:
@@ -20,6 +19,25 @@ def rwth(url):
     with open("jobs/rwth_jobs.json", "w") as file:
         json.dump(job_infos, file, indent=4)
 
+def un(url):
+    content = get_content(url, un=True)
+
+
+    job_infos = extract_un_job_infos(content)
+
+    # Compare new jobs with old jobs
+    new_jobs = compare_jobs(file="jobs/un_jobs.json", job_infos=job_infos)
+
+    # Notify user if new jobs are found
+    if new_jobs:
+        for job in new_jobs:
+            message(configure_un_message(job))
+        if len(new_jobs) > 10:
+            message("More than 10 new jobs found. Check the website")
+
+    # Update the jobs file
+    with open("jobs/un_jobs.json", "w") as file:
+        json.dump(job_infos, file, indent=4)
 
 
 def hawk(sites, dir):
@@ -31,7 +49,6 @@ def hawk(sites, dir):
         main_content = extract_main_content(content, key)
 
         # Compare new content with old content
-        # if not compare_contents(file=f"{dir}\\{'waiting_for_change'}\\{key}_content.txt", new_content=main_content):
         if not compare_contents(file=f"{'waiting_for_change'}/{key}_content.txt", new_content=main_content):
             message(f"New content found for {key}:\n{url}")
 
@@ -41,7 +58,6 @@ def hawk(sites, dir):
 
 if __name__ == "__main__":
 
-    rwth(url=r"https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?search=&showall=1&aaaaaaaaaaaaanr=&frist=&aaaaaaaaaaaaanq=&aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft&aaaaaaaaaaaaans=&aaaaaaaaaaaaanw=&aaaaaaaaaaaaanv=&aaaaaaaaaaaaanx=")
 
     mice ={
         "lbb": r"https://www.lbb.rwth-aachen.de/cms/LBB/Studium/Abschlussarbeiten/~fdxp/Zu-vergebende-Bachelorarbeiten/",
@@ -55,6 +71,11 @@ if __name__ == "__main__":
         "gut": r"https://www.gut.rwth-aachen.de/cms/Geotechnik/Studium/~mfvlv/Angebotene-Studien-und-Abschlussarbeite/",
         "gia": r"https://www.gia.rwth-aachen.de/cms/gia/Studium/~zpqtq/Ausgeschriebene-Abschlussarbeiten/",
         "isa": r"https://www.isa.rwth-aachen.de/cms/isa/studium/studien-und-abschlussarbeiten/~sjmd/bachelorarbeiten/",
+        "ucc": r"https://international.ucc.edu.gh/exchange-students"
     }
+    #
+    # rwth(url=r"https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?search=&showall=1&aaaaaaaaaaaaanr=&frist=&aaaaaaaaaaaaanq=&aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft&aaaaaaaaaaaaans=&aaaaaaaaaaaaanw=&aaaaaaaaaaaaanv=&aaaaaaaaaaaaanx=")
+    #
+    # hawk(sites=mice, dir=r"C:\Users\grego\PycharmProjects\job_scraper")
 
-    hawk(sites=mice, dir=r"C:\Users\grego\PycharmProjects\job_scraper")
+    un(url=r"https://careers.un.org/jobopening?language=en&data=%257B%2522aoe%2522:%255B%255D,%2522aoi%2522:%255B%255D,%2522el%2522:%255B%255D,%2522ct%2522:%255B%255D,%2522ds%2522:%255B%255D,%2522jn%2522:%255B%255D,%2522jf%2522:%255B%255D,%2522jc%2522:%255B%2522INT%2522%255D,%2522jle%2522:%255B%255D,%2522dept%2522:%255B%255D,%2522span%2522:%255B%255D%257D")

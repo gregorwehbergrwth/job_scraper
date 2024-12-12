@@ -33,6 +33,50 @@ def extract_rwth_job_infos(content):
 
     return jobs
 
+def extract_un_job_infos(content):
+    jobs = content.split('View Job Description')
+
+    for i, job in enumerate(jobs):
+        if "Job ID" not in job:
+            jobs.pop(i)
+
+    job_list = []
+
+    for i, job in enumerate(jobs):
+        job_dict = {}
+        print(job)
+        for i, line in enumerate(job.split('\n')):
+            try:
+                if ":" not in line and line != "":
+                    job_dict["Job Title"] = line
+
+
+                if "Job ID" in line:
+                    job_dict["Job ID"] = line.split(":")[-1].strip()
+                    job_dict["Link"] = f"https://careers.un.org/jobSearchDescription/{job_dict['Job ID']}?language=en"
+                elif "Job Network" in line:
+                    job_dict["Job Network"] = line.split(":")[-1].strip()
+                elif "Job Family" in line:
+                    job_dict["Job Family"] = line.split(":")[-1].strip()
+                elif "Category and Level" in line:
+                    job_dict["Category and Level"] = line.split(":")[-1].strip()
+                elif "Duty Station" in line:
+                    job_dict["Duty Station"] = line.split(":")[-1].strip()
+                elif "Department/Office" in line:
+                    job_dict["Department/Office"] = line.split(":")[-1].strip()
+                elif "Date Posted" in line:
+                    job_dict["Date Posted"] = line.split(":")[-1].strip()
+                elif "Deadline" in line:
+                    job_dict["Deadline"] = line.split(":")[-1].strip()
+            except Exception as e:
+                print(f"Error parsing listing: {e}")
+                job_dict = {e}
+
+        job_list.append(job_dict)
+
+    return job_list
+
+
 def compare_jobs(file, job_infos):
     try:
         with open(file, "r") as file:
@@ -67,5 +111,6 @@ def extract_main_content(content, mouse):
         "gut": lambda soup: soup.find('tbody').text,
         "gia": lambda soup: soup.find('div', class_='listing').text,
         "isa": lambda soup: soup.find('tbody').text,
+        "ucc": lambda soup: soup.find('div', class_='tabs_wrapper tabs_horizontal').text
     }
     return extractors[mouse](soup)

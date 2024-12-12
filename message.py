@@ -29,3 +29,30 @@ def configure_rwth_message(dict):
     ]
     txt = "\n".join(txt)
     return txt
+
+def configure_un_message(dict):
+    # txt = [
+    #     f"{dict['Job Title']}\n"
+    #     f"Job Network: {dict['Job Network']}\n"
+    #     f"Job Family: {dict['Job Family']}\n"
+    #     f"Department/Office: {dict['Department/Office']}\n"
+    #     f"Duty Station: {dict['Duty Station']}\n"
+    #     # f"Category and Level: {dict['Category and Level']}\n"
+    #     f"Date Posted: {dict['Date Posted']}\n"
+    #     f"Deadline: {dict['Deadline']}\n"
+    #     # f"Job ID: {dict['Job ID']}\n"
+    #     f"Link: {dict['Link']}"
+    # ]
+    try:
+        txt = [
+            f" - {dict['Job Title']}\n"
+            f" - {dict['Duty Station']}\n"
+            f" - Network: {dict['Job Network']}\n"
+            f" - {dict['Department/Office']}\n"
+            f" - Deadline: {dict['Deadline']}\n"
+            f" - Link: {dict['Link']}\n"
+        ]
+        txt = "\n".join(txt)
+    except Exception as e:
+        txt = f"Error parsing listing: {e}"
+    return txt
