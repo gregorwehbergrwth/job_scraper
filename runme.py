@@ -40,7 +40,7 @@ def un(url):
         json.dump(job_infos, file, indent=4)
 
 
-def hawk(sites, dir):
+def hawk(sites):
 
     for key, url in sites.items():
         # Fetch job content
@@ -73,9 +73,9 @@ if __name__ == "__main__":
         "isa": r"https://www.isa.rwth-aachen.de/cms/isa/studium/studien-und-abschlussarbeiten/~sjmd/bachelorarbeiten/",
         "ucc": r"https://international.ucc.edu.gh/exchange-students"
     }
-    #
-    # rwth(url=r"https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?search=&showall=1&aaaaaaaaaaaaanr=&frist=&aaaaaaaaaaaaanq=&aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft&aaaaaaaaaaaaans=&aaaaaaaaaaaaanw=&aaaaaaaaaaaaanv=&aaaaaaaaaaaaanx=")
-    #
-    # hawk(sites=mice, dir=r"C:\Users\grego\PycharmProjects\job_scraper")
+
+    rwth(url=r"https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?search=&showall=1&aaaaaaaaaaaaanr=&frist=&aaaaaaaaaaaaanq=&aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft&aaaaaaaaaaaaans=&aaaaaaaaaaaaanw=&aaaaaaaaaaaaanv=&aaaaaaaaaaaaanx=")
+
+    hawk(sites=mice)
 
     un(url=r"https://careers.un.org/jobopening?language=en&data=%257B%2522aoe%2522:%255B%255D,%2522aoi%2522:%255B%255D,%2522el%2522:%255B%255D,%2522ct%2522:%255B%255D,%2522ds%2522:%255B%255D,%2522jn%2522:%255B%255D,%2522jf%2522:%255B%255D,%2522jc%2522:%255B%2522INT%2522%255D,%2522jle%2522:%255B%255D,%2522dept%2522:%255B%255D,%2522span%2522:%255B%255D%257D")
