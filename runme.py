@@ -22,7 +22,7 @@ def rwth(url):
 
 
 
-def hawk(sites):
+def hawk(sites, dir):
 
     for key, url in sites.items():
         # Fetch job content
@@ -31,11 +31,11 @@ def hawk(sites):
         main_content = extract_main_content(content, key)
 
         # Compare new content with old content
-        if not compare_contents(file=f"waiting_for_change\\{key}_content.txt", new_content=main_content):
+        if not compare_contents(file=f"{dir}\\{'waiting_for_change'}\\{key}_content.txt", new_content=main_content):
             message(f"New content found for {key}:\n{url}")
 
         # Update the content file
-        with open(f"waiting_for_change\\{key}_content.txt", "w", encoding="utf-8") as file:
+        with open(f"{dir}\\{'waiting_for_change'}\\{key}_content.txt", "w", encoding="utf-8") as file:
             file.write(main_content)
 
 if __name__ == "__main__":
@@ -56,4 +56,4 @@ if __name__ == "__main__":
         "isa": r"https://www.isa.rwth-aachen.de/cms/isa/studium/studien-und-abschlussarbeiten/~sjmd/bachelorarbeiten/",
     }
 
-    hawk(sites=mice)
+    hawk(sites=mice, dir=r"C:\Users\grego\PycharmProjects\job_scraper")
