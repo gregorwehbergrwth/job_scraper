@@ -13,9 +13,9 @@ def remove_one(file):
     else:
         print(f"Removed job: {random_job['title']}")
 
-    with open('jobs/un_jobs.json', 'w') as file:
+    with open('jobs/rwth.json', 'w') as file:
         json.dump(old_job_infos, file, indent=4)
 
-# test("jobs/rwth_jobs.json")
+# test("jobs/rwth.json")
 
-remove_one("jobs/un_jobs.json")
+remove_one("jobs/rwth.json")
