@@ -1,5 +1,13 @@
 [
     {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008902/",
+        "title": "Studentische Hilfskraft (w/m/d) in der Abteilung Fabrikplanung ",
+        "listing_number": "V000008902",
+        "deadline": "06.03.2025",
+        "pub_date": "ver\u00f6ffentlicht am 16.12.2024",
+        "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
         "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008932/",
         "title": "Studentische Hilfskraft (w/m/d) ",
         "listing_number": "V000008932",
@@ -30,6 +38,22 @@
         "deadline": "30.06.2025",
         "pub_date": "ver\u00f6ffentlicht am 16.12.2024",
         "location": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008941/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008941",
+        "deadline": "01.03.2025",
+        "pub_date": "ver\u00f6ffentlicht am 16.12.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008943/",
+        "title": "Studentische Hilfskraft (w/m/d) ",
+        "listing_number": "V000008943",
+        "deadline": "10.01.2025",
+        "pub_date": "ver\u00f6ffentlicht am 16.12.2024",
+        "location": "Lehrstuhl und Institut f\u00fcr Kraftfahrzeuge (ika) [414110]"
     },
     {
         "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008927/",
@@ -363,7 +387,7 @@
         "link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008717/",
         "title": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung des KI-Centers in den Bereichen Events, Kommunikation und Administration ",
         "listing_number": "V000008717",
-        "deadline": "31.12.2024",
+        "deadline": "16.12.2024",
         "pub_date": "ver\u00f6ffentlicht am 08.11.2024",
         "location": "RWTH Center for Artificial Intelligence [121004]"
     },
