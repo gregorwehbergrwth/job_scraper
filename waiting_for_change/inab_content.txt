@@ -63,16 +63,6 @@ Master Arbeiten
 
 
 
-Development of a Life Cycle Assessment (LCA) Framework for Vehicle-to-Grid (V2G) Applications
-
-Objective:Develop a comprehensive Life Cycle Assessment (LCA) Framework tailored to evaluate the sustainability impact of Vehicle-to-Grid (V2G) technology, with a specific focus on the extended utilization of vehicle batteries for grid balancing services. This framework will account for environmental impacts associated with battery cycling, lifetime reduction, and electricity use tied to battery life cycle.Key Tasks:Literature Review:Review existing LCA methodologies, scientific studies, guidelines, standards and other source categories for Vehicle-to-Grid, EV batteries, including second-life applications and stationary storage, to identify the state of the art of LCA application to Vehicle-to-Grid (V2G) Applications.Highlight key challenges and gaps in current LCAs that could impact V2G evaluations.Methodology Design:Develop a clear LCA framework focused on V2G covering battery lifespan impacts, stages like manufacturing, use (grid services), and end-of-life (For example: Define boundaries and impact categories specific to V2G, such as CO2 emissions from increased battery wear and energy resource use).Sample Application and Validation:Apply the methodology to example data or hypothetical scenarios to demonstrate its use and check consistency.Documentation and Recommendations:Compile a structured guide for using the methodology, including data requirements and calculation steps.Provide recommendations for future applications, including adjustments for varying data quality or new V2G data availability.Contact: Davis Jose – davis.jose@inab.rwth-aachen.de 
-
-
-
-
-
-
-
 SociaBill – a serious games for adults
 
 Eine effiziente Kommunikation spielt eine entscheidende Rolle bei der Sensibilisierung für das Thema Nachhaltigkeit. Serious Games wurden als relevantes Instrument für die Aufklärung von Erwachsenen über die sozialen Aspekte der nachhaltigen Entwicklung identifiziert. In diesem Zusammenhang wurde Sociabill entwickelt. Sociabill basiert auf den Prinzipien der Sozialbilanz und zielt darauf ab, Erwachsenen ein umfassendes Verständnis für diese Methodik zu vermitteln. In Sociabill schlüpfen die Spieler in die Rolle von Unternehmern, die ihre erste T-Shirt-Kollektion auf den Markt bringen wollen. Ziel ist es, dass die Spieler ihr Unternehmen aufbauen, indem sie Karten für soziale Unterkategorien erwerben, die den Lebenszyklus des Produkts abdecken. Das Spiel endet mit einer Prüfung, bei der festgestellt wird, ob die Spieler sozial verantwortliche, aufstrebende oder rückständige Unternehmen gegründet haben.Die Durchführung des Spiels in verschiedenen Gruppen ergab, dass das Spiel nochmal etwas überarbeitet werden muss. Die Abschlussarbeit sollte sich kritisch mit dem Spiel auseinandersetzen und Verbesserungsmöglichkeiten aufzeigen (insbesondere in Bezug auf mögliche Auswirkungen und die Punktevergabe je nach Produktionsstandort).Die Arbeit kann in deutscher oder englischer Sprache verfasst werden.Kontakt: Anna Luthin – anna.luthin@inab.rwth-aachen.de

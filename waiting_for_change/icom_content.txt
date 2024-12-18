@@ -8,13 +8,19 @@ WEB
 PDF
 
 
-Entwicklung eines Konzeptes für ein Common Data Environment zum Einsatz in Bau- und Betrieb von InfrastrukturprojektenKontakt: Frau Anne Zaun
+Durchführung einer Anforderungsanalyse zur Ermittlung nachhaltigkeitsrelevanter Daten auf Basis digitaler Zwillinge im Gebäudebetrieb  Kontakt: Frau Leonie Große-Wilde
+Masterarbeit 
+F3;F8[312110]
+ 
+
+
+Entwicklung eines Konzeptes für das Kommunikationsmodul eines Common Data Environments zum Einsatz in Bau- und Betrieb von InfrastrukturprojektenKontakt: Frau Anne Zaun
 Bachelorarbeit 
 F2;F3;F1.1[312110]
  
 
 
-Entwicklung eines Konzeptes für das Kommunikationsmodul eines Common Data Environments zum Einsatz in Bau- und Betrieb von InfrastrukturprojektenKontakt: Frau Anne Zaun
+Entwicklung eines Konzeptes für ein Common Data Environment zum Einsatz in Bau- und Betrieb von InfrastrukturprojektenKontakt: Frau Anne Zaun
 Bachelorarbeit 
 F2;F3;F1.1[312110]
  
@@ -45,6 +51,12 @@ F1.1[312110]
  
 
 
+Analyse und Vergleich der Materialeigenschaften verschiedener MauerwerkstypenKontakt: Herr Shervin Rahnama
+Bachelorarbeit 
+F3;F8[312110]
+ 
+
+
 Entwicklung eines BIM-basierten Planungsprozesses unter Berücksichtigung von NachhaltigkeitsaspektenKontakt: Herr Shervin Rahnama
 Masterarbeit 
 F3;F8[312110]
@@ -52,12 +64,6 @@ F3;F8[312110]
 
 
 Literaturrecherche rechtlicher Rahmenbedingungen im nachhaltigen MauerwerksbauKontakt: Herr Shervin Rahnama
-Bachelorarbeit 
-F3;F8[312110]
- 
-
-
-Analyse und Vergleich der Materialeigenschaften verschiedener MauerwerkstypenKontakt: Herr Shervin Rahnama
 Bachelorarbeit 
 F3;F8[312110]
  
