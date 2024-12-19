@@ -14,15 +14,15 @@ F3[314410]
  
 
 
-Remote sensing on vegetation patterns with the help of machine learningKontakt: Herr Guillaume Bonduelle
-Masterarbeit 
-F3[314410]
- 
-
-
 Quantifizierung von Rückhalte- und Stauvolumen naturbasierter und naturnaher Maßnahmen im Wassereinzugsgebiet Losse (Nordhessen) zum Hochwasserschutz und zur GrundwassersicherungKontakt: Herr Philip Meier
 Masterarbeit 
 F3;Alle[314410]
+ 
+
+
+Remote sensing on vegetation patterns with the help of machine learningKontakt: Herr Guillaume Bonduelle
+Masterarbeit 
+F3[314410]
  
 
 
@@ -62,14 +62,14 @@ F3[314410]
  
 
 
-OpenFOAM simulation of scour around the river spur dikesKontakt: Frau Nandhini Duraimurugan
-Masterarbeit 
+Ship-induced waves and damage at the river bank (A Literature Study)Kontakt: Frau Nandhini Duraimurugan
+Bachelorarbeit 
 F3[314410]
  
 
 
-Ship-induced waves and damage at the river bank (A Literature Study)Kontakt: Frau Nandhini Duraimurugan
-Bachelorarbeit 
+OpenFOAM simulation of scour around the river spur dikesKontakt: Frau Nandhini Duraimurugan
+Masterarbeit 
 F3[314410]
  
 
