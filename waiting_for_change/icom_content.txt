@@ -51,8 +51,14 @@ F1.1[312110]
  
 
 
-Literaturrecherche rechtlicher Rahmenbedingungen im nachhaltigen MauerwerksbauKontakt: Herr Shervin Rahnama
+Analyse und Vergleich der Materialeigenschaften verschiedener MauerwerkstypenKontakt: Herr Shervin Rahnama
 Bachelorarbeit 
+F3;F8[312110]
+ 
+
+
+Stakeholderanalyse im Planungsprozess von Gebäuden im MauerwerksbauKontakt: Herr Shervin Rahnama
+Masterarbeit 
 F3;F8[312110]
  
 
@@ -63,14 +69,8 @@ F3;F8[312110]
  
 
 
-Analyse und Vergleich der Materialeigenschaften verschiedener MauerwerkstypenKontakt: Herr Shervin Rahnama
+Literaturrecherche rechtlicher Rahmenbedingungen im nachhaltigen MauerwerksbauKontakt: Herr Shervin Rahnama
 Bachelorarbeit 
-F3;F8[312110]
- 
-
-
-Stakeholderanalyse im Planungsprozess von Gebäuden im MauerwerksbauKontakt: Herr Shervin Rahnama
-Masterarbeit 
 F3;F8[312110]
  
 
