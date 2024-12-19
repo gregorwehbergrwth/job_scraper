@@ -1,7 +1,7 @@
 
 
 
-AIX-SOLVED Schüttelversuche
+Analyse von neuartigen Adsorbermaterialien hinsichtlich Schwermetall- und Spurenstoffentfernung aus Abwasser
 
 vefügbar
 
@@ -36,15 +36,6 @@ Determination of parameters and development of evaluation matrix for gray water 
 verfügbar
 
 Christopher Abel
-
-
-
-
-Strategieentwicklung zur Etablierung eines neuartigen Hygienewasser-Standards
-
-verfügbar
-
-Inka Schirm, M.Sc.
 
 
 
