@@ -1,27 +1,26 @@
 [
     {
-        "Job Title": "Intern - Public Information",
-        "Job ID": "249608",
-        "Link": "https://careers.un.org/jobSearchDescription/249608?language=en",
-        "Job Network": "Public Information and Conference Management",
-        "Job Family": "Public Information",
+        "Job Title": "Intern",
+        "Job ID": "249607",
+        "Link": "https://careers.un.org/jobSearchDescription/249607?language=en",
+        "Job Network": "Political, Peace and Humanitarian",
+        "Job Family": "Human Rights Affairs",
         "Category and Level": "Internship, I-1",
-        "Duty Station": "TEHRAN",
-        "Department/Office": "Department of Global Communications",
+        "Duty Station": "GENEVA",
+        "Department/Office": "Office of the High Commissioner for Human Rights",
         "Date Posted": "Dec 20, 2024",
-        "Deadline": "Dec 30, 2024"
+        "Deadline": "Jan 2, 2025"
     },
     {
-        "Job Title": "Urban Data Collection and Analysis Internship",
-        "Job ID": "247977",
-        "Link": "https://careers.un.org/jobSearchDescription/247977?language=en",
-        "Job Network": "",
-        "Job Family": "HST",
+        "Job ID": "249831",
+        "Link": "https://careers.un.org/jobSearchDescription/249831?language=en",
+        "Job Network": "Management and Administration",
+        "Job Family": "Administration",
         "Category and Level": "Internship, I-1",
-        "Duty Station": "MONTREAL",
-        "Department/Office": "United Nations Human Settlements Programme",
+        "Duty Station": "GENEVA",
+        "Department/Office": "United Nations Office at Geneva",
         "Date Posted": "Dec 20, 2024",
-        "Deadline": "Jan 3, 2025"
+        "Deadline": "Jan 5, 2025"
     },
     {
         "Job Title": "INTERN - DRUG CONTROL & CRIME PREVENTION",
@@ -36,28 +35,16 @@
         "Deadline": "Jan 4, 2025"
     },
     {
-        "Job Title": "Programme Management Intern",
-        "Job ID": "249828",
-        "Link": "https://careers.un.org/jobSearchDescription/249828?language=en",
-        "Job Network": "Economic, Social and Development",
-        "Job Family": "Programme Management",
-        "Category and Level": "Internship, I-1",
-        "Duty Station": "BOGOTA",
-        "Department/Office": "Department of Peace Operations",
-        "Date Posted": "Dec 20, 2024",
-        "Deadline": "Dec 26, 2024"
-    },
-    {
-        "Job Title": "Public Information Intern - Digital Communications (Video, Graphic Design)",
-        "Job ID": "249964",
-        "Link": "https://careers.un.org/jobSearchDescription/249964?language=en",
+        "Job Title": "Intern - Public Information",
+        "Job ID": "249608",
+        "Link": "https://careers.un.org/jobSearchDescription/249608?language=en",
         "Job Network": "Public Information and Conference Management",
         "Job Family": "Public Information",
         "Category and Level": "Internship, I-1",
-        "Duty Station": "NEW YORK",
-        "Department/Office": "Department of Political and Peacebuilding Affairs-Department of Peace Operations-Shared Structure",
+        "Duty Station": "TEHRAN",
+        "Department/Office": "Department of Global Communications",
         "Date Posted": "Dec 20, 2024",
-        "Deadline": "Jan 9, 2025"
+        "Deadline": "Dec 30, 2024"
     },
     {
         "Job Title": "Drug Control and Crime Prevention",
@@ -72,15 +59,28 @@
         "Deadline": "Jan 4, 2025"
     },
     {
-        "Job ID": "249831",
-        "Link": "https://careers.un.org/jobSearchDescription/249831?language=en",
-        "Job Network": "Management and Administration",
-        "Job Family": "Administration",
+        "Job Title": "INTERN - POLITICAL AFFAIRS - I",
+        "Job ID": "249760",
+        "Link": "https://careers.un.org/jobSearchDescription/249760?language=en",
+        "Job Network": "Political, Peace and Humanitarian",
+        "Job Family": "Political Affairs",
         "Category and Level": "Internship, I-1",
-        "Duty Station": "GENEVA",
-        "Department/Office": "United Nations Office at Geneva",
+        "Duty Station": "NEW YORK",
+        "Department/Office": "Office of the Victims\u2019 Rights Advocate",
         "Date Posted": "Dec 20, 2024",
-        "Deadline": "Jan 5, 2025"
+        "Deadline": "Jan 2, 2025"
+    },
+    {
+        "Job Title": "Urban Data Collection and Analysis Internship",
+        "Job ID": "247977",
+        "Link": "https://careers.un.org/jobSearchDescription/247977?language=en",
+        "Job Network": "",
+        "Job Family": "HST",
+        "Category and Level": "Internship, I-1",
+        "Duty Station": "MONTREAL",
+        "Department/Office": "United Nations Human Settlements Programme",
+        "Date Posted": "Dec 20, 2024",
+        "Deadline": "Jan 3, 2025"
     },
     {
         "Job Title": "INTERN - PUBLIC INFORMATION - DIGITAL COMMUNICATIONS",
@@ -95,26 +95,27 @@
         "Deadline": "Jan 23, 2025"
     },
     {
-        "Job ID": "249662",
-        "Link": "https://careers.un.org/jobSearchDescription/249662?language=en",
-        "Job Network": "Economic, Social and Development",
-        "Job Family": "Statistics",
-        "Category and Level": "Internship, I-1",
-        "Duty Station": "SANTIAGO",
-        "Department/Office": "Economic Commission for Latin America and the Caribbean",
-        "Date Posted": "Dec 19, 2024",
-        "Deadline": "Jan 1, 2025"
-    },
-    {
-        "Job Title": "Intern - Humanitarian Affairs",
-        "Job ID": "249353",
-        "Link": "https://careers.un.org/jobSearchDescription/249353?language=en",
-        "Job Network": "Political, Peace and Humanitarian",
-        "Job Family": "Humanitarian Affairs",
+        "Job Title": "Public Information Intern - Digital Communications (Video, Graphic Design)",
+        "Job ID": "249964",
+        "Link": "https://careers.un.org/jobSearchDescription/249964?language=en",
+        "Job Network": "Public Information and Conference Management",
+        "Job Family": "Public Information",
         "Category and Level": "Internship, I-1",
         "Duty Station": "NEW YORK",
-        "Department/Office": "Office for the Coordination of Humanitarian Affairs",
-        "Date Posted": "Dec 19, 2024",
-        "Deadline": "Jan 8, 2025"
+        "Department/Office": "Department of Political and Peacebuilding Affairs-Department of Peace Operations-Shared Structure",
+        "Date Posted": "Dec 20, 2024",
+        "Deadline": "Jan 9, 2025"
+    },
+    {
+        "Job Title": "Programme Management Intern",
+        "Job ID": "249828",
+        "Link": "https://careers.un.org/jobSearchDescription/249828?language=en",
+        "Job Network": "Economic, Social and Development",
+        "Job Family": "Programme Management",
+        "Category and Level": "Internship, I-1",
+        "Duty Station": "BOGOTA",
+        "Department/Office": "Department of Peace Operations",
+        "Date Posted": "Dec 20, 2024",
+        "Deadline": "Dec 26, 2024"
     }
 ]
