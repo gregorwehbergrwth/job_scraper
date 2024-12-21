@@ -21,7 +21,7 @@ def extract_job_infos(site_content, field_mouse):
             temp_dict = {}
             for key, function in extractors[mouse].items():
                 try:
-                    temp_dict[key] = function(listing)
+                    temp_dict[key.strip()] = function(listing)
                     print(function(listing))
                 except Exception as e:
                     print(f"Error parsing listing: {e}")

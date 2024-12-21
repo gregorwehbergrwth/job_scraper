@@ -23,49 +23,35 @@ def message(txt):
 
 
 def configure_message(job_dict, mouse):
-    def configure_rwth_message(rwth_dict):
-        txt = [
-            f"{rwth_dict['Titel']}\n"
-            f"Link: {rwth_dict['Link']}\n"
-            f"Deadline: {rwth_dict['Frist']}\n"
-            f"{rwth_dict['Veröffentlichungsdatum']}\n"
-            f"Arbeitgeber: {rwth_dict['Ort']}\n"
-            f"Nummer: {rwth_dict['Nummer']}\n\n"
+    structure = {
+        "rwth": [
+            f"{job_dict['Titel']}\n"
+            f"Link: {job_dict['Link']}\n"
+            f"Deadline: {job_dict['Frist']}\n"
+            f"{job_dict['Veröffentlichungsdatum']}\n"
+            f"Arbeitgeber: {job_dict['Ort']}\n"
+            f"Nummer: {job_dict['Nummer']}\n"
+        ],
+        "un": [
+            f"- {job_dict['Job Title']}\n"
+            f"- {job_dict['Duty Station']}\n"
+            f"- Network: {job_dict['Job Network']}\n"
+            f"- {job_dict['Department/Office']}\n"
+            f"- Deadline: {job_dict['Deadline']}\n"
+            f"- Link: {job_dict['Link']}\n"
+        ],
+        "uniklinik": [
+            f"{job_dict['Titel']}\n"
+            f"{job_dict['Bereich']}\n"
+            f"Frist: {job_dict['Frist']}\n"
+            f"{job_dict['Link']}\n"
         ]
-        txt = "\n".join(txt)
-        return txt
+    }
+    try:
+        return "\n".join(structure[mouse])
+    except Exception as e:
+        return f"Error structuring message: {e}"
 
-    def configure_un_message(un_dict):
-        try:
-            txt = [
-                f"- {un_dict['Job Title']}\n"
-                f"- {un_dict['Duty Station']}\n"
-                f"- Network: {un_dict['Job Network']}\n"
-                f"- {un_dict['Department/Office']}\n"
-                f"- Deadline: {un_dict['Deadline']}\n"
-                f"- Link: {un_dict['Link']}\n"
-            ]
-            txt = "\n".join(txt)
-        except Exception as e:
-            txt = f"Error parsing listing: {e}"
-        return txt
-    def configure_uniklinik_message(uniklinik_dict):
-        txt = [
-            f"{uniklinik_dict['Titel']}\n"
-            f"{uniklinik_dict['Bereich']}\n"
-            f"Frist: {uniklinik_dict['Frist']}\n\n"
-            f"{uniklinik_dict['Link']}\n"
-        ]
-        txt = "\n".join(txt)
-        return txt
-
-
-    if mouse == "rwth":
-        return configure_rwth_message(job_dict)
-    elif mouse == "un":
-        return configure_un_message(job_dict)
-    elif mouse == "uniklinik":
-        return configure_uniklinik_message(job_dict)
 
 
 def special_treatment(mouse, new_jobs):
