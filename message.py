@@ -25,26 +25,26 @@ def message(txt):
 def configure_message(job_dict, mouse):
     structure = {
         "rwth": [
-            f"{job_dict['Titel']}\n"
-            f"Link: {job_dict['Link']}\n"
-            f"Deadline: {job_dict['Frist']}\n"
-            f"{job_dict['Veröffentlichungsdatum']}\n"
-            f"Arbeitgeber: {job_dict['Ort']}\n"
-            f"Nummer: {job_dict['Nummer']}\n"
+            f"{job_dict.get('Titel', 'N/A')}\n"
+            f"Link: {job_dict.get('Link', 'N/A')}\n"
+            f"Deadline: {job_dict.get('Frist', 'N/A')}\n"
+            f"{job_dict.get('Veröffentlichungsdatum', 'N/A')}\n"
+            f"Arbeitgeber: {job_dict.get('Ort', 'N/A')}\n"
+            f"Nummer: {job_dict.get('Nummer', 'N/A')}\n\n"
         ],
         "un": [
-            f"- {job_dict['Job Title']}\n"
-            f"- {job_dict['Duty Station']}\n"
-            f"- Network: {job_dict['Job Network']}\n"
-            f"- {job_dict['Department/Office']}\n"
-            f"- Deadline: {job_dict['Deadline']}\n"
-            f"- Link: {job_dict['Link']}\n"
+            f"- {job_dict.get('Job Title', 'N/A')}\n"
+            f"- {job_dict.get('Duty Station', 'N/A')}\n"
+            f"- Network: {job_dict.get('Job Network', 'N/A')}\n"
+            f"- {job_dict.get('Department/Office', 'N/A')}\n"
+            f"- Deadline: {job_dict.get('Deadline', 'N/A')}\n"
+            f"- Link: {job_dict.get('Link', 'N/A')}\n"
         ],
         "uniklinik": [
-            f"{job_dict['Titel']}\n"
-            f"{job_dict['Bereich']}\n"
-            f"Frist: {job_dict['Frist']}\n"
-            f"{job_dict['Link']}\n"
+            f"{job_dict.get('Titel', 'N/A')}\n"
+            f"{job_dict.get('Bereich', 'N/A')}\n"
+            f"Frist: {job_dict.get('Frist', 'N/A')}\n\n"
+            f"{job_dict.get('Link', 'N/A')}\n"
         ]
     }
     try:
