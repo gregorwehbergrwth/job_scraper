@@ -75,8 +75,6 @@ def extract_job_infos(site_content, field_mouse):
         return extract_general_job_infos(site_content, field_mouse)
     elif field_mouse == "un":
         return extract_un_job_infos(site_content, field_mouse)
-    # elif mouse == "uniklinik":
-    #     return extract_uniklinik_job_infos(content, mouse)
 
 
 def compare_jobs(file, job_infos):

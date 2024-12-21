@@ -5,7 +5,6 @@ from extract import *
 
 def falcon(name, url):
     content = get_content(url, mouse=name)
-    print(content)
     if not content:
         message(f"Error fetching content for {url}")
         return
@@ -14,8 +13,6 @@ def falcon(name, url):
     with open(f"jobs/{name}.json", "w") as file:
         json.dump(job_infos, file, indent=4)
 
-    print(new_jobs)
-    input()
     if new_jobs:
         for job in new_jobs:
             message(configure_message(job, mouse=name))

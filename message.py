@@ -8,13 +8,12 @@ user_ids = ['5623557325']
 
 def message(txt):
     async def send_message(text):
-        """Send a message via Telegram."""
         bot = Bot(token=api_key)
         try:
             for user_id in user_ids:
                 await bot.send_message(chat_id=user_id, text=text)
-        except BadRequest as e:
-            print(f"Telegram API Error: {e}")
+        except BadRequest as e2:
+            print(f"Telegram API Error: {e2}")
     try:
         asyncio.run(send_message(txt))
     except Exception as e:
@@ -27,7 +26,7 @@ def configure_message(job_dict, mouse):
         "rwth": [
             f"{job_dict.get('Titel', 'N/A')}\n"
             f"Link: {job_dict.get('Link', 'N/A')}\n"
-            f"Deadline: {job_dict.get('Frist', 'N/A')}\n"
+            f"Frist: {job_dict.get('Frist', 'N/A')}\n"
             f"{job_dict.get('Veröffentlichungsdatum', 'N/A')}\n"
             f"Arbeitgeber: {job_dict.get('Ort', 'N/A')}\n"
             f"Nummer: {job_dict.get('Nummer', 'N/A')}\n\n"
@@ -51,7 +50,6 @@ def configure_message(job_dict, mouse):
         return "\n".join(structure[mouse])
     except Exception as e:
         return f"Error structuring message: {e}"
-
 
 
 def special_treatment(mouse, new_jobs):
