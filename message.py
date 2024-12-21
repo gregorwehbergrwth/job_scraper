@@ -5,7 +5,8 @@ from telegram.error import BadRequest
 api_key = '7542268069:AAF7-SuiukANQ9gAhMiRQ51CIGnDRlcCANc'
 user_ids = ['5623557325']
 
-def message(text):
+
+def message(txt):
     async def send_message(text):
         """Send a message via Telegram."""
         bot = Bot(token=api_key)
@@ -14,32 +15,35 @@ def message(text):
                 await bot.send_message(chat_id=user_id, text=text)
         except BadRequest as e:
             print(f"Telegram API Error: {e}")
+    try:
+        asyncio.run(send_message(txt))
+    except Exception as e:
+        print(f"Error sending message: {e}")
+    print(txt, end="\n")
 
-    asyncio.run(send_message(text))
-    print(text + "\n")
 
-def configure_message(dict, mouse):
-    def configure_rwth_message(dict):
+def configure_message(job_dict, mouse):
+    def configure_rwth_message(rwth_dict):
         txt = [
-            f"{dict['title']}\n"
-            f"Link: {dict['link']}\n"
-            f"Deadline: {dict['deadline']}\n"
-            f"{dict['pub_date']}\n"
-            f"Arbeitgeber: {dict['location']}\n"
-            f"Nummer: {dict['listing_number']}\n\n"
+            f"{rwth_dict['Titel']}\n"
+            f"Link: {rwth_dict['Link']}\n"
+            f"Deadline: {rwth_dict['Frist']}\n"
+            f"{rwth_dict['Veröffentlichungsdatum']}\n"
+            f"Arbeitgeber: {rwth_dict['Ort']}\n"
+            f"Nummer: {rwth_dict['Nummer']}\n\n"
         ]
         txt = "\n".join(txt)
         return txt
 
-    def configure_un_message(dict):
+    def configure_un_message(un_dict):
         try:
             txt = [
-                f" - {dict['Job Title']}\n"
-                f" - {dict['Duty Station']}\n"
-                f" - Network: {dict['Job Network']}\n"
-                f" - {dict['Department/Office']}\n"
-                f" - Deadline: {dict['Deadline']}\n"
-                f" - Link: {dict['Link']}\n"
+                f"- {un_dict['Job Title']}\n"
+                f"- {un_dict['Duty Station']}\n"
+                f"- Network: {un_dict['Job Network']}\n"
+                f"- {un_dict['Department/Office']}\n"
+                f"- Deadline: {un_dict['Deadline']}\n"
+                f"- Link: {un_dict['Link']}\n"
             ]
             txt = "\n".join(txt)
         except Exception as e:
@@ -47,11 +51,11 @@ def configure_message(dict, mouse):
         return txt
 
     if mouse == "rwth":
-        return configure_rwth_message(dict)
+        return configure_rwth_message(job_dict)
     elif mouse == "un":
-        return configure_un_message(dict)
+        return configure_un_message(job_dict)
+
 
 def special_treatment(mouse, new_jobs):
     if mouse == "un" and len(new_jobs) > 10:
         message("More than 10 new jobs found. Check the website")
-

@@ -14,10 +14,6 @@ F3[311710]
 
 
 
-Untersuchung der Skalierbarkeit von Interpolationsverfahren zur Erhöhung der Messpunktdichte bei Windkanaluntersuchungen an GebäudenKontakt: Herr Richard Brand
-Masterarbeit 
-F3;F1.1;F4[311710]
- 
 
 
 Geklebte Stahlpflaster zur Sanierung von Rissen im Brückenbau: Analytische Berechnung von ModellbrückenträgernKontakt: Herr Björn Abeln
