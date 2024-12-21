@@ -49,11 +49,23 @@ def configure_message(job_dict, mouse):
         except Exception as e:
             txt = f"Error parsing listing: {e}"
         return txt
+    def configure_uniklinik_message(uniklinik_dict):
+        txt = [
+            f"{uniklinik_dict['Titel']}\n"
+            f"{uniklinik_dict['Bereich']}\n"
+            f"Frist: {uniklinik_dict['Frist']}\n\n"
+            f"{uniklinik_dict['Link']}\n"
+        ]
+        txt = "\n".join(txt)
+        return txt
+
 
     if mouse == "rwth":
         return configure_rwth_message(job_dict)
     elif mouse == "un":
         return configure_un_message(job_dict)
+    elif mouse == "uniklinik":
+        return configure_uniklinik_message(job_dict)
 
 
 def special_treatment(mouse, new_jobs):

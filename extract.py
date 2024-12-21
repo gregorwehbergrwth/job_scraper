@@ -1,10 +1,9 @@
-import re
 from bs4 import BeautifulSoup
 import json
 import re
 
-def extract_job_infos(content, mouse):
 
+def extract_job_infos(site_content, field_mouse):
     def get_listings(content, mouse):
         soup = BeautifulSoup(content, 'lxml')
         if mouse == "rwth":
@@ -14,41 +13,27 @@ def extract_job_infos(content, mouse):
             return soup.find_all("div", class_="tx_wsjobs_jobs__job")
         elif mouse == "un":
             listings = re.split(r'View Job Description', content[content.find("Records per Page:") + len("Records per Page:") + 6:])
-            listings = [listing.strip() for listing in listings if "Job ID" in listing]
-            return listings
+            return [listing.strip() for listing in listings if "Job ID" in listing]
 
-    def extract_rwth_job_infos(content, mouse):
-        listings = get_listings(content, mouse)
+    def extract_general_job_infos(content, mouse):
         jobs = []
-        extractors = {
-            "Link": lambda listing: "https://www.rwth-aachen.de" + listing.find('a').get('href'),
-            "Frist": lambda listing: listing.text.split("\n")[3],
-            "Titel": lambda listing: listing.text[:listing.text.find("[")].replace("\n", ""),
-            "Nummer": lambda listing: re.findall(r'V\d{9}', listing.text)[0],
-            "Veröffentlichungsdatum": lambda  listing: re.findall(r'veröffentlicht am \d{2}\.\d{2}\.\d{4}', listing.text)[0],
-            "Ort": lambda listing: listing.text.split("\n")[2]
-        }
-
-        for listing in listings:
+        for listing in get_listings(content, mouse):
             temp_dict = {}
-            for key, function in extractors.items():
+            for key, function in extractors[mouse].items():
                 try:
                     temp_dict[key] = function(listing)
                     print(function(listing))
-                except:
-                    print("nothing")
+                except Exception as e:
+                    print(f"Error parsing listing: {e}")
             jobs.append(temp_dict)
 
         print(jobs)
         return jobs
 
-
-
     def extract_un_job_infos(content, mouse):
         job_list = []
-        listings = get_listings(content, mouse)
 
-        for listing in listings:
+        for listing in get_listings(content, mouse):
             job_dict = {}
             for line in listing.split('\n'):
                 try:
@@ -68,36 +53,31 @@ def extract_job_infos(content, mouse):
 
         return job_list
 
-    def extract_uniklinik_job_infos(content, mouse):
-        listings = get_listings(content, mouse)
-        jobs = []
-        extractors = {
+    extractors = {
+        "uniklinik": {
             "Link": lambda listing: "https://www.ukaachen.de" + listing.find('a')['href'],
             "Titel": lambda listing: listing.find('a').text.strip(),
             "Bereich": lambda listing: listing.find('p').find_all(string=True)[0],
             "Frist": lambda listing: listing.find('p').find_all(string=True)[1],
             "Frist ": lambda listing: listing.find_all('p')[1].text
+        },
+        "rwth": {
+            "Link": lambda listing: "https://www.rwth-aachen.de" + listing.find('a').get('href'),
+            "Frist": lambda listing: listing.text.split("\n")[3],
+            "Titel": lambda listing: listing.text[:listing.text.find("[")].replace("\n", ""),
+            "Nummer": lambda listing: re.findall(r'V\d{9}', listing.text)[0],
+            "Veröffentlichungsdatum": lambda listing: re.findall(r'veröffentlicht am \d{2}\.\d{2}\.\d{4}', listing.text)[0],
+            "Ort": lambda listing: listing.text.split("\n")[2]
         }
+    }
 
-        for listing in listings:
-            temp_dict = {}
-            for key, function in extractors.items():
-                try:
-                    temp_dict[key] = function(listing)
-                    print(function(listing))
-                except:
-                    print("nothing")
-            jobs.append(temp_dict)
+    if field_mouse == "rwth" or field_mouse == "uniklinik":
+        return extract_general_job_infos(site_content, field_mouse)
+    elif field_mouse == "un":
+        return extract_un_job_infos(site_content, field_mouse)
+    # elif mouse == "uniklinik":
+    #     return extract_uniklinik_job_infos(content, mouse)
 
-        print(jobs)
-        return jobs
-
-    if mouse == "rwth":
-        return extract_rwth_job_infos(content, mouse)
-    elif mouse == "un":
-        return extract_un_job_infos(content, mouse)
-    elif mouse == "uniklinik":
-        return extract_uniklinik_job_infos(content, mouse)
 
 def compare_jobs(file, job_infos):
     try:
@@ -109,6 +89,7 @@ def compare_jobs(file, job_infos):
 
     new_jobs = [job for job in job_infos if job not in old_job_infos]
     return new_jobs
+
 
 def compare_contents(file, new_content):
     part = []
@@ -129,8 +110,9 @@ def compare_contents(file, new_content):
         print("\n".join(part))
         return "\n".join(part)
 
+
 def extract_main_content(content, mouse):
-    soup = BeautifulSoup(content, 'lxml')
+    beautifulsoup = BeautifulSoup(content, 'lxml')
     extractors = {
         "lbb": lambda soup: soup.find('div', id='main').find('div', class_='text').text,
         "stb": lambda soup: soup.find('div', class_='listing').text,
@@ -145,4 +127,4 @@ def extract_main_content(content, mouse):
         "isa": lambda soup: soup.find('tbody').text,
         "ucc": lambda soup: soup.find('div', class_='tabs_wrapper tabs_horizontal').text
     }
-    return extractors[mouse](soup)
+    return extractors[mouse](beautifulsoup)

@@ -2,16 +2,20 @@ from message import *
 from content_scraper import get_content
 from extract import *
 
+
 def falcon(name, url):
     content = get_content(url, mouse=name)
     print(content)
     if not content:
         message(f"Error fetching content for {url}")
         return
-    job_infos = extract_job_infos(content, mouse=name)
+    job_infos = extract_job_infos(content, field_mouse=name)
     new_jobs = compare_jobs(file=f"jobs/{name}.json", job_infos=job_infos)
     with open(f"jobs/{name}.json", "w") as file:
         json.dump(job_infos, file, indent=4)
+
+    print(new_jobs)
+    input()
     if new_jobs:
         for job in new_jobs:
             message(configure_message(job, mouse=name))
@@ -19,9 +23,9 @@ def falcon(name, url):
     special_treatment(mouse=name, new_jobs=new_jobs)
     return len(new_jobs)
 
+
 def hawk(sites):
     mice_count = 0
-
     for key, url in sites.items():
         content = get_content(url, mouse=key)
         main_content = extract_main_content(content, key)
@@ -36,8 +40,7 @@ def hawk(sites):
 
 if __name__ == "__main__":
 
-
-    mice ={
+    mice = {
         "lbb": r"https://www.lbb.rwth-aachen.de/cms/LBB/Studium/Abschlussarbeiten/~fdxp/Zu-vergebende-Bachelorarbeiten/",
         "stb": r"https://www.stb.rwth-aachen.de/cms/STB/Studium/~ipde/Studien-und-Abschlussarbeiten/",
         "imb": r"https://www.imb.rwth-aachen.de/go/id/bdjfir",
@@ -53,8 +56,8 @@ if __name__ == "__main__":
     }
 
     # rwth = falcon(name="rwth", url=r"https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?search=&showall=1&aaaaaaaaaaaaanr=&frist=&aaaaaaaaaaaaanq=&aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft&aaaaaaaaaaaaans=&aaaaaaaaaaaaanw=&aaaaaaaaaaaaanv=&aaaaaaaaaaaaanx=")
-    un = falcon(name="un", url=r"https://careers.un.org/jobopening?language=en&data=%257B%2522aoe%2522:%255B%255D,%2522aoi%2522:%255B%255D,%2522el%2522:%255B%255D,%2522ct%2522:%255B%255D,%2522ds%2522:%255B%255D,%2522jn%2522:%255B%255D,%2522jf%2522:%255B%255D,%2522jc%2522:%255B%2522INT%2522%255D,%2522jle%2522:%255B%255D,%2522dept%2522:%255B%255D,%2522span%2522:%255B%255D%257D")
-    # uniklinik = falcon(name="uniklinik", url=r"https://www.ukaachen.de/stellenangebote/stellenmarkt/offene-stellen/?tx_wsjobs_jobs%5Bgroup%5D=12&cHash=dee34d2e821b77aab8fd548eac958bed")
+    # un = falcon(name="un", url=r"https://careers.un.org/jobopening?language=en&data=%257B%2522aoe%2522:%255B%255D,%2522aoi%2522:%255B%255D,%2522el%2522:%255B%255D,%2522ct%2522:%255B%255D,%2522ds%2522:%255B%255D,%2522jn%2522:%255B%255D,%2522jf%2522:%255B%255D,%2522jc%2522:%255B%2522INT%2522%255D,%2522jle%2522:%255B%255D,%2522dept%2522:%255B%255D,%2522span%2522:%255B%255D%257D")
+    uniklinik = falcon(name="uniklinik", url=r"https://www.ukaachen.de/stellenangebote/stellenmarkt/offene-stellen/?tx_wsjobs_jobs%5Bgroup%5D=12&cHash=dee34d2e821b77aab8fd548eac958bed")
     # mice = hawk(sites=mice)
 
     # if any([rwth, un, mice]):
