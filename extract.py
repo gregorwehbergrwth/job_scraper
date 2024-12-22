@@ -7,74 +7,63 @@ def extract_job_infos(site_content, field_mouse):
     def get_listings(content, mouse):
         soup = BeautifulSoup(content, 'lxml')
         if mouse == "rwth":
-            listings = soup.find_all('li')
-            return [listing for listing in listings if "veröffentlicht" in listing.text]
+            return [listing for listing in soup.find_all('li') if "veröffentlicht" in listing.text]
         elif mouse == "uniklinik":
             return soup.find_all("div", class_="tx_wsjobs_jobs__job")
         elif mouse == "un":
-            listings = re.split(r'View Job Description', content[content.find("Records per Page:") + len("Records per Page:") + 6:])
-            return [listing.strip() for listing in listings if "Job ID" in listing]
-
-    def extract_general_job_infos(content, mouse):
-        jobs = []
-        for listing in get_listings(content, mouse):
-            temp_dict = {}
-            for key, function in extractors[mouse].items():
-                try:
-                    temp_dict[key.strip()] = function(listing)
-                    print(function(listing))
-                except Exception as e:
-                    print(f"Error parsing listing: {e}")
-            jobs.append(temp_dict)
-
-        print(jobs)
-        return jobs
-
-    def extract_un_job_infos(content, mouse):
-        job_list = []
-
-        for listing in get_listings(content, mouse):
-            job_dict = {}
-            for line in listing.split('\n'):
-                try:
-                    if ":" not in line and line != "":
-                        job_dict["Job Title"] = line
-                    else:
-                        for parameter in ["Job ID", "Job Network", "Job Family", "Category and Level", "Duty Station", "Department/Office", "Date Posted", "Deadline"]:
-                            if parameter in line:
-                                job_dict[parameter] = line.split(":")[-1].strip()
-                except Exception as e:
-                    print(f"Error parsing listing: {e}")
-
-            if "Job ID" in job_dict.keys():
-                job_dict["Link"] = f"https://careers.un.org/jobSearchDescription/{job_dict['Job ID']}?language=en"
-
-            job_list.append(job_dict)
-
-        return job_list
+            return soup.find_all("div", class_="card border-0 ng-star-inserted")
+        elif mouse == "trier":
+            listings = soup.find_all("div", class_="row articel-list-job-content")
+            return [listing for listing in listings if "student" in listing.text.lower()]
 
     extractors = {
         "uniklinik": {
-            "Link": lambda listing: "https://www.ukaachen.de" + listing.find('a')['href'],
-            "Titel": lambda listing: listing.find('a').text.strip(),
-            "Bereich": lambda listing: listing.find('p').find_all(string=True)[0],
-            "Frist": lambda listing: listing.find('p').find_all(string=True)[1],
-            "Frist ": lambda listing: listing.find_all('p')[1].text
+            "Link": lambda x: "https://www.ukaachen.de" + x.find('a')['href'],
+            "Titel": lambda x: x.find('a').text.strip(),
+            "Bereich": lambda x: x.find('p').find_all(string=True)[0],
+            "Frist": lambda x: x.find('p').find_all(string=True)[1],
+            "Frist ": lambda x: x.find_all('p')[1].text
         },
         "rwth": {
-            "Link": lambda listing: "https://www.rwth-aachen.de" + listing.find('a').get('href'),
-            "Frist": lambda listing: listing.text.split("\n")[3],
-            "Titel": lambda listing: listing.text[:listing.text.find("[")].replace("\n", ""),
-            "Nummer": lambda listing: re.findall(r'V\d{9}', listing.text)[0],
-            "Veröffentlichungsdatum": lambda listing: re.findall(r'veröffentlicht am \d{2}\.\d{2}\.\d{4}', listing.text)[0],
-            "Ort": lambda listing: listing.text.split("\n")[2]
+            "Link": lambda x: "https://www.rwth-aachen.de" + x.find('a').get('href'),
+            "Frist": lambda x: x.text.split("\n")[3],
+            "Titel": lambda x: x.text[:x.text.find("[")].replace("\n", ""),
+            "Nummer": lambda x: re.findall(r'V\d{9}', x.text)[0],
+            "Veröffentlichungsdatum": lambda x: re.findall(r'veröffentlicht am \d{2}\.\d{2}\.\d{4}', x.text)[0],
+            "Ort": lambda x: x.text.split("\n")[2]
+        },
+        "un": {
+            "Job Title": lambda x: x.find("h2", class_="font-weight-bold jbOpen_title").text.strip(),
+            "Job ID": lambda x: x.find("span", class_="pull-right jbOpen_Id").text.split(" : ")[1].strip(),
+            "Job Network": lambda x: x.find("div", class_="card-body").find_all(string=True)[1].split(" : ")[1].strip(),
+            "Job Family": lambda x: x.find("div", class_="card-body").find_all(string=True)[3].split(" : ")[1].strip(),
+            "Category and Level": lambda x: f"{x.find("div", class_="card-body").find_all(string=True)[5].strip()}, {x.find("div", class_="card-body").find_all(string=True)[9]}",
+            "Duty Station": lambda x: x.find("div", class_="card-body").find_all(string=True)[11].split(" : ")[1].strip(),
+            "Department/Office": lambda x: x.find("div", class_="card-body").find_all(string=True)[13].split(" : ")[1].strip(),
+            "Date Posted": lambda x: x.find("div", class_="card-body").find_all(string=True)[14].split(" : ")[1].strip(),
+            "Deadline": lambda x: x.find("div", class_="card-body").find_all(string=True)[15].split(" : ")[1].strip(),
+            "Link": lambda x: f"https://careers.un.org/jobSearchDescription/{x.find("span", class_="pull-right jbOpen_Id").text.split(" : ")[1].strip()}?language=en",
+        },
+        "trier": {
+            "Titel": lambda x: x.find("div", class_="col-md-6 col-01").text.strip(),
+            "Arbeitgeber": lambda x: x.find("div", class_="col-md-3 col-01 modal-link").text.strip(),
+            "Link": lambda x: f"https://career-service-hochschule-trier.de{x.find("a")["href"]}" if x.find("a")["href"].startswith("/") else x.find("a")["href"],
+            "Art": lambda x: "\n".join(x.find("div", class_="col-md-3 col-02").find_all(string=True)),
         }
     }
 
-    if field_mouse == "rwth" or field_mouse == "uniklinik":
-        return extract_general_job_infos(site_content, field_mouse)
-    elif field_mouse == "un":
-        return extract_un_job_infos(site_content, field_mouse)
+    jobs = []
+    for job in get_listings(site_content, field_mouse):
+        job_dict = {}
+        for key, function in extractors[field_mouse].items():
+            try:
+                job_dict[key.strip()] = function(job)
+                print(job_dict[key.strip()])
+            except Exception as e:
+                print(f"Error parsing listing: {e}")
+        jobs.append(job_dict)
+
+    return jobs
 
 
 def compare_jobs(file, job_infos):
@@ -123,6 +112,21 @@ def extract_main_content(content, mouse):
         "gut": lambda soup: soup.find('tbody').text,
         "gia": lambda soup: soup.find('div', class_='listing').text,
         "isa": lambda soup: soup.find('tbody').text,
-        "ucc": lambda soup: soup.find('div', class_='tabs_wrapper tabs_horizontal').text
+        "ucc": lambda soup: soup.find('div', class_='tabs_wrapper tabs_horizontal').text,
+        "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text,
     }
     return extractors[mouse](beautifulsoup)
+
+
+def to_file(content, new_content=None, mouse=None):
+    if mouse == "un":
+        with open(f"jobs/{mouse}.json", "r+") as file:
+            jobs = json.load(file)
+            file.seek(0)
+            json.dump(jobs.update(new_content), file, indent=4)
+    elif not new_content:
+        with open(f"waiting_for_change/{mouse}_content.txt", "w", encoding="utf-8") as file:
+            file.write(content)
+    else:
+        with open(f"jobs/{mouse}.json", "w") as file:
+            json.dump(content, file, indent=4)
