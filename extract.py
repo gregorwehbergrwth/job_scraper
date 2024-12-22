@@ -47,7 +47,7 @@ def extract_job_infos(site_content, field_mouse):
         "trier": {
             "Titel": lambda x: x.find("div", class_="col-md-6 col-01").text.strip(),
             "Arbeitgeber": lambda x: x.find("div", class_="col-md-3 col-01 modal-link").text.strip(),
-            "Link": lambda x: f"https://career-service-hochschule-trier.de{x.find("a")["href"]}" if x.find("a")["href"].startswith("/") else x.find("a")["href"],
+            "Link": lambda x: f'https://career-service-hochschule-trier.de{x.find("a")["href"]}' if x.find("a")["href"].startswith("/") else x.find("a")["href"],
             "Art": lambda x: "\n".join(x.find("div", class_="col-md-3 col-02").find_all(string=True)),
         }
     }
@@ -60,7 +60,7 @@ def extract_job_infos(site_content, field_mouse):
                 job_dict[key.strip()] = function(job)
                 print(job_dict[key.strip()])
             except Exception as e:
-                print(f"Error parsing listing: {e}")
+                print(f'Error parsing listing: {e}')
         jobs.append(job_dict)
 
     return jobs
@@ -120,13 +120,13 @@ def extract_main_content(content, mouse):
 
 def to_file(content, new_content=None, mouse=None):
     if mouse == "un":
-        with open(f"jobs/{mouse}.json", "r+") as file:
+        with open(f'jobs/{mouse}.json', "r+") as file:
             jobs = json.load(file)
             file.seek(0)
             json.dump(jobs.update(new_content), file, indent=4)
     elif not new_content:
-        with open(f"waiting_for_change/{mouse}_content.txt", "w", encoding="utf-8") as file:
+        with open(f'waiting_for_change/{mouse}_content.txt', "w", encoding="utf-8") as file:
             file.write(content)
     else:
-        with open(f"jobs/{mouse}.json", "w") as file:
+        with open(f'jobs/{mouse}.json"' "w") as file:
             json.dump(content, file, indent=4)
