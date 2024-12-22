@@ -9,6 +9,7 @@ from selenium.webdriver.chrome.options import Options
 import requests
 
 
+
 def get_content(url, mouse):
     if mouse == "trier" or mouse == "uniklinik":
         try:
