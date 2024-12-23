@@ -10,8 +10,7 @@ def extract_job_infos(site_content, field_mouse):
         "uniklinik": lambda soup: soup.find_all("div", class_="tx_wsjobs_jobs__job"),
         "un": lambda soup: soup.find_all("div", class_="card border-0 ng-star-inserted"),
         "trier": lambda soup: [listing for listing in soup.find_all("div", class_="row articel-list-job-content") if "student" in listing.text.lower()],
-        # "asta_aachen": lambda soup: soup.find_all("li"),
-        "asta_aachen": lambda soup: soup.find("div", class_="job_listings"),
+        "asta_aachen": lambda soup: [listing for listing in soup.find("ul", class_="job_listings").find_all("li") if listing.find(class_="location") is not None]
     }
 
     extractors = {
@@ -49,24 +48,21 @@ def extract_job_infos(site_content, field_mouse):
             "Art": lambda x: "\n".join(x.find("div", class_="col-md-3 col-02").find_all(string=True)),
         },
         "asta_aachen": {
-            "Titel": lambda x: x.find("div", class_="position").text.strip(),
+            "Titel": lambda x: x.find("div", class_="position").find_all(string=True)[1].strip(),
             "Arbeitgeber": lambda x: x.find("div", class_="company").text.strip(),
             "Ort": lambda x: x.find("div", class_="location").text.strip(),
             "Link": lambda x: x.find("a")["href"],
-            "Datum": lambda x: x.find("ul", class_="meta").text.strip(),  # todo
+            "Datum": lambda x: f'{x.find("ul", class_="meta").find("li", class_="date").text.strip()} ({x.find("ul", class_="meta").find("li", class_="date").find("time")["datetime"]})',
         }
     }
 
     jobs = []
-    print(getters[field_mouse](BeautifulSoup(site_content, 'lxml')))
     for job in getters[field_mouse](BeautifulSoup(site_content, 'lxml')):
-        print(job)
-        input()
         job_dict = {}
         for key, function in extractors[field_mouse].items():
             try:
                 job_dict[key.strip()] = function(job)
-                print(job_dict[key.strip()])
+                print(f'{key}: {job_dict[key.strip()]}')
             except Exception as e:
                 print(f'Error parsing listing: {e}')
         jobs.append(job_dict)

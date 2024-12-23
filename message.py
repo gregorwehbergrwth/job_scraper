@@ -50,6 +50,13 @@ def configure_message(job_dict, mouse):
             f"{job_dict.get('Arbeitgeber', 'N/A')}\n"
             f"{job_dict.get('Art', 'N/A')}\n"
             f"{job_dict.get('Link', 'N/A')}\n"
+        ],
+        "asta_aachen": [
+            f"{job_dict.get('Titel', 'N/A')}\n"
+            f"{job_dict.get('Arbeitgeber', 'N/A')}\n"
+            f"{job_dict.get('Ort', 'N/A')}\n"
+            f"{job_dict.get('Datum', 'N/A')}\n"
+            f"{job_dict.get('Link', 'N/A')}\n"
         ]
     }
     try:

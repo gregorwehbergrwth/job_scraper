@@ -8,7 +8,6 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import requests
 
-
 def get_content(url, mouse):
     print(f"Fetching content of {url}")
 
@@ -35,8 +34,11 @@ def get_content(url, mouse):
             wait = WebDriverWait(driver, 40, poll_frequency=1, ignored_exceptions=[TimeoutException])
             wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.content")))
             wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.card-body.p-1.pr-0.pl-1.ng-star-inserted")))
-
             return driver.execute_script("return document.querySelector('app-root').innerHTML;")
+        elif mouse == "asta_aachen":
+            wait = WebDriverWait(driver, 40, poll_frequency=1, ignored_exceptions=[TimeoutException])
+            wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.company")))
+            return driver.execute_script("return document.querySelector('div.job_listings').innerHTML;")
         else:
             return driver.page_source
 

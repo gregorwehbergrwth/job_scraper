@@ -17,22 +17,22 @@ def falcon(name, url):
         special_treatment(mouse=name, new_jobs=new_jobs)
 
 
-def hawk(key, url):
-    content = get_content(url, mouse=key)
+def hawk(name, url):
+    content = get_content(url, mouse=name)
     if not content:
         message(f"Error fetching content for {url}")
         return
-    main_content = extract_main_content(content, key)
-    part = compare_contents(file=f"waiting_for_change/{key}_content.txt", new_content=main_content)
+    main_content = extract_main_content(content, name)
+    part = compare_contents(file=f"waiting_for_change/{name}_content.txt", new_content=main_content)
     if part:
-        message(f"New content found for {key}:\n{url}\n{part}")
-        to_file(main_content, new_content=None, mouse=key)
+        message(f"New content found for {name}:\n{url}\n{part}")
+        to_file(jobs=None, new_jobs=None, mouse=name, content=main_content)
 
 
 if __name__ == "__main__":
     with open("links.json", 'r') as file:
         links = json.load(file)
     for prey, link in links["prey"].items():
-        falcon(name=prey, url=link)
-    for mouse, link in links["mice"].items():
-        hawk(mouse, link)
+        falcon(name=prey, url=link) if prey == "asta_aachen" else None
+    # for mouse, link in links["mice"].items():
+    #     hawk(mouse, link)
