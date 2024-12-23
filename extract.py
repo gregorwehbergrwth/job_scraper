@@ -4,25 +4,15 @@ import re
 
 
 def extract_job_infos(site_content, field_mouse):
-    # def get_listings(content, mouse):
-    #     soup = BeautifulSoup(content, 'lxml')
-        # if mouse == "rwth":
-        #     return [listing for listing in soup.find_all('li') if "veröffentlicht" in listing.text]
-        # elif mouse == "uniklinik":
-        #     return soup.find_all("div", class_="tx_wsjobs_jobs__job")
-        # elif mouse == "un":
-        #     return soup.find_all("div", class_="card border-0 ng-star-inserted")
-        # elif mouse == "trier":
-        #     return [listing for listing in soup.find_all("div", class_="row articel-list-job-content") if "student" in listing.text.lower()]
-        #
+
     getters = {
         "rwth": lambda soup: [listing for listing in soup.find_all('li') if "veröffentlicht" in listing.text],
         "uniklinik": lambda soup: soup.find_all("div", class_="tx_wsjobs_jobs__job"),
         "un": lambda soup: soup.find_all("div", class_="card border-0 ng-star-inserted"),
-        "trier": lambda soup: [listing for listing in soup.find_all("div", class_="row articel-list-job-content") if "student" in listing.text.lower()]
-
+        "trier": lambda soup: [listing for listing in soup.find_all("div", class_="row articel-list-job-content") if "student" in listing.text.lower()],
+        # "asta_aachen": lambda soup: soup.find_all("li"),
+        "asta_aachen": lambda soup: soup.find("div", class_="job_listings"),
     }
-    # return getters[mouse](soup)
 
     extractors = {
         "uniklinik": {
@@ -57,12 +47,21 @@ def extract_job_infos(site_content, field_mouse):
             "Arbeitgeber": lambda x: x.find("div", class_="col-md-3 col-01 modal-link").text.strip(),
             "Link": lambda x: f'https://career-service-hochschule-trier.de{x.find("a")["href"]}' if x.find("a")["href"].startswith("/") else x.find("a")["href"],
             "Art": lambda x: "\n".join(x.find("div", class_="col-md-3 col-02").find_all(string=True)),
+        },
+        "asta_aachen": {
+            "Titel": lambda x: x.find("div", class_="position").text.strip(),
+            "Arbeitgeber": lambda x: x.find("div", class_="company").text.strip(),
+            "Ort": lambda x: x.find("div", class_="location").text.strip(),
+            "Link": lambda x: x.find("a")["href"],
+            "Datum": lambda x: x.find("ul", class_="meta").text.strip(),  # todo
         }
     }
 
     jobs = []
-    # for job in get_listings(site_content, field_mouse):
+    print(getters[field_mouse](BeautifulSoup(site_content, 'lxml')))
     for job in getters[field_mouse](BeautifulSoup(site_content, 'lxml')):
+        print(job)
+        input()
         job_dict = {}
         for key, function in extractors[field_mouse].items():
             try:
@@ -83,8 +82,7 @@ def compare_jobs(file, job_infos):
         print("Old jobs file not found, creating a new one.")
         old_job_infos = []
 
-    new_jobs = [job for job in job_infos if job not in old_job_infos]
-    return new_jobs
+    return [job for job in job_infos if job not in old_job_infos]
 
 
 def compare_contents(file, new_content):
@@ -108,7 +106,6 @@ def compare_contents(file, new_content):
 
 
 def extract_main_content(content, mouse):
-    beautifulsoup = BeautifulSoup(content, 'lxml')
     extractors = {
         "lbb": lambda soup: soup.find('div', id='main').find('div', class_='text').text,
         "stb": lambda soup: soup.find('div', class_='listing').text,
@@ -124,17 +121,21 @@ def extract_main_content(content, mouse):
         "ucc": lambda soup: soup.find('div', class_='tabs_wrapper tabs_horizontal').text,
         "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text,
     }
-    return extractors[mouse](beautifulsoup)
+    try:
+        return extractors[mouse](BeautifulSoup(content, 'lxml'))
+    except Exception as e:
+        print(f"Error extracting main content: {e}")
+        return None
 
 
-def to_file(content, new_content=None, mouse=None):
-    if new_content:
+def to_file(jobs, new_jobs, mouse, content=None):
+    if new_jobs:
         if mouse == "un":
             with open(f'jobs/{mouse}.json', "r") as file:
-                content = json.load(file)
-                content.extend(new_content)
+                jobs = json.load(file)
+                jobs.extend(new_jobs)
         with open(f'jobs/{mouse}.json', "w") as file:
-            json.dump(content, file, indent=4)
+            json.dump(jobs, file, indent=4)
     else:
         with open(f'waiting_for_change/{mouse}_content.txt', "w", encoding="utf-8") as file:
             file.write(content)

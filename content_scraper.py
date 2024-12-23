@@ -9,17 +9,15 @@ from selenium.webdriver.chrome.options import Options
 import requests
 
 
-
 def get_content(url, mouse):
-    if mouse == "trier" or mouse == "uniklinik":
-        try:
+    print(f"Fetching content of {url}")
+
+    try:
+        if mouse == "trier" or mouse == "uniklinik":
             response = requests.get(url)
             response.raise_for_status()
             return response.text
-        except Exception as e:
-            print(f"Error: {e}")
-            return None
-    try:
+
         options = Options()
         options.add_argument("--headless")
         options.add_argument("--disable-gpu")
@@ -29,9 +27,6 @@ def get_content(url, mouse):
 
         service = Service(ChromeDriverManager().install())
         driver = webdriver.Chrome(service=service, options=options)
-
-        print(f"Fetching content of {url}")
-
         driver.get(url)
 
         WebDriverWait(driver, 30).until(ec.presence_of_element_located((By.TAG_NAME, "li")))
