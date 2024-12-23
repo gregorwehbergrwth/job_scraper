@@ -4,17 +4,25 @@ import re
 
 
 def extract_job_infos(site_content, field_mouse):
-    def get_listings(content, mouse):
-        soup = BeautifulSoup(content, 'lxml')
-        if mouse == "rwth":
-            return [listing for listing in soup.find_all('li') if "veröffentlicht" in listing.text]
-        elif mouse == "uniklinik":
-            return soup.find_all("div", class_="tx_wsjobs_jobs__job")
-        elif mouse == "un":
-            return soup.find_all("div", class_="card border-0 ng-star-inserted")
-        elif mouse == "trier":
-            listings = soup.find_all("div", class_="row articel-list-job-content")
-            return [listing for listing in listings if "student" in listing.text.lower()]
+    # def get_listings(content, mouse):
+    #     soup = BeautifulSoup(content, 'lxml')
+        # if mouse == "rwth":
+        #     return [listing for listing in soup.find_all('li') if "veröffentlicht" in listing.text]
+        # elif mouse == "uniklinik":
+        #     return soup.find_all("div", class_="tx_wsjobs_jobs__job")
+        # elif mouse == "un":
+        #     return soup.find_all("div", class_="card border-0 ng-star-inserted")
+        # elif mouse == "trier":
+        #     return [listing for listing in soup.find_all("div", class_="row articel-list-job-content") if "student" in listing.text.lower()]
+        #
+    getters = {
+        "rwth": lambda soup: [listing for listing in soup.find_all('li') if "veröffentlicht" in listing.text],
+        "uniklinik": lambda soup: soup.find_all("div", class_="tx_wsjobs_jobs__job"),
+        "un": lambda soup: soup.find_all("div", class_="card border-0 ng-star-inserted"),
+        "trier": lambda soup: [listing for listing in soup.find_all("div", class_="row articel-list-job-content") if "student" in listing.text.lower()]
+
+    }
+    # return getters[mouse](soup)
 
     extractors = {
         "uniklinik": {
@@ -53,7 +61,8 @@ def extract_job_infos(site_content, field_mouse):
     }
 
     jobs = []
-    for job in get_listings(site_content, field_mouse):
+    # for job in get_listings(site_content, field_mouse):
+    for job in getters[field_mouse](BeautifulSoup(site_content, 'lxml')):
         job_dict = {}
         for key, function in extractors[field_mouse].items():
             try:
@@ -119,14 +128,13 @@ def extract_main_content(content, mouse):
 
 
 def to_file(content, new_content=None, mouse=None):
-    if mouse == "un":
-        with open(f'jobs/{mouse}.json', "r+") as file:
-            jobs = json.load(file)
-            file.seek(0)
-            json.dump(jobs.update(new_content), file, indent=4)
-    elif not new_content:
+    if new_content:
+        if mouse == "un":
+            with open(f'jobs/{mouse}.json', "r") as file:
+                content = json.load(file)
+                content.extend(new_content)
+        with open(f'jobs/{mouse}.json', "w") as file:
+            json.dump(content, file, indent=4)
+    else:
         with open(f'waiting_for_change/{mouse}_content.txt', "w", encoding="utf-8") as file:
             file.write(content)
-    else:
-        with open(f'jobs/{mouse}.json"' "w") as file:
-            json.dump(content, file, indent=4)
