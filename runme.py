@@ -19,7 +19,7 @@ def falcon(name, url):
 
 
 def hawk(name, url):
-    content = get_content(url, mouse=name)
+    content = get_content(url, mouse="hawk")
     if not content or len(content) == 0:
         message(f"Error fetching content for {url}")
         return

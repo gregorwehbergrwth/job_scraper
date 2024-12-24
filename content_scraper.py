@@ -54,9 +54,14 @@ def get_content(link, mouse):
             "content": lambda url: content_requests(url),
             "return": lambda response: response.text,
             "wait": lambda wait: wait
+        },
+        "hawk": {
+            "content": lambda url: content_selenium(url),
+            "return": lambda driver: driver.page_source,
+            "wait": lambda wait: wait.until(ec.presence_of_element_located((By.TAG_NAME, "li")))
         }
     }
-
+    print(f"Getting content from {link}")
     site_object, delay = site_getters[mouse]["content"](link)
     site_getters[mouse]["wait"](delay)
     return site_getters[mouse]["return"](site_object)
