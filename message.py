@@ -25,11 +25,10 @@ def configure_message(job_dict, mouse):
     structure = {
         "rwth": [
             f"{job_dict.get('Titel', 'N/A')}\n"
-            f"Link: {job_dict.get('Link', 'N/A')}\n"
             f"Frist: {job_dict.get('Frist', 'N/A')}\n"
             f"{job_dict.get('Veröffentlichungsdatum', 'N/A')}\n"
             f"Arbeitgeber: {job_dict.get('Ort', 'N/A')}\n"
-            f"Nummer: {job_dict.get('Nummer', 'N/A')}\n\n"
+            f"{job_dict.get('Link', 'N/A')}\n"
         ],
         "un": [
             f"- {job_dict.get('Job Title', 'N/A')}\n"
@@ -37,7 +36,7 @@ def configure_message(job_dict, mouse):
             f"- Network: {job_dict.get('Job Network', 'N/A')}\n"
             f"- {job_dict.get('Department/Office', 'N/A')}\n"
             f"- Deadline: {job_dict.get('Deadline', 'N/A')}\n"
-            f"- Link: {job_dict.get('Link', 'N/A')}\n"
+            f"- {job_dict.get('Link', 'N/A')}\n"
         ],
         "uniklinik": [
             f"{job_dict.get('Titel', 'N/A')}\n"
@@ -68,4 +67,3 @@ def configure_message(job_dict, mouse):
 def special_treatment(mouse, new_jobs):
     if mouse == "un" and len(new_jobs) > 10:
         message("More than 10 new jobs found. Check the website")
-

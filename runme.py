@@ -1,6 +1,5 @@
 from message import *
-from content_scraper import get_content
-from content_scraper import get_content
+from content_scraper import *
 from extract import *
 
 
@@ -34,6 +33,6 @@ if __name__ == "__main__":
     with open("links.json", 'r') as file:
         links = json.load(file)
     for prey, link in links["prey"].items():
-        falcon(name=prey, url=link)  # if prey not in ["un", "rwth"] else None
+        falcon(name=prey, url=link)
     for mouse, link in links["mice"].items():
         hawk(mouse, link)

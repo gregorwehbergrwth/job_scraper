@@ -1,68 +1,39 @@
-# import json
-# import random
-#
-# def remove_one(file):
-#     with open(str(file), 'r') as file:
-#         old_job_infos = json.load(file)
-#
-#     # delete one random job
-#     random_job = random.choice(old_job_infos)
-#     old_job_infos.remove(random_job)
-#     if 'title' not in random_job:
-#         print(f"Removed job: {random_job['Job ID']}")
-#     else:
-#         print(f"Removed job: {random_job['title']}")
-#
-#     with open('jobs/rwth.json', 'w') as file:
-#         json.dump(old_job_infos, file, indent=4)
-#
-#
-# remove_one("jobs/rwth.json")
-from bs4 import BeautifulSoup
+from message import *
+from content_scraper import get_content
+from extract import *
 
 
-def get_listings(content, mouse):
-    soup = BeautifulSoup(content, 'lxml')
-    if mouse == "rwth":
-        listings = soup.find_all('li')
-        return [listing for listing in listings if "veröffentlicht" in listing.text]
-    elif mouse == "uniklinik":
-        return soup.find_all("div", class_="tx_wsjobs_jobs__job")
-    elif mouse == "un":
-        return soup.find_all("div", class_="card border-0 ng-star-inserted")
-    elif mouse == "trier":
-        listings = soup.find_all("div", class_="row articel-list-job-content")
-        return [listing for listing in listings if "student" in listing.text.lower()]
-
-def extract_general_job_infos(content, mouse):
-    jobs = []
-    for listing in get_listings(content, mouse)[:9]:
-        temp_dict = {}
-        print(listing.prettify())
-        for key, function in extractors[mouse].items():
-            try:
-                temp_dict[key.strip()] = function(listing)
-                print(function(listing))
-            except Exception as e:
-                print(f"Error parsing listing: {e}")
-        jobs.append(temp_dict)
-
-    print(jobs)
-    return jobs
+def falcon(name, url):
+    content = get_content(url, mouse=name)
+    print(content)
+    if not content:
+        message(f"Error fetching content for {url}")
+        return
+    job_infos = extract_job_infos(content, field_mouse=name)
+    new_jobs = compare_jobs(file=f"jobs/{name}.json", job_infos=job_infos)
+    if new_jobs:
+        to_file(job_infos, new_jobs, name)
+        for job in new_jobs:
+            message(configure_message(job, mouse=name))
+        special_treatment(mouse=name, new_jobs=new_jobs)
 
 
-with open("test.txt", "r") as f:
-    content = f.read()
-
-extractors = {
-    "trier": {
-        "Titel": lambda x: x.find("div", class_="col-md-6 col-01").text.strip(),
-        "Arbeitgeber": lambda x: x.find("div", class_="col-md-3 col-01 modal-link").text.strip(),
-        "Link": lambda x: f"https://career-service-hochschule-trier.de{x.find("a")["href"]}" if x.find("a")["href"].startswith("/") else x.find("a")["href"],
-        "Art": lambda x: "\n".join(x.find("div", class_="col-md-3 col-02").find_all(string=True)),
-    }
-}
-
-extract_general_job_infos(content, "trier")
+def hawk(name, url):
+    content = get_content(url, mouse="hawk")
+    if not content or len(content) == 0:
+        message(f"Error fetching content for {url}")
+        return
+    main_content = extract_main_content(content, name)
+    part = compare_contents(file=f"waiting_for_change/{name}_content.txt", new_content=main_content)
+    if part:
+        message(f"New content found for {name}:\n{url}\n{part}")
+        to_file(jobs=None, new_jobs=None, mouse=name, content=main_content)
 
 
+if __name__ == "__main__":
+    with open("links.json", 'r') as file:
+        links = json.load(file)
+    for prey, link in links["prey"].items():
+        falcon(name=prey, url=link) if prey not in ["un", "rwth"] else None
+    for mouse, link in links["mice"].items():
+        hawk(mouse, link)
