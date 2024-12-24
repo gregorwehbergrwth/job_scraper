@@ -68,3 +68,4 @@ def configure_message(job_dict, mouse):
 def special_treatment(mouse, new_jobs):
     if mouse == "un" and len(new_jobs) > 10:
         message("More than 10 new jobs found. Check the website")
+

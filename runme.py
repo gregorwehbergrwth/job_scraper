@@ -1,5 +1,6 @@
 from message import *
 from content_scraper import get_content
+from content_scraper import get_content
 from extract import *
 
 
@@ -19,7 +20,7 @@ def falcon(name, url):
 
 def hawk(name, url):
     content = get_content(url, mouse=name)
-    if not content:
+    if not content or len(content) == 0:
         message(f"Error fetching content for {url}")
         return
     main_content = extract_main_content(content, name)
@@ -33,6 +34,6 @@ if __name__ == "__main__":
     with open("links.json", 'r') as file:
         links = json.load(file)
     for prey, link in links["prey"].items():
-        falcon(name=prey, url=link) if prey == "asta_aachen" else None
-    # for mouse, link in links["mice"].items():
-    #     hawk(mouse, link)
+        falcon(name=prey, url=link)  # if prey not in ["un", "rwth"] else None
+    for mouse, link in links["mice"].items():
+        hawk(mouse, link)

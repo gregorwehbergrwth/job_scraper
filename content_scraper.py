@@ -1,5 +1,4 @@
 from selenium import webdriver
-from selenium.common.exceptions import TimeoutException
 from selenium.webdriver.chrome.service import Service
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -8,15 +7,14 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import requests
 
-def get_content(url, mouse):
-    print(f"Fetching content of {url}")
 
-    try:
-        if mouse == "trier" or mouse == "uniklinik":
-            response = requests.get(url)
-            response.raise_for_status()
-            return response.text
+def get_content(link, mouse):
+    def content_requests(url):
+        response = requests.get(url)
+        response.raise_for_status()
+        return response, None
 
+    def content_selenium(url):
         options = Options()
         options.add_argument("--headless")
         options.add_argument("--disable-gpu")
@@ -28,20 +26,37 @@ def get_content(url, mouse):
         driver = webdriver.Chrome(service=service, options=options)
         driver.get(url)
 
-        WebDriverWait(driver, 30).until(ec.presence_of_element_located((By.TAG_NAME, "li")))
+        wait = WebDriverWait(driver, 40, poll_frequency=1)
+        return driver, wait
 
-        if mouse == "un":
-            wait = WebDriverWait(driver, 40, poll_frequency=1, ignored_exceptions=[TimeoutException])
-            wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.content")))
-            wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.card-body.p-1.pr-0.pl-1.ng-star-inserted")))
-            return driver.execute_script("return document.querySelector('app-root').innerHTML;")
-        elif mouse == "asta_aachen":
-            wait = WebDriverWait(driver, 40, poll_frequency=1, ignored_exceptions=[TimeoutException])
-            wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.company")))
-            return driver.execute_script("return document.querySelector('div.job_listings').innerHTML;")
-        else:
-            return driver.page_source
+    site_getters = {
+        "un": {
+            "content": lambda url: content_selenium(url),
+            "return": lambda driver: driver.execute_script("return document.querySelector('app-root').innerHTML;"),
+            "wait": lambda wait: wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.card-body.p-1.pr-0.pl-1.ng-star-inserted")))
+        },
+        "rwth": {
+            "content": lambda url: content_selenium(url),
+            "return": lambda driver: driver.page_source,
+            "wait": lambda wait: wait.until(ec.presence_of_element_located((By.TAG_NAME, "li")))
+        },
+        "asta_aachen": {
+            "content": lambda url: content_selenium(url),
+            "return": lambda driver: driver.execute_script("return document.querySelector('div.job_listings').innerHTML;"),
+            "wait": lambda wait: wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.company")))
+        },
+        "trier": {
+            "content": lambda url: content_requests(url),
+            "return": lambda response: response.text,
+            "wait": lambda wait: wait
+        },
+        "uniklinik": {
+            "content": lambda url: content_requests(url),
+            "return": lambda response: response.text,
+            "wait": lambda wait: wait
+        }
+    }
 
-    except Exception as e:
-        print(f"Error: {e}")
-        return None
+    site_object, delay = site_getters[mouse]["content"](link)
+    site_getters[mouse]["wait"](delay)
+    return site_getters[mouse]["return"](site_object)

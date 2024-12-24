@@ -52,7 +52,7 @@ def extract_job_infos(site_content, field_mouse):
             "Arbeitgeber": lambda x: x.find("div", class_="company").text.strip(),
             "Ort": lambda x: x.find("div", class_="location").text.strip(),
             "Link": lambda x: x.find("a")["href"],
-            "Datum": lambda x: f'{x.find("ul", class_="meta").find("li", class_="date").text.strip()} ({x.find("ul", class_="meta").find("li", class_="date").find("time")["datetime"]})',
+            "Datum": lambda x: x.find("ul", class_="meta").find("li", class_="date").find("time")["datetime"],
         }
     }
 
