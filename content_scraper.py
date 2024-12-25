@@ -6,7 +6,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import requests
-
+from message import message
 
 def get_content(link, mouse):
     def content_requests(url):
@@ -62,6 +62,10 @@ def get_content(link, mouse):
         }
     }
     print(f"Getting content from {link}")
-    site_object, delay = site_getters[mouse]["content"](link)
-    site_getters[mouse]["wait"](delay)
-    return site_getters[mouse]["return"](site_object)
+    try:
+        site_object, delay = site_getters[mouse]["content"](link)
+        site_getters[mouse]["wait"](delay)
+        return site_getters[mouse]["return"](site_object)
+    except Exception as e:
+        message(f"Error fetching content for {link}: {e}")
+        return None
