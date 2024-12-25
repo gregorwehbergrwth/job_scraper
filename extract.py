@@ -45,7 +45,7 @@ def extract_job_infos(site_content, field_mouse):
             "Titel": lambda x: x.find("div", class_="col-md-6 col-01").text.strip(),
             "Arbeitgeber": lambda x: x.find("div", class_="col-md-3 col-01 modal-link").text.strip(),
             "Link": lambda x: f'https://career-service-hochschule-trier.de{x.find("a")["href"]}' if x.find("a")["href"].startswith("/") else x.find("a")["href"],
-            "Art": lambda x: "\n".join(x.find("div", class_="col-md-3 col-02").find_all(string=True)),
+            "Art": lambda x: ", ".join(x.find("div", class_="col-md-3 col-02").find_all(string=True)),
         },
         "asta_aachen": {
             "Titel": lambda x: x.find("div", class_="position").find_all(string=True)[1].strip(),
@@ -70,9 +70,9 @@ def extract_job_infos(site_content, field_mouse):
     return jobs
 
 
-def compare_jobs(file, job_infos):
+def compare_jobs(mouse, job_infos):
     try:
-        with open(file, "r") as file:
+        with open(f"jobs/{mouse}.json", "r") as file:
             old_job_infos = json.load(file)
     except FileNotFoundError:
         print("Old jobs file not found, creating a new one.")
@@ -81,16 +81,16 @@ def compare_jobs(file, job_infos):
     return [job for job in job_infos if job not in old_job_infos]
 
 
-def compare_contents(file, new_content):
+def compare_contents(mouse, new_content):
     part = []
     try:
-        with open(file, "r", encoding="utf-8") as file:
+        with open(f"waiting_for_change/{mouse}.txt", "r", encoding="utf-8") as file:
             old_content = file.read()
     except FileNotFoundError:
         print("Old content file not found, creating a new one.")
         old_content = ""
-    if old_content == new_content:
-        print("None")
+    if old_content.strip() == new_content.strip():
+        print(f"No new content found for {mouse}")
         return None
     else:
         lines = new_content.split("\n")
@@ -103,19 +103,19 @@ def compare_contents(file, new_content):
 
 def extract_main_content(content, mouse):
     extractors = {
-        "lbb": lambda soup: soup.find('div', id='main').find('div', class_='text').text,
-        "stb": lambda soup: soup.find('div', class_='listing').text,
-        "imb": lambda soup: soup.find('tbody').text,
-        "icom": lambda soup: soup.find('div', class_='listing').text,
-        "inab": lambda soup: soup.find('div', class_='elementor-section-wrap').text,
-        "e3d": lambda soup: soup.find('div', class_='listing').text,
-        "iww": lambda soup: soup.find('div', class_='listing').text,
-        "ifam": lambda soup: soup.find('div', id="wrapper-2").text,
-        "gut": lambda soup: soup.find('tbody').text,
-        "gia": lambda soup: soup.find('div', class_='listing').text,
-        "isa": lambda soup: soup.find('tbody').text,
-        "ucc": lambda soup: soup.find('div', class_='tabs_wrapper tabs_horizontal').text,
-        "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text,
+        "lbb": lambda soup: soup.find('div', id='main').find('div', class_='text').text.strip(),
+        "stb": lambda soup: soup.find('div', class_='listing').text.strip(),
+        "imb": lambda soup: soup.find('tbody').text.strip(),
+        "icom": lambda soup: soup.find('div', class_='listing').text.strip(),
+        "inab": lambda soup: soup.find('div', class_='elementor-section-wrap').text.strip(),
+        "e3d": lambda soup: soup.find('div', class_='listing').text.strip(),
+        "iww": lambda soup: soup.find('div', class_='listing').text.strip(),
+        "ifam": lambda soup: soup.find('div', id="wrapper-2").text.strip(),
+        "gut": lambda soup: soup.find('tbody').text.strip(),
+        "gia": lambda soup: soup.find('div', class_='listing').text.strip(),
+        "isa": lambda soup: soup.find('tbody').text.strip(),
+        "ucc": lambda soup: soup.find('div', class_='tabs_wrapper tabs_horizontal').text.strip(),
+        "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text.strip(),
     }
     try:
         return extractors[mouse](BeautifulSoup(content, 'lxml'))
@@ -124,7 +124,7 @@ def extract_main_content(content, mouse):
         return None
 
 
-def to_file(jobs, new_jobs, mouse, content=None):
+def to_file(mouse, jobs=None, new_jobs=None, content=None):
     if new_jobs:
         if mouse == "un":
             with open(f'jobs/{mouse}.json', "r") as file:
@@ -132,6 +132,6 @@ def to_file(jobs, new_jobs, mouse, content=None):
                 jobs.extend(new_jobs)
         with open(f'jobs/{mouse}.json', "w") as file:
             json.dump(jobs, file, indent=4)
-    else:
-        with open(f'waiting_for_change/{mouse}_content.txt', "w", encoding="utf-8") as file:
+    elif content:
+        with open(f'waiting_for_change/{mouse}.txt', "w", encoding="utf-8") as file:
             file.write(content)

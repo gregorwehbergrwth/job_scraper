@@ -1,6 +1,3 @@
-
-
-
 Titel der Arbeit
 Art der Arbeit
 Fach- bereich
@@ -11,18 +8,6 @@ PDF
 Durchführung einer Anforderungsanalyse zur Ermittlung nachhaltigkeitsrelevanter Daten auf Basis digitaler Zwillinge im Gebäudebetrieb  Kontakt: Frau Leonie Große-Wilde
 Masterarbeit 
 F3;F8[312110]
- 
-
-
-Entwicklung eines Konzeptes für ein Common Data Environment zum Einsatz in Bau- und Betrieb von InfrastrukturprojektenKontakt: Frau Anne Zaun
-Bachelorarbeit 
-F2;F3;F1.1[312110]
- 
-
-
-Entwicklung eines Konzeptes für das Kommunikationsmodul eines Common Data Environments zum Einsatz in Bau- und Betrieb von InfrastrukturprojektenKontakt: Frau Anne Zaun
-Bachelorarbeit 
-F2;F3;F1.1[312110]
  
 
 
@@ -51,13 +36,13 @@ F1.1[312110]
  
 
 
-Stakeholderanalyse im Planungsprozess von Gebäuden im MauerwerksbauKontakt: Herr Shervin Rahnama
+Entwicklung eines BIM-basierten Planungsprozesses unter Berücksichtigung von NachhaltigkeitsaspektenKontakt: Herr Shervin Rahnama
 Masterarbeit 
 F3;F8[312110]
  
 
 
-Entwicklung eines BIM-basierten Planungsprozesses unter Berücksichtigung von NachhaltigkeitsaspektenKontakt: Herr Shervin Rahnama
+Stakeholderanalyse im Planungsprozess von Gebäuden im MauerwerksbauKontakt: Herr Shervin Rahnama
 Masterarbeit 
 F3;F8[312110]
  
@@ -72,6 +57,3 @@ F3;F8[312110]
 Untersuchungen zur partizipativen Gestaltung nachhaltiger MobilitätKontakt: Herr Jonathan Matthei
 Bachelorarbeit Masterarbeit 
 F2;F3[312110]
- 
-
-

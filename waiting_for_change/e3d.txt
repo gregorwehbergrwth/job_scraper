@@ -1,6 +1,3 @@
-
-
-
 Titel der Arbeit
 Art der Arbeit
 Fach- bereich
@@ -29,6 +26,3 @@ F3;F4[312410]
 Simulative Abschätzung hygrothermischer Materialkennwerte unter Einsatz von OptimierungsalgorithmenKontakt: Herr Oliver Abele
 Masterarbeit 
 F3[312410]
-
-
-

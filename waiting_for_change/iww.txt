@@ -1,6 +1,3 @@
-
-
-
 Titel der Arbeit
 Art der Arbeit
 Fachbereich
@@ -62,14 +59,14 @@ F3[314410]
  
 
 
-OpenFOAM simulation of scour around the river spur dikesKontakt: Frau Nandhini Duraimurugan
-Masterarbeit 
+Ship-induced waves and damage at the river bank (A Literature Study)Kontakt: Frau Nandhini Duraimurugan
+Bachelorarbeit 
 F3[314410]
  
 
 
-Ship-induced waves and damage at the river bank (A Literature Study)Kontakt: Frau Nandhini Duraimurugan
-Bachelorarbeit 
+OpenFOAM simulation of scour around the river spur dikesKontakt: Frau Nandhini Duraimurugan
+Masterarbeit 
 F3[314410]
  
 
@@ -77,6 +74,3 @@ F3[314410]
 Identification and Mapping of River Dikes in Germany Using QGIS and Google EarthKontakt: Frau Samantha Rodriguez Rosas
 Magisterarbeit Bachelorarbeit Masterarbeit 
 F1[314410]
- 
-
-
