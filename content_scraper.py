@@ -8,40 +8,44 @@ from selenium.webdriver.chrome.options import Options
 import requests
 from message import message
 
-def get_content(link, mouse):
+
+def get_driver():
+    options = Options()
+    options.add_argument("--headless")
+    options.add_argument("--disable-gpu")
+    options.add_argument("--no-sandbox")
+    options.add_argument("--disable-dev-shm-usage")
+    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+
+    service = Service(ChromeDriverManager().install())
+    driver = webdriver.Chrome(service=service, options=options)
+    return driver
+
+
+def get_content(link, mouse, selenium_driver):
     def content_requests(url):
         response = requests.get(url)
         response.raise_for_status()
         return response, None
 
-    def content_selenium(url):
-        options = Options()
-        options.add_argument("--headless")
-        options.add_argument("--disable-gpu")
-        options.add_argument("--no-sandbox")
-        options.add_argument("--disable-dev-shm-usage")
-        options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
-
-        service = Service(ChromeDriverManager().install())
-        driver = webdriver.Chrome(service=service, options=options)
+    def content_selenium(url, driver):
         driver.get(url)
-
         wait = WebDriverWait(driver, 40, poll_frequency=1)
         return driver, wait
 
     site_getters = {
         "un": {
-            "content": lambda url: content_selenium(url),
+            "content": lambda url: content_selenium(url, selenium_driver),
             "return": lambda driver: driver.execute_script("return document.querySelector('app-root').innerHTML;"),
             "wait": lambda wait: wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.card-body.p-1.pr-0.pl-1.ng-star-inserted")))
         },
         "rwth": {
-            "content": lambda url: content_selenium(url),
+            "content": lambda url: content_selenium(url, selenium_driver),
             "return": lambda driver: driver.page_source,
             "wait": lambda wait: wait.until(ec.presence_of_element_located((By.TAG_NAME, "li")))
         },
         "asta_aachen": {
-            "content": lambda url: content_selenium(url),
+            "content": lambda url: content_selenium(url, selenium_driver),
             "return": lambda driver: driver.execute_script("return document.querySelector('div.job_listings').innerHTML;"),
             "wait": lambda wait: wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.company")))
         },
@@ -56,7 +60,7 @@ def get_content(link, mouse):
             "wait": lambda wait: wait
         },
         "hawk": {
-            "content": lambda url: content_selenium(url),
+            "content": lambda url: content_selenium(url, selenium_driver),
             "return": lambda driver: driver.page_source,
             "wait": lambda wait: wait.until(ec.presence_of_element_located((By.TAG_NAME, "li")))
         }
