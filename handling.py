@@ -2,13 +2,16 @@ import json
 
 
 def get_file(name):
-    if name.endswith(".json"):
-        with open(name, "r") as file:
-            return json.load(file)
-    elif name.endswith(".txt"):
-        with open(name, "r", encoding="utf-8") as file:
-            return file.read()
-
+    try:
+        if name.endswith(".json"):
+            with open(name, "r") as file:
+                return json.load(file)
+        elif name.endswith(".txt"):
+            with open(name, "r", encoding="utf-8") as file:
+                return file.read()
+    except FileNotFoundError:
+        print(f"File {name} not found.")
+        return "" if name.endswith(".txt") else []
 
 def write_file(name, content):
     if name.endswith(".json"):
