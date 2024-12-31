@@ -67,11 +67,13 @@ def get_content(link, mouse, selenium_driver, mode="falcon"):
     }
     print(f"Getting content from {link}")
 
+    config = "hawk" if mode == "hawk" else mouse
+
     try:
-        site_object, delay = site_getters[mouse]["content"](link) if mode == "falcon" else site_getters["hawk"]["content"](link)
-        site_getters[mouse]["wait"](delay)
-        return site_getters[mouse]["return"](site_object)
+        site_object, delay = site_getters[config]["content"](link)
+        site_getters[config]["wait"](delay)
+        return site_getters[config]["return"](site_object)
     except Exception as e:
         message(f"Error fetching content for {link}: {e}")
-        to_file(mouse=mouse, error=e)
+        to_file(mouse=mouse, error=str(e))
         return None
