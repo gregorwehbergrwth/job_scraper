@@ -124,14 +124,3 @@ def extract_main_content(content, mouse):
         return None
 
 
-def to_file(mouse, jobs=None, new_jobs=None, content=None):
-    if new_jobs:
-        if mouse == "un":
-            with open(f'jobs/{mouse}.json', "r") as file:
-                jobs = json.load(file)
-                jobs.extend(new_jobs)
-        with open(f'jobs/{mouse}.json', "w") as file:
-            json.dump(jobs, file, indent=4)
-    elif content:
-        with open(f'waiting_for_change/{mouse}.txt', "w", encoding="utf-8") as file:
-            file.write(content)
