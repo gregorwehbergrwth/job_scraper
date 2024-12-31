@@ -1,7 +1,7 @@
-from message import *
-from content_scraper import *
-from extract import *
-from handling import *
+from functions.message import *
+from functions.content_scraper import *
+from functions.extract import *
+from functions.handling import *
 
 
 def falcon(name, url, driver):

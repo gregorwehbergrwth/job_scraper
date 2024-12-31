@@ -99,7 +99,7 @@ def compare_jobs(mouse, job_infos):
 
 
 def compare_contents(mouse, new_content):
-    old_content = get_file(f"waiting_for_change/{mouse}.txt")
+    old_content = get_file(f"patrol/{mouse}.txt")
 
     part = ""
     for line in new_content.split("\n"):

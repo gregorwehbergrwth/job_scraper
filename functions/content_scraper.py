@@ -74,6 +74,6 @@ def get_content(link, mouse, selenium_driver, mode="falcon"):
         site_getters[config]["wait"](delay)
         return site_getters[config]["return"](site_object)
     except Exception as e:
-        message(f"Error fetching content for {link}: {e}")
+        message(f"Error fetching content for {link}")
         to_file(mouse=mouse, error=str(e))
         return None

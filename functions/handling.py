@@ -29,7 +29,7 @@ def to_file(mouse, jobs=None, new_jobs=None, content=None, error=None):
             jobs.extend(new_jobs)
         write_file(f"jobs/{mouse}.json", jobs)
     elif content:
-        write_file(f"waiting_for_change/{mouse}.txt", content)
+        write_file(f"patrol/{mouse}.txt", content)
     elif error:
         problem_dict = get_file("problematic.json")
         problem_dict.append({mouse: error})
@@ -45,7 +45,7 @@ def to_file(mouse, jobs=None, new_jobs=None, content=None, error=None):
 #         with open(f'jobs/{mouse}.json', "w") as file:
 #             json.dump(jobs, file, indent=4)
 #     elif content:
-#         with open(f'waiting_for_change/{mouse}.txt', "w", encoding="utf-8") as file:
+#         with open(f'patrol/{mouse}.txt', "w", encoding="utf-8") as file:
 #             file.write(content)
 #     elif error:
 #         with open("problematic.json", 'r') as file:
