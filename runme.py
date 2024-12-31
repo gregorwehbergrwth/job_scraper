@@ -1,5 +1,3 @@
-import json
-
 from message import *
 from content_scraper import *
 from extract import *
