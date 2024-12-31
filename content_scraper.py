@@ -7,6 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import requests
 from message import message
+from handling import to_file
 
 
 def get_driver():
@@ -18,11 +19,10 @@ def get_driver():
     options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
 
     service = Service(ChromeDriverManager().install())
-    driver = webdriver.Chrome(service=service, options=options)
-    return driver
+    return webdriver.Chrome(service=service, options=options)
 
 
-def get_content(link, mouse, selenium_driver):
+def get_content(link, mouse, selenium_driver, mode="falcon"):
     def content_requests(url):
         response = requests.get(url)
         response.raise_for_status()
@@ -66,10 +66,12 @@ def get_content(link, mouse, selenium_driver):
         }
     }
     print(f"Getting content from {link}")
+
     try:
-        site_object, delay = site_getters[mouse]["content"](link)
+        site_object, delay = site_getters[mouse]["content"](link) if mode == "falcon" else site_getters["hawk"]["content"](link)
         site_getters[mouse]["wait"](delay)
         return site_getters[mouse]["return"](site_object)
     except Exception as e:
         message(f"Error fetching content for {link}: {e}")
+        to_file(mouse=mouse, error=e)
         return None
