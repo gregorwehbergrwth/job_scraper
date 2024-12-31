@@ -1,6 +1,6 @@
 from bs4 import BeautifulSoup
 import re
-from handling import get_file
+from functions.handling import get_file
 
 
 def extract_job_infos(site_content, field_mouse):

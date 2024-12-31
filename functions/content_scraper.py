@@ -6,8 +6,8 @@ from selenium.webdriver.support import expected_conditions as ec
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import requests
-from message import message
-from handling import to_file
+from functions.message import message
+from functions.handling import to_file
 
 
 def get_driver():

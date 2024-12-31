@@ -13,6 +13,7 @@ def get_file(name):
         print(f"File {name} not found.")
         return "" if name.endswith(".txt") else []
 
+
 def write_file(name, content):
     if name.endswith(".json"):
         with open(name, "w") as file:
