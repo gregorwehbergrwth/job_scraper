@@ -1,6 +1,9 @@
+import json
+
 from message import *
 from content_scraper import *
 from extract import *
+from handling import *
 
 
 def falcon(name, url, driver):
@@ -14,7 +17,7 @@ def falcon(name, url, driver):
 
 
 def hawk(name, url, driver):
-    content = get_content(url, mouse="hawk", selenium_driver=driver)
+    content = get_content(url, mouse=name, selenium_driver=driver, mode="hawk")
     main_content = extract_main_content(content, name) if content else ""
     part = compare_contents(mouse=name, new_content=main_content) if main_content else ""
     to_file(mouse=name, content=main_content)
@@ -24,9 +27,11 @@ def hawk(name, url, driver):
 
 if __name__ == "__main__":
     selenium_driver = get_driver()
-    with open("links.json", 'r') as file:
-        links = json.load(file)
+
+    links = get_file(name="links.json")
+    problematic = get_file(name="problematic.json")
+
     for prey, link in links["prey"].items():
-        falcon(name=prey, url=link, driver=selenium_driver)
+        falcon(name=prey, url=link, driver=selenium_driver) if prey not in problematic else None
     for mouse, link in links["mice"].items():
-        hawk(mouse, link, driver=selenium_driver)
+        hawk(mouse, link, driver=selenium_driver) if mouse not in problematic else None
