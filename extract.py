@@ -1,10 +1,9 @@
 from bs4 import BeautifulSoup
-import json
 import re
+from handling import get_file
 
 
 def extract_job_infos(site_content, field_mouse):
-
     getters = {
         "rwth": lambda soup: [listing for listing in soup.find_all('li') if "veröffentlicht" in listing.text],
         "uniklinik": lambda soup: soup.find_all("div", class_="tx_wsjobs_jobs__job"),
@@ -70,37 +69,6 @@ def extract_job_infos(site_content, field_mouse):
     return jobs
 
 
-def compare_jobs(mouse, job_infos):
-    try:
-        with open(f"jobs/{mouse}.json", "r") as file:
-            old_job_infos = json.load(file)
-    except FileNotFoundError:
-        print("Old jobs file not found, creating a new one.")
-        old_job_infos = []
-
-    return [job for job in job_infos if job not in old_job_infos]
-
-
-def compare_contents(mouse, new_content):
-    part = []
-    try:
-        with open(f"waiting_for_change/{mouse}.txt", "r", encoding="utf-8") as file:
-            old_content = file.read()
-    except FileNotFoundError:
-        print("Old content file not found, creating a new one.")
-        old_content = ""
-    if old_content.strip() == new_content.strip():
-        print(f"No new content found for {mouse}")
-        return None
-    else:
-        lines = new_content.split("\n")
-        for line in lines:
-            if line not in old_content and line != "":
-                part.append(line)
-        print("\n".join(part))
-        return "\n".join(part)
-
-
 def extract_main_content(content, mouse):
     extractors = {
         "lbb": lambda soup: soup.find('div', id='main').find('div', class_='text').text.strip(),
@@ -124,3 +92,19 @@ def extract_main_content(content, mouse):
         return None
 
 
+def compare_jobs(mouse, job_infos):
+    old_job_infos = get_file(f"jobs/{mouse}.json")
+
+    return [job for job in job_infos if job not in old_job_infos]
+
+
+def compare_contents(mouse, new_content):
+    old_content = get_file(f"waiting_for_change/{mouse}.txt")
+
+    part = ""
+    for line in new_content.split("\n"):
+        if line not in old_content and line != "" and line != "\n":
+            part += line + "\n"
+    print(part)
+
+    return part
