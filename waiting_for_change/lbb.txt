@@ -4,6 +4,26 @@ Zu vergebende Bachelorarbeiten
 
 
 
+Titel
+Betreuer
+
+
+
+Physics-Informed Neural Networks zur Lösung der Differentialgleichungen von Balken
+
+
+Nils Radin
+
+
+
+
+Untersuchung der Einflussfaktoren auf das Biegemoment in der Lendenwirbelsäule
+
+
+
+Sven Klinkel
+
+
 Maximilian        Praster
 
 
