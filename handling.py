@@ -3,19 +3,19 @@ import json
 
 def get_file(name):
     if name.endswith(".json"):
-        with open(f"{name}.json", "r") as file:
+        with open(name, "r") as file:
             return json.load(file)
     elif name.endswith(".txt"):
-        with open(f"{name}.txt", "r", encoding="utf-8") as file:
+        with open(name, "r", encoding="utf-8") as file:
             return file.read()
 
 
 def write_file(name, content):
     if name.endswith(".json"):
-        with open(f"{name}.json", "w") as file:
+        with open(name, "w") as file:
             json.dump(content, file, indent=4)
     elif name.endswith(".txt"):
-        with open(f"{name}.txt", "w", encoding="utf-8") as file:
+        with open(name, "w", encoding="utf-8") as file:
             file.write(content)
 
 
