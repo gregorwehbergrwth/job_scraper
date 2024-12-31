@@ -30,7 +30,6 @@ if __name__ == "__main__":
     problematic = get_file(name="problematic.json")
 
     for prey, link in links["prey"].items():
-        # falcon(name=prey, url=link, driver=selenium_driver) if prey not in problematic else None
-        falcon(name=prey, url=link, driver=selenium_driver) if prey == "rwth" else None
+        falcon(name=prey, url=link, driver=selenium_driver) if prey not in problematic else None
     for mouse, link in links["mice"].items():
         hawk(mouse, link, driver=selenium_driver) if mouse not in problematic else None

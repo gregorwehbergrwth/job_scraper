@@ -24,8 +24,9 @@ def write_file(name, content):
 
 def to_file(mouse, jobs=None, new_jobs=None, content=None, error=None):
     if new_jobs:
-        jobs = get_file(f"jobs/{mouse}.json")
-        jobs.extend(new_jobs) if mouse == "un" else jobs
+        if mouse == "un":
+            jobs = get_file(f"jobs/{mouse}.json")
+            jobs.extend(new_jobs)
         write_file(f"jobs/{mouse}.json", jobs)
     elif content:
         write_file(f"waiting_for_change/{mouse}.txt", content)
