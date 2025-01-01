@@ -41,16 +41,9 @@ F3;F8;F1.1[312110]
  
 
 
-Entwicklung einer Taxonomie zur Charakterisierung von InfrastrukturbauprojektenKontakt: Herr Konrad Neubaur
-Masterarbeit 
-F3[312110]
- 
-
-
-Development of a Concept for the Automatic Creation of Rule Sets for the Verification of Project-Specific Requirements for a Building.
-Kontakt: Frau Sabine Hartmann
-Bachelorarbeit Masterarbeit 
-F1.1[312110]
+Literaturrecherche rechtlicher Rahmenbedingungen im nachhaltigen MauerwerksbauKontakt: Herr Shervin Rahnama
+Bachelorarbeit 
+F3;F8[312110]
  
 
 
@@ -63,15 +56,3 @@ F3;F8[312110]
 Entwicklung eines BIM-basierten Planungsprozesses unter Berücksichtigung von NachhaltigkeitsaspektenKontakt: Herr Shervin Rahnama
 Masterarbeit 
 F3;F8[312110]
- 
-
-
-Literaturrecherche rechtlicher Rahmenbedingungen im nachhaltigen MauerwerksbauKontakt: Herr Shervin Rahnama
-Bachelorarbeit 
-F3;F8[312110]
- 
-
-
-Untersuchungen zur partizipativen Gestaltung nachhaltiger MobilitätKontakt: Herr Jonathan Matthei
-Bachelorarbeit Masterarbeit 
-F2;F3[312110]
