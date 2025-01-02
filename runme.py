@@ -42,4 +42,6 @@ if __name__ == "__main__":
 
     selenium_driver.quit()
 
-    write_file(name=f'time_logs/time_log_{time.strftime("%Y-%m-%d_%H_%M_%S")}.json', content=time_logger)
+    logs = get_file(name="time_logs/time_log.json")
+    logs.append({time.strftime("%Y-%m-%d %H:%M:%S"): time_logger})
+    write_file(name="time_logs/time_log.json", content=logs)
