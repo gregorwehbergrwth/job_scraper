@@ -35,22 +35,3 @@ def to_file(mouse, jobs=None, new_jobs=None, content=None, error=None):
         problem_dict = get_file("problematic.json")
         problem_dict.append({mouse: error})
         write_file("problematic.json", content=problem_dict)
-
-
-# def to_file(mouse, jobs=None, new_jobs=None, content=None, error=None):
-#     if new_jobs:
-#         if mouse == "un":
-#             with open(f'jobs/{mouse}.json', "r") as file:
-#                 jobs = json.load(file)
-#                 jobs.extend(new_jobs)
-#         with open(f'jobs/{mouse}.json', "w") as file:
-#             json.dump(jobs, file, indent=4)
-#     elif content:
-#         with open(f'patrol/{mouse}.txt', "w", encoding="utf-8") as file:
-#             file.write(content)
-#     elif error:
-#         with open("problematic.json", 'r') as file:
-#             problem_dict = json.load(file)
-#             problem_dict.append({str(mouse): str(error)}) if mouse not in problem_dict else None
-#         with open("problematic.json", 'w') as file:
-#             json.dump(problem_dict, file, indent=4)
