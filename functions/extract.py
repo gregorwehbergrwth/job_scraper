@@ -61,7 +61,7 @@ def extract_job_infos(site_content, field_mouse):
         for key, function in extractors[field_mouse].items():
             try:
                 job_dict[key.strip()] = function(job)
-                print(f'{key}: {job_dict[key.strip()]}')
+                # print(f'{key}: {job_dict[key.strip()]}')
             except Exception as e:
                 print(f'Error parsing listing: {e}')
         jobs.append(job_dict)
@@ -105,6 +105,6 @@ def compare_contents(mouse, new_content):
     for line in new_content.split("\n"):
         if line not in old_content and line != "" and line != "\n":
             part += line + "\n"
-    print(part)
+    # print(part)
 
     return part
