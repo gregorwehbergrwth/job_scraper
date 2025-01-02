@@ -5,8 +5,8 @@ WEB
 PDF
 
 
-Erstellung einer Nachhaltigkeitsbewertungsfunktion für Mauerwerk mit der Systematik BNK/BNGKontakt: Herr Shervin Rahnama
-Masterarbeit 
+Systematische Literaturrecherche zum Stand der Technik und der Forschung bei der Optimierung der Nachhaltigkeit von GebäudenKontakt: Herr Shervin Rahnama
+Bachelorarbeit 
 F3;F8[312110]
  
 
@@ -20,6 +20,12 @@ F3;F8[312110]
 Automatisierte Zuordnung von IFC-Objekten mit fehlenden ökologischen Nachhaltigkeitskennwerten mittels NLP-TechnikenKontakt: Herr Shervin Rahnama
 Masterarbeit 
 F3;F8;F1;F1.1[312110]
+ 
+
+
+Erstellung einer Nachhaltigkeitsbewertungsfunktion für Mauerwerk mit der Systematik BNK/BNGKontakt: Herr Shervin Rahnama
+Masterarbeit 
+F3;F8[312110]
  
 
 
