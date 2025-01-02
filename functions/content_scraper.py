@@ -34,45 +34,52 @@ def get_content(link, mouse, selenium_driver, mode="falcon"):
         return driver, wait
 
     site_getters = {
-        "un": {
-            "content": lambda url: content_selenium(url, selenium_driver),
-            "return": lambda driver: driver.execute_script("return document.querySelector('app-root').innerHTML;"),
-            "wait": lambda wait: wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.card-body.p-1.pr-0.pl-1.ng-star-inserted")))
-        },
-        "rwth": {
-            "content": lambda url: content_selenium(url, selenium_driver),
-            "return": lambda driver: driver.page_source,
-            "wait": lambda wait: wait.until(ec.presence_of_element_located((By.TAG_NAME, "li")))
-        },
-        "asta_aachen": {
-            "content": lambda url: content_selenium(url, selenium_driver),
-            "return": lambda driver: driver.execute_script("return document.querySelector('div.job_listings').innerHTML;"),
-            "wait": lambda wait: wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.company")))
-        },
-        "trier": {
-            "content": lambda url: content_requests(url),
-            "return": lambda response: response.text,
-            "wait": lambda wait: wait
-        },
-        "uniklinik": {
-            "content": lambda url: content_requests(url),
-            "return": lambda response: response.text,
-            "wait": lambda wait: wait
+        "falcon": {
+            "un": {
+                "content": lambda url: content_selenium(url, selenium_driver),
+                "return": lambda driver: driver.execute_script("return document.querySelector('app-root').innerHTML;"),
+                "wait": lambda wait: wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.card-body.p-1.pr-0.pl-1.ng-star-inserted")))
+            },
+            "rwth": {
+                "content": lambda url: content_selenium(url, selenium_driver),
+                "return": lambda driver: driver.page_source,
+                "wait": lambda wait: wait.until(ec.presence_of_element_located((By.TAG_NAME, "li")))
+            },
+            "asta_aachen": {
+                "content": lambda url: content_selenium(url, selenium_driver),
+                "return": lambda driver: driver.execute_script("return document.querySelector('div.job_listings').innerHTML;"),
+                "wait": lambda wait: wait.until(ec.presence_of_element_located((By.CSS_SELECTOR, "div.company")))
+            },
+            "trier": {
+                "content": lambda url: content_requests(url),
+                "return": lambda response: response.text,
+                "wait": lambda wait: wait
+            },
+            "uniklinik": {
+                "content": lambda url: content_requests(url),
+                "return": lambda response: response.text,
+                "wait": lambda wait: wait
+            }
         },
         "hawk": {
-            "content": lambda url: content_selenium(url, selenium_driver),
-            "return": lambda driver: driver.page_source,
-            "wait": lambda wait: wait.until(ec.presence_of_element_located((By.TAG_NAME, "li")))
+            "all": {
+                "content": lambda url: content_selenium(url, selenium_driver),
+                "return": lambda driver: driver.page_source,
+                "wait": lambda wait: wait.until(ec.presence_of_element_located((By.TAG_NAME, "li")))
+            }
+
         }
+
     }
     print(f"Getting content from {link}")
 
-    config = "hawk" if mode == "hawk" else mouse
+    config = site_getters[mode][mouse] if mode == "falcon" else site_getters[mode]["all"]
 
     try:
-        site_object, delay = site_getters[config]["content"](link)
-        site_getters[config]["wait"](delay)
-        return site_getters[config]["return"](site_object)
+        site_object, delay = config["content"](link)
+        config["wait"](delay)
+        return config["return"](site_object)
+
     except Exception as e:
         message(f"Error fetching content for {link}")
         to_file(mouse=mouse, error=str(e))
