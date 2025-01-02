@@ -3,6 +3,7 @@ from functions.content_scraper import *
 from functions.extract import *
 from functions.handling import *
 
+import time
 
 def falcon(name, url, driver):
     content = get_content(url, mouse=name, selenium_driver=driver)
@@ -24,12 +25,21 @@ def hawk(name, url, driver):
 
 
 if __name__ == "__main__":
-    selenium_driver = get_driver()
+    time_logger = {}
 
+    selenium_driver = get_driver()
     links = get_file(name="links.json")
     problematic = get_file(name="problematic.json")
 
-    for prey, link in links["prey"].items():
-        falcon(name=prey, url=link, driver=selenium_driver) if prey not in problematic else None
+    for rabbit, link in links["rabbits"].items():
+        start_time = time.perf_counter()
+        falcon(name=rabbit, url=link, driver=selenium_driver) if rabbit not in problematic else None
+        time_logger[rabbit] = time.perf_counter() - start_time
     for mouse, link in links["mice"].items():
-        hawk(mouse, link, driver=selenium_driver) if mouse not in problematic else None
+        start_time = time.perf_counter()
+        hawk(name=mouse, url=link, driver=selenium_driver) if mouse not in problematic else None
+        time_logger[mouse] = time.perf_counter() - start_time
+
+    selenium_driver.quit()
+
+    write_file(name=f"time_logs/time_log_{time.strftime("%Y-%m-%d_%H_%M_%S")}.json", content=time_logger)
