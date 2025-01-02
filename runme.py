@@ -2,8 +2,8 @@ from functions.message import *
 from functions.content_scraper import *
 from functions.extract import *
 from functions.handling import *
-
 import time
+
 
 def falcon(name, url, driver):
     content = get_content(url, mouse=name, selenium_driver=driver)
@@ -42,4 +42,4 @@ if __name__ == "__main__":
 
     selenium_driver.quit()
 
-    write_file(name=f"time_logs/time_log_{time.strftime("%Y-%m-%d_%H_%M_%S")}.json", content=time_logger)
+    write_file(name=f'time_logs/time_log_{time.strftime("%Y-%m-%d_%H_%M_%S")}.json', content=time_logger)
