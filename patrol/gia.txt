@@ -5,7 +5,7 @@ WEB
 PDF
 
 
-KI-gestützte Zählerablesung [32751]Kontakt: Herr Baris Özcan
+Automatisierte Bildorientierung und -projektion in ein digitales Bauwerksmodell unter Verwendung eines BIM-ready Aufmaßsystems [32750]Kontakt: Herr Baris Özcan
 Bachelorarbeit Masterarbeit 
 F3[316210]
  
@@ -17,6 +17,6 @@ F3[316210]
  
 
 
-Automatisierte Bildorientierung und -projektion in ein digitales Bauwerksmodell unter Verwendung eines BIM-ready Aufmaßsystems [32750]Kontakt: Herr Baris Özcan
+KI-gestützte Zählerablesung [32751]Kontakt: Herr Baris Özcan
 Bachelorarbeit Masterarbeit 
 F3[316210]
