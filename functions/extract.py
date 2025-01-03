@@ -56,6 +56,7 @@ def extract_job_infos(site_content, field_mouse):
     }
 
     jobs = []
+    print(f"Extracting job infos from {field_mouse}")
     for job in getters[field_mouse](BeautifulSoup(site_content, 'lxml')):
         job_dict = {}
         for key, function in extractors[field_mouse].items():
