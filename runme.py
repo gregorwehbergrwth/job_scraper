@@ -26,10 +26,14 @@ def hawk(name, url, driver):
 
 if __name__ == "__main__":
     time_logger = {}
-
+    start_time = time.perf_counter()
     selenium_driver = get_driver()
+    time_logger["driver"] = time.perf_counter() - start_time
+
+    start_time = time.perf_counter()
     links = get_file(name="links.json")
     problematic = get_file(name="problematic.json")
+    time_logger["files"] = time.perf_counter() - start_time
 
     for rabbit, link in links["rabbits"].items():
         start_time = time.perf_counter()
