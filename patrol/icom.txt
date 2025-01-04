@@ -24,7 +24,7 @@ F3;F8[312110]
 
 
 Leitfaden zur Implementierung von Entscheidungsunterstützungsalgorithmen zur Optimierung der Nachhaltigkeitsbewertung am Beispiel von MauerwerkKontakt: Herr Shervin Rahnama
-Masterarbeit 
+Masterarbeit
 F3;F8[312110]
  
 
@@ -60,5 +60,5 @@ F3;F8[312110]
 
 
 Literaturrecherche rechtlicher Rahmenbedingungen im nachhaltigen MauerwerksbauKontakt: Herr Shervin Rahnama
-Bachelorarbeit 
+Bachelorarbeit
 F3;F8[312110]

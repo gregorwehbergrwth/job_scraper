@@ -57,20 +57,24 @@ def extract_job_infos(site_content, field_mouse):
 
     jobs = []
     print(f"Extracting job infos from {field_mouse}")
-    for job in getters[field_mouse](BeautifulSoup(site_content, 'lxml')):
-        job_dict = {}
-        for key, function in extractors[field_mouse].items():
-            try:
-                job_dict[key.strip()] = function(job)
-                # print(f'{key}: {job_dict[key.strip()]}')
-            except Exception as e:
-                print(f'Error parsing listing: {e}')
-        jobs.append(job_dict)
 
+    try:
+        for job in getters[field_mouse](BeautifulSoup(site_content, 'lxml')):
+            job_dict = {}
+            for key, function in extractors[field_mouse].items():
+                try:
+                    job_dict[key.strip()] = function(job)
+                    # print(f'{key}: {job_dict[key.strip()]}')
+                except Exception as e:
+                    print(f'Error parsing listing: {e}')
+            jobs.append(job_dict)
+    except Exception as e:
+        print(f"Error extracting job infos: {e}")
+        return []
     return jobs
 
 
-def extract_main_content(content, mouse):
+def extract_main_content(site_content, field_mouse):
     extractors = {
         "lbb": lambda soup: soup.find('div', id='main').find('div', class_='text').text.strip(),
         "stb": lambda soup: soup.find('div', class_='listing').text.strip(),
@@ -87,10 +91,10 @@ def extract_main_content(content, mouse):
         "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text.strip(),
     }
     try:
-        return extractors[mouse](BeautifulSoup(content, 'lxml'))
+        return extractors[field_mouse](BeautifulSoup(site_content, 'lxml'))
     except Exception as e:
         print(f"Error extracting main content: {e}")
-        return None
+        return ""
 
 
 def compare_jobs(mouse, job_infos):
@@ -102,10 +106,13 @@ def compare_jobs(mouse, job_infos):
 def compare_contents(mouse, new_content):
     old_content = get_file(f"patrol/{mouse}.txt")
 
-    part = ""
-    for line in new_content.split("\n"):
-        if line not in old_content and line != "" and line != "\n":
-            part += line + "\n"
-    # print(part)
-
-    return part
+    try:
+        part = ""
+        for line in new_content.split("\n"):
+            if line not in old_content and line != "" and line != "\n":
+                part += line + "\n"
+        # print(part)
+        return part
+    except Exception as e:
+        print(f"Error comparing contents: {e}")
+        return ""

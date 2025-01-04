@@ -22,7 +22,7 @@ def get_driver():
     return webdriver.Chrome(service=service, options=options)
 
 
-def get_content(link, mouse, selenium_driver, mode="falcon"):
+def get_content(link, mouse, selenium_driver, mode):
     def content_requests(url):
         response = requests.get(url)
         response.raise_for_status()

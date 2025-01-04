@@ -34,4 +34,4 @@ def to_file(mouse, jobs=None, new_jobs=None, content=None, error=None):
     elif error:
         problem_dict = get_file("problematic.json")
         problem_dict.append({mouse: error})
-        write_file("problematic.json", content=problem_dict)
+        write_file("problematic.json", content=problem_dict)  # todo append mode
