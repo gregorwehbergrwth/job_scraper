@@ -8,7 +8,7 @@ import time
 def falcon(name, url, driver):
     content = get_content(link=url, mouse=name, selenium_driver=driver, mode="falcon")
     job_infos = extract_job_infos(site_content=content, field_mouse=name)
-    new_jobs = compare_jobs(mouse=name, job_infos=job_infos)
+    new_jobs = compare(mouse=name, job_infos=job_infos)
     to_file(mouse=name, jobs=job_infos, new_jobs=new_jobs)
     for job in new_jobs:
         message(configure_message(job, mouse=name))
@@ -18,7 +18,7 @@ def falcon(name, url, driver):
 def hawk(name, url, driver):
     content = get_content(link=url, mouse=name, selenium_driver=driver, mode="hawk")
     main_content = extract_main_content(site_content=content, field_mouse=name)
-    part = compare_contents(mouse=name, new_content=main_content)
+    part = compare(mouse=name, new_content=main_content)
     to_file(mouse=name, content=main_content)
     if part:
         message(f"{part}\n{url}")
