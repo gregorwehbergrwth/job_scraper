@@ -17,8 +17,7 @@ def extract_job_infos(site_content, field_mouse):
             "Link": lambda x: "https://www.ukaachen.de" + x.find('a')['href'],
             "Titel": lambda x: x.find('a').text.strip(),
             "Bereich": lambda x: x.find('p').find_all(string=True)[0],
-            "Frist": lambda x: x.find('p').find_all(string=True)[1],
-            "Frist ": lambda x: x.find_all('p')[1].text
+            "Frist": lambda x: x.find('p').find_all(string=True)[1] if len(x.find_all('p')) == 1 else x.find_all('p')[1].text,
         },
         "rwth": {
             "Link": lambda x: "https://www.rwth-aachen.de" + x.find('a').get('href'),
@@ -66,7 +65,7 @@ def extract_job_infos(site_content, field_mouse):
                     job_dict[key.strip()] = function(job)
                     # print(f'{key}: {job_dict[key.strip()]}')
                 except Exception as e:
-                    print(f'Error parsing listing: {e}')
+                    print(f'Error parsing listing: {e}') if e != IndexError else None
             jobs.append(job_dict)
     except Exception as e:
         print(f"Error extracting job infos: {e}")
@@ -97,22 +96,34 @@ def extract_main_content(site_content, field_mouse):
         return ""
 
 
-def compare_jobs(mouse, job_infos):
-    old_job_infos = get_file(f"jobs/{mouse}.json")
+# def compare_jobs(mouse, job_infos):
+#     old_job_infos = get_file(f"jobs/{mouse}.json")
+#
+#     try:
+#         return [job for job in job_infos if job not in old_job_infos]
+#     except Exception as e:
+#         print(f"Error comparing jobs: {e}")
+#         return []
+#
+#
+# def compare_contents(mouse, new_content):
+#     old_content = get_file(f"patrol/{mouse}.txt")
+#
+#     try:
+#         return "\n".join([line for line in new_content.split("\n") if line not in old_content and line != "" and line != "\n"])
+#     except Exception as e:
+#         print(f"Error comparing contents: {e}")
+#         return ""
 
-    return [job for job in job_infos if job not in old_job_infos]
 
-
-def compare_contents(mouse, new_content):
-    old_content = get_file(f"patrol/{mouse}.txt")
-
+def compare(mouse, job_infos=None, new_content=None):
     try:
-        part = ""
-        for line in new_content.split("\n"):
-            if line not in old_content and line != "" and line != "\n":
-                part += line + "\n"
-        # print(part)
-        return part
+        if job_infos:
+            old_job_infos = get_file(f"jobs/{mouse}.json")
+            return [job for job in job_infos if job not in old_job_infos]
+        elif new_content:
+            old_content = get_file(f"patrol/{mouse}.txt")
+            return "\n".join([line for line in new_content.split("\n") if line not in old_content and line != "" and line != "\n"])
     except Exception as e:
-        print(f"Error comparing contents: {e}")
-        return ""
+        print(f"Error comparing: {e}")
+        return [] if job_infos else ""
