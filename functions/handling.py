@@ -16,12 +16,8 @@ def write_file(name, content):
 
 
 def to_file(mouse, infos=None, new=None, error=None, mode=None):
-    if new:
-        if mouse == "un":
-            infos = get_file(f"{mode}/{mouse}.json")
-            infos.extend(new)
+    if error:
+        write_file("problematic.json", content=get_file("problematic.json") + [{mouse: error}])
+    else:
+        infos = infos if mouse != "un" else get_file(f"{mode}/{mouse}.json") + new
         write_file(f"{mode}/{mouse}.json", infos)
-    elif error:
-        problem_dict = get_file("problematic.json")
-        problem_dict.append({mouse: error})
-        write_file("problematic.json", content=problem_dict)
