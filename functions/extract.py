@@ -43,7 +43,7 @@ def extract_content(site_content, field_mouse, mode):
                 }
             },
             "trier": {
-                "table": lambda soup: [listing for listing in soup.find_all("div", class_="row articel-list-job-content") if"student" in listing.text.lower()],
+                "table": lambda soup: [listing for listing in soup.find_all("div", class_="row articel-list-job-content") if "student" in listing.text.lower()],
                 "lines": {
                     "Titel": lambda x: x.find("div", class_="col-md-6 col-01").text.strip(),
                     "Arbeitgeber": lambda x: x.find("div", class_="col-md-3 col-01 modal-link").text.strip(),
@@ -101,7 +101,8 @@ def extract_content(site_content, field_mouse, mode):
 def compare(mouse, mode, new=None):
     old = get_file(f"{mode}/{mouse}.json")
     try:
-        return [x for x in new if x not in old]
+        result = [x for x in new if x not in old]
+        return result if mode == "falcon" else ["\n".join(result)]
     except Exception as e:
         print(f"Error comparing: {e}")
         return []

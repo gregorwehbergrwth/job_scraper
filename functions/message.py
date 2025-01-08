@@ -15,14 +15,21 @@ def message(txt):
         except BadRequest as e2:
             print(f"Telegram API Error: {e2}")
     try:
-        # asyncio.run(send_message(txt))
+        # asyncio.run(send_message(txt)) if txt else None
+        if not txt:
+            print("There is no text")
         print("Message blocked")  # todo temp
     except Exception as e:
         print(f"Error sending message: {e}")
     print(txt, end="\n")
 
 
-def configure_message(job_dict, mouse):
+def configure_message(new, mouse, mode, index):
+    if mode == "hawk":
+        return new
+    else:
+        job_dict = new
+
     structure = {
         "rwth": [
             f"{job_dict.get('Titel', 'N/A')}\n"
@@ -60,12 +67,8 @@ def configure_message(job_dict, mouse):
         ]
     }
     try:
-        return "\n".join(structure[mouse])
+        letter = "\n".join(structure[mouse])
+        return letter if index != 9 else letter + "\nMore than 10 new jobs found.\nCheck the website\n"
     except Exception as e:
         return f"Error structuring message: {e}"
 
-
-def special_treatment(mouse, new_jobs):
-    if new_jobs:
-        if mouse == "un" and len(new_jobs) > 10:
-            message("More than 10 new jobs found. Check the website")
