@@ -83,26 +83,6 @@ def extract_content(site_content, field_mouse, mode):
     print(f"Extracting infos from {field_mouse}")
     config = modes[mode][field_mouse]
 
-    # if mode == "hawk":
-    #     try:
-    #         return config(BeautifulSoup(site_content, 'lxml'))
-    #     except Exception as e:
-    #         print(f"Error extracting main content: {e}")
-    #         return ""
-    #
-    #
-    #
-    # try:
-    #     for job in config["table"](BeautifulSoup(site_content, 'lxml')):
-    #         job_dict = {}
-    #         for key, function in config["lines"].items():
-    #             job_dict[key] = function(job)
-    #         jobs.append(job_dict)
-    # except Exception as e:
-    #     print(f"Error extracting job infos: {e}")
-    #     return []
-    # return jobs
-
     try:
         if mode == "hawk":
             return config(BeautifulSoup(site_content, 'lxml')).split("\n")
@@ -118,38 +98,10 @@ def extract_content(site_content, field_mouse, mode):
         return None
 
 
-# def extract_main_content(site_content, field_mouse):
-
-
-
-# def compare_jobs(mouse, job_infos):
-#     old_job_infos = get_file(f"falcon/{mouse}.json")
-#
-#     try:
-#         return [job for job in job_infos if job not in old_job_infos]
-#     except Exception as e:
-#         print(f"Error comparing jobs: {e}")
-#         return []
-#
-#
-# def compare_contents(mouse, new_content):
-#     old_content = get_file(f"patrol/{mouse}.txt")
-#
-#     try:
-#         return "\n".join([line for line in new_content.split("\n") if line not in old_content and line != "" and line != "\n"])
-#     except Exception as e:
-#         print(f"Error comparing contents: {e}")
-#         return ""
-
-
-def compare(mouse, mode, job_infos=None, new_content=None):
+def compare(mouse, mode, new=None):
+    old = get_file(f"{mode}/{mouse}.json")
     try:
-        if mode == "falcon":
-            old_job_infos = get_file(f"falcon/{mouse}.json")
-            return [job for job in job_infos if job not in old_job_infos]
-        elif mode == "hawk":
-            old_content = get_file(f"hawk/{mouse}.json")
-            return "\n".join([line for line in new_content if line not in old_content and line != "" and line != "\n"])
+        return [x for x in new if x not in old]
     except Exception as e:
         print(f"Error comparing: {e}")
-        return [] if job_infos else ""
+        return []
