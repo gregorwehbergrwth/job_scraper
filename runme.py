@@ -25,7 +25,7 @@ if __name__ == "__main__":
     for style in links.keys():
         for mouse, link in links[style].items():
             start_time = time.perf_counter()
-            bird(name=mouse, url=link, driver=selenium_driver, mode=style) if mouse == "un" else None
+            bird(name=mouse, url=link, driver=selenium_driver, mode=style) if mouse == "trier" else None
             time_logger[mouse] = time.perf_counter() - start_time
 
     selenium_driver.quit()
