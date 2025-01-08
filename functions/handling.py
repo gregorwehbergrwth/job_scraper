@@ -15,9 +15,10 @@ def write_file(name, content):
         json.dump(content, file, indent=4)
 
 
-def to_file(mouse, infos=None, new=None, error=None, mode=None):
-    if error:
-        write_file("problematic.json", content=get_file("problematic.json") + [{mouse: error}])
-    else:
-        infos = infos if mouse != "un" else get_file(f"{mode}/{mouse}.json") + new
-        write_file(f"{mode}/{mouse}.json", infos)
+def to_file(mouse, infos, new, mode):
+    infos = infos if mouse != "un" else get_file(f"{mode}/{mouse}.json") + new
+    write_file(f"{mode}/{mouse}.json", infos)
+
+
+def problematic(mouse, error):
+    write_file("problematic.json", content=get_file("problematic.json") + [{mouse: error}])

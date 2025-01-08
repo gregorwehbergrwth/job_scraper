@@ -76,6 +76,7 @@ modes = {
     }
 }
 
+
 def extract_content(site_content, field_mouse, mode):
     print(f"Extracting infos from {field_mouse}")
     jobs = []

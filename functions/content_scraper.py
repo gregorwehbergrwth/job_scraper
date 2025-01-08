@@ -7,7 +7,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import requests
 from functions.message import message
-from functions.handling import to_file
+from functions.handling import problematic
 
 
 def get_driver():
@@ -83,5 +83,5 @@ def get_content(link, mouse, selenium_driver, mode):
 
     except Exception as e:
         message(f"Error fetching content for {link}")
-        to_file(mouse=mouse, error=str(e))
+        problematic(mouse=mouse, error=str(e))
         return None
