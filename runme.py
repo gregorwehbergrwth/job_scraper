@@ -69,6 +69,6 @@ if __name__ == "__main__":
 
     for style in links.keys():
         for mouse, link in links[style].items():
-            bird(name=mouse, url=link, driver=selenium_driver, mode=style) if mouse in ["gia", "trier"] else None
-            print(mouse)
+            bird(name=mouse, url=link, driver=selenium_driver, mode=style)
+            # print(mouse)
 

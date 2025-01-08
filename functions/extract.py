@@ -105,7 +105,7 @@ def extract_content(site_content, field_mouse, mode):
 
     try:
         if mode == "hawk":
-            return config(BeautifulSoup(site_content, 'lxml'))
+            return config(BeautifulSoup(site_content, 'lxml')).split("\n")
         else:
             for job in config["table"](BeautifulSoup(site_content, 'lxml')):
                 job_dict = {}
@@ -123,7 +123,7 @@ def extract_content(site_content, field_mouse, mode):
 
 
 # def compare_jobs(mouse, job_infos):
-#     old_job_infos = get_file(f"jobs/{mouse}.json")
+#     old_job_infos = get_file(f"falcon/{mouse}.json")
 #
 #     try:
 #         return [job for job in job_infos if job not in old_job_infos]
@@ -145,11 +145,11 @@ def extract_content(site_content, field_mouse, mode):
 def compare(mouse, mode, job_infos=None, new_content=None):
     try:
         if mode == "falcon":
-            old_job_infos = get_file(f"jobs/{mouse}.json")
+            old_job_infos = get_file(f"falcon/{mouse}.json")
             return [job for job in job_infos if job not in old_job_infos]
         elif mode == "hawk":
-            old_content = get_file(f"patrol/{mouse}.txt")
-            return "\n".join([line for line in new_content.split("\n") if line not in old_content and line != "" and line != "\n"])
+            old_content = get_file(f"hawk/{mouse}.json")
+            return "\n".join([line for line in new_content if line not in old_content and line != "" and line != "\n"])
     except Exception as e:
         print(f"Error comparing: {e}")
         return [] if job_infos else ""

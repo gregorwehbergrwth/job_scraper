@@ -15,7 +15,8 @@ def message(txt):
         except BadRequest as e2:
             print(f"Telegram API Error: {e2}")
     try:
-        asyncio.run(send_message(txt))
+        # asyncio.run(send_message(txt))
+        print("Message blocked")  # todo temp
     except Exception as e:
         print(f"Error sending message: {e}")
     print(txt, end="\n")

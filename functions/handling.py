@@ -26,12 +26,13 @@ def write_file(name, content):
 def to_file(mouse, jobs=None, new_jobs=None, content=None, error=None):
     if new_jobs:
         if mouse == "un":
-            jobs = get_file(f"jobs/{mouse}.json")
+            jobs = get_file(f"falcon/{mouse}.json")
             jobs.extend(new_jobs)
-        write_file(f"jobs/{mouse}.json", jobs)
+        write_file(f"falcon/{mouse}.json", jobs)
     elif content:
-        write_file(f"patrol/{mouse}.txt", content)
+        # write_file(f"patrol/{mouse}.txt", content)
+        write_file(f"hawk/{mouse}.json", content)
     elif error:
         problem_dict = get_file("problematic.json")
         problem_dict.append({mouse: error})
-        write_file("problematic.json", content=problem_dict)  # todo append mode
+        write_file("problematic.json", content=problem_dict)
