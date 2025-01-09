@@ -15,60 +15,29 @@ def message(txt):
         except BadRequest as e2:
             print(f"Telegram API Error: {e2}")
     try:
-        # asyncio.run(send_message(txt)) if txt else None
-        if not txt:
-            print("There is no text")
-        print("Message blocked")  # todo temp
+        raise Exception("Blocked Message")
+        asyncio.run(send_message(txt)) if txt else None
     except Exception as e:
         print(f"Error sending message: {e}")
     print(txt, end="\n")
 
 
-def configure_message(new, mouse, mode, index):
+def configure_text(new, mouse, mode, index):
     if mode == "hawk":
         return new
     else:
         job_dict = new
 
     structure = {
-        "rwth": [
-            f"{job_dict.get('Titel', 'N/A')}\n"
-            f"Frist: {job_dict.get('Frist', 'N/A')}\n"
-            f"{job_dict.get('Veröffentlichungsdatum', 'N/A')}\n"
-            f"Arbeitgeber: {job_dict.get('Ort', 'N/A')}\n"
-            f"{job_dict.get('Link', 'N/A')}\n"
-        ],
-        "un": [
-            f"- {job_dict.get('Job Title', 'N/A')}\n"
-            f"- {job_dict.get('Duty Station', 'N/A')}\n"
-            f"- Network: {job_dict.get('Job Network', 'N/A')}\n"
-            f"- {job_dict.get('Department/Office', 'N/A')}\n"
-            f"- Deadline: {job_dict.get('Deadline', 'N/A')}\n"
-            f"- {job_dict.get('Link', 'N/A')}\n"
-        ],
-        "uniklinik": [
-            f"{job_dict.get('Titel', 'N/A')}\n"
-            f"{job_dict.get('Bereich', 'N/A')}\n"
-            f"Frist: {job_dict.get('Frist', 'N/A')}\n\n"
-            f"{job_dict.get('Link', 'N/A')}\n"
-        ],
-        "trier": [
-            f"{job_dict.get('Titel', 'N/A')}\n"
-            f"{job_dict.get('Arbeitgeber', 'N/A')}\n"
-            f"{job_dict.get('Art', 'N/A')}\n"
-            f"{job_dict.get('Link', 'N/A')}\n"
-        ],
-        "asta_aachen": [
-            f"{job_dict.get('Titel', 'N/A')}\n"
-            f"{job_dict.get('Arbeitgeber', 'N/A')}\n"
-            f"{job_dict.get('Ort', 'N/A')}\n"
-            f"{job_dict.get('Datum', 'N/A')}\n"
-            f"{job_dict.get('Link', 'N/A')}\n"
-        ]
+        "uniklinik": ['Titel', 'Bereich', 'Frist', 'Link'],
+        "rwth": ['Titel', 'Frist', 'Veröffentlichungsdatum', 'Ort', 'Link'],
+        "un": ['Job Title', 'Duty Station', 'Job Network', 'Department/Office', 'Deadline', 'Link'],
+        "trier": ['Titel', 'Arbeitgeber', 'Art', 'Link'],
+        "asta_aachen": ['Titel', 'Arbeitgeber', 'Ort', 'Datum', 'Link']
     }
+
     try:
-        letter = "\n".join(structure[mouse])
-        return letter if index != 9 else letter + "\nMore than 10 new jobs found.\nCheck the website\n"
+        text = "\n".join([job_dict.get(key, 'N/A') for key in structure[mouse]])
+        return text if index != 9 else text + "\nMore than 10 new jobs found.\nCheck the website!\n"
     except Exception as e:
         return f"Error structuring message: {e}"
-
