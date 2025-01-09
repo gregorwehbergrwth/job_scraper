@@ -17,12 +17,6 @@ F3[312410]
 
 
 
-Simulation der natürlichen Fensterlüftung in Numerischer StrömungsmechanikKontakt: Herr Qirui Huang
-Studienarbeit Bachelorarbeit Masterarbeit 
-F3[312410]
-
-
-
 Datengetriebene Identifikation energietechnisch typischer Tage und NutzungsprofileKontakt: Herr Oliver Abele
 Bachelorarbeit 
 F3;F4[312410]
