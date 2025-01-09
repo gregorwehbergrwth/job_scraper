@@ -17,11 +17,11 @@ modes = {
             "table": lambda soup: [listing for listing in soup.find_all('li') if "veröffentlicht" in listing.text],
             "lines":  {
                 "Link": lambda x: "https://www.rwth-aachen.de" + x.find('a').get('href'),
-                "Frist": lambda x: x.text.split("\n")[3],
+                "Frist": lambda x: f"Frist: {x.text.split("\n")[3]}",
                 "Titel": lambda x: x.text[:x.text.find("[")].replace("\n", ""),
                 "Nummer": lambda x: re.findall(r'V\d{9}', x.text)[0],
                 "Veröffentlichungsdatum": lambda x: re.findall(r"veröffentlicht am \d{2}\.\d{2}\.\d{4}", x.text)[0],
-                "Ort": lambda x: x.text.split("\n")[2]
+                "Ort": lambda x: f"Arbeitgeber: {x.text.split("\n")[2]}"
             },
         },
         "un": {
@@ -35,7 +35,7 @@ modes = {
                 "Duty Station": lambda x: x.find("div", class_="card-body").find_all(string=True)[11].split(" : ")[1].strip(),
                 "Department/Office": lambda x: x.find("div", class_="card-body").find_all(string=True)[13].split(" : ")[1].strip(),
                 "Date Posted": lambda x: x.find("div", class_="card-body").find_all(string=True)[14].split(" : ")[1].strip(),
-                "Deadline": lambda x: x.find("div", class_="card-body").find_all(string=True)[15].split(" : ")[1].strip(),
+                "Deadline": lambda x: f"Deadline: {x.find("div", class_="card-body").find_all(string=True)[15].split(" : ")[1].strip()}",
                 "Link": lambda x: f'https://careers.un.org/jobSearchDescription/{x.find("span", class_="pull-right jbOpen_Id").text.split(" : ")[1].strip()}?language=en',
             }
         },
@@ -77,11 +77,11 @@ modes = {
 }
 
 
-def extract_content(site_content, field_mouse, mode):
-    print(f"Extracting infos from {field_mouse}")
+def extract_infos(html, mouse, mode):
+    print(f"Extracting infos from {mouse}")
     jobs = []
-    config = modes[mode][field_mouse]
-    soup = BeautifulSoup(site_content, 'lxml')
+    config = modes[mode][mouse]
+    soup = BeautifulSoup(html, 'lxml')
 
     try:
         if mode == "hawk":
