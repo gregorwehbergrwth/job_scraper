@@ -6,11 +6,11 @@ import time
 
 
 def bird(name, url, mode, driver):
-    content = get_content(link=url, mouse=name, selenium_driver=driver, mode=mode)
-    infos = extract_content(site_content=content, field_mouse=name, mode=mode)
+    html = get_html(link=url, mouse=name, selenium_driver=driver, mode=mode)
+    infos = extract_infos(html=html, mouse=name, mode=mode)
     new = compare(mouse=name, new=infos, mode=mode)
     for i, alert in enumerate(new):
-        message(configure_message(alert, mouse=name, mode=mode, index=i))
+        message(configure_text(alert, mouse=name, mode=mode, index=i))
     to_file(mouse=name, infos=infos, new=new, mode=mode)
 
 
