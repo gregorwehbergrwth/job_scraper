@@ -15,7 +15,7 @@ def message(txt):
         except BadRequest as e2:
             print(f"Telegram API Error: {e2}")
     try:
-        raise Exception("Blocked Message")
+        # raise Exception("Blocked Message")
         asyncio.run(send_message(txt)) if txt else None
     except Exception as e:
         print(f"Error sending message: {e}")
@@ -30,7 +30,7 @@ def configure_text(new, mouse, mode, index):
 
     structure = {
         "uniklinik": ['Titel', 'Bereich', 'Frist', 'Link'],
-        "rwth": ['Titel', 'Frist', 'Veröffentlichungsdatum', 'Ort', 'Link'],
+        "rwth": ['Titel', 'Frist', 'Veröffentlichungsdatum', 'Arbeitgeber', 'Link'],
         "un": ['Job Title', 'Duty Station', 'Job Network', 'Department/Office', 'Deadline', 'Link'],
         "trier": ['Titel', 'Arbeitgeber', 'Art', 'Link'],
         "asta_aachen": ['Titel', 'Arbeitgeber', 'Ort', 'Datum', 'Link']

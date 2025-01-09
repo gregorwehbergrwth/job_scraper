@@ -21,7 +21,7 @@ modes = {
                 "Titel": lambda x: x.text[:x.text.find("[")].replace("\n", ""),
                 "Nummer": lambda x: re.findall(r'V\d{9}', x.text)[0],
                 "Veröffentlichungsdatum": lambda x: re.findall(r"veröffentlicht am \d{2}\.\d{2}\.\d{4}", x.text)[0],
-                "Ort": lambda x: f"Arbeitgeber: {x.text.split("\n")[2]}"
+                "Arbeitgeber": lambda x: x.text.split("\n")[2]
             },
         },
         "un": {
