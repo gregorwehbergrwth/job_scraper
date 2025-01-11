@@ -36,7 +36,7 @@ modes = {
                 "Duty Station": lambda x: x.find("div", class_="card-body").find_all(string=True)[11].split(" : ")[1].strip(),
                 "Department/Office": lambda x: x.find("div", class_="card-body").find_all(string=True)[13].split(" : ")[1].strip(),
                 "Date Posted": lambda x: x.find("div", class_="card-body").find_all(string=True)[14].split(" : ")[1].strip(),
-                "Deadline": lambda x: f"Deadline: {x.find("div", class_="card-body").find_all(string=True)[15].split(" : ")[1].strip()}",
+                "Deadline": lambda x: f'Deadline: {x.find("div", class_="card-body").find_all(string=True)[15].split(" : ")[1].strip()}',
                 "Link": lambda x: f'https://careers.un.org/jobSearchDescription/{x.find("span", class_="pull-right jbOpen_Id").text.split(" : ")[1].strip()}?language=en'
             }
         },
