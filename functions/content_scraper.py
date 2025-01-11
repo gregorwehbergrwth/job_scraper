@@ -6,8 +6,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import requests
-from functions.message import message
-from functions.handling import problematic
+from functions.handling import problem
 
 
 def get_driver():
@@ -80,8 +79,6 @@ def get_html(link, mouse, selenium_driver, mode):
         site_object, delay = config["content"](link)
         config["wait"](delay)
         return config["return"](site_object)
-
     except Exception as e:
-        message(f"Error fetching content for {link}")
-        problematic(mouse=mouse, error=str(e))
+        problem(mouse=mouse, error=f"Error fetching content for {link}: {e}")
         return None

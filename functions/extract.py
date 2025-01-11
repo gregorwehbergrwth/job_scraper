@@ -1,6 +1,7 @@
 from bs4 import BeautifulSoup
 import re
 from functions.handling import get_file
+from functions.handling import problem
 
 modes = {
     "falcon": {
@@ -81,7 +82,7 @@ def extract_infos(html, mouse, mode):
     print(f"Extracting infos from {mouse}")
     jobs = []
     config = modes[mode][mouse]
-    soup = BeautifulSoup(html, 'lxml')
+    soup = BeautifulSoup(html, 'lxml') if html else None
 
     try:
         if mode == "hawk":
@@ -91,15 +92,17 @@ def extract_infos(html, mouse, mode):
                 jobs.append({key: func(job) for key, func in config["lines"].items()})
             return jobs
     except Exception as e:
-        print(f"Error extracting job infos: {e}")
+        problem(mouse=mouse, error=f"Error extracting job infos for {mouse}: {e}")
         return None
 
 
 def compare(mouse, mode, new):
+    print(f"Comparing {mouse}")
     old = get_file(f"{mode}/{mouse}.json")
     try:
         result = [x for x in new if x not in old]
+        print(f"Found {len(result)} new jobs/lines for {mouse}")
         return result if mode == "falcon" else ["\n".join(result)]
     except Exception as e:
-        print(f"Error comparing: {e}")
+        problem(mouse=mouse, error=f"Error comparing {mouse}: {e}")
         return []
