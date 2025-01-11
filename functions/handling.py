@@ -8,9 +8,9 @@ user_ids = ['5623557325']
 
 
 def problem(mouse, error, send_message=True):
-    problem_dict = get_file("problematic.json")
+    problem_dict = get_file("logs/problem_logs.json")
     problem_dict[mouse] = f"{problem_dict.get(mouse, '')}, {error}".strip(', ')
-    write_file("problematic.json", problem_dict)
+    write_file("logs/problem_logs.json", problem_dict)
     if send_message:
         message(f"Error: {error}")
 
