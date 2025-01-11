@@ -6,8 +6,7 @@ from selenium.webdriver.support import expected_conditions as ec
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.chrome.options import Options
 import requests
-from functions.message import message
-from functions.handling import to_file
+from functions.handling import problem
 
 
 def get_driver():
@@ -16,13 +15,14 @@ def get_driver():
     options.add_argument("--disable-gpu")
     options.add_argument("--no-sandbox")
     options.add_argument("--disable-dev-shm-usage")
-    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36")
+    options.add_argument("user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) "
+                         "Chrome/91.0.4472.124 Safari/537.36")
 
     service = Service(ChromeDriverManager().install())
     return webdriver.Chrome(service=service, options=options)
 
 
-def get_content(link, mouse, selenium_driver, mode):
+def get_html(link, mouse, selenium_driver, mode):
     def content_requests(url):
         response = requests.get(url)
         response.raise_for_status()
@@ -79,8 +79,6 @@ def get_content(link, mouse, selenium_driver, mode):
         site_object, delay = config["content"](link)
         config["wait"](delay)
         return config["return"](site_object)
-
     except Exception as e:
-        message(f"Error fetching content for {link}")
-        to_file(mouse=mouse, error=str(e))
+        problem(mouse=mouse, error=f"Error fetching content for {link}: {e}")
         return None
