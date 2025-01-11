@@ -27,6 +27,7 @@ if __name__ == "__main__":
             bird(name=mouse, url=link, driver=selenium_driver, mode=style) if mouse not in problematic.keys() else None
             time_logger[mouse] = time.perf_counter() - start_time
 
+    message("All jobs have been checked. in Branch General")
     selenium_driver.quit()
 
     logs = get_file(name="time_logs/time_log.json") + [{time.strftime("%Y-%m-%d %H:%M:%S"): time_logger}]
