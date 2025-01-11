@@ -11,7 +11,7 @@ modes = {
                 "Link": lambda x: "https://www.ukaachen.de" + x.find('a')['href'],
                 "Titel": lambda x: x.find('a').text.strip(),
                 "Bereich": lambda x: x.find('p').find_all(string=True)[0],
-                "Frist": lambda x: x.find('p').find_all(string=True)[1] if len(x.find_all('p')) == 1 else x.find_all('p')[1].text,
+                "Frist": lambda x: x.find('p').find_all(string=True)[1] if len(x.find_all('p')) == 1 else x.find_all('p')[1].text
             }
         },
         "rwth": {
@@ -37,7 +37,7 @@ modes = {
                 "Department/Office": lambda x: x.find("div", class_="card-body").find_all(string=True)[13].split(" : ")[1].strip(),
                 "Date Posted": lambda x: x.find("div", class_="card-body").find_all(string=True)[14].split(" : ")[1].strip(),
                 "Deadline": lambda x: f"Deadline: {x.find("div", class_="card-body").find_all(string=True)[15].split(" : ")[1].strip()}",
-                "Link": lambda x: f'https://careers.un.org/jobSearchDescription/{x.find("span", class_="pull-right jbOpen_Id").text.split(" : ")[1].strip()}?language=en',
+                "Link": lambda x: f'https://careers.un.org/jobSearchDescription/{x.find("span", class_="pull-right jbOpen_Id").text.split(" : ")[1].strip()}?language=en'
             }
         },
         "trier": {
@@ -46,7 +46,7 @@ modes = {
                 "Titel": lambda x: x.find("div", class_="col-md-6 col-01").text.strip(),
                 "Arbeitgeber": lambda x: x.find("div", class_="col-md-3 col-01 modal-link").text.strip(),
                 "Link": lambda x: f'https://career-service-hochschule-trier.de{x.find("a")["href"]}' if x.find("a")["href"].startswith("/") else x.find("a")["href"],
-                "Art": lambda x: ", ".join(x.find("div", class_="col-md-3 col-02").find_all(string=True)),
+                "Art": lambda x: ", ".join(x.find("div", class_="col-md-3 col-02").find_all(string=True))
             }
         },
         "asta_aachen": {
@@ -56,7 +56,7 @@ modes = {
                 "Arbeitgeber": lambda x: x.find("div", class_="company").text.strip(),
                 "Ort": lambda x: x.find("div", class_="location").text.strip(),
                 "Link": lambda x: x.find("a")["href"],
-                "Datum": lambda x: x.find("ul", class_="meta").find("li", class_="date").find("time")["datetime"],
+                "Datum": lambda x: x.find("ul", class_="meta").find("li", class_="date").find("time")["datetime"]
             }
         }
     },
@@ -73,7 +73,7 @@ modes = {
         "gia": lambda soup: soup.find('div', class_='listing').text.strip(),
         "isa": lambda soup: soup.find('tbody').text.strip(),
         "ucc": lambda soup: soup.find('div', class_='tabs_wrapper tabs_horizontal').text.strip(),
-        "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text.strip(),
+        "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text.strip()
     }
 }
 
