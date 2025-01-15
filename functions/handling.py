@@ -41,11 +41,11 @@ def configure_text(new, mouse, mode, index):
         job_dict = new
 
     structure = {
-        "uniklinik": ['Titel', 'Bereich', 'Frist', 'Link'],
-        "rwth": ['Titel', 'Frist', 'Veröffentlichungsdatum', 'Arbeitgeber', 'Link'],
-        "un": ['Job Title', 'Duty Station', 'Job Network', 'Department/Office', 'Deadline', 'Link'],
-        "trier": ['Titel', 'Arbeitgeber', 'Art', 'Link'],
-        "asta_aachen": ['Titel', 'Arbeitgeber', 'Ort', 'Datum', 'Link']
+        "uniklinik": ['Titel', 'Bereich', 'Frist'],
+        "rwth": ['Titel', 'Frist', 'Veröffentlichungsdatum', 'Arbeitgeber'],
+        "un": ['Job Title', 'Duty Station', 'Job Network', 'Department/Office', 'Deadline'],
+        "trier": ['Titel', 'Arbeitgeber', 'Art'],
+        "asta_aachen": ['Titel', 'Arbeitgeber', 'Ort', 'Datum']
     }
 
     try:
@@ -56,7 +56,7 @@ def configure_text(new, mouse, mode, index):
         return f"Error structuring message: {e}"
 
 
-def message(txt):
+def message(txt, link):
     async def send_message(text):
         bot = Bot(token=api_key)
         try:
@@ -66,6 +66,7 @@ def message(txt):
             print(f"Telegram API Error: {e2}")
     try:
         # raise Exception("Blocked Message")
+        txt += f"\n{link}"
         asyncio.run(send_message(txt)) if txt else None
     except Exception as e:
         problem(mouse="message", error=f"Error sending message: {e}", send_message=False)
