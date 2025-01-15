@@ -1,5 +1,131 @@
 [
     {
+        "Titel": "Studentische Hilfskraft, Aushilfen",
+        "Arbeitgeber": "Deutsches Zentrum f\u00fcr Luft- und Raumfahrt e.V.",
+        "Ort": "K\u00f6ln-Porz",
+        "Link": "https://www.asta.rwth-aachen.de/job/deutsches-zentrum-fuer-luft-und-raumfahrt-e-v-koeln-porz-36-studentische-hilfskraft-aushilfen/",
+        "Datum": "2025-01-15"
+    },
+    {
+        "Titel": "Brotlieferant:in per Kastenwagen (m/w/d)",
+        "Arbeitgeber": "B\u00e4ckerei T\u00f6ller - Kn\u00e4ckeb\u00e4cker GmbH",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/baeckerei-toeller-knaeckebaecker-gmbh-aachen-36-brotlieferant-per-kastenwagen/",
+        "Datum": "2025-01-14"
+    },
+    {
+        "Titel": "Tempor\u00e4re Hilfskr\u00e4fte f\u00fcr Sortieranalysen",
+        "Arbeitgeber": "HTP GmbH & Co. KG",
+        "Ort": "\u00dcberall",
+        "Link": "https://www.asta.rwth-aachen.de/job/htp-gmbh-co-kg-36-temporaere-hilfskraefte-fuer-sortieranalysen/",
+        "Datum": "2025-01-14"
+    },
+    {
+        "Titel": "PFIFFIX Coach (m/w/d) f\u00fcr gesundheitsf\u00f6rderliche Bewegungsangebote an Schulen in Aachen",
+        "Arbeitgeber": "Kinder- und Jugendsportschule NRW",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/kinder-und-jugendsportschule-nrw-aachen-36-pfiffix-coach-m-w-d-fuer-gesundheitsfoerderliche-bewegungsangebote-an-schulen-in-aachen-5/",
+        "Datum": "2025-01-14"
+    },
+    {
+        "Titel": "Kursleiter:in im Bereich Tanz an Schulen in Aachen (m/w/d)!",
+        "Arbeitgeber": "Kinder- und Jugendsportschule NRW",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/kinder-und-jugendsportschule-nrw-aachen-36-kursleiterin-im-bereich-tanz-an-schulen-in-aachen-m-w-d-6/",
+        "Datum": "2025-01-14"
+    },
+    {
+        "Titel": "Sport-Kursleiter:in f\u00fcr erlebnisorientierte Bewegungsangebote in Aachen (m/w/d)!",
+        "Arbeitgeber": "Kinder- und Jugendsportschule NRW",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/kinder-und-jugendsportschule-nrw-aachen-36-sport-kursleiterin-fuer-erlebnisorientierte-bewegungsangebote-in-aachen-m-w-d-15/",
+        "Datum": "2025-01-14"
+    },
+    {
+        "Titel": "Studentische Hilfskraft (m/w/d)",
+        "Arbeitgeber": "Uniklinik RWTH Aachen",
+        "Ort": "Uniklinik RWTH Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/uniklinik-rwth-aachen-uniklinik-rwth-aachen-36-studentische-hilfskraft-m-w-d-4/",
+        "Datum": "2025-01-13"
+    },
+    {
+        "Titel": "Studentische Hilfskraft (m/w/d) im Bereich Softwareentwicklung",
+        "Arbeitgeber": "RWTH Uniklinik Aachen Forschungsabteilung der Klinik f\u00fcr An\u00e4sthesologie",
+        "Ort": "RWTH Uniklinik Aachen AcuteCare InnovationHub",
+        "Link": "https://www.asta.rwth-aachen.de/job/rwth-uniklinik-aachen-rwth-uniklinik-aachen-acutecare-innovationhub-38-studentische-hilfskraft-m-w-d-im-bereich-softwareentwicklung/",
+        "Datum": "2025-01-13"
+    },
+    {
+        "Titel": "Studentische/r Mitarbeiter/in (m/w/d) zur Unterst\u00fctzung unseres Entwicklungsteam",
+        "Arbeitgeber": "FEV CRELTEC GmbH",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/fev-creltec-gmbh-aachen-36-studentische-r-mitarbeiter-in-m-w-d-zur-unterstuetzung-unseres-entwicklungsteam/",
+        "Datum": "2025-01-13"
+    },
+    {
+        "Titel": "Studentische Hilfskraft / Wissenschaftliche Hilfskraft",
+        "Arbeitgeber": "Uniklinik RWTH Aachen Institut f\u00fcr Geschichte, Theorie und Ethik der Medizin",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/uniklinik-rwth-aachen-aachen-38-studentische-hilfskraft-wissenschaftliche-hilfskraft/",
+        "Datum": "2025-01-10"
+    },
+    {
+        "Titel": "Praktikum Architekt:in (m/w/d)",
+        "Arbeitgeber": "Architekturb\u00fcro Paul B\u00f6hm GmbH Architekturb\u00fcro",
+        "Ort": "K\u00f6ln",
+        "Link": "https://www.asta.rwth-aachen.de/job/architekturbuero-paul-boehm-gmbh-koeln-36-architekt-in/",
+        "Datum": "2025-01-09"
+    },
+    {
+        "Titel": "Internship: Data Analyst / Software Developer (w/m/d)",
+        "Arbeitgeber": "planeground airport consulting",
+        "Ort": "K\u00f6ln",
+        "Link": "https://www.asta.rwth-aachen.de/job/planeground-airport-consulting-koeln-36-internship-data-analyst-software-developer-w-m-d/",
+        "Datum": "2025-01-09"
+    },
+    {
+        "Titel": "Studentische:r Mitarbeiter:in (m/w/d) Sales Administration (R0101)",
+        "Arbeitgeber": "LANCOM Systems GmbH",
+        "Ort": "W\u00fcrselen",
+        "Link": "https://www.asta.rwth-aachen.de/job/lancom-systems-gmbh-wuerselen-36-studentischer-mitarbeiter-m-w-d-sales-administration-r0101/",
+        "Datum": "2025-01-09"
+    },
+    {
+        "Titel": "Studentische Hilfskraft eines Ingenieur-oder Naturwissenschaftlichen Studiengangs (m/w/d)",
+        "Arbeitgeber": "Acute.Care Innovation.Hub - Uniklinik RWTH Aachen",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/acute-care-innovation-hub-uniklinik-rwth-aachen-aachen-38-studentische-hilfskraft-eines-ingenieur-oder-naturwissenschaftlichen-studiengangs-3/",
+        "Datum": "2025-01-09"
+    },
+    {
+        "Titel": "Student:in \u2013 Mitarbeiter:in / Fahrer:in \u2013 Werbemittel-Austausch",
+        "Arbeitgeber": "STUDENTpartout GmbH - Zweigstelle Aachen Personaldienstleister spezialisiert auf Studentenjobs",
+        "Ort": "Aachen & Umgebung",
+        "Link": "https://www.asta.rwth-aachen.de/job/studentpartout-gmbh-zweigstelle-aachen-aachen-umgebung-36-studentin-mitarbeiterin-fahrerin-werbemittel-austausch/",
+        "Datum": "2025-01-09"
+    },
+    {
+        "Titel": "Minijob in der Produktion bei Plum\u00b4s Kaffee",
+        "Arbeitgeber": "Plum\u00b4s Kaffee Kaffeer\u00f6sterei",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/plums-kaffee-aachen-36-minijob-in-der-produktion-bei-plums-kaffee/",
+        "Datum": "2025-01-09"
+    },
+    {
+        "Titel": "Werkstudent:in PHP/Laravel Entwickler (m/w/d)",
+        "Arbeitgeber": "Allaoui Technologies GmbH",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/allaoui-technologies-gmbh-aachen-36-werkstudent-php-laravel-entwickler/",
+        "Datum": "2025-01-08"
+    },
+    {
+        "Titel": "Werkstudent:in Retourenmanagement (m/w/d)",
+        "Arbeitgeber": "inexogy Smart Metering GmbH & Co. KG",
+        "Ort": "Stolberg",
+        "Link": "https://www.asta.rwth-aachen.de/job/inexogy-smart-metering-gmbh-co-kg-stolberg-36-werkstudentin-retourenmanagement-m-w-d-2/",
+        "Datum": "2025-01-08"
+    },
+    {
         "Titel": "Studentische/r Mitarbeiter/in (m/w/d) zur Unterst\u00fctzung unseres Pr\u00fcfungszentrums",
         "Arbeitgeber": "Sprachenakademie Aachen gGmbH Bildungstr\u00e4ger mit sprachlichem Schwerpunkt",
         "Ort": "Aachen",
@@ -222,124 +348,5 @@
         "Ort": "Aachen",
         "Link": "https://www.asta.rwth-aachen.de/job/cerence-inc-aachen-36-intern-software-qa-2/",
         "Datum": "2024-12-16"
-    },
-    {
-        "Titel": "Werkstudent (m/w/d) \u2013 Marketing und Social Media Content Creation",
-        "Arbeitgeber": "FutTech GmbH Digitalization",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/futtech-gmbh-aachen-36-werkstudent-m-w-d-marketing-und-social-media-content-creation/",
-        "Datum": "2024-12-14"
-    },
-    {
-        "Titel": "Nachhilfelehrer (m/w/d) in Aachen gesucht",
-        "Arbeitgeber": "Studentenring",
-        "Ort": "Aachen (Remote)",
-        "Link": "https://www.asta.rwth-aachen.de/job/studentenring-aachen-36-nachhilfelehrer-m-w-d-in-aachen-gesucht-7/",
-        "Datum": "2024-12-13"
-    },
-    {
-        "Titel": "Student*in \u2013 Jobs f\u00fcr Studierende \u2013 Studentenjobs \u2013 Aachen (m/w/d)",
-        "Arbeitgeber": "STUDENTpartout GmbH - Zweigstelle Aachen Personaldienstleister spezialisiert auf Studentenjobs",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/studentpartout-gmbh-zweigstelle-aachen-aachen-36-studentin-jobs-fuer-studierende-studentenjobs-aachen-6/",
-        "Datum": "2024-12-12"
-    },
-    {
-        "Titel": "Studentische:r Mitarbeiter:in \u2013 Fokus Video- & Fotografie (m/w/d) (10h+/ Woche)",
-        "Arbeitgeber": "KEMPEN KRAUSE Ingenieure",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/kempen-krause-ingenieure-aachen-36-studentischer-mitarbeiterin-fokus-video-fotografie-m-w-d-10h-woche/",
-        "Datum": "2024-12-12"
-    },
-    {
-        "Titel": "2024M-115 Masterarbeit \u2013 Profilreaktor-Modell f\u00fcr Benzinsynthese aus nachhaltig erzeugtem Methanol (MtG)     (m/w/d)",
-        "Arbeitgeber": "Forschungszentrum J\u00fclich GmbH",
-        "Ort": "J\u00fclich (Remote)",
-        "Link": "https://www.asta.rwth-aachen.de/job/forschungszentrum-juelich-gmbh-juelich-36-2024m-115-masterarbeit-profilreaktor-modell-fuer-benzinsynthese-aus-nachhaltig-erzeugtem-methanol-mtg/",
-        "Datum": "2024-12-12"
-    },
-    {
-        "Titel": "Studentische Hilfskraft im Bereich Konstruktion, Modellierung und Simulation (m/w/d)",
-        "Arbeitgeber": "Innolite GmbH Die Innolite GmbH ist ein Hightech-Unternehmen in Aachen",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/innolite-gmbh-aachen-36-studentische-hilfskraft-im-bereich-konstruktion-modellierung-und-simulation-2/",
-        "Datum": "2024-12-11"
-    },
-    {
-        "Titel": "Praktikant:in Unternehmensentwicklung (Fokus: Digital Lab) (m/w/d)",
-        "Arbeitgeber": "Trianel GmbH",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/trianel-gmbh-aachen-36-praktikantin-unternehmensentwicklung-fokus-digital-lab-m-w-d/",
-        "Datum": "2024-12-11"
-    },
-    {
-        "Titel": "Praktikant:in / Studentische Hilfskraft Unternehmensentwicklung (Fokus: Trendscouting) (m/w/d)",
-        "Arbeitgeber": "Trianel GmbH",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/trianel-gmbh-aachen-36-praktikantin-studentische-hilfskraft-unternehmensentwicklung-fokus-trendscouting-m-w-d-4/",
-        "Datum": "2024-12-11"
-    },
-    {
-        "Titel": "Studentische Hilfskraft Assetoptimierung (m/w/d)",
-        "Arbeitgeber": "Trianel GmbH",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/trianel-gmbh-aachen-36-studentische-hilfskraft-assetoptimierung-m-w-d-3/",
-        "Datum": "2024-12-11"
-    },
-    {
-        "Titel": "Studentische Hilfskraft Energiedienstleistungen 24/7 Operations Management \u2013 Jira/Atlassian (m/w/d)",
-        "Arbeitgeber": "Trianel GmbH",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/trianel-gmbh-aachen-36-studentische-hilfskraft-energiedienstleistungen-24-7-operations-management-jira-atlassian-m-w-d-4/",
-        "Datum": "2024-12-11"
-    },
-    {
-        "Titel": "Studentische Hilfskraft Personal- und Organisationsentwicklung (m/w/d)",
-        "Arbeitgeber": "Trianel GmbH",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/trianel-gmbh-aachen-36-studentische-hilfskraft-personal-und-organisationsentwicklung-m-w-d/",
-        "Datum": "2024-12-11"
-    },
-    {
-        "Titel": "Studentische Hilfskraft Projektmanagement Office (m/w/d)",
-        "Arbeitgeber": "Trianel GmbH",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/trianel-gmbh-aachen-36-studentische-hilfskraft-projektmanagement-office-m-w-d-4/",
-        "Datum": "2024-12-11"
-    },
-    {
-        "Titel": "Studentische Hilfskraft",
-        "Arbeitgeber": "AG Biophysical & Education Engineering",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/ag-biophysical-education-engineering-aachen-38-studentische-hilfskraft-2/",
-        "Datum": "2024-12-11"
-    },
-    {
-        "Titel": "Studentische Hilfskraft",
-        "Arbeitgeber": "AG Biophysical & Education Engineering",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/ag-biophysical-education-engineering-aachen-38-studentische-hilfskraft/",
-        "Datum": "2024-12-11"
-    },
-    {
-        "Titel": "Studentische Hilfskraft Origination/ Direktvermarktung Erneuerbare Energien (m/w/d)",
-        "Arbeitgeber": "Trianel GmbH",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/trianel-gmbh-aachen-36-studentische-hilfskraft-origination-direktvermarktung-erneuerbare-energien-m-w-d-2/",
-        "Datum": "2024-12-11"
-    },
-    {
-        "Titel": "Masterarbeit \u2013 Analyse der Wetterabh\u00e4ngigkeit und des Klimawandel-Einflusses auf ein treibhausgas- neutrales, deutsches Energiesystem",
-        "Arbeitgeber": "Forschungszentrum J\u00fclich GmbH",
-        "Ort": "J\u00fclich (Remote)",
-        "Link": "https://www.asta.rwth-aachen.de/job/forschungszentrum-juelich-gmbh-juelich-36-masterarbeit-analyse-der-wetterabhaengigkeit-und-des-klimawandel-einflusses-auf-ein-treibhausgas-neutrales-deutsches-energiesystem/",
-        "Datum": "2024-12-10"
-    },
-    {
-        "Titel": "Gartenarbeit / Sichtschutz",
-        "Arbeitgeber": "Keine",
-        "Ort": "Aachen Mitte",
-        "Link": "https://www.asta.rwth-aachen.de/job/keine-aachen-mitte-35-gartenarbeit-sichtschutz/",
-        "Datum": "2023-10-23"
     }
 ]
