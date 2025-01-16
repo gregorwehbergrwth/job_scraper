@@ -1,1 +1,3 @@
-{}
+{
+    "uniklinik": "Error extracting job infos for uniklinik: list index out of range, Error comparing uniklinik: 'NoneType' object is not iterable"
+}
