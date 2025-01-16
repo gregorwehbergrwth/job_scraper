@@ -1,26 +1,13 @@
-
 import time
 
 
-def check_frequency(mouse, style, frequency, log):
-    # last_checked = log[mouse]
-    last_checked = "2025-01-09 16:12:17"  # example
-    last_checked = "2025-01-12 23:28:02"
-    now = time.strftime("%Y-%m-%d %H:%M:%S")
-    now = time.strptime(now, "%Y-%m-%d %H:%M:%S")
-    last_checked = time.strptime(last_checked, "%Y-%m-%d %H:%M:%S")
+def check(mouse, log, problem_log):
 
-    time_difference = (time.mktime(now) - time.mktime(last_checked))/3600  # hours
+    last_checked = time.strptime(log["last_checked"], "%Y-%m-%d %H:%M:%S")
+    now = time.localtime()
 
-    print(time_difference)
+    time_difference = (time.mktime(now) - time.mktime(last_checked)) / 3600
 
-    if frequency == "daily":
-        if time_difference >= 24:
-            return True
-    if frequency == "weekly":
-        if time_difference >= 24*7:
-            return True
+    frequency_hours = {"hourly": 1, "daily": 24, "weekly": 24 * 7}
 
-
-check_frequency("test", "hawk", "daily", log={})
-
+    return time_difference + 1 >= frequency_hours.get(log["frequency"], None) and mouse not in problem_log.keys()

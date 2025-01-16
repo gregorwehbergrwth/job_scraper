@@ -16,22 +16,22 @@ def bird(name, url, mode, driver):
 
 
 if __name__ == "__main__":
-    time_logger = {}
-
+    now = time.strftime("%Y-%m-%d %H:%M:%S")
     selenium_driver = get_driver()
 
     links = get_file(name="links.json")
     problematic = get_file(name="logs/problem_logs.json")
-    new_log = get_file(name="logs/new_log.json")
+    logs = get_file(name="logs/time_log.json")
+    logs[now] = {}
 
     for style in links.keys():
-        for mouse in links[style].keys():
+        for mouse, item in links[style].items():
             start_time = time.perf_counter()
-            # if check_frequency(mouse=mouse, style=style, frequency=links[style][mouse]["frequency"], log=new_log):
-            bird(name=mouse, url=links[style][mouse]["link"], driver=selenium_driver, mode=style) if mouse not in problematic.keys() else None
-            time_logger[mouse] = time.perf_counter() - start_time
+            if check(mouse=mouse, log=item, problem_log=problematic):
+                bird(name=mouse, url=item["link"], driver=selenium_driver, mode=style)
 
-    selenium_driver.quit()
+            links[style][mouse]["last_checked"] = now
+            logs[now][mouse] = time.perf_counter() - start_time
 
-    logs = get_file(name="logs/time_log.json") + [{time.strftime("%Y-%m-%d %H:%M:%S"): time_logger}]
+    write_file(name="links.json", content=links)
     write_file(name="logs/time_log.json", content=logs)
