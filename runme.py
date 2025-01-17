@@ -1,17 +1,16 @@
 from functions.content_scraper import *
 from functions.extract import *
 from functions.handling import *
-import time
 from functions.frequency import *
 
 
 def bird(name, url, mode, driver):
-    print(f"Checking {name} with {mode} mode. Link: {url}")
+    print(f"Checking {name} in {mode} mode. Link: {url}")
     html = get_html(link=url, mouse=name, selenium_driver=driver, mode=mode)
     infos = extract_infos(html=html, mouse=name, mode=mode)
     new = compare(mouse=name, new=infos, mode=mode)
     for i, alert in enumerate(new):
-        message(configure_text(new=alert, mouse=name, mode=mode, index=i), link=url)
+        message(configure_text(new=alert, mouse=name, mode=mode, index=i, link=url))
     to_file(mouse=name, infos=infos, new=new, mode=mode)
 
 
