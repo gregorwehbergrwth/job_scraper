@@ -88,9 +88,7 @@ def extract_infos(html, mouse, mode):
         if mode == "hawk":
             return config(soup).split("\n")
         else:
-            for job in config["table"](soup):
-                jobs.append({key: func(job) for key, func in config["lines"].items()})
-            return jobs
+            return [{key: func(job) for key, func in config["lines"].items()} for job in config["table"](soup)]
     except Exception as e:
         problem(mouse=mouse, error=f"Error extracting job infos for {mouse}: {e}")
         return None
