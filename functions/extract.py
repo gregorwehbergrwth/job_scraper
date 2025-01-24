@@ -11,7 +11,6 @@ modes = {
                 "Link": lambda x: "https://www.ukaachen.de" + x.find('a')['href'],
                 "Titel": lambda x: x.find('a').text.strip(),
                 "Bereich": lambda x: x.find('p').find_all(string=True)[0],
-                "Frist": lambda x: x.find('p').find_all(string=True)[1] if len(x.find_all('p')) == 1 else x.find_all('p')[1].text
             }
         },
         "rwth": {
@@ -97,7 +96,7 @@ def compare(mouse, mode, new):
     print(f"Comparing {mouse}")
     old = get_file(f"{mode}/{mouse}.json")
     try:
-        result = [x for x in new if x not in old]
+        result = [x for x in new if x not in old] if old else new
         print(f"Found {len(result)} new jobs/lines for {mouse}")
         return result if mode == "falcon" else ["\n".join(result)]
     except Exception as e:
