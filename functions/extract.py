@@ -80,7 +80,6 @@ modes = {
 
 def extract_infos(html, mouse, mode):
     print(f"Extracting infos from {mouse}")
-    jobs = []
     config = modes[mode][mouse]
     soup = BeautifulSoup(html, 'lxml') if html else None
 
