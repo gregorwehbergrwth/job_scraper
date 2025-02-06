@@ -78,9 +78,11 @@ modes = {
 
 
 def extract_infos(html, mouse, mode):
+    if not html:
+        return None
     print(f"Extracting infos from {mouse}")
     config = modes[mode][mouse]
-    soup = BeautifulSoup(html, 'lxml') if html else None
+    soup = BeautifulSoup(html, 'lxml')
 
     try:
         if mode == "hawk":
@@ -93,6 +95,8 @@ def extract_infos(html, mouse, mode):
 
 
 def compare(mouse, mode, new):
+    if not new:
+        return []
     print(f"Comparing {mouse}")
     old = get_file(f"{mode}/{mouse}.json")
     try:

@@ -30,8 +30,9 @@ def write_file(name, content):
 
 
 def to_file(mouse, infos, new, mode):
-    infos = infos if mouse != "un" else get_file(f"{mode}/{mouse}.json") + new
-    write_file(f"{mode}/{mouse}.json", infos)
+    if new or infos:
+        infos = infos if mouse != "un" else get_file(f"{mode}/{mouse}.json") + new
+        write_file(f"{mode}/{mouse}.json", infos)
 
 
 def configure_text(new, mouse, mode, index, link):

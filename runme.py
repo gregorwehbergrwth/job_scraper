@@ -7,7 +7,6 @@ from functions.frequency import *
 def bird(name, url, mode, driver, test=False):
     print(f"Checking {name} in {mode} mode. Link: {url}")
     html = get_html(link=url, mouse=name, selenium_driver=driver, mode=mode)
-    print(html)
     infos = extract_infos(html=html, mouse=name, mode=mode)
     new = compare(mouse=name, new=infos, mode=mode)
     for i, alert in enumerate(new):
@@ -24,11 +23,13 @@ if __name__ == "__main__":
     logs = get_file(name="logs/time_log.json")
     logs[now] = {}
     Test = True
+
     for style in links.keys():
         for mouse, item in links[style].items():
-            if Test:
+            if mouse == "rwth" and Test:
                 bird(name=mouse, url=item["link"], driver=selenium_driver, mode=style, test=True)
-            else:
+                continue
+            elif Test:
                 continue
             start_time = time.perf_counter()
             if check(mouse=mouse, log=item, problem_log=problematic):
