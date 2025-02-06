@@ -56,7 +56,7 @@ def configure_text(new, mouse, mode, index, link):
         return f"Error structuring message: {e}"
 
 
-def message(txt):
+def message(txt, test=False):
     async def send_message(text):
         bot = Bot(token=api_key)
         try:
@@ -65,8 +65,8 @@ def message(txt):
         except BadRequest as e2:
             print(f"Telegram API Error: {e2}")
     try:
-        # raise Exception("Blocked Message")
-        asyncio.run(send_message(txt)) if txt else None
+        if not test:
+            asyncio.run(send_message(txt)) if txt else None
     except Exception as e:
         problem(mouse="message", error=f"Error sending message: {e}", send_message=False)
     finally:
