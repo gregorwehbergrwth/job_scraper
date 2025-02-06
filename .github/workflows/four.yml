@@ -1,11 +1,10 @@
 name: Run Job Search Four
 
 on:
-#  push:
-#    branches:
-#      - main
+  push:
+    branches:
+      - main
   workflow_dispatch:
-
 
   schedule:
     - cron: '0 7,9,11,14,18 * * *'
