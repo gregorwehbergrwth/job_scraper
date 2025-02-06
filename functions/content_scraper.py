@@ -59,6 +59,11 @@ def get_html(link, mouse, selenium_driver, mode):
                 "content": lambda url: content_requests(url),
                 "return": lambda response: response.text,
                 "wait": lambda wait: wait
+            },
+            "hrw": {
+                "content": lambda url: content_requests(url),
+                "return": lambda response: response.text,
+                "wait": lambda wait: wait
             }
         },
         "hawk": {
