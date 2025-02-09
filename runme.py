@@ -22,11 +22,11 @@ if __name__ == "__main__":
     problematic = get_file(name="logs/problem_logs.json")
     logs = get_file(name="logs/time_log.json")
     logs[now] = {}
-    Test = True
+    Test = False
 
     for style in links.keys():
         for mouse, item in links[style].items():
-            if mouse == "rwth" and Test:
+            if mouse == "asta_aachen" and Test:
                 bird(name=mouse, url=item["link"], driver=selenium_driver, mode=style, test=True)
                 continue
             elif Test:

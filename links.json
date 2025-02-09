@@ -19,6 +19,11 @@
             "link": "https://career-service-hochschule-trier.de/studierende/jobboerse",
             "frequency": "daily",
             "last_checked": "2025-02-06 21:33:20"
+        },
+        "asta_aachen": {
+            "link": "https://www.asta.rwth-aachen.de/service/jobboerse/",
+            "frequency": "daily",
+            "last_checked": "2025-01-06 21:33:20"
         }
     },
     "hawk": {
