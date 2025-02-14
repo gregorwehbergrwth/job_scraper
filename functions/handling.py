@@ -36,7 +36,7 @@ def to_file(mouse, infos, new, mode):
 
 
 def configure_text(new, mouse, mode, index, link):
-    if mode == "hawk":
+    if mode == "hawk" and new:
         return f"{new} \n{link}"
     else:
         job_dict = new
