@@ -1,13 +1,1 @@
-{
-    "inab": "Error extracting job infos for inab: 'NoneType' object has no attribute 'text', Error extracting job infos for inab: 'NoneType' object has no attribute 'text'",
-    "lbb": "Error structuring message: 'lbb'",
-    "stb": "Error structuring message: 'stb'",
-    "imb": "Error structuring message: 'imb'",
-    "icom": "Error structuring message: 'icom'",
-    "e3d": "Error structuring message: 'e3d'",
-    "iww": "Error structuring message: 'iww'",
-    "ifam": "Error structuring message: 'ifam'",
-    "gut": "Error structuring message: 'gut'",
-    "isa": "Error structuring message: 'isa'",
-    "asta_trier": "Error structuring message: 'asta_trier'"
-}
+{}
