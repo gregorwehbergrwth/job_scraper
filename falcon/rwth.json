@@ -1,5 +1,45 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000009297/",
+        "Frist": "Frist: 15.04.2025",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000009297",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.03.2025",
+        "Arbeitgeber": "Exploratory Research Space [080006]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000009308/",
+        "Frist": "Frist: 15.04.2025",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung des Instituts bei Boteng\u00e4ngen/Postzustellung ",
+        "Nummer": "V000009308",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.03.2025",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Maschinenelemente und Systementwicklung [411710]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000009309/",
+        "Frist": "Frist: 04.04.2025",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Mitarbeit in Forschungsprojekten zur Gestaltung von zuk\u00fcnftigen Wasserstoff-Supply-Chains ",
+        "Nummer": "V000009309",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.03.2025",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Operations Management [813510]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000009311/",
+        "Frist": "Frist: 31.05.2025",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Arbeitswissenschaftliches Kompetenzzentrum f\u00fcr Erwerbsarbeit in der Industrie 4.0 ",
+        "Nummer": "V000009311",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.03.2025",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Arbeitswissenschaft [417110]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000009314/",
+        "Frist": "Frist: 31.03.2025",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Grundlagen der Maschinenkomponenten ",
+        "Nummer": "V000009314",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.03.2025",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Advanced Mining Technologies [513310]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000009281/",
         "Frist": "Frist: 15.04.2025",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Unsicherheitsbewusste Bewegungsplanung von autonomen Fahrzeugen ",
@@ -257,7 +297,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000009201/",
-        "Frist": "Frist: 30.04.2025",
+        "Frist": "Frist: 05.03.2025",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung Design Konferenzvorbereitung ",
         "Nummer": "V000009201",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 10.02.2025",
@@ -313,7 +353,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000009172/",
-        "Frist": "Frist: 31.03.2025",
+        "Frist": "Frist: 05.03.2025",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Produktionsoptimierung und Laborarbeit in der Batteriefertigung ",
         "Nummer": "V000009172",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 04.02.2025",
@@ -321,7 +361,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000009173/",
-        "Frist": "Frist: 31.03.2025",
+        "Frist": "Frist: 05.03.2025",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Strategie und Digitalisierung in der Batterieproduktion ",
         "Nummer": "V000009173",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 04.02.2025",
@@ -448,6 +488,14 @@
         "Arbeitgeber": "Lehrstuhl f\u00fcr Textilmaschinenbau und Institut f\u00fcr Textiltechnik [419110]"
     },
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000009032/",
+        "Frist": "Frist: 30.04.2025",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Consulting im Bereich Battery Production Technology ",
+        "Nummer": "V000009032",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 07.01.2025",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008882/",
         "Frist": "Frist: 03.06.2025",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Abteilung Produktionsmanagement \u2013 Gruppe Prozessmanagement ",
@@ -478,6 +526,14 @@
         "Nummer": "V000009013",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 06.01.2025",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000009017/",
+        "Frist": "Frist: 30.04.2025",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 In der industrienahen Forschung und Consulting im Themenfeld der Batterieproduktion ",
+        "Nummer": "V000009017",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 06.01.2025",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008939/",
