@@ -73,7 +73,6 @@ modes = {
         "isa": lambda soup: soup.find('tbody').text.strip(),
         "ucc": lambda soup: soup.find('div', class_='tabs_wrapper tabs_horizontal').text.strip(),
         "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text.strip(),
-        "ita": lambda soup: soup.find('div', class_='listing').text.strip()
     }
 }
 
