@@ -1,6 +1,1 @@
-{
-    "inab": "Error extracting job infos for inab: 'NoneType' object has no attribute 'text'",
-    "ifam": "Error fetching content for https://www.ifam.rwth-aachen.de/cms/ifam/Studium/~rrihw/Studien-und-Abschlussarbeiten/: Message: timeout: Timed out receiving message from renderer: 299.136\n  (Session info: chrome=133.0.6943.141)\nStacktrace:\n#0 0x556b2d1b114a <unknown>\n#1 0x556b2cc4eb80 <unknown>\n#2 0x556b2cc35d3d <unknown>\n#3 0x556b2cc35a1f <unknown>\n#4 0x556b2cc33762 <unknown>\n#5 0x556b2cc3419f <unknown>\n#6 0x556b2cc43b5b <unknown>\n#7 0x556b2cc5cb5f <unknown>\n#8 0x556b2cc6327b <unknown>\n#9 0x556b2cc348b0 <unknown>\n#10 0x556b2cc5c9cd <unknown>\n#11 0x556b2ccec495 <unknown>\n#12 0x556b2ccc5ca3 <unknown>\n#13 0x556b2cc91f08 <unknown>\n#14 0x556b2cc93071 <unknown>\n#15 0x556b2d17ab5b <unknown>\n#16 0x556b2d17eae2 <unknown>\n#17 0x556b2d166967 <unknown>\n#18 0x556b2d17f6d4 <unknown>\n#19 0x556b2d14ac7f <unknown>\n#20 0x556b2d19fcd8 <unknown>\n#21 0x556b2d19fea9 <unknown>\n#22 0x556b2d1affc6 <unknown>\n#23 0x7eff8089caa4 <unknown>\n#24 0x7eff80929c3c <unknown>\n",
-    "message": "Error sending message: Timed out",
-    "trier": "Error fetching content for https://career-service-hochschule-trier.de/studierende/jobboerse: 404 Client Error: Not Found for url: https://career-service-hochschule-trier.de/studierende/jobboerse"
-}
+{}
