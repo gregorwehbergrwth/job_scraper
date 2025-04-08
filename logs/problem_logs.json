@@ -1,1 +1,3 @@
-{}
+{
+    "inab": "Error extracting job infos for inab: 'NoneType' object has no attribute 'text'"
+}
