@@ -1,5 +1,15 @@
 [
     {
+        "Link": "https://www.ukaachen.de/stellenangebote/stellenmarkt/offene-stellen/stellenbeschreibung/studentische-hilfskraefte-wmd/",
+        "Titel": "Studentische Hilfskr\u00e4fte (w/m/d)",
+        "Bereich": "GB Personal-Familien-Service-B\u00fcro"
+    },
+    {
+        "Link": "https://www.ukaachen.de/stellenangebote/stellenmarkt/offene-stellen/stellenbeschreibung/wissenschaftliche-hilfskraft-mwd-im-bereich-angewandter-statistik/",
+        "Titel": "wissenschaftliche Hilfskraft (m/w/d) im Bereich angewandter Statistik",
+        "Bereich": "Institut f\u00fcr Arbeits-, Sozial- und Umweltmedizin, LuF Healthy Living Spaces (Prof. Schweiker)"
+    },
+    {
         "Link": "https://www.ukaachen.de/stellenangebote/stellenmarkt/offene-stellen/stellenbeschreibung/studentischewissenschaftliche-hilfskraft-wmd-fahrdienst-hornhautbank/",
         "Titel": "Studentische/Wissenschaftliche Hilfskraft (w/m/d) Fahrdienst Hornhautbank",
         "Bereich": "Klinik f\u00fcr Augenheilkunde - Hornhautbank"
@@ -28,11 +38,6 @@
         "Link": "https://www.ukaachen.de/stellenangebote/stellenmarkt/offene-stellen/stellenbeschreibung/studentische-hilfskraft-mwd/",
         "Titel": "Studentische Hilfskraft (m/w/d)",
         "Bereich": "Klinik f\u00fcr An\u00e4sthesiologie"
-    },
-    {
-        "Link": "https://www.ukaachen.de/stellenangebote/stellenmarkt/offene-stellen/stellenbeschreibung/wissenschaftliche-hilfskraft-mwd-im-bereich-angewandter-statistik/",
-        "Titel": "wissenschaftliche Hilfskraft (m/w/d) im Bereich angewandter Statistik",
-        "Bereich": "Institut f\u00fcr Arbeits-, Sozial- und Umweltmedizin, LuF Healthy Living Spaces (Prof. Schweiker)"
     },
     {
         "Link": "https://www.ukaachen.de/stellenangebote/stellenmarkt/offene-stellen/stellenbeschreibung/research-interns-fmd-in-environmental-psychology/",
