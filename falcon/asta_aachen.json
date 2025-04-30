@@ -1,5 +1,54 @@
 [
     {
+        "Titel": "Hilfe bei PC (m/w/d)",
+        "Arbeitgeber": "privatperson",
+        "Ort": "aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/privatperson-aachen-35-hilfe-bei-pc/",
+        "Datum": "2025-04-30"
+    },
+    {
+        "Titel": "2025M-034 Masterarbeit \u2013 Techno\u00f6konomische Analyse der europ\u00e4ischen Offshore-Potenziale f\u00fcr die Produktion von gr\u00fcnem Wasserstoff (m/w/d)",
+        "Arbeitgeber": "Forschungszentrum J\u00fclich GmbH",
+        "Ort": "J\u00fclich",
+        "Link": "https://www.asta.rwth-aachen.de/job/forschungszentrum-juelich-gmbh-juelich-36-2025m-034-masterarbeit-technooekonomische-analyse-der-europaeischen-offshore-potenziale-fuer-die-produktion-von-gruenem-wasserstoff/",
+        "Datum": "2025-04-30"
+    },
+    {
+        "Titel": "2025M-033 Masterarbeit \u2013 Generationengerechtigkeit im Kontext einer regionalen Bio\u00f6konomie (m/w/d)",
+        "Arbeitgeber": "Forschungszentrum J\u00fclich GmbH",
+        "Ort": "J\u00fclich",
+        "Link": "https://www.asta.rwth-aachen.de/job/forschungszentrum-juelich-gmbh-juelich-36-2025m-033-masterarbeit-generationengerechtigkeit-im-kontext-einer-regionalen-biooekonomie/",
+        "Datum": "2025-04-30"
+    },
+    {
+        "Titel": "Studentische Hilfskraft (w/m/d) Blutentnahme",
+        "Arbeitgeber": "Uniklinik Aachen",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/uniklinik-aachen-aachen-38-studentische-hilfskraft-w-m-d-blutentnahme/",
+        "Datum": "2025-04-30"
+    },
+    {
+        "Titel": "Student*in \u2013 Job f\u00fcr Studierende \u2013 Aachen (m/w/d) als p\u00e4dagogische Erg\u00e4nzungskraft (w/m/d)",
+        "Arbeitgeber": "Mittagsbetreuung der Montessori Grundschule Reumontstra\u00dfe Aachen",
+        "Ort": "Aachen, Reumontstrasse 52",
+        "Link": "https://www.asta.rwth-aachen.de/job/mittagsbetreuung-der-montessori-grundschule-reumontstrasse-aachen-aachen-reumontstrasse-52-36-studentin-job-fuer-studierende-aachen-m-w-d-als-paedagogische-ergaenzungskraft-w-2/",
+        "Datum": "2025-04-30"
+    },
+    {
+        "Titel": "2025D-052 Doktorand:in \u2013 Quantitative Bewertung von (marko)\u00f6konomischen Effekten der Energiesystemtransformation (w/m/d)",
+        "Arbeitgeber": "Forschungszentrum J\u00fclich GmbH",
+        "Ort": "J\u00fclich (Remote)",
+        "Link": "https://www.asta.rwth-aachen.de/job/forschungszentrum-juelich-gmbh-juelich-36-2025d-052-doktorandin-quantitative-bewertung-von-markooekonomischen-effekten-der-energiesystemtransformation-w-m-d/",
+        "Datum": "2025-04-29"
+    },
+    {
+        "Titel": "Student*in \u2013 Job f\u00fcr Studierende \u2013 Aachen (m/w/d) als p\u00e4dagogische Erg\u00e4nzungskraft (w/m/d)",
+        "Arbeitgeber": "Mittagsbetreuung der Montessori Grundschule Reumontstra\u00dfe Aachen",
+        "Ort": "Aachen, Reumontstrasse 52",
+        "Link": "https://www.asta.rwth-aachen.de/job/mittagsbetreuung-der-montessori-grundschule-reumontstrasse-aachen-aachen-reumontstrasse-52-36-studentin-job-fuer-studierende-aachen-m-w-d-als-paedagogische-ergaenzungskraft-w/",
+        "Datum": "2025-04-29"
+    },
+    {
         "Titel": "Fahrdienst Audi Zentrum Aachen",
         "Arbeitgeber": "Audizentrum Aachen",
         "Ort": "Aachen",
@@ -298,55 +347,6 @@
         "Arbeitgeber": "Pulsar Photonics GmbH Innovatives Hightech-Unternehmen aus der Lasertechnik",
         "Ort": "Aachen",
         "Link": "https://www.asta.rwth-aachen.de/job/pulsar-photonics-gmbh-aachen-36-werkstudent-softwareentwicklung-c-wpf-m-w-d/",
-        "Datum": "2025-04-08"
-    },
-    {
-        "Titel": "Werkstudent:in (m/w/d) App-Testing",
-        "Arbeitgeber": "Kape Technologies",
-        "Ort": "\u00dcbach-Palenberg",
-        "Link": "https://www.asta.rwth-aachen.de/job/kape-technologies-uebach-palenberg-36-werkstudentin-m-w-d-app-testing/",
-        "Datum": "2025-04-08"
-    },
-    {
-        "Titel": "Praktikum oder Werkstudierende (m/w/d) \u2013 Battery Operations",
-        "Arbeitgeber": "Voltfang GmbH Gr\u00fcne Energie, starke Leistung: Nachhaltige Batteriespeicher",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/voltfang-gmbh-aachen-36-praktikum-oder-werkstudierende-m-w-d-battery-operations/",
-        "Datum": "2025-04-08"
-    },
-    {
-        "Titel": "Praktikum / Werkstudierende (m|w|d) \u2013 Einkauf / Lager / Logistik",
-        "Arbeitgeber": "Voltfang GmbH Gr\u00fcne Energie, starke Leistung: Nachhaltige Batteriespeicher",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/voltfang-gmbh-aachen-36-praktikum-werkstudierende-mwd-einkauf-lager-logistik-2/",
-        "Datum": "2025-04-08"
-    },
-    {
-        "Titel": "Werkstudierende (m/w/d) \u2013 IT Administration",
-        "Arbeitgeber": "Voltfang GmbH Gr\u00fcne Energie, starke Leistung: Nachhaltige Batteriespeicher",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/voltfang-gmbh-aachen-36-werkstudierende-m-w-d-it-administration-2/",
-        "Datum": "2025-04-08"
-    },
-    {
-        "Titel": "Praktikum / Werkstudierende (m/w/d) \u2013 Operativer After-Sales-Support",
-        "Arbeitgeber": "Voltfang GmbH Gr\u00fcne Energie, starke Leistung: Nachhaltige Batteriespeicher",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/voltfang-gmbh-aachen-36-praktikum-werkstudierende-m-w-d-operativer-after-sales-support-3/",
-        "Datum": "2025-04-08"
-    },
-    {
-        "Titel": "Praktikum / Werkstudierende (m/w/d) \u2013 F\u00f6rdermittel / Grants Management f\u00fcr nachhaltige Energiespeicher",
-        "Arbeitgeber": "Voltfang GmbH Gr\u00fcne Energie, starke Leistung: Nachhaltige Batteriespeicher",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/voltfang-gmbh-aachen-36-praktikum-werkstudierende-m-w-d-foerdermittel-grants-management-fuer-nachhaltige-energiespeicher/",
-        "Datum": "2025-04-08"
-    },
-    {
-        "Titel": "Betreuung von Jugendlichen am Nachmittag",
-        "Arbeitgeber": "Rhein-Maas-Gymnasium",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/rhein-maas-gymnasium-aachen-36-betreuung-von-jugendlichen-am-nachmittag/",
         "Datum": "2025-04-08"
     }
 ]
