@@ -91,6 +91,16 @@
             "link": "https://www.hochschule-trier.de/hauptcampus/bauen-plus-leben/gve/studium/studierende/stellenangebote",
             "frequency": "hourly",
             "last_checked": "2025-05-01 20:38:11"
+        },
+        "Schuessler-Preis": {
+            "link": "https://www.fb3.rwth-aachen.de/cms/bauingenieurwesen/studium/im-studium/stipendien-auszeichnungen/~mzar/schuessler-preis/",
+            "frequency": "daily",
+            "last_checked": "2025-05-01 20:38:11"
+        },
+        "Holzbaupreis": {
+            "link": "https://www.fb3.rwth-aachen.de/cms/bauingenieurwesen/studium/im-studium/stipendien-auszeichnungen/~ekhxr/holzbaupreis/",
+            "frequency": "weekly",
+            "last_checked": "2025-05-01 20:38:11"
         }
     }
 }
