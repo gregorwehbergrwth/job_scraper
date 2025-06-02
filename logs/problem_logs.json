@@ -1,3 +1,5 @@
 {
-    "inab": "Error extracting job infos for inab: 'NoneType' object has no attribute 'text'"
+    "inab": "Error extracting job infos for inab: 'NoneType' object has no attribute 'text'",
+    "lbb": "Error extracting job infos for lbb: 'NoneType' object has no attribute 'find'",
+    "Schuessler-Preis": "Error extracting job infos for Schuessler-Preis: 'NoneType' object has no attribute 'find'"
 }
