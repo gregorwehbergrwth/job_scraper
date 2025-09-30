@@ -1,5 +1,6 @@
 {
     "inab": "Error extracting job infos for inab: 'NoneType' object has no attribute 'text'",
     "lbb": "Error extracting job infos for lbb: 'NoneType' object has no attribute 'find'",
-    "Schuessler-Preis": "Error extracting job infos for Schuessler-Preis: 'NoneType' object has no attribute 'find'"
+    "Schuessler-Preis": "Error extracting job infos for Schuessler-Preis: 'NoneType' object has no attribute 'find'",
+    "ucc": "Error fetching content for https://international.ucc.edu.gh/exchange-students: Message: \nStacktrace:\n#0 0x565254391fba <unknown>\n#1 0x565253e166d0 <unknown>\n#2 0x565253e682aa <unknown>\n#3 0x565253e68541 <unknown>\n#4 0x565253eb66c4 <unknown>\n#5 0x565253e8de5d <unknown>\n#6 0x565253eb3b54 <unknown>\n#7 0x565253e8dc03 <unknown>\n#8 0x565253e5a7a8 <unknown>\n#9 0x565253e5b421 <unknown>\n#10 0x565254356b28 <unknown>\n#11 0x56525435a87f <unknown>\n#12 0x56525433ec49 <unknown>\n#13 0x56525435b405 <unknown>\n#14 0x5652543244ff <unknown>\n#15 0x56525437f258 <unknown>\n#16 0x56525437f432 <unknown>\n#17 0x565254390fa3 <unknown>\n#18 0x7fb26c69caa4 <unknown>\n#19 0x7fb26c729c6c <unknown>\n"
 }
