@@ -3,104 +3,104 @@
         "rwth": {
             "link": "https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?search=&showall=1&aaaaaaaaaaaaanr=&frist=&aaaaaaaaaaaaanq=&aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft&aaaaaaaaaaaaans=&aaaaaaaaaaaaanw=&aaaaaaaaaaaaanv=&aaaaaaaaaaaaanx=",
             "frequency": "never",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "un": {
             "link": "https://careers.un.org/jobopening?language=en&data=%257B%2522aoe%2522:%255B%255D,%2522aoi%2522:%255B%255D,%2522el%2522:%255B%255D,%2522ct%2522:%255B%255D,%2522ds%2522:%255B%255D,%2522jn%2522:%255B%255D,%2522jf%2522:%255B%255D,%2522jc%2522:%255B%2522INT%2522%255D,%2522jle%2522:%255B%255D,%2522dept%2522:%255B%255D,%2522span%2522:%255B%255D%257D",
             "frequency": "weekly",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "uniklinik": {
             "link": "https://www.ukaachen.de/stellenangebote/stellenmarkt/offene-stellen/?tx_wsjobs_jobs%5Bgroup%5D=12&cHash=dee34d2e821b77aab8fd548eac958bed",
             "frequency": "never",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "trier": {
             "link": "https://career-service-hochschule-trier.de/studierende/jobboerse",
             "frequency": "never",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "asta_aachen": {
             "link": "https://www.asta.rwth-aachen.de/service/jobboerse/",
             "frequency": "never",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         }
     },
     "hawk": {
         "lbb": {
             "link": "https://www.lbb.rwth-aachen.de/cms/LBB/Studium/Abschlussarbeiten/~fdxp/Zu-vergebende-Bachelorarbeiten/",
             "frequency": "daily",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "stb": {
             "link": "https://www.stb.rwth-aachen.de/cms/STB/Studium/~ipde/Studien-und-Abschlussarbeiten/",
             "frequency": "weekly",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "imb": {
             "link": "https://www.imb.rwth-aachen.de/go/id/bdjfir",
             "frequency": "weekly",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "icom": {
             "link": "https://www.icom.rwth-aachen.de/cms/icom/studium/~meft/abschlussarbeiten/?showall=1",
             "frequency": "weekly",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "inab": {
             "link": "https://www.inab.rwth-aachen.de/lehre/studien-und-abschlussarbeiten/",
             "frequency": "weekly",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "e3d": {
             "link": "https://www.e3d.rwth-aachen.de/cms/E3D/Studium/~iylt/Studentische-Abschlussarbeiten/",
             "frequency": "weekly",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "iww": {
             "link": "https://www.iww.rwth-aachen.de/go/id/lyhp?#aaaaaaaaaaaopri",
             "frequency": "weekly",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "ifam": {
             "link": "https://www.ifam.rwth-aachen.de/cms/ifam/Studium/~rrihw/Studien-und-Abschlussarbeiten/",
             "frequency": "weekly",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "gut": {
             "link": "https://www.gut.rwth-aachen.de/cms/Geotechnik/Studium/~mfvlv/Angebotene-Studien-und-Abschlussarbeite/",
             "frequency": "weekly",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "gia": {
             "link": "https://www.gia.rwth-aachen.de/cms/gia/Studium/~zpqtq/Ausgeschriebene-Abschlussarbeiten/",
             "frequency": "weekly",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "isa": {
             "link": "https://www.isa.rwth-aachen.de/cms/isa/studium/studien-und-abschlussarbeiten/~sjmd/bachelorarbeiten/",
             "frequency": "weekly",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "ucc": {
             "link": "https://international.ucc.edu.gh/exchange-students",
             "frequency": "daily",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "asta_trier": {
             "link": "https://www.hochschule-trier.de/hauptcampus/bauen-plus-leben/gve/studium/studierende/stellenangebote",
             "frequency": "never",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "Schuessler-Preis": {
             "link": "https://www.fb3.rwth-aachen.de/cms/bauingenieurwesen/studium/im-studium/stipendien-auszeichnungen/~mzar/schuessler-preis/",
             "frequency": "daily",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         },
         "Holzbaupreis": {
             "link": "https://www.fb3.rwth-aachen.de/cms/bauingenieurwesen/studium/im-studium/stipendien-auszeichnungen/~ekhxr/holzbaupreis/",
             "frequency": "weekly",
-            "last_checked": "2025-10-27 19:41:14"
+            "last_checked": "2025-10-28 19:44:22"
         }
     }
 }
