@@ -6,22 +6,23 @@ from functions.handling import problem
 modes = {
     "falcon": {
         "uniklinik": {
-            "table": lambda soup: soup.find_all("div", class_="tx_wsjobs_jobs__job"),
+            "table": lambda soup: soup.find_all("li", class_="joblist-item"),
             "lines": {
-                "Link": lambda x: "https://www.ukaachen.de" + x.find('a')['href'],
-                "Titel": lambda x: x.find('a').text.strip(),
-                "Bereich": lambda x: x.find('p').find_all(string=True)[0],
+                "Link": lambda x: "https://ukaachen.helixjobs.com" + x.find('a')['href'],
+                "Titel": lambda x: x.text.splitlines()[12].strip(),
+                "Bereich": lambda x: x.text.splitlines()[-6].strip(),
+                "Frist": lambda x: f'Frist: {x.text.splitlines()[-5].replace("Bewerbungsfrist: ", "").strip()}',
             }
         },
         "rwth": {
-            "table": lambda soup: [listing for listing in soup.find_all('li') if "veröffentlicht" in listing.text],
+            "table": lambda soup: [listing for listing in soup.find_all('tr') if "veröffentlicht" in listing.text],
             "lines":  {
                 "Link": lambda x: "https://www.rwth-aachen.de" + x.find('a').get('href'),
-                "Frist": lambda x: f'Frist: {x.text.splitlines()[3]}',
-                "Titel": lambda x: x.text[:x.text.find("[")].replace("\n", ""),
+                "Frist": lambda x: f'Frist: {x.text.splitlines()[-1]}',
+                "Titel": lambda x: x.text[:x.text.find("[")].replace("\n", "").replace("Stelle", ""),
                 "Nummer": lambda x: re.findall(r'V\d{9}', x.text)[0],
                 "Veröffentlichungsdatum": lambda x: re.findall(r"veröffentlicht am \d{2}\.\d{2}\.\d{4}", x.text)[0],
-                "Arbeitgeber": lambda x: x.text.split("\n")[2]
+                "Arbeitgeber": lambda x: x.text.splitlines()[-5]
             },
         },
         "un": {
@@ -90,6 +91,20 @@ def extract_infos(html, mouse, mode):
         if mode == "hawk":
             return config(soup).split("\n")
         else:
+            # print("Parsing table for job listings")
+            # listings = soup.find_all("li", class_="joblist-item")
+            # # listings = [listing for listing in listings if "veröffentlicht" in listing.text]
+            # print(f"Total listings found: {len(listings)}")
+            # for listing in listings:
+            #     print("------"*8)
+            #     print(listing)
+            #     print("111111"*8)
+            #     print(listing.text)
+            # print(listings[0]) if listings else print("None")
+            # print(listings[0].text) if listings else print("None")
+            # jobs = config["table"](soup)
+            # print(f"Found {len(jobs)} job listings")
+            # print(jobs[0]) if jobs else None
             return [{key: func(job) for key, func in config["lines"].items()} for job in config["table"](soup)]
     except Exception as e:
         problem(mouse=mouse, error=f"Error extracting job infos for {mouse}: {e}")

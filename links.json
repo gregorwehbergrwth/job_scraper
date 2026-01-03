@@ -11,7 +11,7 @@
             "last_checked": "2025-01-03 17:13:45"
         },
         "uniklinik": {
-            "link": "https://www.ukaachen.de/stellenangebote/stellenmarkt/offene-stellen/?tx_wsjobs_jobs%5Bgroup%5D=12&cHash=dee34d2e821b77aab8fd548eac958bed",
+            "link": "https://ukaachen.helixjobs.com/SHK-WHK-Praktikanten/joblist",
             "frequency": "daily",
             "last_checked": "2025-01-03 17:13:45"
         },
@@ -29,62 +29,62 @@
     "hawk": {
         "lbb": {
             "link": "https://www.lbb.rwth-aachen.de/cms/LBB/Studium/Abschlussarbeiten/~fdxp/Zu-vergebende-Bachelorarbeiten/",
-            "frequency": "weekly",
+            "frequency": "never",
             "last_checked": "2025-01-03 17:13:45"
         },
         "stb": {
             "link": "https://www.stb.rwth-aachen.de/cms/STB/Studium/~ipde/Studien-und-Abschlussarbeiten/",
-            "frequency": "weekly",
+            "frequency": "never",
             "last_checked": "2025-01-03 17:13:45"
         },
         "imb": {
             "link": "https://www.imb.rwth-aachen.de/go/id/bdjfir",
-            "frequency": "weekly",
+            "frequency": "never",
             "last_checked": "2025-01-03 17:13:45"
         },
         "icom": {
             "link": "https://www.icom.rwth-aachen.de/cms/icom/studium/~meft/abschlussarbeiten/?showall=1",
-            "frequency": "weekly",
+            "frequency": "never",
             "last_checked": "2025-01-03 17:13:45"
         },
         "inab": {
             "link": "https://www.inab.rwth-aachen.de/lehre/studien-und-abschlussarbeiten/",
-            "frequency": "weekly",
+            "frequency": "never",
             "last_checked": "2025-01-03 17:13:45"
         },
         "e3d": {
             "link": "https://www.e3d.rwth-aachen.de/cms/E3D/Studium/~iylt/Studentische-Abschlussarbeiten/",
-            "frequency": "weekly",
+            "frequency": "never",
             "last_checked": "2025-01-03 17:13:45"
         },
         "iww": {
             "link": "https://www.iww.rwth-aachen.de/go/id/lyhp?#aaaaaaaaaaaopri",
-            "frequency": "weekly",
+            "frequency": "never",
             "last_checked": "2025-01-03 17:13:45"
         },
         "ifam": {
             "link": "https://www.ifam.rwth-aachen.de/cms/ifam/Studium/~rrihw/Studien-und-Abschlussarbeiten/",
-            "frequency": "weekly",
+            "frequency": "never",
             "last_checked": "2025-01-03 17:13:45"
         },
         "gut": {
             "link": "https://www.gut.rwth-aachen.de/cms/Geotechnik/Studium/~mfvlv/Angebotene-Studien-und-Abschlussarbeite/",
-            "frequency": "weekly",
+            "frequency": "never",
             "last_checked": "2025-01-03 17:13:45"
         },
         "gia": {
             "link": "https://www.gia.rwth-aachen.de/cms/gia/Studium/~zpqtq/Ausgeschriebene-Abschlussarbeiten/",
-            "frequency": "weekly",
+            "frequency": "never",
             "last_checked": "2025-01-03 17:13:45"
         },
         "isa": {
             "link": "https://www.isa.rwth-aachen.de/cms/isa/studium/studien-und-abschlussarbeiten/~sjmd/bachelorarbeiten/",
-            "frequency": "weekly",
+            "frequency": "never",
             "last_checked": "2025-01-03 17:13:45"
         },
         "ucc": {
             "link": "https://international.ucc.edu.gh/exchange-students",
-            "frequency": "daily",
+            "frequency": "never",
             "last_checked": "2025-01-03 17:13:45"
         },
         "asta_trier": {

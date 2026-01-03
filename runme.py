@@ -7,7 +7,10 @@ from functions.frequency import *
 def bird(name, url, mode, driver, test=False):
     print(f"Checking {name} in {mode} mode. Link: {url}")
     html = get_html(link=url, mouse=name, selenium_driver=driver, mode=mode)
+    # print(len(html) if html else "No HTML retrieved.")
+    # print(html)
     infos = extract_infos(html=html, mouse=name, mode=mode)
+    # print(len(infos) if infos else "No infos extracted.")
     new = compare(mouse=name, new=infos, mode=mode)
     for i, alert in enumerate(new):
         message(configure_text(new=alert, mouse=name, mode=mode, index=i, link=url), test)
@@ -26,7 +29,7 @@ if __name__ == "__main__":
 
     for style in links.keys():
         for mouse, item in links[style].items():
-            if mouse == "asta_aachen" and Test:
+            if mouse == "uniklinik" and Test:
                 bird(name=mouse, url=item["link"], driver=selenium_driver, mode=style, test=True)
                 continue
             elif Test:
