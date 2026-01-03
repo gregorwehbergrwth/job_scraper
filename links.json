@@ -2,7 +2,7 @@
     "falcon": {
         "rwth": {
             "link": "https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?search=&showall=1&aaaaaaaaaaaaanr=&frist=&aaaaaaaaaaaaanq=&aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft&aaaaaaaaaaaaans=&aaaaaaaaaaaaanw=&aaaaaaaaaaaaanv=&aaaaaaaaaaaaanx=",
-            "frequency": "never",
+            "frequency": "daily",
             "last_checked": "2026-01-02 19:44:36"
         },
         "un": {
@@ -12,24 +12,24 @@
         },
         "uniklinik": {
             "link": "https://www.ukaachen.de/stellenangebote/stellenmarkt/offene-stellen/?tx_wsjobs_jobs%5Bgroup%5D=12&cHash=dee34d2e821b77aab8fd548eac958bed",
-            "frequency": "never",
+            "frequency": "daily",
             "last_checked": "2026-01-02 19:44:36"
         },
         "trier": {
             "link": "https://career-service-hochschule-trier.de/studierende/jobboerse",
-            "frequency": "never",
+            "frequency": "weekly",
             "last_checked": "2026-01-02 19:44:36"
         },
         "asta_aachen": {
             "link": "https://www.asta.rwth-aachen.de/service/jobboerse/",
-            "frequency": "never",
+            "frequency": "daily",
             "last_checked": "2026-01-02 19:44:36"
         }
     },
     "hawk": {
         "lbb": {
             "link": "https://www.lbb.rwth-aachen.de/cms/LBB/Studium/Abschlussarbeiten/~fdxp/Zu-vergebende-Bachelorarbeiten/",
-            "frequency": "daily",
+            "frequency": "weekly",
             "last_checked": "2026-01-02 19:44:36"
         },
         "stb": {
@@ -94,12 +94,12 @@
         },
         "Schuessler-Preis": {
             "link": "https://www.fb3.rwth-aachen.de/cms/bauingenieurwesen/studium/im-studium/stipendien-auszeichnungen/~mzar/schuessler-preis/",
-            "frequency": "daily",
+            "frequency": "never",
             "last_checked": "2026-01-02 19:44:36"
         },
         "Holzbaupreis": {
             "link": "https://www.fb3.rwth-aachen.de/cms/bauingenieurwesen/studium/im-studium/stipendien-auszeichnungen/~ekhxr/holzbaupreis/",
-            "frequency": "weekly",
+            "frequency": "never",
             "last_checked": "2026-01-02 19:44:36"
         }
     }
