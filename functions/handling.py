@@ -3,7 +3,7 @@ import asyncio
 from telegram import Bot
 from telegram.error import BadRequest
 
-api_key = '7542268069:AAF7-SuiukANQ9gAhMiRQ51CIGnDRlcCANc'
+api_key = '8030882097:AAHyDEN1DWhyRYUhbUOBA8b-Gz0AIpOEJlg'
 user_ids = ['5623557325']
 
 
