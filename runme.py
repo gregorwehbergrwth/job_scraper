@@ -3,7 +3,6 @@ from functions.extract import *
 from functions.handling import *
 from functions.frequency import *
 
-
 def bird(name, url, mode, driver, test=False):
     print(f"Checking {name} in {mode} mode. Link: {url}")
     html = get_html(link=url, mouse=name, selenium_driver=driver, mode=mode)

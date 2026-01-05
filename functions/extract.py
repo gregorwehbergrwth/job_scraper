@@ -17,7 +17,7 @@ modes = {
         "rwth": {
             "table": lambda soup: [listing for listing in soup.find_all('tr') if "veröffentlicht" in listing.text],
             "lines":  {
-                "Link": lambda x: "https://www.rwth-aachen.de" + x.find('a').get('href'),
+                "Link": lambda x: "https://www.rwth-aachen.de" + x.find('a', class_="iconless").get('href'),
                 "Frist": lambda x: f'Frist: {x.text.splitlines()[-1]}',
                 "Titel": lambda x: x.text[:x.text.find("[")].replace("\n", "").replace("Stelle", ""),
                 "Nummer": lambda x: re.findall(r'V\d{9}', x.text)[0],
