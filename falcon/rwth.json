@@ -1,5 +1,29 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010589/",
+        "Frist": "Frist: 15.02.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Team Robotik: Aufbau & Betrieb neuer Robotik-Versuchshalle ",
+        "Nummer": "V000010589",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 07.01.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Baumanagement, Digitales Bauen und Robotik im Bauwesen [312110]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010590/",
+        "Frist": "Frist: 28.02.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung im Bereich Consulting / Battery Production ",
+        "Nummer": "V000010590",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 07.01.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010591/",
+        "Frist": "Frist: 28.02.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 KI-basierte Optimierung im Bereich Battery Production ",
+        "Nummer": "V000010591",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 07.01.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010572/",
         "Frist": "Frist: 05.04.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung eines Greybox-Modells zur Prognose des Werkzeugverschlei\u00dfes von PVD-Schichten ",
@@ -134,14 +158,6 @@
         "Nummer": "V000010516",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 12.12.2025",
         "Arbeitgeber": "Abteilung 2.2 - International Support Services [010220]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010513/",
-        "Frist": "Frist: 06.01.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000010513",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 11.12.2025",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Stromrichtertechnik und Elektrische Antriebe [614510]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010512/",
@@ -416,14 +432,6 @@
         "Arbeitgeber": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010267/",
-        "Frist": "Frist: 06.01.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Gleitlager in Windenergieanlagen ",
-        "Nummer": "V000010267",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 07.10.2025",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Maschinenelemente und Systementwicklung [411710]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010085/",
         "Frist": "Frist: 21.08.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) ",
@@ -461,6 +469,30 @@
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Abteilung Produktionsmanagement \u2013 Gruppe Prozessmanagement ",
         "Nummer": "V000008882",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 06.01.2025",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008932/",
+        "Frist": "Frist: 16.06.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000008932",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 16.12.2024",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008933/",
+        "Frist": "Frist: 16.06.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000008933",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 16.12.2024",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008934/",
+        "Frist": "Frist: 16.06.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000008934",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 16.12.2024",
         "Arbeitgeber": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
     },
     {
