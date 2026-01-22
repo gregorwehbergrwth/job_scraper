@@ -163,5 +163,16 @@
         "city": "Aachen",
         "postal_code": "52062",
         "description": "5er WG  "
+    },
+    {
+        "title": "Sch\u00f6nes Zimmer in 2er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12877271.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jula",
+        "street": "Jupp-M\u00fcller-Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "2er WG  "
     }
 ]
