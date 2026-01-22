@@ -174,5 +174,115 @@
         "city": "Aachen",
         "postal_code": "52072",
         "description": "2er WG  "
+    },
+    {
+        "title": "TIBA-Islamisch gepr\u00e4gtes Studentenwohnheim",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12252060.html",
+        "price": "300.00 \u20ac",
+        "currency": "EUR",
+        "provider": "IBV Stolberg",
+        "street": "Robert-Koch-Stra\u00dfe 28",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "17er WG  "
+    },
+    {
+        "title": "Helles WG-Zimmer im Altbau mit hohen Decken \u2013 zentrale Lage in Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12944350.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Han W.",
+        "street": "Theaterstra\u00dfe 88",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  "
+    },
+    {
+        "title": "WG-Zimmer am Ponttor zur Untermiete (1-3 Monate)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12022671.html",
+        "price": "495.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Elen Ayanyan",
+        "street": "Pontwall 9",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  "
+    },
+    {
+        "title": "Room in Dormitory at Lousberg with city registration - sublet",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12952843.html",
+        "price": "332.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Gokul",
+        "street": "Nizzaallee 20",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  "
+    },
+    {
+        "title": "Fachwerkhaus in Roetgen.Wohnen,da wo andere Urlaub machen.",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Roetgen.5031178.html",
+        "price": "300.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Gerfried Hein",
+        "street": "Haupt. 109",
+        "city": "Aachen",
+        "postal_code": "52159",
+        "description": "2er WG  "
+    },
+    {
+        "title": "WG Zimmer in der S\u00fcdstra\u00dfe in einer 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12057255.html",
+        "price": "390.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Ogi",
+        "street": "S\u00fcdstra\u00dfe 22",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  "
+    },
+    {
+        "title": "Room available in 3-er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.12961859.html",
+        "price": "380.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Nirmal Maheshwari",
+        "street": "Lochnerstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  "
+    },
+    {
+        "title": "Befristetes WG-Zimmer in zentraler Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12899857.html",
+        "price": "300.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Matthias",
+        "street": "Seilgraben",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  "
+    },
+    {
+        "title": "WG-ZIMMER M\u00e4dels Aachen-mitte ab 01.04",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12961764.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "H. Dammak",
+        "street": "oberstra\u00dfe  19",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  "
+    },
+    {
+        "title": "WG Zimmer zentral gelegen in der N\u00e4he von TH und Westpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Westpark-Naehe.10695766.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Thomas",
+        "street": "Lochnerstra\u00dfe 34",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "4er WG  "
     }
 ]
