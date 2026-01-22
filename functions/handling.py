@@ -79,7 +79,7 @@ def message(txt, test=False):
         print(txt, end="\n")
 
 
-def filtered(mouse, new, mode):
+def filtered(mouse, new):
     if mouse != "wg_gesucht":
         return new
 
