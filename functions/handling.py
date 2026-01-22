@@ -155,6 +155,5 @@ def filtered(mouse, new):
             print(f"Blocked listing (address): {r.get('street')}")
     return [
         r for r in new
-        if not any(bw in r.get("title", "").lower() for bw in blockwords)
-           and not is_blocked_address(r.get("street", ""))
+        if not any(bw in r.get("title", "").lower() for bw in blockwords) and not is_blocked_address(r.get("street", ""))
     ]
