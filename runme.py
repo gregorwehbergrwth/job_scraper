@@ -4,39 +4,19 @@ from functions.handling import *
 from functions.frequency import *
 
 
-def bird(name, url, mode, driver, test=False):
+def bird(name, url, mode, driver, test=False, site_count=1):
     print(f"Checking {name} in {mode} mode. Link: {url}")
 
-    # site_count = 1
+    for j in range(site_count):
+        print(f"Site count: {j+1}/{site_count}")
+        url = re.sub(r'(-Aachen\.1\.0\.1\.\d\.)', lambda m: f"-Aachen.1.0.1.{j}.", url) if mode == "buzzard" else url
 
-    url_base = "https://www.wg-gesucht.de/wg-zimmer-in-Aachen.1.0.1.0.html?offer_filter=1&city_id=1&sort_order=0&noDeact=1&categories%5B%5D=0&rMax=500&pagination=1&pu="
-    # for j in range(site_count):
-    #     url = re.sub(r'(-Aachen\.1\.0\.1\.0\.)', lambda m: f"-Aachen.1.0.1.{j}.", url_base)
-
-
-    if mode != "buzzard":
-        site_count = 1
-    else:
-        site_count = 1
-
-        for j in range(site_count):
-            url = re.sub(r'(-Aachen\.1\.0\.1\.0\.)', lambda m: f"-Aachen.1.0.1.{j}.", url_base) if mode == "buzzard" else url
-
-            html = get_html(link=url, mouse=name, selenium_driver=driver, mode=mode)
-            infos = extract_infos(html=html, mouse=name, mode=mode)
-            new = compare(mouse=name, new=infos, mode=mode)
-            for i, alert in enumerate(new):
-                message(configure_text(new=alert, mouse=name, mode=mode, index=i, link=url), test)
-            to_file(mouse=name, infos=infos, new=new, mode=mode)
-    # else:
-    #
-    #         html = get_html(link=url, mouse=name, selenium_driver=driver, mode=mode)
-    #         infos = extract_infos(html=html, mouse=name, mode=mode)
-    #         new = compare(mouse=name, new=infos, mode=mode)
-    #         for i, alert in enumerate(new):
-    #             message(configure_text(new=alert, mouse=name, mode=mode, index=i, link=url), test)
-    #         to_file(mouse=name, infos=infos, new=new, mode=mode)
-
+        html = get_html(link=url, mouse=name, selenium_driver=driver, mode=mode)
+        infos = extract_infos(html=html, mouse=name, mode=mode)
+        new = compare(mouse=name, new=infos, mode=mode)
+        for i, alert in enumerate(new):
+            message(configure_text(new=alert, mouse=name, mode=mode, index=i, link=url), test)
+        to_file(mouse=name, infos=infos, new=new, mode=mode)
 
 
 if __name__ == "__main__":
@@ -52,7 +32,7 @@ if __name__ == "__main__":
     for style in links.keys():
         for mouse, item in links[style].items():
             if mouse == "wg_gesucht" and Test:
-                bird(name=mouse, url=item["link"], driver=selenium_driver, mode=style, test=True)
+                bird(name=mouse, url=item["link"], driver=selenium_driver, mode=style, test=True, site_count=item.get("site_count", 1))
                 continue
             elif Test:
                 continue

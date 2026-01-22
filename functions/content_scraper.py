@@ -88,14 +88,9 @@ def get_html(link, mouse, selenium_driver, mode):
     config = site_getters[mode][mouse] if mode in ["falcon", "buzzard"] else site_getters[mode]["all"]
 
     try:
-        if mode == "buzzard":
-            site_object, delay = config["content"](link)
-            config["wait"](delay)
-            return config["return"](site_object)
-        else:
-            site_object, delay = config["content"](link)
-            config["wait"](delay)
-            return config["return"](site_object)
+        site_object, delay = config["content"](link)
+        config["wait"](delay)
+        return config["return"](site_object)
     except Exception as e:
         problem(mouse=mouse, error=f"Error fetching content for {link}: {e}")
         return None

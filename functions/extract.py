@@ -78,25 +78,6 @@ modes = {
         "Schuessler-Preis": lambda soup: soup.find('div', id='main').find('div', class_='text').text.strip(),
         "Holzbaupreis": lambda soup: soup.find('div', id='main').find('div', class_='text').text.strip()
     },
-    # results.append({
-    #     "position": entry.get("position"),
-    #     "title": item.get("name"),
-    #     "url": item.get("url"),
-    #     "price": item.get("offers", {}).get("price"),
-    #     "currency": item.get("offers", {}).get("priceCurrency"),
-    #     "image": item.get("image"),
-    #     "provider": item.get("provider", {}).get("name"),
-    #     "street": item.get("mainEntity", {})
-    #     .get("address", {})
-    #     .get("streetAddress"),
-    #     "city": item.get("mainEntity", {})
-    #     .get("address", {})
-    #     .get("addressLocality"),
-    #     "postal_code": item.get("mainEntity", {})
-    #     .get("address", {})
-    #     .get("postalCode"),
-    #     "description": item.get("description")
-    # })
     "buzzard": {
         "wg_gesucht": {
             "table": lambda soup: json.loads(soup.find_all("script", type="application/ld+json")[1].string.strip()[:-1])[1].get("mainEntity").get("itemListElement"),
@@ -127,20 +108,6 @@ def extract_infos(html, mouse, mode):
         if mode == "hawk":
             return config(soup).split("\n")
         else:
-            # print("Parsing table for job listings")
-            # listings = soup.find_all("li", class_="joblist-item")
-            # # listings = [listing for listing in listings if "veröffentlicht" in listing.text]
-            # print(f"Total listings found: {len(listings)}")
-            # for listing in listings:
-            #     print("------"*8)
-            #     print(listing)
-            #     print("111111"*8)
-            #     print(listing.text)
-            # print(listings[0]) if listings else print("None")
-            # print(listings[0].text) if listings else print("None")
-            # jobs = config["table"](soup)
-            # print(f"Found {len(jobs)} job listings")
-            # print(jobs[0]) if jobs else None
             return [{key: func(job) for key, func in config["lines"].items()} for job in config["table"](soup)]
     except Exception as e:
         problem(mouse=mouse, error=f"Error extracting job infos for {mouse}: {e}")
