@@ -28,7 +28,7 @@ if __name__ == "__main__":
     problematic = get_file(name="logs/problem_logs.json")
     logs = get_file(name="logs/time_log.json")
     logs[now] = {}
-    Test = True
+    Test = False
 
     for style in links.keys():
         for mouse, item in links[style].items():
