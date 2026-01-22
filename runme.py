@@ -2,6 +2,7 @@ from functions.content_scraper import *
 from functions.extract import *
 from functions.handling import *
 from functions.frequency import *
+import os
 
 
 def bird(name, url, mode, driver, test=False, site_count=1):
@@ -21,8 +22,10 @@ def bird(name, url, mode, driver, test=False, site_count=1):
 
 
 if __name__ == "__main__":
+    run_mode = os.getenv("RUN_MODE", "job")
+
     now = time.strftime("%Y-%m-%d %H:%M:%S")
-    selenium_driver = get_driver()
+    selenium_driver = get_driver() if run_mode == "job" else None
 
     links = get_file(name="links.json")
     problematic = get_file(name="logs/problem_logs.json")
