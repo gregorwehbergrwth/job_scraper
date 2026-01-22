@@ -2,6 +2,7 @@ from bs4 import BeautifulSoup
 import re
 from functions.handling import get_file
 from functions.handling import problem
+import json
 
 modes = {
     "falcon": {
@@ -76,6 +77,41 @@ modes = {
         "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text.strip(),
         "Schuessler-Preis": lambda soup: soup.find('div', id='main').find('div', class_='text').text.strip(),
         "Holzbaupreis": lambda soup: soup.find('div', id='main').find('div', class_='text').text.strip()
+    },
+    # results.append({
+    #     "position": entry.get("position"),
+    #     "title": item.get("name"),
+    #     "url": item.get("url"),
+    #     "price": item.get("offers", {}).get("price"),
+    #     "currency": item.get("offers", {}).get("priceCurrency"),
+    #     "image": item.get("image"),
+    #     "provider": item.get("provider", {}).get("name"),
+    #     "street": item.get("mainEntity", {})
+    #     .get("address", {})
+    #     .get("streetAddress"),
+    #     "city": item.get("mainEntity", {})
+    #     .get("address", {})
+    #     .get("addressLocality"),
+    #     "postal_code": item.get("mainEntity", {})
+    #     .get("address", {})
+    #     .get("postalCode"),
+    #     "description": item.get("description")
+    # })
+    "buzzard": {
+        "wg_gesucht": {
+            "table": lambda soup: json.loads(soup.find_all("script", type="application/ld+json")[1].string.strip()[:-1])[1].get("mainEntity").get("itemListElement"),
+            "lines": {
+                "title": lambda x: x.get("item").get("name"),
+                "url": lambda x: x.get("item").get("url"),
+                "price": lambda x: x.get("item").get("offers", {}).get("price") + " €",
+                "currency": lambda x: x.get("item").get("offers", {}).get("priceCurrency"),
+                "provider": lambda x: x.get("item").get("provider", {}).get("name"),
+                "street": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("streetAddress"),
+                "city": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("addressLocality"),
+                "postal_code": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("postalCode"),
+                "description": lambda x: x.get("item").get("description")
+            }
+        }
     }
 }
 
@@ -119,7 +155,7 @@ def compare(mouse, mode, new):
     try:
         result = [x for x in new if x not in old] if old else new
         print(f"Found {len(result)} new jobs/lines for {mouse}")
-        return result if mode == "falcon" else ["\n".join(result)]
+        return result if mode in ["falcon", "buzzard"] else ["\n".join(result)]
     except Exception as e:
         problem(mouse=mouse, error=f"Error comparing {mouse}: {e}")
         return []

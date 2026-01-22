@@ -46,12 +46,15 @@ def configure_text(new, mouse, mode, index, link):
         "rwth": ['Titel', 'Frist', 'Veröffentlichungsdatum', 'Arbeitgeber', 'Link'],
         "un": ['Job Title', 'Duty Station', 'Job Network', 'Department/Office', 'Deadline', 'Link'],
         "trier": ['Titel', 'Arbeitgeber', 'Art', 'Link'],
-        "asta_aachen": ['Titel', 'Arbeitgeber', 'Ort', 'Datum', 'Link']
+        "asta_aachen": ['Titel', 'Arbeitgeber', 'Ort', 'Datum', 'Link'],
+        "wg_gesucht": ['title', 'price', 'description', 'url']
     }
 
     try:
         text = "\n".join([job_dict.get(key, 'N/A') for key in structure[mouse]])
-        return text if index != 9 else text + "\nMore than 10 new jobs found.\nCheck the website!\n"
+
+        text += "\nMore than 10 new jobs found.\nCheck the website!\n" if index == 9 and mouse == "rwth" else ""
+        return text
     except Exception as e:
         problem(mouse=mouse, error=f"Error structuring message: {e}")
         return f"Error structuring message: {e}"

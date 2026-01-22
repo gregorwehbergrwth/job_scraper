@@ -73,17 +73,29 @@ def get_html(link, mouse, selenium_driver, mode):
                 "wait": lambda wait: wait.until(ec.presence_of_element_located((By.TAG_NAME, "li")))
             }
 
+        },
+        "buzzard": {
+            "wg_gesucht": {
+                "content": lambda url: content_requests(url),
+                "return": lambda response: response.text,
+                "wait": lambda wait: wait
+            }
         }
 
     }
     print(f"Getting content from {link}")
 
-    config = site_getters[mode][mouse] if mode == "falcon" else site_getters[mode]["all"]
+    config = site_getters[mode][mouse] if mode in ["falcon", "buzzard"] else site_getters[mode]["all"]
 
     try:
-        site_object, delay = config["content"](link)
-        config["wait"](delay)
-        return config["return"](site_object)
+        if mode == "buzzard":
+            site_object, delay = config["content"](link)
+            config["wait"](delay)
+            return config["return"](site_object)
+        else:
+            site_object, delay = config["content"](link)
+            config["wait"](delay)
+            return config["return"](site_object)
     except Exception as e:
         problem(mouse=mouse, error=f"Error fetching content for {link}: {e}")
         return None
