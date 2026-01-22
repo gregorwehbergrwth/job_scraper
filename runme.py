@@ -14,6 +14,7 @@ def bird(name, url, mode, driver, test=False, site_count=1):
         html = get_html(link=url, mouse=name, selenium_driver=driver, mode=mode)
         infos = extract_infos(html=html, mouse=name, mode=mode)
         new = compare(mouse=name, new=infos, mode=mode)
+        new = filtered(mouse=name, new=new, mode=mode)
         for i, alert in enumerate(new):
             message(configure_text(new=alert, mouse=name, mode=mode, index=i, link=url), test)
         to_file(mouse=name, infos=infos, new=new, mode=mode)

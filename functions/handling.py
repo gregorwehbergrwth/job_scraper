@@ -31,7 +31,7 @@ def write_file(name, content):
 
 def to_file(mouse, infos, new, mode):
     if new or infos:
-        infos = infos if mouse != "un" else get_file(f"{mode}/{mouse}.json") + new
+        infos = infos if mouse not in  ["un", "wg_gesucht"] else get_file(f"{mode}/{mouse}.json") + new
         write_file(f"{mode}/{mouse}.json", infos)
 
 
@@ -75,3 +75,56 @@ def message(txt, test=False):
         problem(mouse="message", error=f"Error sending message: {e}", send_message=False)
     finally:
         print(txt, end="\n")
+
+
+def filtered(mouse, new, mode):
+    if mouse != "wg_gesucht":
+        return new
+
+    blockwords = [
+        "kathol",
+        "verbindung",
+        "evangenl",
+        "bursche"
+    ]
+
+    blocked_addresses = [
+        "Lousbergstr. 44",
+        "Turmstr. 4",
+        "Krefelder Str. 24",
+        "Muffeter Weg 15",
+        "Salvatorstr. 38",
+        "Am Weißenberg 48",
+        "Hainbuchenstr. 23",
+        "Salierallee 48",
+        "Lütticher Str. 162",
+        "Krefelder Str. 33",
+        "Melatenerstr. 41",
+        "Moreller Weg 64",
+        "Kaiser-Friedrich-Allee 5",
+        "Nizzaallee 56",
+        "Junkerstr. 68",
+        "Rütscherstr. 110",
+        "Kruppstr. 8",
+        "Kruppstr. 9",
+        "Kruppstraße 10"
+        "Ludwigsallee 101",
+        "Hexenberg 10",
+        "Nizzaallee 4",
+        "Krefelder Str. 24",
+        "Lousbergstraße 46",
+        "Melatener Straße 48",
+        "Krefelder Straße 33",
+        "Hainbuchenstraße 23",
+        "Salvatorstraße 38",
+        "Turmstraße 4",
+        "Krefelder Straße 24",
+        "Muffeter Weg 15",
+        "Junkerstraße 68",
+    ]
+
+    return [
+        r for r in new
+        if not any(bw in r.get("title", "").lower() for bw in blockwords)
+           and not any(ba in r.get("street", "") for ba in blocked_addresses)
+    ]
