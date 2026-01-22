@@ -2,6 +2,7 @@ import json
 import asyncio
 from telegram import Bot
 from telegram.error import BadRequest
+import re
 
 api_key = '8030882097:AAHyDEN1DWhyRYUhbUOBA8b-Gz0AIpOEJlg'
 user_ids = ['5623557325']
@@ -31,7 +32,7 @@ def write_file(name, content):
 
 def to_file(mouse, infos, new, mode):
     if new or infos:
-        infos = infos if mouse not in  ["un", "wg_gesucht"] else get_file(f"{mode}/{mouse}.json") + new
+        infos = infos if mouse not in ["un", "wg_gesucht"] else get_file(f"{mode}/{mouse}.json") + new
         write_file(f"{mode}/{mouse}.json", infos)
 
 
@@ -68,6 +69,7 @@ def message(txt, test=False):
                 await bot.send_message(chat_id=user_id, text=text)
         except BadRequest as e2:
             print(f"Telegram API Error: {e2}")
+
     try:
         if not test:
             asyncio.run(send_message(txt)) if txt else None
@@ -89,42 +91,70 @@ def filtered(mouse, new, mode):
     ]
 
     blocked_addresses = [
-        "Lousbergstr. 44",
-        "Turmstr. 4",
-        "Krefelder Str. 24",
-        "Muffeter Weg 15",
-        "Salvatorstr. 38",
-        "Am Weißenberg 48",
-        "Hainbuchenstr. 23",
-        "Salierallee 48",
-        "Lütticher Str. 162",
-        "Krefelder Str. 33",
-        "Melatenerstr. 41",
-        "Moreller Weg 64",
-        "Kaiser-Friedrich-Allee 5",
-        "Nizzaallee 56",
-        "Junkerstr. 68",
-        "Rütscherstr. 110",
-        "Kruppstr. 8",
-        "Kruppstr. 9",
-        "Kruppstraße 10"
-        "Ludwigsallee 101",
-        "Hexenberg 10",
-        "Nizzaallee 4",
-        "Krefelder Str. 24",
+        "Lousbergstraße 44",
         "Lousbergstraße 46",
-        "Melatener Straße 48",
-        "Krefelder Straße 33",
-        "Hainbuchenstraße 23",
-        "Salvatorstraße 38",
         "Turmstraße 4",
         "Krefelder Straße 24",
+        "Krefelder Straße 33",
         "Muffeter Weg 15",
+        "Salvatorstraße 38",
+        "Am Weißenberg 48",
+        "Hainbuchenstraße 23",
+        "Salierallee 48",
+        "Lütticher Straße 162",
+        "Melatener Straße 41",
+        "Melatener Straße 48",
+        "Moreller Weg 64",
+        "Kaiser-Friedrich-Allee 5",
+        "Nizzaallee 4",
+        "Nizzaallee 56",
         "Junkerstraße 68",
+        "Rütscherstraße 110",
+        "Kruppstraße 8",
+        "Kruppstraße 9",
+        "Kruppstraße 10",
+        "Ludwigsallee 101",
+        "Hexenberg 10",
     ]
 
+    umlaut_map = {
+        "ä": "ae",
+        "ö": "oe",
+        "ü": "ue",
+        "ß": "ss",
+    }
+
+    def normalize_text(text: str) -> str:
+        text = text.lower().strip()
+
+        text = re.sub(r"\bstr\.?\b", "strasse", text)
+        text = re.sub(r"\bstr?\b", "strasse", text)
+
+        for umlaut, ascii_ in umlaut_map.items():
+            text = text.replace(umlaut, ascii_)
+
+        text = re.sub(r"\s+", " ", text)
+
+        return text
+
+    def generate_blocked_set(canonical_addresses):
+        blocked = set()
+        for addr in canonical_addresses:
+            blocked.add(normalize_text(addr))
+        return blocked
+
+    blocked_addresses_normalized = generate_blocked_set(blocked_addresses)
+
+    def is_blocked_address(address: str) -> bool:
+        return normalize_text(address) in blocked_addresses_normalized
+
+    for r in new:
+        if any(bw in r.get("title", "").lower() for bw in blockwords):
+            print(f"Blocked listing (blockwords): {r.get('title')}")
+        if is_blocked_address(r.get("street", "")):
+            print(f"Blocked listing (address): {r.get('street')}")
     return [
         r for r in new
         if not any(bw in r.get("title", "").lower() for bw in blockwords)
-           and not any(ba in r.get("street", "") for ba in blocked_addresses)
+           and not is_blocked_address(r.get("street", ""))
     ]

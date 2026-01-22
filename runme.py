@@ -13,7 +13,7 @@ def bird(name, url, mode, driver, test=False, site_count=1):
 
         html = get_html(link=url, mouse=name, selenium_driver=driver, mode=mode)
         infos = extract_infos(html=html, mouse=name, mode=mode)
-        new = compare(mouse=name, new=infos, mode=mode)
+        new = compare(mouse=name, newscrape=infos, mode=mode)
         new = filtered(mouse=name, new=new, mode=mode)
         for i, alert in enumerate(new):
             message(configure_text(new=alert, mouse=name, mode=mode, index=i, link=url), test)
@@ -28,7 +28,7 @@ if __name__ == "__main__":
     problematic = get_file(name="logs/problem_logs.json")
     logs = get_file(name="logs/time_log.json")
     logs[now] = {}
-    Test = False
+    Test = True
 
     for style in links.keys():
         for mouse, item in links[style].items():

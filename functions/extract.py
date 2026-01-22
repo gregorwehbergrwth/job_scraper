@@ -114,15 +114,39 @@ def extract_infos(html, mouse, mode):
         return None
 
 
-def compare(mouse, mode, new):
-    if not new:
+def buzzard_compare(newjobs, corresponding_oldjobs): # das macht gar keinen Sinn
+    newnewjobs = []
+    for nj, coj in zip(newjobs, corresponding_oldjobs):
+        mistake_count = 0
+        for key in nj.keys():
+            if nj[key] != coj.get(key):
+                mistake_count += 1
+        if mistake_count > 0:
+            print(f"Found {mistake_count} differences in job: {nj.get('title', 'N/A')}")
+        else:
+            newnewjobs.append(nj)
+    return newnewjobs
+
+
+def compare(mouse, mode, newscrape):
+    if not newscrape:
         return []
     print(f"Comparing {mouse}")
-    old = get_file(f"{mode}/{mouse}.json")
+    oldjobs = get_file(f"{mode}/{mouse}.json")
     try:
-        result = [x for x in new if x not in old] if old else new
-        print(f"Found {len(result)} new jobs/lines for {mouse}")
-        return result if mode in ["falcon", "buzzard"] else ["\n".join(result)]
+        # newjobs = [x for x in newscrape if x not in oldjobs] if oldjobs else newscrape
+        newjobs, corresponding_oldjobs = [], []
+        for nj in newscrape:
+            for oj in oldjobs:
+                if nj == oj:
+                    newjobs.append(nj)
+                    corresponding_oldjobs.append(oj)
+                    break
+        # if mode == "buzzard":
+        #     newjobs = buzzard_compare(newscrape, corresponding_oldjobs)
+
+        print(f"Found {len(newjobs)} new jobs/lines for {mouse}")
+        return newjobs if mode in ["falcon", "buzzard"] else ["\n".join(newjobs)]
     except Exception as e:
         problem(mouse=mouse, error=f"Error comparing {mouse}: {e}")
         return []
