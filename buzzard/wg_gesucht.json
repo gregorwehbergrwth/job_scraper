@@ -614,5 +614,38 @@
         "city": "Aachen",
         "postal_code": "52159",
         "description": "2er WG  "
+    },
+    {
+        "title": "Studentenzimmer direkt auf dem Campus",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.2822198.html",
+        "price": "200.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Samuel",
+        "street": "Kruppstr 12",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "10er WG  "
+    },
+    {
+        "title": "Studentenzimmer in Unin\u00e4he (direkt an der Mensa)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.8264208.html",
+        "price": "210.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Samuel",
+        "street": "Kruppstra\u00dfe 12",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "10er WG  "
+    },
+    {
+        "title": "WG am Westpark mit Wohnzimmer",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12967508.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Maike",
+        "street": "Welkenrather Strasse 90",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "2er WG  "
     }
 ]
