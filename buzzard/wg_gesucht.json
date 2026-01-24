@@ -11,17 +11,6 @@
         "description": "11er WG  "
     },
     {
-        "title": "13m2 Zimmer in Uni und Stadtn\u00e4he",
-        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12920573.html",
-        "price": "450.00 \u20ac",
-        "currency": "EUR",
-        "provider": "Maurizio M.",
-        "street": "Vaalserstra\u00dfe 123",
-        "city": "Aachen",
-        "postal_code": "52074",
-        "description": "3er WG  "
-    },
-    {
         "title": "Suche Mitbewohner f\u00fcr gro\u00dfe 2er WG",
         "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11113612.html",
         "price": "320.00 \u20ac",
@@ -900,5 +889,16 @@
         "city": "Aachen",
         "postal_code": "52062",
         "description": "3er WG  "
+    },
+    {
+        "title": "Studentenzimmer direkt auf dem Campus",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.2822198.html",
+        "price": "200.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Samuel",
+        "street": "Kruppstr 12",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "10er WG  "
     }
 ]
