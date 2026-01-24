@@ -126,15 +126,17 @@ def filtered(mouse, new):
     }
 
     def normalize_text(text: str) -> str:
-        text = text.lower().strip()
+        text = text.lower().strip().replace(".", " ")
 
-        text = re.sub(r"\bstr\.?\b", "strasse", text)
-        text = re.sub(r"\bstr?\b", "strasse", text)
+        if not "strasse" in text:
+            text = re.sub(r"\bstr\.?\b", "strasse", text)
+            text = re.sub(r"str\s+", "strasse", text)
+
 
         for umlaut, ascii_ in umlaut_map.items():
             text = text.replace(umlaut, ascii_)
 
-        text = re.sub(r"\s+", " ", text)
+        text = re.sub(r"\s+", "", text)
 
         return text
 
@@ -154,6 +156,7 @@ def filtered(mouse, new):
             print(f"Blocked listing (blockwords): {r.get('title')}")
         if is_blocked_address(r.get("street", "")):
             print(f"Blocked listing (address): {r.get('street')}")
+
     return [
         r for r in new
         if not any(bw in r.get("title", "").lower() for bw in blockwords) and not is_blocked_address(r.get("street", ""))
