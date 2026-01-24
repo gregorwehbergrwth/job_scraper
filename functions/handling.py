@@ -113,6 +113,7 @@ def filtered(mouse, new):
         "Kruppstraße 8",
         "Kruppstraße 9",
         "Kruppstraße 10",
+        "Kruppstraße 12",
         "Ludwigsallee 101",
         "Hexenberg 10",
     ]
