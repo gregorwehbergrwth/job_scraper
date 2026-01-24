@@ -889,5 +889,16 @@
         "city": "Aachen",
         "postal_code": "52062",
         "description": "3er WG  "
+    },
+    {
+        "title": "Studentenzimmer direkt auf dem Campus",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.2822198.html",
+        "price": "200.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Samuel",
+        "street": "Kruppstr 12",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "10er WG  "
     }
 ]
