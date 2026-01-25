@@ -79,9 +79,9 @@ def message(txt, test=False):
         print(txt, end="\n")
 
 
-def filtered(mouse, new):
+def blocked(mouse, alert):
     if mouse != "wg_gesucht":
-        return new
+        return False
 
     blockwords = [
         "kathol",
@@ -116,6 +116,7 @@ def filtered(mouse, new):
         "Kruppstraße 12",
         "Ludwigsallee 101",
         "Hexenberg 10",
+        "Försterstraße 10"
     ]
 
     umlaut_map = {
@@ -126,38 +127,24 @@ def filtered(mouse, new):
     }
 
     def normalize_text(text: str) -> str:
-        text = text.lower().strip().replace(".", " ")
-
-        if not "strasse" in text:
-            text = re.sub(r"\bstr\.?\b", "strasse", text)
-            text = re.sub(r"str\s+", "strasse", text)
-
+        text = text.lower().strip()
+        text = re.sub(r"\.|\s+", "", text)
 
         for umlaut, ascii_ in umlaut_map.items():
             text = text.replace(umlaut, ascii_)
 
-        text = re.sub(r"\s+", "", text)
+        text = re.sub(r"str", "strasse", text) if not "strasse" in text else text
 
         return text
 
-    def generate_blocked_set(canonical_addresses):
-        blocked = set()
-        for addr in canonical_addresses:
-            blocked.add(normalize_text(addr))
-        return blocked
+    blocked_addresses_normalized = [normalize_text(addr) for addr in blocked_addresses]
 
-    blocked_addresses_normalized = generate_blocked_set(blocked_addresses)
+    if any(bw in alert.get("title", "").lower() for bw in blockwords):
+        print(f"Blocked listing (blockwords): {alert.get('title')}")
+        return True
+    elif normalize_text(alert.get("street", "")) in blocked_addresses_normalized:
+        print(f"Blocked listing (address): {alert.get('street')}")
+        return True
+    else:
+        return False
 
-    def is_blocked_address(address: str) -> bool:
-        return normalize_text(address) in blocked_addresses_normalized
-
-    for r in new:
-        if any(bw in r.get("title", "").lower() for bw in blockwords):
-            print(f"Blocked listing (blockwords): {r.get('title')}")
-        if is_blocked_address(r.get("street", "")):
-            print(f"Blocked listing (address): {r.get('street')}")
-
-    return [
-        r for r in new
-        if not any(bw in r.get("title", "").lower() for bw in blockwords) and not is_blocked_address(r.get("street", ""))
-    ]
