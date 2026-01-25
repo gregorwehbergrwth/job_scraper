@@ -8,5 +8,6 @@
     "ifam": "Error extracting job infos for ifam: 'NoneType' object has no attribute 'text'",
     "gia": "Error extracting job infos for gia: 'NoneType' object has no attribute 'text'",
     "Schuessler-Preis": "Error extracting job infos for Schuessler-Preis: 'NoneType' object has no attribute 'find'",
-    "Holzbaupreis": "Error extracting job infos for Holzbaupreis: 'NoneType' object has no attribute 'find'"
+    "Holzbaupreis": "Error extracting job infos for Holzbaupreis: 'NoneType' object has no attribute 'find'",
+    "falcon/wg_gesucht.json": "File falcon/wg_gesucht.json not found., File falcon/wg_gesucht.json not found."
 }

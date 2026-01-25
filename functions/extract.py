@@ -60,6 +60,20 @@ modes = {
                 "Link": lambda x: x.find("a")["href"],
                 "Datum": lambda x: x.find("ul", class_="meta").find("li", class_="date").find("time")["datetime"]
             }
+        },
+        "wg_gesucht": {
+            "table": lambda soup: json.loads(soup.find_all("script", type="application/ld+json")[1].string.strip()[:-1])[1].get("mainEntity").get("itemListElement"),
+            "lines": {
+                "title": lambda x: x.get("item").get("name"),
+                "url": lambda x: x.get("item").get("url"),
+                "price": lambda x: x.get("item").get("offers", {}).get("price") + " €",
+                "currency": lambda x: x.get("item").get("offers", {}).get("priceCurrency"),
+                "provider": lambda x: x.get("item").get("provider", {}).get("name"),
+                "street": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("streetAddress"),
+                "city": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("addressLocality"),
+                "postal_code": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("postalCode"),
+                "description": lambda x: x.get("item").get("description")
+            }
         }
     },
     "hawk": {
@@ -78,22 +92,6 @@ modes = {
         "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text.strip(),
         "Schuessler-Preis": lambda soup: soup.find('div', id='main').find('div', class_='text').text.strip(),
         "Holzbaupreis": lambda soup: soup.find('div', id='main').find('div', class_='text').text.strip()
-    },
-    "buzzard": {
-        "wg_gesucht": {
-            "table": lambda soup: json.loads(soup.find_all("script", type="application/ld+json")[1].string.strip()[:-1])[1].get("mainEntity").get("itemListElement"),
-            "lines": {
-                "title": lambda x: x.get("item").get("name"),
-                "url": lambda x: x.get("item").get("url"),
-                "price": lambda x: x.get("item").get("offers", {}).get("price") + " €",
-                "currency": lambda x: x.get("item").get("offers", {}).get("priceCurrency"),
-                "provider": lambda x: x.get("item").get("provider", {}).get("name"),
-                "street": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("streetAddress"),
-                "city": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("addressLocality"),
-                "postal_code": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("postalCode"),
-                "description": lambda x: x.get("item").get("description")
-            }
-        }
     }
 }
 
@@ -121,11 +119,10 @@ def compare(mouse, mode, newscrape):
     print(f"Comparing {mouse}")
     oldjobs = get_file(f"{mode}/{mouse}.json")
     try:
-        if mouse == "wg_gesucht":
-            newscrape = [n.update({'blocked': blocked(mouse, n)}) or n for n in newscrape]
+        newscrape = [n.update({'blocked': blocked(mouse, n)}) or n for n in newscrape] if mouse == "wg_gesucht" else newscrape
         newjobs = [x for x in newscrape if x not in oldjobs] if oldjobs else newscrape
         print(f"Found {len(newjobs)} new jobs/lines for {mouse}")
-        return newjobs if mode in ["falcon", "buzzard"] else ["\n".join(newjobs)]
+        return newjobs if mode == "falcon" else ["\n".join(newjobs)]
     except Exception as e:
         problem(mouse=mouse, error=f"Error comparing {mouse}: {e}")
         return []

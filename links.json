@@ -24,6 +24,12 @@
             "link": "https://www.asta.rwth-aachen.de/service/jobboerse/",
             "frequency": "daily",
             "last_checked": "2026-01-24 17:08:11"
+        },
+        "wg_gesucht": {
+            "link": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen.1.0.1.0.html?offer_filter=1&city_id=1&sort_order=0&noDeact=1&categories%5B%5D=0&rMax=500&pagination=1&pu=",
+            "frequency": "fourminutely",
+            "last_checked": "2026-01-24 17:08:11",
+            "site_count": 2
         }
     },
     "hawk": {
@@ -101,14 +107,6 @@
             "link": "https://www.fb3.rwth-aachen.de/cms/bauingenieurwesen/studium/im-studium/stipendien-auszeichnungen/~ekhxr/holzbaupreis/",
             "frequency": "never",
             "last_checked": "2026-01-24 17:08:11"
-        }
-    },
-    "buzzard": {
-        "wg_gesucht": {
-            "link": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen.1.0.1.0.html?offer_filter=1&city_id=1&sort_order=0&noDeact=1&categories%5B%5D=0&rMax=500&pagination=1&pu=",
-            "frequency": "fourminutely",
-            "last_checked": "2026-01-24 17:08:11",
-            "site_count": 2
         }
     }
 }

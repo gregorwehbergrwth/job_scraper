@@ -1,13 +1,13 @@
 import json
 from pathlib import Path
-
+from functions.handling import blocked
 def wohnung_zusammenfassung():
     def get_file(name):
         with open(name, "r") as file:
             return json.load(file)
 
     # files = get_file(str(Path.cwd().parent) + "\\" "buzzard\\wg_gesucht.json")
-    files = get_file("buzzard/wg_gesucht.json")
+    files = get_file("falcon/wg_gesucht.json")
 
     seen = set()
     seen2 = set()
@@ -66,6 +66,17 @@ def wohnung_zusammenfassung():
 
     print(send_text)
     return send_text
+
+def filter_test():
+    addresses = ["Kruppstr 12", "Kruppstraße 12", "Krupp Strasse 12", "Kruppstraße12", "  kruppstraße   12  ", "Kruppstrasse 12", "Krupp Str. 12", "Krupp Str 12", "Kruppstr.12"]
+    print(len(addresses))
+    counter = 0
+    for address in addresses:
+        counter += 1 if blocked("wg_gesucht", {"street": address}) else +0
+
+    print(counter)
+
+
 
 if __name__ == "__main__":
     wohnung_zusammenfassung()

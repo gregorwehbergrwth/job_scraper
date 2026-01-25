@@ -13,7 +13,7 @@ def bird(name, url, mode, driver, test=False, site_count=1):
 
     for j in range(site_count):
         print(f"Site count: {j+1}/{site_count}")
-        url = re.sub(r'(-Aachen\.1\.0\.1\.\d\.)', lambda m: f"-Aachen.1.0.1.{j}.", url) if mode == "buzzard" else url
+        url = re.sub(r'(-Aachen\.1\.0\.1\.\d\.)', lambda m: f"-Aachen.1.0.1.{j}.", url) if name == "wg_gesucht" else url
 
         html = get_html(link=url, mouse=name, selenium_driver=driver, mode=mode)
         infos = extract_infos(html=html, mouse=name, mode=mode)
@@ -24,7 +24,10 @@ def bird(name, url, mode, driver, test=False, site_count=1):
 
 
 if __name__ == "__main__":
-    run_mode = os.getenv("RUN_MODE", "job")
+    Test = False
+    testmouse = "wg_gesucht"
+
+    run_mode = os.getenv("RUN_MODE", "wg_gesucht")
 
     now = time.strftime("%Y-%m-%d %H:%M:%S")
     selenium_driver = get_driver() if run_mode == "job" else None
@@ -33,11 +36,10 @@ if __name__ == "__main__":
     problematic = get_file(name="logs/problem_logs.json")
     logs = get_file(name="logs/time_log.json")
     logs[now] = {}
-    Test = False
 
     for style in links.keys():
         for mouse, item in links[style].items():
-            if mouse == "wg_gesucht" and Test:
+            if mouse == testmouse and Test:
                 bird(name=mouse, url=item["link"], driver=selenium_driver, mode=style, test=True, site_count=item.get("site_count", 1))
                 continue
             elif Test:

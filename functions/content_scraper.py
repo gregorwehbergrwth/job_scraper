@@ -64,6 +64,11 @@ def get_html(link, mouse, selenium_driver, mode):
                 "content": lambda url: content_requests(url),
                 "return": lambda response: response.text,
                 "wait": lambda wait: wait
+            },
+            "wg_gesucht": {
+                "content": lambda url: content_requests(url),
+                "return": lambda response: response.text,
+                "wait": lambda wait: wait
             }
         },
         "hawk": {
@@ -72,20 +77,11 @@ def get_html(link, mouse, selenium_driver, mode):
                 "return": lambda driver: driver.page_source,
                 "wait": lambda wait: wait.until(ec.presence_of_element_located((By.TAG_NAME, "li")))
             }
-
-        },
-        "buzzard": {
-            "wg_gesucht": {
-                "content": lambda url: content_requests(url),
-                "return": lambda response: response.text,
-                "wait": lambda wait: wait
-            }
         }
-
     }
     print(f"Getting content from {link}")
 
-    config = site_getters[mode][mouse] if mode in ["falcon", "buzzard"] else site_getters[mode]["all"]
+    config = site_getters[mode][mouse] if mode == "falcon" else site_getters[mode]["all"]
 
     try:
         site_object, delay = config["content"](link)
