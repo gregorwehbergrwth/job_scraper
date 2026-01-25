@@ -1,13 +1,1 @@
-{
-    "lbb": "Error extracting job infos for lbb: 'NoneType' object has no attribute 'find', Error extracting job infos for lbb: 'NoneType' object has no attribute 'text'",
-    "stb": "Error extracting job infos for stb: 'NoneType' object has no attribute 'text'",
-    "icom": "Error extracting job infos for icom: 'NoneType' object has no attribute 'text'",
-    "inab": "Error extracting job infos for inab: 'NoneType' object has no attribute 'text'",
-    "e3d": "Error extracting job infos for e3d: 'NoneType' object has no attribute 'text', Error fetching content for https://www.e3d.rwth-aachen.de/cms/E3D/Studium/~iylt/Studentische-Abschlussarbeiten/: 'NoneType' object has no attribute 'get', Error fetching content for https://www.e3d.rwth-aachen.de/cms/E3D/Studium/~iylt/Studentische-Abschlussarbeiten/: 'NoneType' object has no attribute 'get', Error extracting job infos for e3d: 'NoneType' object has no attribute 'text'",
-    "iww": "Error extracting job infos for iww: 'NoneType' object has no attribute 'text'",
-    "ifam": "Error extracting job infos for ifam: 'NoneType' object has no attribute 'text'",
-    "gia": "Error extracting job infos for gia: 'NoneType' object has no attribute 'text'",
-    "Schuessler-Preis": "Error extracting job infos for Schuessler-Preis: 'NoneType' object has no attribute 'find', Error extracting job infos for Schuessler-Preis: 'NoneType' object has no attribute 'find', Error extracting job infos for Schuessler-Preis: 'NoneType' object has no attribute 'find'",
-    "Holzbaupreis": "Error extracting job infos for Holzbaupreis: 'NoneType' object has no attribute 'find'",
-    "falcon/wg_gesucht.json": "File falcon/wg_gesucht.json not found., File falcon/wg_gesucht.json not found."
-}
+{}
