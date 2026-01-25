@@ -77,21 +77,21 @@ modes = {
         }
     },
     "hawk": {
-        "lbb": lambda soup: soup.find('div', id='main').find('div', class_='text').text.strip(),
-        "stb": lambda soup: soup.find('div', class_='listing').text.strip(),
-        "imb": lambda soup: soup.find('tbody').text.strip(),
-        "icom": lambda soup: soup.find('div', class_='listing').text.strip(),
-        "inab": lambda soup: soup.find('div', class_='elementor-section-wrap').text.strip(),
-        "e3d": lambda soup: soup.find('div', class_='listing').text.strip(),
-        "iww": lambda soup: soup.find('div', class_='listing').text.strip(),
-        "ifam": lambda soup: soup.find('div', id="wrapper-2").text.strip(),
-        "gut": lambda soup: soup.find('tbody').text.strip(),
-        "gia": lambda soup: soup.find('div', class_='listing').text.strip(),
-        "isa": lambda soup: soup.find('tbody').text.strip(),
+        "lbb": lambda soup: soup.find('main', id="main").text.strip(),
+        "stb": lambda soup: soup.find('div', class_="module dynamic-list").text.strip(),
+        "imb": lambda soup: soup.find('main', id="main").text.strip(),
+        "icom": lambda soup: soup.find('div', class_="module dynamic-list").text.strip(),
+        "inab": lambda soup: soup.find('div', class_='elementor elementor-81').text.strip(),
+        "e3d": lambda soup: soup.find('div', class_="module dynamic-list").text.strip(),
+        "iww": lambda soup: soup.find('div', class_="module dynamic-list").text.strip(),
+        "ifam": lambda soup: soup.find('main', id="main").text.strip(),
+        "gut": lambda soup: soup.find('main', id="main").text.strip(),
+        "gia": lambda soup: soup.find('main', id="main").text.strip(),
+        "isa": lambda soup: soup.find('main', id="main").text.strip(),
         "ucc": lambda soup: soup.find('div', class_='tabs_wrapper tabs_horizontal').text.strip(),
+        "ita": lambda soup: soup.find('div', class_="module dynamic-list").text.strip(),
         "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text.strip(),
-        "Schuessler-Preis": lambda soup: soup.find('div', id='main').find('div', class_='text').text.strip(),
-        "Holzbaupreis": lambda soup: soup.find('div', id='main').find('div', class_='text').text.strip()
+        "Schuessler-Preis": lambda soup: soup.find('main', id='main').text.strip()
     }
 }
 

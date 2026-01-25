@@ -19,15 +19,15 @@ def bird(name, url, mode, driver, test=False, site_count=1):
         infos = extract_infos(html=html, mouse=name, mode=mode)
         new = compare(mouse=name, newscrape=infos, mode=mode)
         for i, alert in enumerate(new):
-            message(configure_text(new=alert, mouse=name, mode=mode, index=i, link=url), test) if not alert.get("blocked", False) else None
+            message(configure_text(new=alert, mouse=name, mode=mode, index=i, link=url), test) if type(alert) == dict and not alert.get("blocked", False) else None
         to_file(mouse=name, infos=infos, new=new, mode=mode)
 
 
 if __name__ == "__main__":
     Test = False
-    testmouse = "wg_gesucht"
+    testmouse = "ita"
 
-    run_mode = os.getenv("RUN_MODE", "wg_gesucht")
+    run_mode = os.getenv("RUN_MODE", "job")
 
     now = time.strftime("%Y-%m-%d %H:%M:%S")
     selenium_driver = get_driver() if run_mode == "job" else None

@@ -35,57 +35,57 @@
     "hawk": {
         "lbb": {
             "link": "https://www.lbb.rwth-aachen.de/cms/LBB/Studium/Abschlussarbeiten/~fdxp/Zu-vergebende-Bachelorarbeiten/",
-            "frequency": "never",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         },
         "stb": {
             "link": "https://www.stb.rwth-aachen.de/cms/STB/Studium/~ipde/Studien-und-Abschlussarbeiten/",
-            "frequency": "never",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         },
         "imb": {
             "link": "https://www.imb.rwth-aachen.de/go/id/bdjfir",
-            "frequency": "never",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         },
         "icom": {
             "link": "https://www.icom.rwth-aachen.de/cms/icom/studium/~meft/abschlussarbeiten/?showall=1",
-            "frequency": "never",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         },
         "inab": {
             "link": "https://www.inab.rwth-aachen.de/lehre/studien-und-abschlussarbeiten/",
-            "frequency": "never",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         },
         "e3d": {
             "link": "https://www.e3d.rwth-aachen.de/cms/E3D/Studium/~iylt/Studentische-Abschlussarbeiten/",
-            "frequency": "never",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         },
         "iww": {
             "link": "https://www.iww.rwth-aachen.de/go/id/lyhp?#aaaaaaaaaaaopri",
-            "frequency": "never",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         },
         "ifam": {
             "link": "https://www.ifam.rwth-aachen.de/cms/ifam/Studium/~rrihw/Studien-und-Abschlussarbeiten/",
-            "frequency": "never",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         },
         "gut": {
             "link": "https://www.gut.rwth-aachen.de/cms/Geotechnik/Studium/~mfvlv/Angebotene-Studien-und-Abschlussarbeite/",
-            "frequency": "never",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         },
         "gia": {
             "link": "https://www.gia.rwth-aachen.de/cms/gia/Studium/~zpqtq/Ausgeschriebene-Abschlussarbeiten/",
-            "frequency": "never",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         },
         "isa": {
             "link": "https://www.isa.rwth-aachen.de/cms/isa/studium/studien-und-abschlussarbeiten/~sjmd/bachelorarbeiten/",
-            "frequency": "never",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         },
         "ucc": {
@@ -100,12 +100,12 @@
         },
         "Schuessler-Preis": {
             "link": "https://www.fb3.rwth-aachen.de/cms/bauingenieurwesen/studium/im-studium/stipendien-auszeichnungen/~mzar/schuessler-preis/",
-            "frequency": "never",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         },
-        "Holzbaupreis": {
-            "link": "https://www.fb3.rwth-aachen.de/cms/bauingenieurwesen/studium/im-studium/stipendien-auszeichnungen/~ekhxr/holzbaupreis/",
-            "frequency": "never",
+        "ita": {
+            "link": "https://www.ita.rwth-aachen.de/cms/ITA/studium/~jezx/Studien-und-Abschlussarbeiten/",
+            "frequency": "fourminutely",
             "last_checked": "2026-01-24 17:08:11"
         }
     }
