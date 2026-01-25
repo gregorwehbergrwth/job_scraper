@@ -1,8 +1,11 @@
+import time
+
 from functions.content_scraper import *
 from functions.extract import *
 from functions.handling import *
 from functions.frequency import *
 import os
+from functions.wohnung import wohnung_zusammenfassung
 
 
 def bird(name, url, mode, driver, test=False, site_count=1):
@@ -15,9 +18,8 @@ def bird(name, url, mode, driver, test=False, site_count=1):
         html = get_html(link=url, mouse=name, selenium_driver=driver, mode=mode)
         infos = extract_infos(html=html, mouse=name, mode=mode)
         new = compare(mouse=name, newscrape=infos, mode=mode)
-        new = filtered(mouse=name, new=new)
         for i, alert in enumerate(new):
-            message(configure_text(new=alert, mouse=name, mode=mode, index=i, link=url), test)
+            message(configure_text(new=alert, mouse=name, mode=mode, index=i, link=url), test) if not alert.get("blocked", False) else None
         to_file(mouse=name, infos=infos, new=new, mode=mode)
 
 
@@ -45,6 +47,9 @@ if __name__ == "__main__":
                 bird(name=mouse, url=item["link"], driver=selenium_driver, mode=style)
             links[style][mouse]["last_checked"] = now
             logs[now][mouse] = time.perf_counter() - start_time
+
+    # if run_mode == "wohnung" or Test:
+    #     message(wohnung_zusammenfassung())
 
     write_file(name="links.json", content=links)
     write_file(name="logs/time_log.json", content=logs)
