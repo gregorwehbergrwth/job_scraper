@@ -682,5 +682,29 @@
         "postal_code": "52078",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "locker Leben",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.11336972.html",
+        "price": "372.00 \u20ac",
+        "currency": "EUR",
+        "provider": "J. C",
+        "street": "Passstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer mit ruhiger Lage und guter Anbindung",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.10364405.html",
+        "price": "324.00 \u20ac",
+        "currency": "EUR",
+        "provider": "WG Gemmenicherweg",
+        "street": "Gemmenicher Weg 12",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "5er WG  ",
+        "blocked": false
     }
 ]
