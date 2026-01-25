@@ -3,6 +3,7 @@ import re
 from functions.handling import get_file
 from functions.handling import problem
 import json
+from functions.handling import blocked
 
 modes = {
     "falcon": {
@@ -120,6 +121,8 @@ def compare(mouse, mode, newscrape):
     print(f"Comparing {mouse}")
     oldjobs = get_file(f"{mode}/{mouse}.json")
     try:
+        if mouse == "wg_gesucht":
+                    newscrape = [n.update({'blocked': blocked(mouse, n)}) or n for n in newscrape]
         newjobs = [x for x in newscrape if x not in oldjobs] if oldjobs else newscrape
         print(f"Found {len(newjobs)} new jobs/lines for {mouse}")
         return newjobs if mode in ["falcon", "buzzard"] else ["\n".join(newjobs)]
