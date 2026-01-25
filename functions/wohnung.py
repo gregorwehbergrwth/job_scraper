@@ -36,7 +36,7 @@ def wohnung_zusammenfassung():
             try:
                 price = float(price_str)
                 if price < 300:
-                    print(f"price very low: {file.get("title", "N/A")} - {price} €")
+                    print(f"price very low: {file.get('title', 'N/A')} - {price} €")
                 rents.append(price)
             except ValueError:
                 print("Valueerror")
@@ -61,8 +61,8 @@ def wohnung_zusammenfassung():
     print("Rent Distribution Histogram:")
     for bucket in sorted(histogram.keys()):
         bar = '|' * histogram[bucket]
-        print(f"{bucket:4d} - {bucket + (bucket_size-1):4d} € ({"0" if histogram[bucket] < 10 else ""}{histogram[bucket]}) {bar}")
-        send_text += f"\n{bucket:4d}-{bucket + (bucket_size-1):4d} € ({"0" if histogram[bucket] < 10 else ""}{histogram[bucket]}) {bar}"
+        print(f"{bucket:4d} - {bucket + (bucket_size-1):4d} € ({'0' if histogram[bucket] < 10 else ''}{histogram[bucket]}) {bar}")
+        send_text += f"\n{bucket:4d}-{bucket + (bucket_size-1):4d} € ({'0' if histogram[bucket] < 10 else ''}{histogram[bucket]}) {bar}"
 
     print(send_text)
     return send_text
