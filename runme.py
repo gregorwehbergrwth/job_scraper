@@ -2,6 +2,7 @@ from functions.content_scraper import *
 from functions.extract import *
 from functions.handling import *
 from functions.frequency import *
+import os
 
 
 def bird(name, url, mode, test=False, site_count=1):
@@ -26,6 +27,8 @@ if __name__ == "__main__":
 
     links = get_file(name="links.json")
 
+    runmode = os.getenv("RUNMODE", "job")
+
     if Test:
         bird(name=testmouse, url=links[testmode][testmouse]["link"], mode=testmode, test=True, site_count=links[testmode][testmouse].get("site_count", 1))
     else:
@@ -36,10 +39,10 @@ if __name__ == "__main__":
         for style in links.keys():
             for mouse, item in links[style].items():
                 start_time = time.perf_counter()
-                if check(mouse=mouse, log=item, problem_log=problematic, now=now):
+                if check(mouse=mouse, log=item, problem_log=problematic, now=now, runmode=runmode):
                     bird(name=mouse, url=item["link"], mode=style)
-                links[style][mouse]["last_checked"] = now
-                logs[now][mouse] = time.perf_counter() - start_time
+                    links[style][mouse]["last_checked"] = now
+                    logs[now][mouse] = time.perf_counter() - start_time
 
         write_file(name="links.json", content=links)
         write_file(name="logs/time_log.json", content=logs)
