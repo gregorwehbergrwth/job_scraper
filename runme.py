@@ -24,8 +24,9 @@ def bird(name, url, mode, driver, test=False, site_count=1):
 
 
 if __name__ == "__main__":
-    Test = False
+    Test = True
     testmouse = "ita"
+    testmode = "hawk"
 
     run_mode = os.getenv("RUN_MODE", "job")
 
@@ -37,18 +38,16 @@ if __name__ == "__main__":
     logs = get_file(name="logs/time_log.json")
     logs[now] = {}
 
-    for style in links.keys():
-        for mouse, item in links[style].items():
-            if mouse == testmouse and Test:
-                bird(name=mouse, url=item["link"], driver=selenium_driver, mode=style, test=True, site_count=item.get("site_count", 1))
-                continue
-            elif Test:
-                continue
-            start_time = time.perf_counter()
-            if check(mouse=mouse, log=item, problem_log=problematic):
-                bird(name=mouse, url=item["link"], driver=selenium_driver, mode=style)
-            links[style][mouse]["last_checked"] = now
-            logs[now][mouse] = time.perf_counter() - start_time
+    if Test:
+        bird(name=testmouse, url=links[testmode][testmouse]["link"], driver=selenium_driver, mode=testmode, test=True, site_count=links[testmode][testmouse].get("site_count", 1))
+    else:
+        for style in links.keys():
+            for mouse, item in links[style].items():
+                start_time = time.perf_counter()
+                if check(mouse=mouse, log=item["last_checked"], problem_log=problematic):
+                    bird(name=mouse, url=item["link"], driver=selenium_driver, mode=style)
+                links[style][mouse]["last_checked"] = now
+                logs[now][mouse] = time.perf_counter() - start_time
 
     # if run_mode == "wohnung" or Test:
     #     message(wohnung_zusammenfassung())

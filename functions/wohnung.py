@@ -1,13 +1,14 @@
 import json
 from pathlib import Path
 from functions.handling import blocked
-def wohnung_zusammenfassung():
+
+
+def wohnung_zusammenfassung(filepath="falcon/wg_gesucht.json"):
     def get_file(name):
         with open(name, "r") as file:
             return json.load(file)
 
-    # files = get_file(str(Path.cwd().parent) + "\\" "buzzard\\wg_gesucht.json")
-    files = get_file("falcon/wg_gesucht.json")
+    files = get_file(filepath)
 
     seen = set()
     seen2 = set()
@@ -79,7 +80,7 @@ def filter_test():
 
 
 if __name__ == "__main__":
-    wohnung_zusammenfassung()
+    wohnung_zusammenfassung(filepath=str(Path.cwd().parent) + "\\" "falcon\\wg_gesucht.json")
 
 
 

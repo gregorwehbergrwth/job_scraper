@@ -121,8 +121,9 @@ def compare(mouse, mode, newscrape):
     try:
         newscrape = [n.update({'blocked': blocked(mouse, n)}) or n for n in newscrape] if mouse == "wg_gesucht" else newscrape
         newjobs = [x for x in newscrape if x not in oldjobs] if oldjobs else newscrape
+        newjobs = ["\n".join(newjobs)] if mode == "hawk" else newjobs
         print(f"Found {len(newjobs)} new jobs/lines for {mouse}")
-        return newjobs if mode == "falcon" else ["\n".join(newjobs)]
+        return newjobs
     except Exception as e:
         problem(mouse=mouse, error=f"Error comparing {mouse}: {e}")
         return []

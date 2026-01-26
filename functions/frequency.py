@@ -3,7 +3,7 @@ import time
 
 def check(mouse, log, problem_log):
 
-    last_checked = time.strptime(log["last_checked"], "%Y-%m-%d %H:%M:%S")
+    last_checked = time.strptime(log, "%Y-%m-%d %H:%M:%S")
     now = time.localtime()
 
     time_difference = (time.mktime(now) - time.mktime(last_checked)) / 3600
