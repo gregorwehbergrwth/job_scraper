@@ -133,7 +133,7 @@ def blocked(mouse, alert):
         for umlaut, ascii_ in umlaut_map.items():
             text = text.replace(umlaut, ascii_)
 
-        text = re.sub(r"str", "strasse", text) if not "strasse" in text else text
+        text = re.sub(r"str", "strasse", text) if "strasse" not in text else text
 
         return text
 
@@ -148,3 +148,6 @@ def blocked(mouse, alert):
     else:
         return False
 
+
+def configure_url(name, url, index):
+    return re.sub(r'(-Aachen\.1\.0\.1\.\d\.)', lambda m: f"-Aachen.1.0.1.{index}.", url) if name == "wg_gesucht" else url
