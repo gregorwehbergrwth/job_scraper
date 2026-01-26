@@ -838,5 +838,53 @@
         "postal_code": "52072",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG-Haus im Gr\u00fcnen 1-2 Zimmer",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Brand.6964535.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Timm Evers",
+        "street": "Eilendorfer Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52078",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gro\u00dfes 19 m2 Zimmer in moderner 2er WG in Burtscheid (Einzug 01.02.-01.03.)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Burtscheid.12975203.html",
+        "price": "490.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Viviane L.",
+        "street": "Malmedyer Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in wunderbarer Land-WG in Belgien",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Kettenis.7371093.html",
+        "price": "360.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jan K",
+        "street": "Walhorner Str.",
+        "city": "Aachen",
+        "postal_code": "B 4701",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Vollm\u00f6bliertes WG-Zimmer in 4 Zimmer Wohnung",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Richterich.12963060.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Frau Cengiz",
+        "street": "Von-Broich-Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
