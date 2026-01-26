@@ -2,7 +2,7 @@ name: Run Jobsuche
 
 on:
   schedule:
-    - cron: '*/12 * * * *'
+    - cron: '0 18 * * *'
 
   push:
     branches:
