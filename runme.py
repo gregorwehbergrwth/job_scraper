@@ -36,15 +36,18 @@ if __name__ == "__main__":
         problematic = get_file(name="logs/problem_logs.json")
         logs = get_file(name="logs/time_log.json")
         logs[now] = {}
-        for style in links.keys():
-            for mouse, item in links[style].items():
-                start_time = time.perf_counter()
-                if check(mouse=mouse, log=item, problem_log=problematic, now=now, runmode=runmode):
-                    bird(name=mouse, url=item["link"], mode=style)
-                    links[style][mouse]["last_checked"] = now
-                    logs[now][mouse] = time.perf_counter() - start_time
-
-        write_file(name="links.json", content=links)
-        write_file(name="logs/time_log.json", content=logs)
+        try:
+            for style in links.keys():
+                for mouse, item in links[style].items():
+                    start_time = time.perf_counter()
+                    if check(mouse=mouse, log=item, problem_log=problematic, now=now, runmode=runmode):
+                        bird(name=mouse, url=item["link"], mode=style)
+                        links[style][mouse]["last_checked"] = now
+                        logs[now][mouse] = time.perf_counter() - start_time
+        except Exception as e:
+            problem(mouse="main", error=f"Error in main execution: {e}")
+        finally:
+            write_file(name="links.json", content=links)
+            write_file(name="logs/time_log.json", content=logs)
 
     quit_driver()
