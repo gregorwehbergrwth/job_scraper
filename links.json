@@ -43,8 +43,13 @@
             "frequency": "weekly",
             "last_checked": "2026-01-26 21:46:05"
         },
-        "imb": {
-            "link": "https://www.imb.rwth-aachen.de/go/id/bdjfir",
+        "imb_bachelor": {
+            "link": "https://www.imb.rwth-aachen.de/cms/imb/Studium/Abschlussarbeiten/~bdjfir/Bachelorarbeiten/",
+            "frequency": "weekly",
+            "last_checked": "2026-01-26 21:46:05"
+        },
+        "imb_master": {
+            "link": "https://www.imb.rwth-aachen.de/cms/imb/Studium/Abschlussarbeiten/~bdkiki/Masterarbeitsthemen/",
             "frequency": "weekly",
             "last_checked": "2026-01-26 21:46:05"
         },
@@ -83,8 +88,13 @@
             "frequency": "weekly",
             "last_checked": "2026-01-26 21:46:05"
         },
-        "isa": {
+        "isa_bachelor": {
             "link": "https://www.isa.rwth-aachen.de/cms/isa/studium/studien-und-abschlussarbeiten/~sjmd/bachelorarbeiten/",
+            "frequency": "weekly",
+            "last_checked": "2026-01-26 21:46:05"
+        },
+        "isa_master": {
+            "link": "https://www.isa.rwth-aachen.de/cms/ISA/Studium/Studien-und-Abschlussarbeiten/~sjme/Masterarbeiten/",
             "frequency": "weekly",
             "last_checked": "2026-01-26 21:46:05"
         },
