@@ -15,14 +15,14 @@ def bird(name, url, mode, test=False, site_count=1):
         html = get_html(link=url, mouse=name, mode=mode)
         infos = extract_infos(html=html, mouse=name, mode=mode)
         new = compare(mouse=name, newscrape=infos, mode=mode)
-        for i, alert in enumerate(new):
-            message(configure_text(new=alert, mouse=name, mode=mode, index=i, link=url), test) if isinstance(alert, dict) and not alert.get("blocked", False) else None
+        texts = configure_texts(new=new, mouse=name, mode=mode, link=url)
+        messages(texts, test)
         to_file(mouse=name, infos=infos, new=new, mode=mode)
 
 
 if __name__ == "__main__":
     Test = False
-    testmouse = "rwth"
+    testmouse = "uniklinik"
     testmode = "falcon"
 
     links = get_file(name="links.json")

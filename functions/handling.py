@@ -36,47 +36,68 @@ def to_file(mouse, infos, new, mode):
         write_file(f"{mode}/{mouse}.json", infos)
 
 
-def configure_text(new, mouse, mode, index, link):
-    if mode == "hawk":
-        return f"{new} \n{link}" if new else None
-    else:
-        job_dict = new
-
-    structure = {
-        "uniklinik": ['Titel', 'Bereich', 'Frist', 'Link'],
-        "rwth": ['Titel', 'Frist', 'Veröffentlichungsdatum', 'Arbeitgeber', 'Link'],
-        "un": ['Job Title', 'Duty Station', 'Job Network', 'Department/Office', 'Deadline', 'Link'],
-        "trier": ['Titel', 'Arbeitgeber', 'Art', 'Link'],
-        "asta_aachen": ['Titel', 'Arbeitgeber', 'Ort', 'Datum', 'Link'],
-        "wg_gesucht": ['title', 'price', 'description', 'url']
-    }
-
+def configure_texts(new, mouse, mode, link):
+    texts = []
     try:
-        text = "\n".join([job_dict.get(key, 'N/A') for key in structure[mouse]])
+        for index, alert in enumerate(new):
+            if mode == "hawk":
+                return f"{alert} \n{link}" if alert else None
+            else:
+                job_dict = alert
 
-        text += "\nMore than 10 new jobs found.\nCheck the website!\n" if index == 9 and mouse == "rwth" else ""
-        return text
+            if not (isinstance(alert, dict) and not alert.get("blocked", False)):
+                return None
+
+            structure = {
+                "uniklinik": ['Titel', 'Bereich', 'Frist', 'Link'],
+                "rwth": ['Titel', 'Frist', 'Veröffentlichungsdatum', 'Arbeitgeber', 'Link'],
+                "un": ['Job Title', 'Duty Station', 'Job Network', 'Department/Office', 'Deadline', 'Link'],
+                "trier": ['Titel', 'Arbeitgeber', 'Art', 'Link'],
+                "asta_aachen": ['Titel', 'Arbeitgeber', 'Ort', 'Datum', 'Link'],
+                "wg_gesucht": ['title', 'price', 'description', 'url']
+            }
+
+            text = "\n".join([job_dict.get(key, 'N/A') for key in structure[mouse]])
+
+            text += "\nMore than 10 new jobs found.\nCheck the website!\n" if index == 9 and mouse == "rwth" else ""
+            texts.append(text)
+
+        return texts
     except Exception as e:
         problem(mouse=mouse, error=f"Error structuring message: {e}")
         return f"Error structuring message: {e}"
 
 
-def message(txt, test=False):
-    async def send_message(text):
-        bot = Bot(token=api_key)
-        try:
-            for user_id in user_ids:
-                await bot.send_message(chat_id=user_id, text=text)
-        except BadRequest as e2:
-            print(f"Telegram API Error: {e2}")
-
+async def send_message_async(texts):
+    bot = Bot(token=api_key)
+    tasks = []
+    for text in texts:
+        for user_id in user_ids:
+            tasks.append(bot.send_message(chat_id=user_id, text=text))
     try:
-        if not test:
-            asyncio.run(send_message(txt)) if txt else None
+        await asyncio.gather(*tasks)
+    except BadRequest as e2:
+        print(f"Telegram API Error: {e2}")
+
+def message(txt, test=False):
+    try:
+        if not test and txt:
+            asyncio.run(send_message_async([txt]))
     except Exception as e:
         problem(mouse="message", error=f"Error sending message: {e}", send_message=False)
     finally:
         print(txt, end="\n")
+
+
+def messages(texte, test=False):
+    try:
+        if not test and texte:
+            asyncio.run(send_message_async(texte))
+    except Exception as e:
+        problem(mouse="message", error=f"Error sending message: {e}", send_message=False)
+    finally:
+        for text in texte:
+            print(text)
 
 
 def blocked(mouse, alert):
