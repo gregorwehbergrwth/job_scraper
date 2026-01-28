@@ -27,7 +27,7 @@ if __name__ == "__main__":
 
     links = get_file(name="links.json")
 
-    runmode = os.getenv("RUNMODE", "job")
+    runmode = os.getenv("RUN_MODE", "job")
     print(f"Running in {runmode} mode")
 
     if Test:
