@@ -6,14 +6,14 @@ import re
 
 api_key = '8030882097:AAHyDEN1DWhyRYUhbUOBA8b-Gz0AIpOEJlg'
 user_ids = ['5623557325']
-
+_bot = None
 
 def problem(mouse, error, send_message=True):
     problem_dict = get_file("logs/problem_logs.json")
     problem_dict[mouse] = f"{problem_dict.get(mouse, '')}, {error}".strip(', ')
     write_file("logs/problem_logs.json", problem_dict)
     if send_message:
-        message(f"Error: {error}")
+        messages([f"Error: {error}"])
 
 
 def get_file(name):
@@ -68,36 +68,37 @@ def configure_texts(new, mouse, mode, link):
         return f"Error structuring message: {e}"
 
 
-async def send_message_async(texts):
-    bot = Bot(token=api_key)
-    tasks = []
-    for text in texts:
-        for user_id in user_ids:
-            tasks.append(bot.send_message(chat_id=user_id, text=text))
-    try:
-        await asyncio.gather(*tasks)
-    except BadRequest as e2:
-        print(f"Telegram API Error: {e2}")
+semaphore = asyncio.Semaphore(5)  # <= tune this
 
-def message(txt, test=False):
-    try:
-        if not test and txt:
-            asyncio.run(send_message_async([txt]))
-    except Exception as e:
-        problem(mouse="message", error=f"Error sending message: {e}", send_message=False)
-    finally:
-        print(txt, end="\n")
+def get_bot():
+    global _bot
 
+    if _bot is None:
+        _bot = Bot(token=api_key)
 
 def messages(texte, test=False):
+
+    async def send_one(user_id, text):
+        async with semaphore:
+            await _bot.send_message(chat_id=user_id, text=text)
+
+    async def send_message_async(texts):
+        _bot = get_bot()
+        tasks = [send_one(user_id, text) for text in texts for user_id in user_ids]
+        try:
+            await asyncio.gather(*tasks)
+        except BadRequest as e:
+            print(f"Telegram API Error: {e}")
+
     try:
         if not test and texte:
             asyncio.run(send_message_async(texte))
     except Exception as e:
         problem(mouse="message", error=f"Error sending message: {e}", send_message=False)
     finally:
-        for text in texte:
-            print(text)
+        print(*texte, sep="\n")
+
+
 
 
 def blocked(mouse, alert):
