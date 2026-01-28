@@ -1282,5 +1282,29 @@
         "postal_code": "52062",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Zwischenmiete in gem\u00fctlicher 3er WG \u2728",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12985081.html",
+        "price": "412.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Nina",
+        "street": "Bl\u00fccherplatz 32",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer Frankenberger",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger.12920549.html",
+        "price": "270.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Leander W",
+        "street": "Rehmannstra\u00dfe 20",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
