@@ -8,7 +8,6 @@ from selenium.webdriver.chrome.options import Options
 import requests
 from functions.handling import problem
 
-
 _driver = None
 
 
@@ -46,7 +45,7 @@ def get_html(link, mouse, mode):
     def content_selenium(url):
         driver = get_driver()
         driver.get(url)
-        wait = WebDriverWait(driver, 40, poll_frequency=1) #
+        wait = WebDriverWait(driver, 40, poll_frequency=1)
         return driver, wait
 
     site_getters = {
