@@ -28,6 +28,7 @@ if __name__ == "__main__":
     links = get_file(name="links.json")
 
     runmode = os.getenv("RUNMODE", "job")
+    print(f"Running in {runmode} mode")
 
     if Test:
         bird(name=testmouse, url=links[testmode][testmouse]["link"], mode=testmode, test=True, site_count=links[testmode][testmouse].get("site_count", 1))
