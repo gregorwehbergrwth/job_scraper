@@ -1414,5 +1414,77 @@
         "postal_code": "52072",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Gem\u00fctliches Zimmer in geselliger WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11330186.html",
+        "price": "330.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sarah",
+        "street": "Steinkaulstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "4er WG Aachen Untermiete",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12823370.html",
+        "price": "421.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lara S.",
+        "street": "Alexanderstra\u00dfe 30",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Schanz.12995484.html",
+        "price": "415.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lina",
+        "street": "Hubertusstra\u00dfe  66",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 3er-WG in sch\u00f6ner Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Frankenberger-Viertel.12876828.html",
+        "price": "340.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Alma Neteler",
+        "street": "Bismarckstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "s\u00fc\u00dfes Zimmer in gro\u00dfer geselliger WG am Theater",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12164128.html",
+        "price": "304.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Giulia B.",
+        "street": "Theaterplatz 2",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer zur Nachmiete ab M\u00e4rz 26",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.10647816.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "L. Waerder",
+        "street": "Matthiashofstra\u00dfe 19",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
