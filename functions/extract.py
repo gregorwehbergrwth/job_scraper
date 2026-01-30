@@ -3,7 +3,7 @@ import re
 from functions.handling import get_file
 from functions.handling import problem
 import json
-from functions.handling import blocked
+from functions.handling import blockedwohnung
 
 modes = {
     "falcon": {
@@ -121,11 +121,20 @@ def compare(mouse, mode, newscrape):
     print(f"Comparing {mouse}")
     oldjobs = get_file(f"{mode}/{mouse}.json")
     try:
-        newscrape = [n.update({'blocked': blocked(mouse, n)}) or n for n in newscrape] if mouse == "wg_gesucht" else newscrape
         newjobs = [x for x in newscrape if x not in oldjobs] if oldjobs else newscrape
-        newjobs = ["\n".join(newjobs)] if mode == "hawk" else newjobs
-        print(f"Found {len(newjobs)} new jobs/lines for {mouse}")
-        return newjobs
+        if mode == "hawk":
+            newjobs = ["\n".join(newjobs)]
+            print(f"Found {len(newjobs)} new lines for {mouse}")
+            return newjobs
+        else:
+            newjobs = [n.update({'blocked': blockedwohnung(mouse, n)}) or n for n in newjobs] if mouse == "wg_gesucht" else newjobs
+            blocked = [job.get("blocked", False) for job in newjobs]
+            blockedjobs = [job for job, is_blocked in zip(newjobs, blocked) if is_blocked]
+            validjobs = [job for job, is_blocked in zip(newjobs, blocked) if not is_blocked]
+
+            print(f"Found {len(validjobs)} new jobs for {mouse}, blocked {len(blockedjobs)} jobs of total {len(newjobs)} new jobs")
+            print(f"blocked jobs: {blockedjobs}")
+            return newjobs
     except Exception as e:
         problem(mouse=mouse, error=f"Error comparing {mouse}: {e}")
         return []
