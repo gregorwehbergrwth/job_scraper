@@ -36,8 +36,6 @@ def quit_driver():
         _driver = None
 
 
-
-
 def get_html(link, mouse, mode):
     def content_requests(url):
         response = requests.get(url)
