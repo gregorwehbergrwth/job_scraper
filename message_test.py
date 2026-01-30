@@ -24,33 +24,54 @@ def get_bot():
     return _bot
 
 
-def send_message(text, bot):
+async def send_message(text, bot):
     try:
-        bot.send_message(chat_id=user_id, text=text)
+        await bot.send_message(chat_id=user_id, text=text)
         return True
     except (BadRequest, TimedOut, NetworkError) as e:
         problem(mouse="send_message", error=f"Error sending to {user_id}: {e}")
         return False
 
 
-def messages(texte, test=False):
+async def messages(texte, test=False):
     _bot = get_bot()
     try:
         unsend_messages = []
         if not test:
-            for message in texte:
-                if send_message(message, _bot):
+            for i, message in enumerate(texte):
+                print(i)
+                if await send_message(message, _bot) and i != 5:
                     pass
                 else:
-                    unsend_messages.append(message)
+                    print(f"couldnt send message: {message}")
+                    unsend_messages.append("previously couldnt send:\n" + message)
         if unsend_messages:
-            messages(texte)
+            await messages(unsend_messages)
     except Exception as e:
         problem(mouse="messages", error=f"Critical error: {e}")
     finally:
         print(*texte, sep="\n") if texte else print("No new messages to send.")
 
 
+def message(txt, test=False):
+    async def send_message(text):
+        bot = get_bot()
+        try:
+            await bot.send_message(chat_id=user_id, text=text)
+        except BadRequest as e2:
+            print(f"Telegram API Error: {e2}")
+
+    try:
+        if not test:
+            asyncio.run(send_message(txt)) if txt else None
+    except Exception as e:
+        problem(mouse="message", error=f"Error sending message: {e}", send_message=False)
+    finally:
+        print(txt, end="\n")
+
+def messages_very_old(texts):
+    for text in texts:
+        message(text)
 
 test_messages = [
     "Test message 1",
@@ -82,5 +103,5 @@ test_messages = [
 
 if __name__ == "__main__":
     start_new = time.perf_counter()
-    messages(test_messages)
+    asyncio.run(messages(test_messages))  # asyncio.run sorgt dafür, dass die asynchrone Funktion korrekt ausgeführt wird
     print("New message time:", time.perf_counter() - start_new)
