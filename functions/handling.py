@@ -5,7 +5,7 @@ from telegram.error import BadRequest
 import re
 
 api_key = '8030882097:AAHyDEN1DWhyRYUhbUOBA8b-Gz0AIpOEJlg'
-user_ids = ['5623557325']
+user_id = '5623557325'
 
 
 def problem(mouse, error, send_message=True):
@@ -13,7 +13,6 @@ def problem(mouse, error, send_message=True):
     problem_dict[mouse] = f"{problem_dict.get(mouse, '')}, {error}".strip(', ')
     write_file("logs/problem_logs.json", problem_dict)
     messages([f"Error: {error}"]) if send_message else print(f"Error not sent as message: {error}")
-
 
 
 def get_file(name):
@@ -68,42 +67,29 @@ def configure_texts(new, mouse, mode, link):
         return f"Error structuring message: {e}"
 
 
-_bot = None
-semaphore = asyncio.Semaphore(5)
+def message(txt, test=False):
+    async def send_message(text):
+        bot = Bot(token=api_key)
+        try:
+            await bot.send_message(chat_id=user_id, text=text)
+        except BadRequest as e2:
+            print(f"Telegram API Error: {e2}")
 
-
-def get_bot():
-    global _bot
-
-    if _bot is None:
-        _bot = Bot(token=api_key)
-
-    return _bot
+    try:
+        if not test:
+            asyncio.run(send_message(txt)) if txt else None
+    except Exception as e:
+        problem(mouse="message", error=f"Error sending message: {e}")
+    finally:
+        print(txt, end="\n")
 
 
 def messages(texte, test=False):
-    async def send_one(user_id, text):
-        async with semaphore:
-            await _bot.send_message(chat_id=user_id, text=text)
-
-    async def send_message_async(texts):
-        _bot = get_bot()
-        tasks = [send_one(user_id, text) for text in texts for user_id in user_ids]
-        try:
-            await asyncio.gather(*tasks)
-        except BadRequest as e:
-            print(f"Telegram API Error: {e}")
-
-    try:
-        if not test and texte:
-            asyncio.run(send_message_async(texte))
-    except Exception as e:
-        problem(mouse="message", error=f"Error sending message: {e}", send_message=False)
-    finally:
-        print(*texte, sep="\n") if texte else print("No new messages to send.")
+    for text in texte:
+        message(text, test=test)
 
 
-def blocked(mouse, alert):
+def blockedwohnung(mouse, alert):
     if mouse != "wg_gesucht":
         return False
 
