@@ -1,9 +1,37 @@
 [
     {
+        "Titel": "Werksstudent*in f\u00fcr die Unterst\u00fctzung bei der Datenauswertung und Berichtslegung bei Mitarbeiterbefragungen",
+        "Arbeitgeber": "IfU - Institut f\u00fcr Unternehmenskultur",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/ifu-institut-fuer-unternehmenskultur-aachen-36-werksstudentin-fuer-die-unterstuetzung-bei-der-datenauswertung-und-berichtslegung-bei-mitarbeiterbefragungen/",
+        "Datum": "2026-01-30"
+    },
+    {
+        "Titel": "Nachhilfelehrer (m/w/d) in Aachen gesucht",
+        "Arbeitgeber": "Studentenring",
+        "Ort": "Aachen (Remote)",
+        "Link": "https://www.asta.rwth-aachen.de/job/studentenring-aachen-36-nachhilfelehrer-m-w-d-in-aachen-gesucht-38/",
+        "Datum": "2026-01-30"
+    },
+    {
+        "Titel": "Praktikum im Bereich Reliability und Anlagenoptimierung",
+        "Arbeitgeber": "Roche Diagnostics GmbH",
+        "Ort": "Penzberg",
+        "Link": "https://www.asta.rwth-aachen.de/job/roche-diagnostics-gmbh-penzberg-36-praktikum-im-bereich-reliability-und-anlagenoptimierung/",
+        "Datum": "2026-01-29"
+    },
+    {
         "Titel": "Werkstudent*in (m/w/d) Bauingenieurwesen, Architektur, Bauphysik o.\u00c4.",
         "Arbeitgeber": "Maximilian Deeg Energiepiloten Wir sind ein engagiertes Team von Energieberatern",
         "Ort": "K\u00f6ln (Remote)",
         "Link": "https://www.asta.rwth-aachen.de/job/maximilian-deeg-energiepiloten-koeln-36-werkstudent-m-w-d-bauingenieurwesen-architektur-bauphysik-o-ae/",
+        "Datum": "2026-01-29"
+    },
+    {
+        "Titel": "ARCHITEKTURSTUDENT:IN",
+        "Arbeitgeber": "WW+ architektur + management",
+        "Ort": "Wasserbillig",
+        "Link": "https://www.asta.rwth-aachen.de/job/ww-architektur-management-wasserbillig-36-architekturstudentin/",
         "Datum": "2026-01-29"
     },
     {
@@ -168,13 +196,6 @@
         "Datum": "2026-01-15"
     },
     {
-        "Titel": "Moderator*in Veranstaltungsreihe \u201aMein Europa\u2018",
-        "Arbeitgeber": "EUROPE DIRECT Aachen Ihr Ansprechpartner f\u00fcr Fragen rund um Europa und die EU",
-        "Ort": "Remote",
-        "Link": "https://www.asta.rwth-aachen.de/job/europe-direct-aachen-36-moderatorin-veranstaltungsreihe-mein-europa/",
-        "Datum": "2026-01-15"
-    },
-    {
         "Titel": "Mitarbeiter:in Nachtbereitschaft (m/w/d)",
         "Arbeitgeber": "VKM - Verein f\u00fcr K\u00f6rper- und Mehrfachbehinderte Aachen e.V. VKM - Vielfalt kann mehr",
         "Ort": "Aachen",
@@ -326,27 +347,6 @@
         "Arbeitgeber": "Trianel GmbH",
         "Ort": "Aachen",
         "Link": "https://www.asta.rwth-aachen.de/job/trianel-gmbh-aachen-36-studentische-hilfskraft-unternehmenskommunikation-m-w-d-2/",
-        "Datum": "2026-01-02"
-    },
-    {
-        "Titel": "Studentische Hilfskraft Assetportfoliomanagement (m/w/d)",
-        "Arbeitgeber": "Trianel GmbH",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/trianel-gmbh-aachen-36-studentische-hilfskraft-assetportfoliomanagement-m-w-d-2/",
-        "Datum": "2026-01-02"
-    },
-    {
-        "Titel": "Studentische Hilfskraft Virtuelles Kraftwerk \u2013 Sales (m/w/d)",
-        "Arbeitgeber": "Trianel GmbH",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/trianel-gmbh-aachen-36-studentische-hilfskraft-virtuelles-kraftwerk-sales-m-w-d-2/",
-        "Datum": "2026-01-02"
-    },
-    {
-        "Titel": "Studentische Hilfskraft Controlling (m/w/d)",
-        "Arbeitgeber": "Trianel GmbH",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/trianel-gmbh-aachen-36-studentische-hilfskraft-controlling-m-w-d-2/",
         "Datum": "2026-01-02"
     }
 ]
