@@ -93,6 +93,7 @@ modes = {
         "ucc": lambda soup: soup.find('div', class_='tabs_wrapper tabs_horizontal').text.strip(),
         "ita": lambda soup: soup.find('div', class_="module dynamic-list").text.strip(),
         "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text.strip(),
+        "gmp": lambda soup: soup.find('div', class_="jobs__list").text.strip(),
         "Schuessler-Preis": lambda soup: soup.find('main', id='main').text.strip()
     }
 }

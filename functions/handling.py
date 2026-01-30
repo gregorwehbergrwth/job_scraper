@@ -84,10 +84,13 @@ def message(txt, test=False):
         print(txt, end="\n")
 
 
-def messages(texte, test=False):
-    for text in texte:
-        print(text)
-        message(text, test=test)
+def messages(texte, test=False, mode="hawk"):
+    if mode == "hawk":
+        message(texte, test=test)
+    else:
+        for text in texte:
+            print(text)
+            message(text, test=test)
 
 
 def blockedwohnung(mouse, alert):
