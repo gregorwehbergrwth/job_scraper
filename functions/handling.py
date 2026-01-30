@@ -6,14 +6,14 @@ import re
 
 api_key = '8030882097:AAHyDEN1DWhyRYUhbUOBA8b-Gz0AIpOEJlg'
 user_ids = ['5623557325']
-_bot = None
+
 
 def problem(mouse, error, send_message=True):
     problem_dict = get_file("logs/problem_logs.json")
     problem_dict[mouse] = f"{problem_dict.get(mouse, '')}, {error}".strip(', ')
     write_file("logs/problem_logs.json", problem_dict)
-    if send_message:
-        messages([f"Error: {error}"])
+    messages([f"Error: {error}"]) if send_message else print(f"Error not sent as message: {error}")
+
 
 
 def get_file(name):
@@ -68,7 +68,9 @@ def configure_texts(new, mouse, mode, link):
         return f"Error structuring message: {e}"
 
 
-semaphore = asyncio.Semaphore(5)  # <= tune this
+_bot = None
+semaphore = asyncio.Semaphore(5)
+
 
 def get_bot():
     global _bot
@@ -76,8 +78,10 @@ def get_bot():
     if _bot is None:
         _bot = Bot(token=api_key)
 
-def messages(texte, test=False):
+    return _bot
 
+
+def messages(texte, test=False):
     async def send_one(user_id, text):
         async with semaphore:
             await _bot.send_message(chat_id=user_id, text=text)
@@ -96,9 +100,7 @@ def messages(texte, test=False):
     except Exception as e:
         problem(mouse="message", error=f"Error sending message: {e}", send_message=False)
     finally:
-        print(*texte, sep="\n")
-
-
+        print(*texte, sep="\n") if texte else print("No new messages to send.")
 
 
 def blocked(mouse, alert):
@@ -107,7 +109,7 @@ def blocked(mouse, alert):
 
     blockwords = [
         "kathol",
-        "verbindung",
+        # "verbindung",
         "evangenl",
         "bursche"
     ]
@@ -128,6 +130,7 @@ def blocked(mouse, alert):
         "Melatener Straße 48",
         "Moreller Weg 64",
         "Kaiser-Friedrich-Allee 5",
+        "Nizzaallee 2",
         "Nizzaallee 4",
         "Nizzaallee 56",
         "Junkerstraße 68",
