@@ -86,6 +86,7 @@ def message(txt, test=False):
 
 def messages(texte, test=False):
     for text in texte:
+        print(text)
         message(text, test=test)
 
 

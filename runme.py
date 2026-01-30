@@ -15,7 +15,9 @@ def bird(name, url, mode, test=False, site_count=1):
         html = get_html(link=url, mouse=name, mode=mode)
         infos = extract_infos(html=html, mouse=name, mode=mode)
         new = compare(mouse=name, newscrape=infos, mode=mode)
+        print(new)
         texts = configure_texts(new=new, mouse=name, mode=mode, link=url)
+        print(texts)
         messages(texts, test)
         to_file(mouse=name, infos=infos, new=new, mode=mode)
 
