@@ -128,13 +128,14 @@ def compare(mouse, mode, newscrape):
             return newjobs
         else:
             newjobs = [n.update({'blocked': blockedwohnung(mouse, n)}) or n for n in newjobs] if mouse == "wg_gesucht" else newjobs
+            print(f"newjobs: {newjobs}")
             blocked = [job.get("blocked", False) for job in newjobs]
             blockedjobs = [job for job, is_blocked in zip(newjobs, blocked) if is_blocked]
             validjobs = [job for job, is_blocked in zip(newjobs, blocked) if not is_blocked]
 
             print(f"Found {len(validjobs)} new jobs for {mouse}, blocked {len(blockedjobs)} jobs of total {len(newjobs)} new jobs")
             print(f"blocked jobs: {blockedjobs}")
-            return newjobs
+            return validjobs
     except Exception as e:
         problem(mouse=mouse, error=f"Error comparing {mouse}: {e}")
         return []
