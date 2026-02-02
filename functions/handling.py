@@ -76,12 +76,12 @@ def message(txt, test=False):
             print(f"Telegram API Error: {e2}")
 
     try:
-        if not test:
+        if not test and txt:
             asyncio.run(send_message(txt)) if txt else None
     except Exception as e:
         problem(mouse="message", error=f"Error sending message: {e}")
     finally:
-        print(txt, end="\n")
+        print(txt, end="\n") if txt else None
 
 
 def messages(texte, test=False, mode="hawk"):
@@ -131,7 +131,8 @@ def blockedwohnung(mouse, alert):
         "Kruppstraße 12",
         "Ludwigsallee 101",
         "Hexenberg 10",
-        "Försterstraße 10"
+        "Försterstraße 10",
+        "Haupt. 109"
     ]
 
     umlaut_map = {

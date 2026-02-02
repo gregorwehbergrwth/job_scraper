@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from functions.handling import blocked
+from functions.handling import blockedwohnung
 
 
 def wohnung_zusammenfassung(filepath="falcon/wg_gesucht.json"):
@@ -27,7 +27,7 @@ def wohnung_zusammenfassung(filepath="falcon/wg_gesucht.json"):
             seen3.add(price)
     print(f"Found {len(duplicates)} duplicate entries.")
 
-    for duplicate in  duplicates:
+    for duplicate in duplicates:
         print(duplicate)
 
     rents = []
@@ -45,7 +45,6 @@ def wohnung_zusammenfassung(filepath="falcon/wg_gesucht.json"):
         else:
             print(f"Blocked entry: {file.get('title', 'N/A')}")
 
-
     average_rent = sum(rents) / len(rents) if rents else 0
     median_rent = sorted(rents)[len(rents) // 2] if rents else 0
 
@@ -62,25 +61,22 @@ def wohnung_zusammenfassung(filepath="falcon/wg_gesucht.json"):
     print("Rent Distribution Histogram:")
     for bucket in sorted(histogram.keys()):
         bar = '|' * histogram[bucket]
-        print(f"{bucket:4d} - {bucket + (bucket_size-1):4d} € ({'0' if histogram[bucket] < 10 else ''}{histogram[bucket]}) {bar}")
-        send_text += f"\n{bucket:4d}-{bucket + (bucket_size-1):4d} € ({'0' if histogram[bucket] < 10 else ''}{histogram[bucket]}) {bar}"
+        print(f"{bucket:4d} - {bucket + (bucket_size - 1):4d} € ({'0' if histogram[bucket] < 10 else ''}{histogram[bucket]}) {bar}")
+        send_text += f"\n{bucket:4d}-{bucket + (bucket_size - 1):4d} € ({'0' if histogram[bucket] < 10 else ''}{histogram[bucket]}) {bar}"
 
     print(send_text)
     return send_text
+
 
 def filter_test():
     addresses = ["Kruppstr 12", "Kruppstraße 12", "Krupp Strasse 12", "Kruppstraße12", "  kruppstraße   12  ", "Kruppstrasse 12", "Krupp Str. 12", "Krupp Str 12", "Kruppstr.12"]
     print(len(addresses))
     counter = 0
     for address in addresses:
-        counter += 1 if blocked("wg_gesucht", {"street": address}) else +0
+        counter += 1 if blockedwohnung("wg_gesucht", {"street": address}) else +0
 
     print(counter)
 
 
-
 if __name__ == "__main__":
     wohnung_zusammenfassung(filepath=str(Path.cwd().parent) + "\\" "falcon\\wg_gesucht.json")
-
-
-

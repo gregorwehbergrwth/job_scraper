@@ -18,14 +18,14 @@ def bird(name, url, mode, test=False, site_count=1):
         print(new)
         texts = configure_texts(new=new, mouse=name, mode=mode, link=url)
         print(texts)
-        messages(texts, test)
+        messages(texts, test, mode=mode)
         to_file(mouse=name, infos=infos, new=new, mode=mode)
 
 
 if __name__ == "__main__":
     Test = False
-    testmouse = "uniklinik"
-    testmode = "falcon"
+    testmouse = "gmp"
+    testmode = "hawk"
 
     links = get_file(name="links.json")
 

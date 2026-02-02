@@ -122,13 +122,13 @@ def compare(mouse, mode, newscrape):
     print(f"Comparing {mouse}")
     oldjobs = get_file(f"{mode}/{mouse}.json")
     try:
+        newscrape = [n.update({'blocked': blockedwohnung(mouse, n)}) or n for n in newscrape] if mouse == "wg_gesucht" else newscrape
         newjobs = [x for x in newscrape if x not in oldjobs] if oldjobs else newscrape
         if mode == "hawk":
             newjobs = ["\n".join(newjobs)]
             print(f"Found {len(newjobs)} new lines for {mouse}")
             return newjobs
         else:
-            newjobs = [n.update({'blocked': blockedwohnung(mouse, n)}) or n for n in newjobs] if mouse == "wg_gesucht" else newjobs
             print(f"newjobs: {newjobs}")
             blocked = [job.get("blocked", False) for job in newjobs]
             blockedjobs = [job for job, is_blocked in zip(newjobs, blocked) if is_blocked]

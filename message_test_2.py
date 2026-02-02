@@ -21,7 +21,7 @@ def get_bot():
 
 def message(txt, test=False):
     async def send_message(text):
-        bot = get_bot()
+        bot = Bot(token=api_key)
         try:
             await bot.send_message(chat_id=user_id, text=text)
         except BadRequest as e2:
