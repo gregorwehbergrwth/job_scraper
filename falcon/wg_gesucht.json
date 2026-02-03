@@ -4246,5 +4246,77 @@
         "postal_code": "52066",
         "description": "6er WG  ",
         "blocked": false
+    },
+    {
+        "title": "A beautiful room in shared flat",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13019938.html",
+        "price": "355.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Ayesha T.",
+        "street": "Passstra\u00dfe  64",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "ruhiges Zimmer mit Balkon, zentral, freundliche Haus-WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Zentrum.7099560.html",
+        "price": "430.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Thomas",
+        "street": "B\u00e4renstra\u00dfe 31",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "12er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles 2er-WG-Zimmer in Aachen \u2013 zentrale Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13019580.html",
+        "price": "321.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Khaled",
+        "street": "Maxstrasse",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in moderner 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12376571.html",
+        "price": "390.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jan Schuback",
+        "street": "J\u00fclicher Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes Zimmer in Hochschuln\u00e4he und ruhiger Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Burtscheid.13019558.html",
+        "price": "369.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Kevin Wang",
+        "street": "Habsburgerallee",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Ein Zimmer ist frei ab 15 Februar bis 15 M\u00e4rz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13008893.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "MOMEN MEDHAT",
+        "street": "goerdelerstra\u00dfe  17",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
