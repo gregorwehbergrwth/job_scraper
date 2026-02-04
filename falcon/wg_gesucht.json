@@ -4498,5 +4498,41 @@
         "postal_code": "52068",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "4er WG am Westpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11118297.html",
+        "price": "298.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sebastian",
+        "street": "Gartenstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in 2er WG nahe Elisenbrunnen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13024249.html",
+        "price": "453.00 \u20ac",
+        "currency": "EUR",
+        "provider": "D. Esch",
+        "street": "Peterstra\u00dfe 32",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer ab 01.M\u00e4rz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13024084.html",
+        "price": "495.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Evan Taha Gabdouri",
+        "street": "Charlottenstra\u00dfe 2",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
