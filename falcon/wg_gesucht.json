@@ -4534,5 +4534,77 @@
         "postal_code": "52070",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Zimmer zur Untermiete im T39",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.9821716.html",
+        "price": "150.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Laura T39",
+        "street": "Templergraben 39",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "17er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes Altbau Zimmer in einem gemeinschaftlichen Haus",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13024833.html",
+        "price": "465.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Walter",
+        "street": "Vaalser Stra\u00dfe 144",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "4 Zimmer frei, M\u00f6bliertes WG-Zimmer in Zentraler Lage 10 qm",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.6365126.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Marcus Summkeller",
+        "street": "Wilhelmstra\u00dfe 14",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "17,5m2 Zimmer in Arbeitst\u00e4tigen-WG!",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12962362.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Justus K.",
+        "street": "J\u00fclicher Stra\u00dfe 75",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Ein Zimmer in einer zentralen WG in der N\u00e4he des Dom",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12019293.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Magdalena",
+        "street": "Bendelstra\u00dfe 26",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "J\u00fclicher stra\u00dfe 84 Aachen 52070 This room can be rented from April 2026. The rent is 300 euro ( incl electricity ,water ,wifi) .It also has washing machine.It is a 7 shared room with all Indians.",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13024522.html",
+        "price": "300.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Surya Venkateswaran",
+        "street": "j\u00fclicher stra\u00dfe 84",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "7er WG  ",
+        "blocked": false
     }
 ]
