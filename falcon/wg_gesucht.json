@@ -4486,5 +4486,17 @@
         "postal_code": "52062",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Zwischenmieter*in f\u00fcr inklusive 3er Altbau-WG mit Dachterrasse gesucht!\ud83c\udf08\ud83c\udff3\ufe0f\u200d\ud83c\udf08",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11294002.html",
+        "price": "475.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jakob",
+        "street": "Elsa\u00dfstra\u00dfe 63",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
