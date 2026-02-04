@@ -77,7 +77,8 @@ modes = {
         }
     },
     "hawk": {
-        "lbb": lambda soup: soup.find('main', id="main").text.strip(),
+        "lbb_bachelor": lambda soup: soup.find('main', id="main").text.strip(),
+        "lbb_master": lambda soup: soup.find('main', id="main").text.strip(),
         "stb": lambda soup: soup.find('div', class_="module dynamic-list").text.strip(),
         "imb_bachelor": lambda soup: soup.find('main', id="main").text.strip(),
         "imb_master": lambda soup: soup.find('main', id="main").text.strip(),
