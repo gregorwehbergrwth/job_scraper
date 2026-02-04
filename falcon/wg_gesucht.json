@@ -4462,5 +4462,29 @@
         "postal_code": "52074",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Helles WG Zimmer in Uni N\u00e4he",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13020673.html",
+        "price": "297.00 \u20ac",
+        "currency": "EUR",
+        "provider": "S\u00f6ren M\u00fcller",
+        "street": "Kruppstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-zimmer Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Innenstadt.8075153.html",
+        "price": "320.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Valentina Sergeeva",
+        "street": "Heinrichsallee 53",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
