@@ -4606,5 +4606,113 @@
         "postal_code": "52070",
         "description": "7er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Super zentrales WG-Zimmer mit Balkon",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12986466.html",
+        "price": "380.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Silas",
+        "street": "Klappergasse",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zwischenmiete im M\u00e4rz!: 2er WG im Frankenberger Viertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.10068639.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Iris",
+        "street": "Charlottenstra\u00dfe 11",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "17qm Zimmer in 2er WG bei Aachen Schanz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.10414195.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Johannes",
+        "street": "L\u00fctticher Stra\u00dfe 6",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Ruhiges, sauberes & gem\u00fctlich modernes Zimmer mit wundersch\u00f6ner Aussicht ganz nah am Bahnhof Rothe Erde",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12644468.html",
+        "price": "380.00 \u20ac",
+        "currency": "EUR",
+        "provider": "K. Lasyan",
+        "street": "Turpinstra\u00dfe 124",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "H\u00fcbsches Zimmer in 4er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13020231.html",
+        "price": "263.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Dunant WG",
+        "street": "Dunantstra\u00dfe 2",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Ab 1.3.: Sonniges WG-Zimmer in geselliger WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.10439329.html",
+        "price": "340.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Johanna J.",
+        "street": "Robensstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes Altbau Zimmer in einem gemeinschaftlichen Haus",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13024833.html",
+        "price": "475.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Walter",
+        "street": "Vaalser Stra\u00dfe 144",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer im Frankenberger",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.11989794.html",
+        "price": "310.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jennifer S.",
+        "street": "Lothringerstra\u00dfe  100",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Ein oder 2 Zimmer in einer zentralen WG in der N\u00e4he des Dom",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12019293.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Magdalena",
+        "street": "Bendelstra\u00dfe 26",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
