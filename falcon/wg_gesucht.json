@@ -4822,5 +4822,65 @@
         "postal_code": "52062",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Gro\u00dfz\u00fcgiges Zimmer mit guter Anbindung zur Untermiete",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13014081.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Florian Sand",
+        "street": "Heinrichsallee 4",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Top WG-Zimmer in Aachen \u2013 zentral, ruhig, gepflegt | ab 01.02.2026",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Haaren.13030072.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Herr Klotz",
+        "street": "Kochstra\u00dfe 10",
+        "city": "Aachen",
+        "postal_code": "52080",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sublet: Room in Student Dormitory at Lousberg",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13029737.html",
+        "price": "339.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jasim",
+        "street": "Nizzaallee 20",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "12er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Affordable All-Inclusive Living: Furnished Room with Garden",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13029686.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Oskar",
+        "street": "Sittarder Stra\u00dfe  1",
+        "city": "Aachen",
+        "postal_code": "52078",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "3 Wg Zimmer in Aachen  (12m2, 16m2 und 20m2)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Westpark.12108329.html",
+        "price": "314.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Felix Maximilian Florack",
+        "street": "Vaalser Stra\u00dfe 78",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
