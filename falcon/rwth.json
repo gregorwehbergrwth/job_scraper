@@ -1,5 +1,37 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010716/",
+        "Frist": "Frist: 09.03.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000010716",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.02.2026",
+        "Arbeitgeber": "Center f\u00fcr Lehr- und Lernservices (CLS) [026000]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010719/",
+        "Frist": "Frist: 28.02.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Lehre Maschinengestaltung III ",
+        "Nummer": "V000010719",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.02.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Maschinenelemente und Systementwicklung [411710]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010720/",
+        "Frist": "Frist: 28.02.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 F\u00fcr Projektarbeit zum Thema ber\u00fchrungsloser Materialcharakterisierung und Robotik ",
+        "Nummer": "V000010720",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.02.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Nachhaltige Rohstoffgewinnung und Institut f\u00fcr Rohstoffingenieurwesen [511110]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010724/",
+        "Frist": "Frist: 15.05.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung neuartiger Werkzeugbeschichtungen, Machine Learning, Werkstoffpr\u00fcfung ",
+        "Nummer": "V000010724",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.02.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010679/",
         "Frist": "Frist: 28.02.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung eines Roboters f\u00fcr die objektintegrative Handhabung ",
@@ -441,7 +473,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010573/",
-        "Frist": "Frist: 02.04.2026",
+        "Frist": "Frist: 05.02.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Forschungsdatenmanagement ",
         "Nummer": "V000010573",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.01.2026",
@@ -494,6 +526,14 @@
         "Nummer": "V000010512",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 10.12.2025",
         "Arbeitgeber": "Lehrstuhl f\u00fcr Technologie optischer Systeme [418910]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010515/",
+        "Frist": "Frist: 31.03.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Industrienahe Forschung im Bereich Qualit\u00e4tsmanagement und Digitalisierung ",
+        "Nummer": "V000010515",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 10.12.2025",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010507/",
@@ -601,7 +641,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000009708/",
-        "Frist": "Frist: 30.04.2026",
+        "Frist": "Frist: 30.10.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 PVD-Technologie (Werkzeuge) ",
         "Nummer": "V000009708",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 28.05.2025",
