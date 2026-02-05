@@ -4738,5 +4738,89 @@
         "postal_code": "52066",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Helles 23qm WG-Zimmer neben Karlsgraben",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11461942.html",
+        "price": "440.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Soham Ranade",
+        "street": "Mauerstra\u00dfe 11",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gro\u00dfes Zimmer (16qm)  in zentraler 3er WG in Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12990593.html",
+        "price": "390.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lisa",
+        "street": "franzstrasse",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer im Frankenberger",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11989794.html",
+        "price": "310.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jennifer S.",
+        "street": "Lothringerstra\u00dfe  100",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes gro\u00dfes Zimmer in der SeffWG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.5453728.html",
+        "price": "452.00 \u20ac",
+        "currency": "EUR",
+        "provider": "SeffWG",
+        "street": "Seffenter Weg",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes WG-Zimmer in perfekter Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13028926.html",
+        "price": "477.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Rudolf WG",
+        "street": "Rudolfstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sublet Available | Feb 27 - Mar 28 City registration possible",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12971157.html",
+        "price": "300.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Ajmal",
+        "street": "steinkaulstr",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes zentrum nahes 2er WG-Zimmer in Aachen zur Untermiete",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11709622.html",
+        "price": "470.00 \u20ac",
+        "currency": "EUR",
+        "provider": "J. Kr\u00e4mer",
+        "street": "Achterstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
