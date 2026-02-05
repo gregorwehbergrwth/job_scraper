@@ -4882,5 +4882,77 @@
         "postal_code": "52074",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes WG-Zimmer in 3er-WG Aachen-Mitte",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13030813.html",
+        "price": "460.00 \u20ac",
+        "currency": "EUR",
+        "provider": "David",
+        "street": "Hansemannplatz 1",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer in gro\u00dfer Wohnung, mit Wohnzimmer, gute Lage.",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11461408.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Janek",
+        "street": "Augustastra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Veggie, Gaming & Katzen: Entspanntes Wohnen direkt am Ponttor",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-naehe-Lousberg.13030417.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Samir",
+        "street": "Pontstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG- Zimmer in Aachen Mitte",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Mitte.11204126.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sarah Godschalk",
+        "street": "Matthiashofstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer zur Zwischenmiete am Lousberg (M\u00e4rz bis November)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13020203.html",
+        "price": "410.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Beschte WG Nizzaallee",
+        "street": "Nizzaallee 77",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "3 Wg Zimmer in Aachen  (12m2, 16m2 und 20m2)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Schanz-am-Westpark.12108329.html",
+        "price": "314.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Felix Maximilian Florack",
+        "street": "Vaalser Stra\u00dfe 78",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
