@@ -4714,5 +4714,29 @@
         "postal_code": "52062",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes WG-Zimmer in 3er-WG und Traum-Lage :)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13025244.html",
+        "price": "392.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sazvan",
+        "street": "Templergraben 30",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer Aachen Frankenberger",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13018978.html",
+        "price": "295.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Alex H",
+        "street": "Goerdelerstrasse",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
