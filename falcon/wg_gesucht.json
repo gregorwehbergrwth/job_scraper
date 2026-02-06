@@ -5110,5 +5110,101 @@
         "postal_code": "52068",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG Zimmer Frankenberger Viertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13036544.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tina Kurf\u00fcrst",
+        "street": "Kurf\u00fcrstenstra\u00dfe 1",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Eine voll m\u00f6blierte Zwei-WG-Wohnung",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Burtscheid.13036543.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Mathilda",
+        "street": "Templergraben 37",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "KaWo 2 student dorm for Sublet (3months)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13036542.html",
+        "price": "320.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Umesh",
+        "street": "Kastanienweg",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "2er WG Untermieter Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11109541.html",
+        "price": "499.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Selim Y\u00fccel",
+        "street": "Robensstra\u00dfe 7",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in Stadtzentrum n\u00e4he Aachener Dom",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12878053.html",
+        "price": "420.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Adish",
+        "street": "Kleink\u00f6lnstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Untermiete in 5er Wg",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11857686.html",
+        "price": "425.00 \u20ac",
+        "currency": "EUR",
+        "provider": "WG",
+        "street": "Rudolfstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zwischenmieter:in in sch\u00f6ner dreier WG am Stadtpark gesucht",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12255112.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Clemens Odendahl",
+        "street": "Robensstra\u00dfe 20",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-ZIMMER in Traumhafter Lage zur Untermiete",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Schanz.13009155.html",
+        "price": "425.00 \u20ac",
+        "currency": "EUR",
+        "provider": "N. Pauli",
+        "street": "Jakobstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
