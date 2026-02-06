@@ -5062,5 +5062,53 @@
         "postal_code": "52070",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "2 People WG available for Long term Sublet in Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13014549.html",
+        "price": "440.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Shubham Nagar",
+        "street": "Rudolfstra\u00dfe 69",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sublet: Room in Student Dormitory at Lousberg with registration",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13029737.html",
+        "price": "339.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jasim",
+        "street": "Nizzaallee 20",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes Zimmer in der Mitte Aachens. 3er WG sucht Zuwachs",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13035833.html",
+        "price": "435.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tabea Br\u00fcster",
+        "street": "Franzstra\u00dfe  5B",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer 3er WG ( Nur f\u00fcr einen  Monat frei !)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13035660.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Verges Tchounga",
+        "street": "Eisenbahnweg",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
