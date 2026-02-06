@@ -1,5 +1,33 @@
 [
     {
+        "Titel": "Werkstudent Simulation und Data Analytics (m/w/d)",
+        "Arbeitgeber": "Dr. Sch\u00f6nheit + P. Consulting GmbH",
+        "Ort": "K\u00f6ln",
+        "Link": "https://www.asta.rwth-aachen.de/job/dr-schoenheit-p-consulting-gmbh-koeln-36-werkstudent-simulation-und-data-analytics-m-w-d/",
+        "Datum": "2026-02-05"
+    },
+    {
+        "Titel": "Werkstudent Maschinenbau / Produktionstechnik (m/w/d)",
+        "Arbeitgeber": "Dr. Sch\u00f6nheit + P. Consulting GmbH",
+        "Ort": "K\u00f6ln",
+        "Link": "https://www.asta.rwth-aachen.de/job/dr-schoenheit-p-consulting-gmbh-koeln-36-werkstudent-maschinenbau-produktionstechnik-m-w-d/",
+        "Datum": "2026-02-05"
+    },
+    {
+        "Titel": "Werkstudent Lean Production / Consulting / Fabrikplanung (m/w/d)",
+        "Arbeitgeber": "Dr. Sch\u00f6nheit + P. Consulting GmbH",
+        "Ort": "K\u00f6ln",
+        "Link": "https://www.asta.rwth-aachen.de/job/dr-schoenheit-p-consulting-gmbh-koeln-36-werkstudent-lean-production-consulting-fabrikplanung-m-w-d/",
+        "Datum": "2026-02-05"
+    },
+    {
+        "Titel": "Werkstudent f\u00fcr Beratung Digitalisierung (m/w/d)",
+        "Arbeitgeber": "Dr. Sch\u00f6nheit + P. Consulting GmbH",
+        "Ort": "K\u00f6ln",
+        "Link": "https://www.asta.rwth-aachen.de/job/dr-schoenheit-p-consulting-gmbh-koeln-36-werkstudent-fuer-beratung-digitalisierung-m-w-d-2/",
+        "Datum": "2026-02-05"
+    },
+    {
         "Titel": "Werkstudierende*r (m/w/d) Personal",
         "Arbeitgeber": "Smartlab Innovationsgesellschaft mbH IT-Dienstleister E-Mobility",
         "Ort": "Aachen",
@@ -32,6 +60,13 @@
         "Arbeitgeber": "RWTH Business School gGmbH",
         "Ort": "Aachen",
         "Link": "https://www.asta.rwth-aachen.de/job/rwth-business-school-ggmbh-aachen-36-studentische-hilfskraft-marketing-m-w-d/",
+        "Datum": "2026-02-04"
+    },
+    {
+        "Titel": "491734076618",
+        "Arbeitgeber": "PubCrawl Event",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/pubcrawl-event-aachen-36-491734076618/",
         "Datum": "2026-02-04"
     },
     {
@@ -313,40 +348,5 @@
         "Ort": "Aachen",
         "Link": "https://www.asta.rwth-aachen.de/job/vkm-verein-fuer-koerper-und-mehrfachbehinderte-aachen-e-v-aachen-36-mitarbeiterin-nachtbereitschaft-m-w-d/",
         "Datum": "2026-01-15"
-    },
-    {
-        "Titel": "Teammitglied Technische Leitung (m/w/d) \u2013 steinexpo 2026",
-        "Arbeitgeber": "MTC - Mining Technology Consulting GmbH Ingenieurb\u00fcro f\u00fcr die Bergbau- und Rohstoffindustrie",
-        "Ort": "\u00dcberall",
-        "Link": "https://www.asta.rwth-aachen.de/job/mtc-mining-technology-consulting-gmbh-36-teammitglied-technische-leitung-steinexpo-2026/",
-        "Datum": "2026-01-14"
-    },
-    {
-        "Titel": "Reiseleitung f\u00fcr Fahrradreisen (m/w/d)",
-        "Arbeitgeber": "WEINRADEL Gesellschaft f\u00fcr Kultur- und Erlebnisreisen mbH Radreiseveranstalter aus Aachen, europaweite E-Bike-Reisen",
-        "Ort": "\u00dcberall",
-        "Link": "https://www.asta.rwth-aachen.de/job/weinradel-gesellschaft-fuer-kultur-und-erlebnisreisen-mbh-36-reiseleitung-fuer-fahrradreisen-m-w-d/",
-        "Datum": "2026-01-14"
-    },
-    {
-        "Titel": "Resilienz Trainer:innen f\u00fcr Workshops in Aachener Schulen",
-        "Arbeitgeber": "RESI & LENZ Resilienz Training f\u00fcr Schulen und Hochschulen",
-        "Ort": "Aachen und Umgebung",
-        "Link": "https://www.asta.rwth-aachen.de/job/resi-lenz-aachen-und-umgebung-36-resilienz-trainerinnen-fuer-workshops-in-aachener-schulen/",
-        "Datum": "2026-01-12"
-    },
-    {
-        "Titel": "Leite Kurse im Bereich Bewegung oder Tanz an Schulen im Raum Aachen! (m/w/d)",
-        "Arbeitgeber": "Kinder- und Jugendsportschule NRW",
-        "Ort": "Raum Aachen (Eschweiler, Stolberg)",
-        "Link": "https://www.asta.rwth-aachen.de/job/kinder-und-jugendsportschule-nrw-raum-aachen-eschweiler-stolberg-36-leite-kurse-im-bereich-bewegung-oder-tanz-an-schulen-im-raum-aachen-m-w-d-10/",
-        "Datum": "2026-01-12"
-    },
-    {
-        "Titel": "Nachhilfelehrer (m/w/d) in Aachen gesucht",
-        "Arbeitgeber": "Studentenring",
-        "Ort": "Aachen (Remote)",
-        "Link": "https://www.asta.rwth-aachen.de/job/studentenring-aachen-36-nachhilfelehrer-m-w-d-in-aachen-gesucht-35/",
-        "Datum": "2026-01-09"
     }
 ]
