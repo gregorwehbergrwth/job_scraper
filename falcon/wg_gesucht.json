@@ -4990,5 +4990,77 @@
         "postal_code": "52062",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Sublet: Room in Student Dormitory at Lousberg with registration",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13029737.html",
+        "price": "339.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jasim",
+        "street": "Nizzaallee 20",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "12er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer direkt am Schanz zu vermieten (Februar 100 Euro weniger bezahlen)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13015706.html",
+        "price": "485.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Daler",
+        "street": "L\u00fctticher Stra\u00dfe 41",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles Zimmer in 2er WG im Neubau n\u00e4he Schanz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12986086.html",
+        "price": "495.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lennart",
+        "street": "Boxgraben 128",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in 2er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13008827.html",
+        "price": "462.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Veli",
+        "street": "Ottostra\u00dfe  17",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Studentenzimmer nicht weit von Pontstra\u00dfe",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13035271.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "S. Haokun",
+        "street": "Elsenborn 22",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in Dreier-WG im Frankenberger",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12223484.html",
+        "price": "415.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lea",
+        "street": "Zollernstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
