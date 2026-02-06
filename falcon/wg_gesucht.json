@@ -4954,5 +4954,41 @@
         "postal_code": "52074",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Ruhiges, sauberes & gem\u00fctlich modernes Zimmer mit wundersch\u00f6ner Aussicht ganz nah am Bahnhof Rothe Erde",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-aachen.13030946.html",
+        "price": "380.00 \u20ac",
+        "currency": "EUR",
+        "provider": "K. Lasyan",
+        "street": "Turpinstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles 25 m2 Zimmer in 3er-WG \u2013 zentrale Lage Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13024493.html",
+        "price": "460.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Amir",
+        "street": "Hansemannplatz",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer ab dem 01.04.",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Pontviertel.13030922.html",
+        "price": "340.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Aaron Reiners",
+        "street": "Pontdriesch",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
