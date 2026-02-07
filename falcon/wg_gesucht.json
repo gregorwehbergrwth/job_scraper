@@ -5206,5 +5206,53 @@
         "postal_code": "52064",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG-Zimmer 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13035660.html",
+        "price": "395.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Verges Tchounga",
+        "street": "Eisenbahnweg",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 3er WG am Kennedy Park",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13009836.html",
+        "price": "442.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Stanislav Glovko",
+        "street": "Elsassplatz 3",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "14qm Zimmer im Zentrum",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.6598950.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sajad S.",
+        "street": "Eurogress",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Short-Term Room in Aachen \u2013 20 Days",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13040282.html",
+        "price": "270.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Yassine Drissi",
+        "street": "Franzestr\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
