@@ -5254,5 +5254,17 @@
         "postal_code": "52064",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Zwischenmieter f\u00fcr WG-Zimmer von 01/04 bis 31/05",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13040636.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Selim",
+        "street": "Johannstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52078",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
