@@ -5266,5 +5266,113 @@
         "postal_code": "52078",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes Zimmer in 3er WG in bester Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-West.13041198.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "AK",
+        "street": "S\u00fcsterfeldstra\u00dfe 28",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gem\u00fctliches WG-Zimmer in 3er WG am Westpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12125232.html",
+        "price": "420.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jesper",
+        "street": "Vaalser Stra\u00dfe 122",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Mittbewohner*inn f\u00fcr WG in der Innenstadt gesucht",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13041038.html",
+        "price": "393.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Toni C.",
+        "street": "Matthiashofstra\u00dfe 2",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "beautiful newly renovated room near the center",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Haaren.13041069.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Anna M\u00fcller",
+        "street": "Ottostra\u00dfe 44",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in sch\u00f6ner Innenstadt-WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12639073.html",
+        "price": "405.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Nils Balsys",
+        "street": "Harscampstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer in Aachen-Brand m\u00f6bliert, frei f\u00fcr  eine weibliche Mitbewohnerin f\u00fcr mindestens 2 Monate gerne l\u00e4nger",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Brand.12699595.html",
+        "price": "485.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Alexander J\u00e4schke",
+        "street": "Wolferskaul  21",
+        "city": "Aachen",
+        "postal_code": "52078",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer in Aachen n\u00e4he Carolus Therme",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13040981.html",
+        "price": "335.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Niklas",
+        "street": "Robensstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "[Anfragestopp] Gro\u00dfes Zimmer in 2er-WG mit zentraler Lage in Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12986462.html",
+        "price": "437.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Raphael",
+        "street": "Alexanderstra\u00dfe 9",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gem\u00fctliche 3er-WG am Westpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13015102.html",
+        "price": "412.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Philipp T.",
+        "street": "Lochnerstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
