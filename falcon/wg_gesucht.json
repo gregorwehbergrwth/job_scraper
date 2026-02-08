@@ -5434,5 +5434,41 @@
         "postal_code": "52070",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Zentrales WG-Zimmer in 2er-WG ab September/ August 400\u20ac",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12101245.html",
+        "price": "343.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Aylin",
+        "street": "Bergdriesch 1",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zwischenmiete: 2-Zimmer-Wohnung, 3. Etage (Februar und M\u00e4rz)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13045087.html",
+        "price": "405.00 \u20ac",
+        "currency": "EUR",
+        "provider": "M. Zghal",
+        "street": "Sedan Str 18",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles WG-Zimmer im Altbau mit hohen Decken \u2013 zentrale Lage in Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13045060.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Han W.",
+        "street": "Theaterstra\u00dfe 88  88",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
