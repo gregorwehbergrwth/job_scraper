@@ -5470,5 +5470,77 @@
         "postal_code": "52062",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "A room in 3-room Female WG in Central Aachen available for long term",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12605258.html",
+        "price": "497.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Mitushi Agrawal",
+        "street": "Harscampstra\u00dfe 13",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes WG- Zimmer im Frankeberger Viertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.13045922.html",
+        "price": "475.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Friederike Schmidt",
+        "street": "Oppenhoffallee",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmern in 3er Wg guter Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13045726.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Elias Hasbun",
+        "street": "J\u00fclicher Stra\u00dfe 75",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles-Gro\u00dfes Zimmer in Aachen mitte",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-mitte.13045722.html",
+        "price": "396.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Mahmoud C.",
+        "street": "Passstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Frauen Wg am Hansemannplatz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13045981.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Ghita E.",
+        "street": "Hansemannplatz",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13035660.html",
+        "price": "355.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Verges Tchounga",
+        "street": "Eisenbahnweg",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
