@@ -5398,5 +5398,41 @@
         "postal_code": "52065",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Ruhiges WG Zimmer im Bahnofsviertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Bahnofsviertel.13044868.html",
+        "price": "396.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Antonia",
+        "street": "Lagerhausstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer mit zentraler Unilage am Westbahnhof",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.7509254.html",
+        "price": "397.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Krupp WG",
+        "street": "Kruppstr.",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles gem\u00fctliches Zimmer in 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13044447.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Katharina John",
+        "street": "Rudolfstra\u00dfe 60",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
