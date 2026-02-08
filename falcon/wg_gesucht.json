@@ -5374,5 +5374,17 @@
         "postal_code": "52064",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG-Zimmer mit zentraler Unilage am Westbahnhof",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.7509254.html",
+        "price": "388.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Krupp WG",
+        "street": "Kruppstr.",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
