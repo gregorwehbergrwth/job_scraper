@@ -5590,5 +5590,53 @@
         "postal_code": "52062",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Helles m\u00f6bliertes WG-Zimmer in angenehmer Studenten-WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13050187.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Timm Weser",
+        "street": "Kapuzinergraben  17",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "3er WG sucht neue Mitebwohni :)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13015003.html",
+        "price": "460.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Merit Marja Sandfort",
+        "street": "Maastrichterstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer im Frankenberger Viertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13036630.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tina Kurf\u00fcrst",
+        "street": "Kurf\u00fcrstenstra\u00dfe 1",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes Altbau Zimmer in einem gemeinschaftlichen Haus",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13049942.html",
+        "price": "475.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tim",
+        "street": "Vaalser Stra\u00dfe 144",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
