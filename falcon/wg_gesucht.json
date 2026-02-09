@@ -5542,5 +5542,41 @@
         "postal_code": "52068",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG Zimmer im Wohnheim Kullenhof",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13010541.html",
+        "price": "485.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lucas",
+        "street": "Kullenhofstra\u00dfe 56",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "A quiet well furnished shared room for 2 person(long term only)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Burtscheid.13046579.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Niko Gragert",
+        "street": "Bendelstra\u00dfe 10",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zentrale Nicht-Zweck 5er WG in sch\u00f6ner Altbauwohnung",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11857686.html",
+        "price": "425.00 \u20ac",
+        "currency": "EUR",
+        "provider": "WG",
+        "street": "Rudolfstra\u00dfe 41",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG  ",
+        "blocked": false
     }
 ]
