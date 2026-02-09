@@ -5638,5 +5638,53 @@
         "postal_code": "52074",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "14qm Zimmer mit Balkon im Zentrum",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.6598950.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sajad S.",
+        "street": "Eurogress",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes WG-Zimmer in zentraler Lage ab 01.03.2026",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13050776.html",
+        "price": "375.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Khalil Boussetta",
+        "street": "Lagerhausstr  14",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Freies Zimmer in ruhiger 4er Studenten WG in zentraler Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.9307944.html",
+        "price": "403.00 \u20ac",
+        "currency": "EUR",
+        "provider": "A. Topalis",
+        "street": "Wilhelmstra\u00dfe 45",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Trio im Zentrum ~350\u20ac",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13045419.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Marina",
+        "street": "Adalbertsteinweg 117",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
