@@ -5686,5 +5686,101 @@
         "postal_code": "52070",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG Room on the Eastern Side of Aachen with the best connectivity :)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13008864.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sayak",
+        "street": "Adalbertsteinweg 75",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Ab dem 01.04.2026: Helles WG-Zimmer im Frankenberger Viertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.13000231.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Rovena",
+        "street": "Kurf\u00fcrstenstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "7er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes Wg-Zimmer in Aachen zur Zwischenmiete",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13050021.html",
+        "price": "403.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Loreen K.",
+        "street": "J\u00fclicher Stra\u00dfe 13",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gem\u00fctliches WG Zimmer am Westpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-West.12957687.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Pascal Bilke",
+        "street": "Hanbrucher Stra\u00dfe 3",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "zentrale 3er WG in Aachen Mitte",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13036320.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Hana M.",
+        "street": "Peterstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "helles Zimmer mit Balkon",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12999733.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Delphine Geurts",
+        "street": "Augustastra\u00dfe  1",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Student Dorm",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13014270.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Namitha Rajeev",
+        "street": "Kastanienweg 25",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes WG-Zimmer in 3er-WG (weiblich) \u2013 ca. 15 m2 in 74 m2 Wohnung",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13051092.html",
+        "price": "455.00 \u20ac",
+        "currency": "EUR",
+        "provider": "G. Erdogan",
+        "street": "Stolberger Stra\u00dfe 227",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
