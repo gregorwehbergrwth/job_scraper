@@ -5578,5 +5578,17 @@
         "postal_code": "52070",
         "description": "5er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Zimmer in Stadtzentrum n\u00e4he Aachner Dom",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.10813641.html",
+        "price": "420.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Darshan K.",
+        "street": "Kleink\u00f6lnstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
