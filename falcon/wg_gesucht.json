@@ -5890,5 +5890,89 @@
         "postal_code": "52064",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Room in a Long-Term rental in Prime location",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13056269.html",
+        "price": "485.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Himanshu Arora",
+        "street": "Schlossparkstra\u00dfe 13",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Riesen Wohnung im sch\u00f6nen Frankenberger",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.9717909.html",
+        "price": "485.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tim Azarvan",
+        "street": "Turpinstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Cozy single room in centrally located vintage 3-er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13056150.html",
+        "price": "490.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Nivin",
+        "street": "pontstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gem\u00fctliche 2er WG mit Garten am Ponttor",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13036808.html",
+        "price": "390.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sophie Kell",
+        "street": "Saarstra\u00dfe 20",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sublet \u2014 Cozy Flat near Ponttor \ud83c\udf31\ud83c\udfe1 ( mid-Feb ~ mid-Apr)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12939418.html",
+        "price": "140.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sharleen",
+        "street": "Kavenstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Modern furnished room in international 4-person flatshare",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12717765.html",
+        "price": "470.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Oskar Bastian",
+        "street": "Rudolfstra\u00dfe 10",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Traum WG zwischen Schanz und Hangeweiher",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13055901.html",
+        "price": "348.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Emma Bingert",
+        "street": "Limburger Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
