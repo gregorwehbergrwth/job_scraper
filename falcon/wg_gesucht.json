@@ -5806,5 +5806,89 @@
         "postal_code": "52072",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "helle, wundersch\u00f6ne Wohnung im Frankenberger",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13055579.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Annika N.",
+        "street": "Sophienstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "4er. WEGE in Aachen       Man bekommt ein eigenes Zimmer (ohne M\u00f6bel) ein gemeinsame K\u00fcche und Bad so wie Abstellraum und Waschraum",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12888596.html",
+        "price": "360.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Gon\u00e7alo",
+        "street": "Wilhelmstra\u00dfe 45",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "17,5m2 Zimmer in Arbeitst\u00e4tigen-WG!!",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12962362.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Justus K.",
+        "street": "J\u00fclicher Stra\u00dfe 75",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "wg in 2 room apartmetnt zimmer aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Burtscheid.13055557.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "M. Ale",
+        "street": "Bendelstra\u00dfe 31",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "2 zimmer wg aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Burtscheid.13055533.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "A. Alex",
+        "street": "Stromgasse 21",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Single room in 4er wg",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13055295.html",
+        "price": "310.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Pranav",
+        "street": "Theaterstra\u00dfe 25",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "3er WG am Marschiertor mit gro\u00dfem Wohnzimmer und Balkon",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13055318.html",
+        "price": "339.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Fynnja H.",
+        "street": "Franzstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
