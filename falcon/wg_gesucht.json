@@ -5782,5 +5782,29 @@
         "postal_code": "52068",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Zentrales 18m2 WG-Zimmer zur Zwischenmiete im Frankenberger Viertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberg.12621105.html",
+        "price": "452.00 \u20ac",
+        "currency": "EUR",
+        "provider": "A. Schumacher",
+        "street": "Zollernstr 50",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "2er Studenten-WG in perfekter Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13051697.html",
+        "price": "458.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Raphael",
+        "street": "S\u00fcsterfeldstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
