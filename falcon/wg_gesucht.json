@@ -5974,5 +5974,77 @@
         "postal_code": "52064",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Zimmer in gem\u00fctlicher 5er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13056824.html",
+        "price": "469.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Vanessa M.",
+        "street": "Bl\u00fccherplatz 41",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "3er WG mit sehr guter Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13056883.html",
+        "price": "410.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lukas P\u00fctz",
+        "street": "Cla\u00dfenstra\u00dfe  19",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles 17qm Zimmer in gem\u00fctlicher 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.7066436.html",
+        "price": "360.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Paul",
+        "street": "Weberstra\u00dfe 5",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "modern wohnung Aachen with 2 zimmer wg",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13056767.html",
+        "price": "425.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Ali O.",
+        "street": "Stromgasse 21",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 2er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.12967354.html",
+        "price": "374.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Yara Schollmeyer",
+        "street": "Alfonsstra\u00dfe 49",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes WG-Zimmer bei Normaluhr",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13044931.html",
+        "price": "360.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jan",
+        "street": "Zollernstra\u00dfe 17",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
     }
 ]
