@@ -6058,5 +6058,65 @@
         "postal_code": "52068",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes WG-Zimmer in lieber 5er-WG direkt am Markt",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13059704.html",
+        "price": "467.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Phil",
+        "street": "Gro\u00dfk\u00f6lnstra\u00dfe  38",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer n\u00e4he Uni",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13060586.html",
+        "price": "369.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Kilian Lautenschl\u00e4ger",
+        "street": "Kavenstra\u00dfe 1",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 6-er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13004690.html",
+        "price": "460.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Clara",
+        "street": "Kasinostra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "6er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "S\u00fc\u00dfes WG-Zimmer im Frankenberger Viertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.9400308.html",
+        "price": "308.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Aachter WG",
+        "street": "Bismarckstrasse 172",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "8er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer Aachen Frankenberger-Viertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13060471.html",
+        "price": "295.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Alex H",
+        "street": "Goerdelerstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
