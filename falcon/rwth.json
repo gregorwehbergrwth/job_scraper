@@ -1,5 +1,37 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010731/",
+        "Frist": "Frist: 31.03.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 In der Lehrveranstaltung \"Altenative Energietechniken\" ",
+        "Nummer": "V000010731",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 11.02.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Geb\u00e4ude- und Raumklimatechnik [419510]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010735/",
+        "Frist": "Frist: 30.04.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Leichtbau-Produktionssysteme (Ultra-Fast Consolidator) ",
+        "Nummer": "V000010735",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 11.02.2026",
+        "Arbeitgeber": "AZL - Aachener Zentrum f\u00fcr Integrativen Leichtbau [080014]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010739/",
+        "Frist": "Frist: 26.02.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Projekt VeSPoTec ",
+        "Nummer": "V000010739",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 11.02.2026",
+        "Arbeitgeber": "Human Technology Center (HumTec) [080007]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010734/",
+        "Frist": "Frist: 15.03.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung der Lehre in \"Chemische Verfahrenstechnik\" ",
+        "Nummer": "V000010734",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 10.02.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Chemische Verfahrenstechnik und Institut f\u00fcr Verfahrenstechnik [416110]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010727/",
         "Frist": "Frist: 20.03.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Optimierung von Energiesystemen mithilfe von Machine Learning ",
@@ -120,14 +152,6 @@
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010695/",
-        "Frist": "Frist: 13.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000010695",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 30.01.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Maschinenelemente und Systementwicklung [411710]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010697/",
         "Frist": "Frist: 20.02.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Zur Unterst\u00fctzung der Abteilung f\u00fcr technische Geb\u00e4udeausstattung ",
@@ -208,14 +232,6 @@
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010670/",
-        "Frist": "Frist: 09.02.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Zur Unterst\u00fctzung des Lehrstuhlempfangs f\u00fcr die Forschung und Lehre ",
-        "Nummer": "V000010670",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 26.01.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Thermodynamik mobiler Energiewandlungssysteme und Institut f\u00fcr Thermodynamik [412310]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010672/",
         "Frist": "Frist: 28.02.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich digitaler Planungs- und Genehmigungsprozesse sowie Smart Standards ",
@@ -254,14 +270,6 @@
         "Nummer": "V000010662",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 22.01.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010648/",
-        "Frist": "Frist: 10.02.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 In der Front-End-Entwicklung ",
-        "Nummer": "V000010648",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 21.01.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Medizintechnik [419410]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010649/",
