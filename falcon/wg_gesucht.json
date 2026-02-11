@@ -6190,5 +6190,65 @@
         "postal_code": "52062",
         "description": "4er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Untermiete in bester Lage Aachen Mitte",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13061922.html",
+        "price": "402.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Katharina",
+        "street": "Malteserstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "2 rooms available for rent",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13062034.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Helen Wirtz",
+        "street": "Vaalser Stra\u00dfe 144",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes zimmer in guter Lage in 4er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Rehmviertel.13061924.html",
+        "price": "365.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lukas",
+        "street": "Rudolfstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "57020",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "20sqm in 3-room apartment (Sublet for 2 Months)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.9666111.html",
+        "price": "290.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Gaurav",
+        "street": "Vaalser  str.",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "29m2 WG-Zimmer am Ponttor",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13061457.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Christopher Klopfer",
+        "street": "Roermonder Stra\u00dfe 40",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
