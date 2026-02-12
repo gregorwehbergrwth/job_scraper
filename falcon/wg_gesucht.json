@@ -6346,5 +6346,65 @@
         "postal_code": "52066",
         "description": "5er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes WG-Zimmer bei Normaluhr",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13044931.html",
+        "price": "310.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jan",
+        "street": "Zollernstra\u00dfe 17",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in bester Lage (400m zum Ponttor)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Ponttor-Lousberg.12010458.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Basti G.",
+        "street": "Roermonder Stra\u00dfe 31a",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Neue*r Mitbewohner*in f\u00fcr die Metzger-WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11040914.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Daniel Danieli",
+        "street": "Metzgerstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "6er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG im Frankenberger Viertel sucht dritte*n Mitbewohner*in",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12533229.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Johannes Kaiser",
+        "street": "Friedrichstra\u00dfe 24",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer zu vermieten \u2013 Perfekt f\u00fcr RWTH-Studenten!",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12925668.html",
+        "price": "467.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Nathasia",
+        "street": "Marienbongard 24",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
