@@ -6262,5 +6262,29 @@
         "postal_code": "52072",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG-Zimmer ab 01.M\u00e4rz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13065810.html",
+        "price": "495.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Evan Taha Gabdouri",
+        "street": "Charlottenstra\u00dfe 2",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gem\u00fctliches 19qm Zimmer in netter 3er WG mit Dachterasse",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.9856187.html",
+        "price": "390.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tom R.",
+        "street": "Neustra\u00dfe 42",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
