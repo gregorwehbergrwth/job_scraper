@@ -6250,5 +6250,17 @@
         "postal_code": "52072",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "A 2 bedroom apartment",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13062514.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "H. Rott",
+        "street": "K.D. St.V. Bergland 10",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
