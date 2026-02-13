@@ -6514,5 +6514,29 @@
         "postal_code": "52064",
         "description": "5er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Beautiful and Spacious Room",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13061290.html",
+        "price": "390.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Oluchukwu",
+        "street": "Bahnhofstrasse  12",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "zentrales WG-Zimmer in Domn\u00e4he",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Mitte.13070600.html",
+        "price": "390.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Annastra\u00dfe 31",
+        "street": "Annastra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "9er WG  ",
+        "blocked": false
     }
 ]
