@@ -6454,5 +6454,65 @@
         "postal_code": "52064",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "single room in a 3 shared apartment",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Brand.13066000.html",
+        "price": "323.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sreehari Rameshan",
+        "street": "Johannstra\u00dfe 4",
+        "city": "Aachen",
+        "postal_code": "52078",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Neue*r Mitbewohner*in ab Ende April gesucht",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12196467.html",
+        "price": "477.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Ana Sofia F.",
+        "street": "Wittekindstrasse 2a",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Einzelzimmer in Zweier-WG \u2013 perfekt f\u00fcr Studierende, tolle Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13070913.html",
+        "price": "457.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Bence Szemer\u00e9di",
+        "street": "Krugenofen 2-4.",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Entspanntes WG-Zimmer in ruhiger Lage mit sch\u00f6ner Aussicht",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13015347.html",
+        "price": "333.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Ardelia Anisa",
+        "street": "Elsa-Br\u00e4ndstr\u00f6m-Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "12 m2 gro\u00dfes Zimmer in einer 5er-Wohnung",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13024392.html",
+        "price": "460.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Aurellia",
+        "street": "Boxgraben 24-26",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "5er WG  ",
+        "blocked": false
     }
 ]
