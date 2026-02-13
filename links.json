@@ -3,7 +3,7 @@
         "rwth": {
             "link": "https://www.rwth-aachen.de/cms/root/Die-RWTH/Arbeiten-an-der-RWTH/~buym/RWTH-Jobportal/?search=&showall=1&aaaaaaaaaaaaanr=&frist=&aaaaaaaaaaaaanq=&aaaaaaaaaaaaany=Einstellung+als+Studentische+Hilfskraft&aaaaaaaaaaaaans=&aaaaaaaaaaaaanw=&aaaaaaaaaaaaanv=&aaaaaaaaaaaaanx=",
             "frequency": "daily",
-            "last_checked": "2026-02-11 20:13:16"
+            "last_checked": "2026-02-13 20:00:53"
         },
         "un": {
             "link": "https://careers.un.org/jobopening?language=en&data=%257B%2522aoe%2522:%255B%255D,%2522aoi%2522:%255B%255D,%2522el%2522:%255B%255D,%2522ct%2522:%255B%255D,%2522ds%2522:%255B%255D,%2522jn%2522:%255B%255D,%2522jf%2522:%255B%255D,%2522jc%2522:%255B%2522INT%2522%255D,%2522jle%2522:%255B%255D,%2522dept%2522:%255B%255D,%2522span%2522:%255B%255D%257D",
@@ -13,7 +13,7 @@
         "uniklinik": {
             "link": "https://ukaachen.helixjobs.com/SHK-WHK-Praktikanten/joblist",
             "frequency": "daily",
-            "last_checked": "2026-02-11 20:13:16"
+            "last_checked": "2026-02-13 20:00:53"
         },
         "trier": {
             "link": "https://career-service-hochschule-trier.de/studierende/jobboerse",
@@ -23,7 +23,7 @@
         "asta_aachen": {
             "link": "https://www.asta.rwth-aachen.de/service/jobboerse/",
             "frequency": "daily",
-            "last_checked": "2026-02-11 20:13:16"
+            "last_checked": "2026-02-13 20:00:53"
         },
         "wg_gesucht": {
             "link": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen.1.0.1.0.html?offer_filter=1&city_id=1&sort_order=0&noDeact=1&categories%5B%5D=0&rMax=500&pagination=1&pu=",
