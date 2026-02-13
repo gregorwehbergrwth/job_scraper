@@ -6538,5 +6538,41 @@
         "postal_code": "52062",
         "description": "9er WG  ",
         "blocked": false
+    },
+    {
+        "title": "3er WG am Westpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12957836.html",
+        "price": "280.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Olga K.",
+        "street": "Welkenrather Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "3er WG am Westpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13071977.html",
+        "price": "240.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Olga K.",
+        "street": "Welkenrather Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Kleines Zimmer ab M\u00e4rz- Room for rent",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.9997154.html",
+        "price": "485.00 \u20ac",
+        "currency": "EUR",
+        "provider": "I",
+        "street": "Elsassstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
