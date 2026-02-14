@@ -6694,5 +6694,77 @@
         "postal_code": "52066",
         "description": "6er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG-Zimmer 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13035660.html",
+        "price": "345.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Verges Tchounga",
+        "street": "Eisenbahnweg",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "zwei neue Mieter f\u00fcr zweier WG gesucht",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.7988382.html",
+        "price": "479.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tobias K\u00f6rner",
+        "street": "Heinzenstra\u00dfe 11",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer n\u00e4he Uni",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13077091.html",
+        "price": "378.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Kilian Lautenschl\u00e4ger",
+        "street": "Kavenstra\u00dfe 1",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Befristetes WG-Zimmer mit Ausblick \u00fcber Aachen :)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12934120.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Finn Eicke",
+        "street": "An der Schanz",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Modernes 16m2 Zimmer in frisch sanierter WG | Alexanderstra\u00dfe | Frei ab 01.03.2026",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13076744.html",
+        "price": "485.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Radin Alizadeh",
+        "street": "Alexanderstra\u00dfe 63-65",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "7er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "3er WG Zimmer (18qm) Reumontstra\u00dfe 4",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.8307889.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Nils W\u00f6lfer",
+        "street": "Reumontstra\u00dfe 4",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
