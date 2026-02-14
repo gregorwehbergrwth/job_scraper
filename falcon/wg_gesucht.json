@@ -6658,5 +6658,41 @@
         "postal_code": "52072",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "M\u00f6belliertes WG Zimmer sehr Zentral zur TH, FH und Innenstadt",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.9746697.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Serdal Dogan",
+        "street": "Stephanstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes Altbau Zimmer in einem gemeinschaftlichen Haus",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13049942.html",
+        "price": "470.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tim",
+        "street": "Vaalser Stra\u00dfe 144",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG - Furnished Room in Burtscheid \u2013 \u20ac458 All-Inclusive \u2013 Great Location!",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13076320.html",
+        "price": "458.00 \u20ac",
+        "currency": "EUR",
+        "provider": "JERIN MANCHERIL JOY",
+        "street": "gregorstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "6er WG  ",
+        "blocked": false
     }
 ]
