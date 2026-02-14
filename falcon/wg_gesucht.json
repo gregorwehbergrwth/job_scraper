@@ -6598,5 +6598,65 @@
         "postal_code": "52066",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Zimmer in WG am Dom",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11078115.html",
+        "price": "412.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Praxis WG",
+        "street": "Holzgraben 17",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Untermiete Zimmer in Studentenwohnheim (NUR F\u00dcR STUDENTEN)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13075915.html",
+        "price": "220.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Mr Lahna",
+        "street": "Walter-Eilender-Haus 165",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "16er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in einer tollen kernsanierten Wohnung mit Gemeinschaftszimmer und Terrasse",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13075878.html",
+        "price": "370.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Hannes",
+        "street": "Eynattener Stra\u00dfe  5",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in einer tollen kernsanierten Wohnung mit Gemeinschaftszimmer und Terrasse",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12976456.html",
+        "price": "370.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Hannes",
+        "street": "Eynattener Stra\u00dfe  5",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Spacious room in a well-located shared flat",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13061777.html",
+        "price": "488.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Julia",
+        "street": "Roermonder Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
