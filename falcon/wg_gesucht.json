@@ -6574,5 +6574,29 @@
         "postal_code": "52068",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Bright WG room in central location at Bushof",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13072408.html",
+        "price": "445.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Didar \u00c7ift\u00e7i",
+        "street": "Blondelstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer im Frankenberger Viertel zur Untermiete",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13015220.html",
+        "price": "408.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Bastian B.",
+        "street": "Bismarckstra\u00dfe 55-57",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
