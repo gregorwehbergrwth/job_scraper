@@ -6766,5 +6766,29 @@
         "postal_code": "52064",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Zwischenmieter gesucht in 3-er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13077544.html",
+        "price": "390.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Gabriela Giraldine L.",
+        "street": "Alexanderstra\u00dfe 111",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in moderner 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13077446.html",
+        "price": "460.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jan Schuback",
+        "street": "J\u00fclicher Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
