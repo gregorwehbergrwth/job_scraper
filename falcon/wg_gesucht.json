@@ -6790,5 +6790,29 @@
         "postal_code": "52070",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG-Zimmer im Laurensberg",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13081087.html",
+        "price": "499.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Huong Pham",
+        "street": "Rathausstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "22 m2 helles WG Zimmer in Aachen Mitte",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.10912422.html",
+        "price": "475.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Yannick",
+        "street": "Oberstr. 21",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
