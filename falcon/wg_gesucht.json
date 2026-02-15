@@ -6814,5 +6814,53 @@
         "postal_code": "52070",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Room for Sublet near Aachen West in 4er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13081933.html",
+        "price": "320.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Johan S.",
+        "street": "Kastanienweg",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles 20m2 Zimmer in Laurensberg \u2013 2 Min. zur Bushaltestelle + Katzen \ud83d\udc3e",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13081732.html",
+        "price": "499.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Huong Pham",
+        "street": "Rathausstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "6er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Ger\u00e4umiges Zimmer in einer freundlichen WG, perfekte Lage f\u00fcr die RWTH.",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-West.13081479.html",
+        "price": "486.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Cansu E.",
+        "street": "S\u00fcsterfeldstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "(Februar nur 150 Euro bezahlen) WG-Zimmer direkt am Schanz zu vermieten",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13015706.html",
+        "price": "485.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Daler",
+        "street": "L\u00fctticher Stra\u00dfe 41",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "5er WG  ",
+        "blocked": false
     }
 ]
