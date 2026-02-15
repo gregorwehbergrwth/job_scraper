@@ -6862,5 +6862,101 @@
         "postal_code": "52074",
         "description": "5er WG  ",
         "blocked": false
+    },
+    {
+        "title": "13 m2 in entspannter 2er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13082688.html",
+        "price": "380.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Gina",
+        "street": "Mariabrunnstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG in Top Lage :)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13082637.html",
+        "price": "365.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Mara Ludwig",
+        "street": "Passstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gro\u00dfe 3er WG sucht neue Mitbewohner/-in",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13082601.html",
+        "price": "410.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Elena",
+        "street": "Schlossweiherstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Quiet room in a cozy flat next to hbf",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13082582.html",
+        "price": "410.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Julia W.",
+        "street": "Pfeilstra\u00dfe 7",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "freundliche 4er Wg sucht neue/n Mitbewohni \ud83c\udf3b",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13008810.html",
+        "price": "440.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tiger WG",
+        "street": "Theaterplatz 1a",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "modern wohnung Aachen with 2 zimmer wg",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13082371.html",
+        "price": "425.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Mia O.",
+        "street": "Stromgasse 21",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "22 m2 helles WG Zimmer in Aachen Mitte",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.10912422.html",
+        "price": "470.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Yannick",
+        "street": "Oberstr. 21",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer von 22.02.-01.08 am Templergraben. Einzug l\u00e4sst soch bestimmt kl\u00e4ren und die miete f\u00fcr februar wird auch abgepasst",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12898485.html",
+        "price": "460.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jonas Tanedo",
+        "street": "Templergraben 28",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
