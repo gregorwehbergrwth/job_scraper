@@ -7138,5 +7138,41 @@
         "postal_code": "52062",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG Zimmer direkt am Ponttor ab dem 15.03",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13004409.html",
+        "price": "382.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Marie S.",
+        "street": "Roermonder Str. 5",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Modern furnished room in 4-person WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12717765.html",
+        "price": "470.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Oskar Bastian",
+        "street": "Rudolfstra\u00dfe 10",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes WG-Zimmer im Einfamilienhaus in guter Lage in Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.12840333.html",
+        "price": "490.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Ulrike",
+        "street": "Roermonder Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
