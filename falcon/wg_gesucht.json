@@ -7066,5 +7066,77 @@
         "postal_code": "52062",
         "description": "5er WG  ",
         "blocked": false
+    },
+    {
+        "title": "14 m2 WG-Zimmer nahe Rothe Erde",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13087367.html",
+        "price": "410.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Rahul R.",
+        "street": "Zeppelinstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Wg Mitbewohnerin gesucht! Da meine derzeitige Mitbewohnerin mit ihrem Freund zusammenzieht suche ich eine neue Mitbewohnerin. Bei der Wg handelt es sich um eine reine Frauen Wg und die weiteren Details findest du unten im Text :)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Brand.13087035.html",
+        "price": "394.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tuana",
+        "street": "Trierer Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52078",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "S\u00fcsses WG-Zimmer in 2er-WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13086784.html",
+        "price": "435.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Marie",
+        "street": "Ottostra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in Doppel-4er-WG auf der H\u00f6rn",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Hoern-Koenigshuegel.13086944.html",
+        "price": "426.00 \u20ac",
+        "currency": "EUR",
+        "provider": "J. Tannigel",
+        "street": "Muffeter Weg 38",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "2 Zimmer in sch\u00f6ner 3er-WG in Aachen-Laurensberg frei!",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13087062.html",
+        "price": "403.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Arthur W.",
+        "street": "Roermonder Stra\u00dfe 79",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in 3er WG, renoviert und Unin\u00e4he",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12971855.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "D. Hagemann",
+        "street": "Marienbongard 4",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
