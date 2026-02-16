@@ -6958,5 +6958,41 @@
         "postal_code": "52062",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG-Zimmer (teilm\u00f6bliert) \u2013 360 \u20ac Pauschalmiete \u2013 N\u00e4he FH Aachen / Bayernallee \u2013 Top Lage Burtscheid",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13082909.html",
+        "price": "360.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Alpay S.",
+        "street": "Salierallee  73",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer (teilm\u00f6bliert) \u2013 435 \u20ac Pauschalmiete \u2013 N\u00e4he FH Aachen / Bayernallee \u2013 Top Lage Burtscheid",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13082898.html",
+        "price": "435.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Alpay S.",
+        "street": "Salierallee  73",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "KaWo -  Zimmer in 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13082820.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "A. Saxena",
+        "street": "Kastanienweg 8",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
