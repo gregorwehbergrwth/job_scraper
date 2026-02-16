@@ -6994,5 +6994,77 @@
         "postal_code": "52074",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG-Zimmer 265 \u20ac 13 m2",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13086781.html",
+        "price": "260.00 \u20ac",
+        "currency": "EUR",
+        "provider": "YASMINE",
+        "street": "Stolberger Stra\u00dfe 13",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Quiet room in a cozy flat next to hbf",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13082582.html",
+        "price": "410.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Julia W.",
+        "street": "Pfeilstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles WG Zimmer in Aachen Mitte",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Jakobsviertel.13045607.html",
+        "price": "405.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Chenling",
+        "street": "Gerlachstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Neugr\u00fcndung",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13029487.html",
+        "price": "445.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Nils",
+        "street": "Krugenofen",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles 20m2 Zimmer in Laurensberg \u2013 2 Min. zur Bushaltestelle + Katzen \ud83d\udc3e",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13081732.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Huong Pham",
+        "street": "Rathausstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "6er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer, Innenstadt, 16qm, 5er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Innenstadt.12958345.html",
+        "price": "467.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Henrik Faust",
+        "street": "Gro\u00dfk\u00f6lnstra\u00dfe   38",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "5er WG  ",
+        "blocked": false
     }
 ]
