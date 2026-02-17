@@ -7222,5 +7222,29 @@
         "postal_code": "52064",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in netter 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13087509.html",
+        "price": "340.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Julia Engel",
+        "street": "Wenzelstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "A sublet available from - to - , Single room in the towers in R\u00fctscherstra\u00dfe with shared kitchen and bathroom",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13092107.html",
+        "price": "220.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Mustafa Ajaini",
+        "street": "R\u00fctscher Strasse 125",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
