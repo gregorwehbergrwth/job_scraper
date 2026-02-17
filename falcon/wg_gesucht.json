@@ -7246,5 +7246,29 @@
         "postal_code": "52072",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Sch\u00f6ne 2-er WG  in Aachen , nur 3 min von der RWTH",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13092729.html",
+        "price": "474.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Frau Mounji",
+        "street": "K\u00fchlwetterstra\u00dfe  16",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Lovely shared apartment with furnished rooms",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Burtscheid.13092589.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Mr Stemmler",
+        "street": "Kr\u00e4merstra\u00dfe 14",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
