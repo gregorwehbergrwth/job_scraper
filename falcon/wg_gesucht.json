@@ -7174,5 +7174,53 @@
         "postal_code": "52072",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes Zimmer in Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13076472.html",
+        "price": "310.00 \u20ac",
+        "currency": "EUR",
+        "provider": "B. Neano",
+        "street": "Kastanienweg",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Room for Sublet near Aachen West in 4er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13081933.html",
+        "price": "297.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Johan S.",
+        "street": "Kastanienweg",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Modern furnished room in 4-person WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12717765.html",
+        "price": "470.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Oskar Bastian",
+        "street": "Rudolfstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles Zimmer in 3er Frauen WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Jakobsviertel.13045607.html",
+        "price": "405.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Chenling",
+        "street": "Gerlachstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
