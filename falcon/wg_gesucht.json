@@ -7270,5 +7270,41 @@
         "postal_code": "52062",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Helles WG Zimmer mit Balkon",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.13093404.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Moritz Ruschen",
+        "street": "Frankenstra\u00dfe 18",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Furnished room in 2-person apartment in city center",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13093029.html",
+        "price": "440.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Zain Sajid",
+        "street": "Seilgraben 39",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "zentrales WG-Zimmer in Domn\u00e4he",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Mitte.13070600.html",
+        "price": "390.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Annastra\u00dfe 31",
+        "street": "Annastra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "4er WG  ",
+        "blocked": false
     }
 ]
