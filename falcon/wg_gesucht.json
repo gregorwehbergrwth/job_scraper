@@ -7390,5 +7390,77 @@
         "postal_code": "52062",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes Zimmer in 3er-WG \u2013 Uni-nah & zentral",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13099150.html",
+        "price": "425.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Rihame",
+        "street": "Schlossparkstra\u00dfe 3",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "helles WG-Zimmer in zentraler Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13061819.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Laura W.",
+        "street": "Hirschgraben",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Central Furnished Room in 3-Person WG - 340\u20ac",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13099087.html",
+        "price": "425.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Rihame",
+        "street": "Schlossparkstra\u00dfe 3",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer im Frankenberger zur Untermiete (03.26-09.26)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.13014167.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Brian S.",
+        "street": "Zollernstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Neue/r Mitbewohner/in f\u00fcr die Metzger-WG gesucht ab April",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.10497229.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Daniel Danieli",
+        "street": "Metzgerstra\u00dfe 49",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "\ud83c\udf3f Sch\u00f6nes Zimmer mit Balkon \ud83c\udf3f",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13098000.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Chahed Tahria",
+        "street": "Clermontstra\u00dfe 65B",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
