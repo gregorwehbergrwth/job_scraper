@@ -7330,5 +7330,41 @@
         "postal_code": "52066",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG-Zimmer teil-m\u00f6bliert in top Lage direkt am Elisenbrunnen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Mitte.11536278.html",
+        "price": "432.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Henrik S.",
+        "street": "Wirichsbongardstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in netter 3er WG Untermiete mit wahrscheinlicher Verl\u00e4ngerung)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13087509.html",
+        "price": "340.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Julia Engel",
+        "street": "Wenzelstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "13 m2 in entspannter 2er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13097313.html",
+        "price": "380.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Gina",
+        "street": "Mariabrunnstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
