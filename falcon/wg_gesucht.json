@@ -7366,5 +7366,29 @@
         "postal_code": "52064",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "\ud83c\udf3f Sch\u00f6nes Zimmer mit Balkon \ud83c\udf3f",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13098000.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Chahed Tahria",
+        "street": "Clermontstra\u00dfe 65B",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer teil-m\u00f6bliert in top Lage direkt am Elisenbrunnen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Mitte.11536278.html",
+        "price": "468.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Henrik S.",
+        "street": "Wirichsbongardstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
