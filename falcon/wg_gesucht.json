@@ -7306,5 +7306,29 @@
         "postal_code": "52062",
         "description": "4er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Nachmieter/in f\u00fcr WG-Zimmer gesucht",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13093603.html",
+        "price": "320.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Annalena E.",
+        "street": "Kapuzinergraben",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles WG-Zimmer in bester Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.13092850.html",
+        "price": "369.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Finn",
+        "street": "Bismarckstra\u00dfe 36",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
