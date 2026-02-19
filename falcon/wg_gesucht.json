@@ -7546,5 +7546,77 @@
         "postal_code": "52062",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Die beste WG sucht dich!",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-West.9122618.html",
+        "price": "395.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Vanessa",
+        "street": "Maastrichter Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zentrales WG Zimmer 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13103491.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Harris N.",
+        "street": "Bergstra\u00dfe 31",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 3er WG mit Uni-N\u00e4he und Dachterrasse",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12694389.html",
+        "price": "392.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Mitbewohner WG",
+        "street": "Ritterstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes 15m2 Zimmer in Laurensberg zur Zwischenmiete (10.02\u201310.04)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.8059777.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Ali Esmat",
+        "street": "rathausstra\u00dfe, 16",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "2er WG Altbau 500m von RWTH Hauptgeb\u00e4ude",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13082127.html",
+        "price": "409.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Gabriel",
+        "street": "Mauerstra\u00dfe 22",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "12m2 gro\u00dfes Zimmer in einer 5er-Wohnung",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13103607.html",
+        "price": "460.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Aurellia",
+        "street": "Boxgraben  24-25",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "5er WG  ",
+        "blocked": false
     }
 ]
