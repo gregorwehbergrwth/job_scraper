@@ -7486,5 +7486,65 @@
         "postal_code": "52066",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Helles Zimmer in 3er FRAUEN WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Jakobsviertel.13045607.html",
+        "price": "405.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Chenling",
+        "street": "Gerlachstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Studentenwohnheim",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13103231.html",
+        "price": "397.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sujal Swami",
+        "street": "Kastanienweg 10 10",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zentrales WG Zimmer in 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12844824.html",
+        "price": "380.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tristan Humphris",
+        "street": "Wilhelmstra\u00dfe  67",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Anbauzimmer mit Schlafempore im Vaalser Quartier",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13051023.html",
+        "price": "430.00 \u20ac",
+        "currency": "EUR",
+        "provider": "M. Czech",
+        "street": "Vaalser Str. 375",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "A quiet well furnished shared room for 2 person(long term only)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Burtscheid.13103080.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Niko Gragert",
+        "street": "Bendelstra\u00dfe 10",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
