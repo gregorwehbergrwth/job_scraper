@@ -7618,5 +7618,89 @@
         "postal_code": "52064",
         "description": "5er WG  ",
         "blocked": false
+    },
+    {
+        "title": "2 Zimmer frei, M\u00f6bliertes WG-Zimmer in Zentraler Lage 10 qm",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.6365126.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Marcus Summkeller",
+        "street": "Wilhelmstra\u00dfe 14",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Furnished Room in 3-Person Shared Flat",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13104825.html",
+        "price": "425.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Rihame",
+        "street": "Schlossparkstra\u00dfe 3",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes Zimmer in 3er-WG\u2013 Uni-nah & zentral",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13104792.html",
+        "price": "425.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Rihame",
+        "street": "Schlossparkstra\u00dfe 3",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer f\u00fcr Zwischenmiete M\u00e4rz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13104720.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "A. Youssef",
+        "street": "Rudolfstra\u00dfe 37",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 3er-WG in sch\u00f6ner Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Frankenberger-Viertel.12876828.html",
+        "price": "331.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Alma Neteler",
+        "street": "Bismarckstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "2er WG Altbau (01.03. - 30.06.) 500m von RWTH",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13082127.html",
+        "price": "409.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Gabriel",
+        "street": "Mauerstra\u00dfe 22",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13099124.html",
+        "price": "380.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sophia",
+        "street": "Mauerstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
