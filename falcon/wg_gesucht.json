@@ -7810,5 +7810,77 @@
         "postal_code": "52070",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Sublet in a 2-er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13109676.html",
+        "price": "430.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sabari Ram",
+        "street": "Altstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer 25qm, 5er WG, Aachen Frankenberger",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger.13109620.html",
+        "price": "467.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Markus B.",
+        "street": "Friedrichstra\u00dfe  47",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Dormitory WG Room close to FH",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13109529.html",
+        "price": "220.00 \u20ac",
+        "currency": "EUR",
+        "provider": "F. Oporto Tejerina",
+        "street": "Schillerstra\u00dfe 86",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "7er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in 6er-Haus nahe RWTH/FH \u2013 ruhig, zentral, m\u00f6bliert m\u00f6glich",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.5439440.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Daniel Peters",
+        "street": "Benediktiner Stra\u00dfe 42",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "6er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in 6er-Haus nahe RWTH/FH \u2013 ruhig, zentral, m\u00f6bliert m\u00f6glich",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.5617222.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Daniel Peters",
+        "street": "Benediktinerstra\u00dfe 42",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "6er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "17,5m2 Zimmer in Arbeitst\u00e4tigen-WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12962362.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Justus K.",
+        "street": "J\u00fclicher Stra\u00dfe 75",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
