@@ -7882,5 +7882,29 @@
         "postal_code": "52068",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Sublet \u2014 Cozy Flat near Ponttor \ud83c\udf31\ud83c\udfe1 ( mid-Mar ~ mid-Apr)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12939418.html",
+        "price": "140.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sharleen",
+        "street": "Kavenstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer von 01.03-01.08 am Templergraben. Einzug l\u00e4sst soch bestimmt kl\u00e4ren und die miete f\u00fcr februar wird auch abgepasst",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12898485.html",
+        "price": "460.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jonas Tanedo",
+        "street": "Templergraben 28",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
