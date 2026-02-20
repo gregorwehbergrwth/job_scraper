@@ -7750,5 +7750,65 @@
         "postal_code": "52074",
         "description": "10er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Spacious room in a 3-shared apt (temp. sublet with possible permanent extension)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13087648.html",
+        "price": "410.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Omkar R.",
+        "street": "J\u00fclicher Stra\u00dfe 385",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "gem\u00fctliche zentrale Zwischenmiete in Aachen bis Ende September",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13108903.html",
+        "price": "360.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Felix",
+        "street": "Sch\u00fctzenstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gro\u00dfes Zimmer in 4er Wg. Zentrale Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12924791.html",
+        "price": "430.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Anton W.",
+        "street": "Rudolfstra\u00dfe 41",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer zur Untermiete in zentraler Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13105031.html",
+        "price": "430.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Nike Kaiser",
+        "street": "Kruppstra\u00dfe 33",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles WG Zimmer ab April/Mai",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13105045.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Philipp",
+        "street": "J\u00fclicher Stra\u00dfe 66",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
