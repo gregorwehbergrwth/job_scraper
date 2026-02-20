@@ -7702,5 +7702,53 @@
         "postal_code": "52064",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "wg am Templergraben",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13105209.html",
+        "price": "365.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Enes",
+        "street": "Templergraben  32",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer am Ponttor zur Untermiete (1-3 Monate)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12022671.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Elen Ayanyan",
+        "street": "Pontwall 9",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles WG Zimmer",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13105045.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Philipp",
+        "street": "J\u00fclicher Stra\u00dfe 66",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "16-20qm Studentenwohnheim im Verbindungshaus",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12129388.html",
+        "price": "250.00 \u20ac",
+        "currency": "EUR",
+        "provider": "N. B\u00f6cher",
+        "street": "Melatener Str.",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "10er WG  ",
+        "blocked": false
     }
 ]
