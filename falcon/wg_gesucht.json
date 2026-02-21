@@ -7978,5 +7978,77 @@
         "postal_code": "52064",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Gro\u00dfes WG Zimmer im Frankenberger Viertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13051823.html",
+        "price": "440.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Arno",
+        "street": "Bachstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 3er WG am Hansemannplatz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13009669.html",
+        "price": "380.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Edgar Andres Guevara Viloria",
+        "street": "Peterstra\u00dfe 76",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "sch\u00f6nes WG Zimmer in liebevoller 4er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.13050304.html",
+        "price": "445.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Marleen",
+        "street": "Brabantstr",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in einer netten 3er-WG in Aachen Mitte, nur 10min zu Fu\u00df vom RWTH Campus entfernt",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12975803.html",
+        "price": "490.00 \u20ac",
+        "currency": "EUR",
+        "provider": "D. Pr\u00fcne",
+        "street": "F\u00f6rsterstra\u00dfe 2",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zentrales WG Zimmer 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13103491.html",
+        "price": "421.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Harris N.",
+        "street": "Bergstra\u00dfe 31",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Bewohnerin / WG-Bewohner f\u00fcr 2er WG gesucht!",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11961342.html",
+        "price": "490.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Max Heitmann",
+        "street": "Wallstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
