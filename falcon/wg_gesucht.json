@@ -7918,5 +7918,65 @@
         "postal_code": "52070",
         "description": "7er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Helles Wg-Zimmer in netter Wg zur Untermiete",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13114447.html",
+        "price": "317.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lea",
+        "street": "Weberstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gem\u00fctliches, befristetes WG-Zimmer in 3er WG am Westpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12125232.html",
+        "price": "420.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jesper",
+        "street": "Vaalser Stra\u00dfe 122",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gro\u00dfes WG Zimmer im Frankenberger Viertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13051823.html",
+        "price": "435.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Arno",
+        "street": "Bachstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes zentrales WG-Zimmer in bester WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13097509.html",
+        "price": "324.00 \u20ac",
+        "currency": "EUR",
+        "provider": "M. Wieschemann",
+        "street": "Driescher G\u00e4sschen 1",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13099124.html",
+        "price": "380.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sophia",
+        "street": "Mauerstra\u00dfe 2",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
