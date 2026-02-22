@@ -8290,5 +8290,53 @@
         "postal_code": "52066",
         "description": "8er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Aachen Bezugsfertige 2-Zimmer-Wohnung info inside",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13121206.html",
+        "price": "425.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Rata O.",
+        "street": "Paulusstra\u00dfe 13",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer in zentraler Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13121041.html",
+        "price": "446.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tika",
+        "street": "Beeckstra\u00dfe 1",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Mitbewohnerin gesucht: WG-Zimmer Aachen-Mitte ab dem 01.04",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12991045.html",
+        "price": "385.00 \u20ac",
+        "currency": "EUR",
+        "provider": "F. Tegge",
+        "street": "Bergdriesch 1",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Nettes WG-Zimmer in dreier WG am Westpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13120823.html",
+        "price": "440.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jesper Vierboom",
+        "street": "Vaalser Stra\u00dfe 144",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
