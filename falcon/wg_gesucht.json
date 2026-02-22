@@ -8122,5 +8122,29 @@
         "postal_code": "52068",
         "description": "5er WG  ",
         "blocked": false
+    },
+    {
+        "title": "gro\u00dfes helles m\u00f6bliertes Zimmer in 2er WG, 450 m zum Hauptbahnhof Aachen, 700 m zur FH, einfach nur pers\u00f6nliche Sachen mitbringen und wohlf\u00fchlen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13115803.html",
+        "price": "455.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Frau Maria",
+        "street": "Burtscheid",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "22 qm Zimmer in 4er WG direkt am Hansemannplatz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.7259190.html",
+        "price": "477.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Hansemann WG",
+        "street": "Heinrichsallee 66",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "4er WG  ",
+        "blocked": false
     }
 ]
