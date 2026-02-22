@@ -8146,5 +8146,17 @@
         "postal_code": "52062",
         "description": "4er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Helles Zimmer in 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13116025.html",
+        "price": "350.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Katharina John",
+        "street": "Rudolfstra\u00dfe 60",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
