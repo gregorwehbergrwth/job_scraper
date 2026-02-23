@@ -8422,5 +8422,65 @@
         "postal_code": "52062",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Gro\u00dfes Zimmer in 4er Wg. Zentrale Lage. 2 weitere Zimmer zur Verf\u00fcgung",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12924791.html",
+        "price": "430.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Anton W.",
+        "street": "Rudolfstra\u00dfe 41",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer, m\u00f6biliert mit gro\u00dfer K\u00fcche und Bad in Aachen-Burtscheid f\u00fcr eine Person",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Burtscheid.13126221.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Petra S.",
+        "street": "Juttastrasse",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes kleines Zimmer in der Innenstadt - 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12961733.html",
+        "price": "470.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jisang Lee",
+        "street": "Franzstra\u00dfe 103",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 2er WG in guter Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.12995414.html",
+        "price": "485.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Leon R.",
+        "street": "Dunantstr. 2",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes m\u00f6bliertes Zimmer",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.10149713.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Thuy-My",
+        "street": "Harscampstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
