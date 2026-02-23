@@ -29,7 +29,7 @@
             "link": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen.1.0.1.0.html?offer_filter=1&city_id=1&sort_order=0&noDeact=1&categories%5B%5D=0&rMax=500&pagination=1&pu=",
             "frequency": "instant",
             "last_checked": "2025-02-02 16:43:54",
-            "site_count": 2
+            "site_count": 3
         }
     },
     "hawk": {
@@ -125,6 +125,11 @@
         },
         "gmp": {
             "link": "https://www.gmp.de/de/karriere/",
+            "frequency": "weekly",
+            "last_checked": "2026-02-04 18:45:01"
+        },
+        "goldbeck": {
+            "link": "https://www.goldbeck.de/job-finden?llat=50.7753455&llon=6.083886800000001&ldist=10",
             "frequency": "weekly",
             "last_checked": "2026-02-04 18:45:01"
         }

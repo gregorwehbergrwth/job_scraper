@@ -64,15 +64,15 @@ modes = {
         "wg_gesucht": {
             "table": lambda soup: json.loads(soup.find_all("script", type="application/ld+json")[1].string.strip()[:-1])[1].get("mainEntity").get("itemListElement"),
             "lines": {
-                "title": lambda x: x.get("item").get("name"),
-                "url": lambda x: x.get("item").get("url"),
-                "price": lambda x: x.get("item").get("offers", {}).get("price") + " €",
-                "currency": lambda x: x.get("item").get("offers", {}).get("priceCurrency"),
-                "provider": lambda x: x.get("item").get("provider", {}).get("name"),
-                "street": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("streetAddress"),
-                "city": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("addressLocality"),
-                "postal_code": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("postalCode"),
-                "description": lambda x: x.get("item").get("description")
+                "title": lambda x: x.get("item").get("name").strip(),
+                "url": lambda x: x.get("item").get("url").strip(),
+                "price": lambda x: x.get("item").get("offers", {}).get("price").strip() + " €",
+                "currency": lambda x: x.get("item").get("offers", {}).get("priceCurrency").strip(),
+                "provider": lambda x: x.get("item").get("provider", {}).get("name").strip(),
+                "street": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("streetAddress").strip(),
+                "city": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("addressLocality").strip(),
+                "postal_code": lambda x: x.get("item").get("mainEntity", {}).get("address", {}).get("postalCode").strip(),
+                "description": lambda x: x.get("item").get("description").strip()
             }
         }
     },
@@ -95,7 +95,9 @@ modes = {
         "ita": lambda soup: soup.find('div', class_="module dynamic-list").text.strip(),
         "asta_trier": lambda soup: soup.find('ul', class_="ce-uploads").text.strip(),
         "gmp": lambda soup: soup.find('div', class_="jobs__list").text.strip(),
-        "Schuessler-Preis": lambda soup: soup.find('main', id='main').text.strip()
+        "Schuessler-Preis": lambda soup: soup.find('main', id='main').text.strip(),
+        "goldbeck": lambda soup: soup.find('div', class_='min-h-screen').text.strip(),
+        "agentur": lambda soup: soup.find('div', class_="job-liste-container").text.strip()
     }
 }
 
@@ -106,6 +108,8 @@ def extract_infos(html, mouse, mode):
     print(f"Extracting infos from {mouse}")
     config = modes[mode][mouse]
     soup = BeautifulSoup(html, 'lxml')
+
+    print(soup)
 
     try:
         if mode == "hawk":
