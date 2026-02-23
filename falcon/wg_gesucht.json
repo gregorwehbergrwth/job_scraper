@@ -8338,5 +8338,53 @@
         "postal_code": "52074",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG-neugr\u00fcndung in gro\u00dfz\u00fcgiger 5-Zimmer-Wohnung \u2013 Erstbezug nach Sanierung in Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12520520.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lara Valder",
+        "street": "Beethovenstr.",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 3er WG Aachen Schanz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13121485.html",
+        "price": "320.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lukas",
+        "street": "Mauerstra\u00dfe 112",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Long-term Room for Rent at 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13109264.html",
+        "price": "490.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Avinash Gopal",
+        "street": "J\u00fclicher Stra\u00dfe 36",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles 14 m2 Zimmer in schickem Altbau",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13121443.html",
+        "price": "356.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Wohn Gemeinschaft",
+        "street": "Dennewartstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "4er WG  ",
+        "blocked": false
     }
 ]
