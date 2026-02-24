@@ -2,7 +2,7 @@ name: Run Wohnungssuche
 
 on:
   schedule:
-    - cron: '0 */5 * * *'
+    - cron: '0 */24 * * *'
     
 #  push:
 #    branches:
