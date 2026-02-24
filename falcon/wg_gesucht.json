@@ -8686,5 +8686,41 @@
         "postal_code": "52070",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Kleines Zimmer ab M\u00e4rz oder April - Room for rent",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.9997154.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "I",
+        "street": "Elsassstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "3er-WG im Frankenberger-Viertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.10960217.html",
+        "price": "415.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jan-Lukas",
+        "street": "-",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "1 month Room for Subleting",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13130199.html",
+        "price": "300.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Mustafa Motawae",
+        "street": "Kullenhofstr,62 62",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "6er WG  ",
+        "blocked": false
     }
 ]
