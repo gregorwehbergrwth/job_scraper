@@ -8722,5 +8722,53 @@
         "postal_code": "52074",
         "description": "6er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG Zimmer im Kawo 2",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13126461.html",
+        "price": "279.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Mary",
+        "street": "Kastanienweg 31",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles Zimmer in harmonischer 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.9263811.html",
+        "price": "360.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Boris Z.",
+        "street": "Luisenstra\u00dfe 21",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes WG-Zimmer in Top-Lage \u2013 Aachen Zentrum",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13127956.html",
+        "price": "482.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Natalie Benic",
+        "street": "Reumontstra\u00dfe 51",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 9er WG in guter Lage; Keine Verbindung!!",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13132542.html",
+        "price": "412.00 \u20ac",
+        "currency": "EUR",
+        "provider": "M 77",
+        "street": "Melatenerstra\u00dfe  77",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "9er WG  ",
+        "blocked": false
     }
 ]
