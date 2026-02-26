@@ -8770,5 +8770,89 @@
         "postal_code": "52074",
         "description": "9er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Gem\u00fctliches Zimmer in Rudolf-WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.10812516.html",
+        "price": "265.00 \u20ac",
+        "currency": "EUR",
+        "provider": "G. Braunschweig",
+        "street": "Rudolfstra\u00dfe 66",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer f\u00fcr Zwischenmiete M\u00e4rz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13104720.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "A. Youssef",
+        "street": "Rudolfstra\u00dfe 37",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer 265 \u20ac 13 m2",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13138375.html",
+        "price": "260.00 \u20ac",
+        "currency": "EUR",
+        "provider": "YASMINE",
+        "street": "Stolberger Stra\u00dfe 13",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "1 single room in a 3 shared apartment",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13042197.html",
+        "price": "423.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jaiprakash N T",
+        "street": "Mauerstra\u00dfe 37",
+        "city": "Aachen",
+        "postal_code": "52065",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zentrales WG-Zimmer am Bushof",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13138334.html",
+        "price": "410.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Gereon Geuchen",
+        "street": "Couvenstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer n\u00e4he Westpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12403005.html",
+        "price": "253.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Malte Jakobi",
+        "street": "Vaalser Stra\u00dfe 61",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "***reserved*** 2 Zimmer frei, M\u00f6bliertes WG-Zimmer in Zentraler Lage 10 qm",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.6365126.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Marcus Summkeller",
+        "street": "Wilhelmstra\u00dfe 14",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG  ",
+        "blocked": false
     }
 ]
