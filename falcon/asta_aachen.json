@@ -1,5 +1,33 @@
 [
     {
+        "Titel": "Werkstudent Energieberater",
+        "Arbeitgeber": "heutz GmbH Energieberatung",
+        "Ort": "hybrid von zu Hause oder vor Ort in Baesweiler, Heinsberg, J\u00fclich oder Erkelenz",
+        "Link": "https://www.asta.rwth-aachen.de/job/heutz-gmbh-hybrid-von-zu-hause-oder-vor-ort-in-baesweiler-heinsberg-juelich-oder-erkelenz-36-werkstudent-energieberater/",
+        "Datum": "2026-03-05"
+    },
+    {
+        "Titel": "Botendienst",
+        "Arbeitgeber": "Germania Apotheke",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/germania-apotheke-aachen-36-botendienst/",
+        "Datum": "2026-03-05"
+    },
+    {
+        "Titel": "Aushilfe (m/w/d) im Steinmetzbetrieb gesucht \u2013 Minijob",
+        "Arbeitgeber": "Hahnengress Gestaltung in Stein",
+        "Ort": "W\u00fcrselen",
+        "Link": "https://www.asta.rwth-aachen.de/job/hahnengress-gestaltung-in-stein-wuerselen-36-aushilfe-m-w-d-im-steinmetzbetrieb-gesucht-minijob-8/",
+        "Datum": "2026-03-05"
+    },
+    {
+        "Titel": "Abheben mit Modell Aachen",
+        "Arbeitgeber": "Modell Aachen GmbH",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/modell-aachen-gmbh-aachen-36-abheben-mit-modell-aachen/",
+        "Datum": "2026-03-05"
+    },
+    {
         "Titel": "Internship (m/f/d) \u2013 Health Monitoring and Anomaly Detection of Switchgears",
         "Arbeitgeber": "ABB",
         "Ort": "Mannheim",
@@ -126,13 +154,6 @@
         "Datum": "2026-02-24"
     },
     {
-        "Titel": "Fahrdienst im Audi Zentrum Aachen (m/w/d)",
-        "Arbeitgeber": "Audi Zentrum Aachen",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/audi-zentrum-aachen-aachen-36-fahrdienst-im-audi-zentrum-aachen/",
-        "Datum": "2026-02-24"
-    },
-    {
         "Titel": "Werkstudierende Recruiting & Talent Search (m/w/d)",
         "Arbeitgeber": "Blicklingsearch",
         "Ort": "Aachen",
@@ -144,13 +165,6 @@
         "Arbeitgeber": "Daniel Letes",
         "Ort": "W\u00fcrselen/ Aachen",
         "Link": "https://www.asta.rwth-aachen.de/job/daniel-letes-wuerselen-aachen-35-umzugshelfer-keine-schweren-gegenstaende-oder-moebel-kurzfristig/",
-        "Datum": "2026-02-23"
-    },
-    {
-        "Titel": "Fahrdienst im Audi Zentrum Aachen",
-        "Arbeitgeber": "Audizentrum Aachen",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/audizentrum-aachen-aachen-36-fahrdienst-im-audi-zentrum-aachen/",
         "Datum": "2026-02-23"
     },
     {
@@ -333,20 +347,6 @@
         "Arbeitgeber": "Dr. Sch\u00f6nheit + P. Consulting GmbH",
         "Ort": "K\u00f6ln",
         "Link": "https://www.asta.rwth-aachen.de/job/dr-schoenheit-p-consulting-gmbh-koeln-36-werkstudent-simulation-und-data-analytics-m-w-d/",
-        "Datum": "2026-02-05"
-    },
-    {
-        "Titel": "Werkstudent Maschinenbau / Produktionstechnik (m/w/d)",
-        "Arbeitgeber": "Dr. Sch\u00f6nheit + P. Consulting GmbH",
-        "Ort": "K\u00f6ln",
-        "Link": "https://www.asta.rwth-aachen.de/job/dr-schoenheit-p-consulting-gmbh-koeln-36-werkstudent-maschinenbau-produktionstechnik-m-w-d/",
-        "Datum": "2026-02-05"
-    },
-    {
-        "Titel": "Werkstudent Lean Production / Consulting / Fabrikplanung (m/w/d)",
-        "Arbeitgeber": "Dr. Sch\u00f6nheit + P. Consulting GmbH",
-        "Ort": "K\u00f6ln",
-        "Link": "https://www.asta.rwth-aachen.de/job/dr-schoenheit-p-consulting-gmbh-koeln-36-werkstudent-lean-production-consulting-fabrikplanung-m-w-d/",
         "Datum": "2026-02-05"
     }
 ]
