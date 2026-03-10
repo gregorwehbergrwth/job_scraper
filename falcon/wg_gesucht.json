@@ -9166,5 +9166,77 @@
         "postal_code": "52074",
         "description": "7er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Zimmer in \u00e4lterem Penthouse in bester Lage in Aachen-Richterich",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12035316.html",
+        "price": "385.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Noah Gabriel Baldus",
+        "street": "Parkstra\u00dfe 8",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "10 day-sublet in a student WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11951989.html",
+        "price": "130.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Chi Phan",
+        "street": "Viktoriastra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "11er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Uninahe 3er WG - top Ausstattung - hat 1 Zimmer frei",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Innenstadt.13186734.html",
+        "price": "465.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Angela Eck",
+        "street": "Jakobstra\u00dfe  121",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Top ausgestattete 3er - WG Uni nah, hat 1 gro\u00dfes Zimmer frei",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.4174741.html",
+        "price": "465.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Angela Eck",
+        "street": "Jakobstra\u00dfe 119-121",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "4er WG in Schanzlage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13098803.html",
+        "price": "390.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Simon Janko",
+        "street": "Vaalser Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "helles m\u00f6bliertes Zimmer in 2er WG, 450 m zum Hauptbahnhof Aachen, 700 m zur FH, einfach nur pers\u00f6nliche Sachen mitbringen und wohlf\u00fchlen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13115803.html",
+        "price": "455.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Frau Maria",
+        "street": "Burtscheid",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
