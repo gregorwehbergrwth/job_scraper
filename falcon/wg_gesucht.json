@@ -9442,5 +9442,53 @@
         "postal_code": "52062",
         "description": "4er WG  ",
         "blocked": false
+    },
+    {
+        "title": "15qm Zimmer \u00fcber den D\u00e4chern Aachens",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.9331416.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Marvin Koerver",
+        "street": "An der Schanz 18",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer zu vermieten \u2013 Perfekt f\u00fcr RWTH-Studenten!",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12925668.html",
+        "price": "465.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Nathasia",
+        "street": "Marienbongard 24",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Kleines, gem\u00fctliches Zimmer in 4er-WG sucht NachmieterIn",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.6865797.html",
+        "price": "250.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Ben",
+        "street": "Scheibenstra\u00dfe 28A",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in netter 5er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11100088.html",
+        "price": "405.00 \u20ac",
+        "currency": "EUR",
+        "provider": "WG",
+        "street": "Rudolfstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG  ",
+        "blocked": false
     }
 ]
