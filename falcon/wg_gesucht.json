@@ -9562,5 +9562,41 @@
         "postal_code": "52072",
         "description": "4er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in top Lage direkt am Elisenbrunnen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Mitte.11536278.html",
+        "price": "458.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Henrik S.",
+        "street": "Wirichsbongardstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Modernes 3er WG Zimmer in Aachen Mitte",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12202109.html",
+        "price": "440.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Niels B.",
+        "street": "J\u00fclicher Stra\u00dfe 304",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes 2er Wg-Zimmer in Aachen zur Zwischenmiete",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13208755.html",
+        "price": "405.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lukas",
+        "street": "Roermonder Stra\u00dfe 81",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
