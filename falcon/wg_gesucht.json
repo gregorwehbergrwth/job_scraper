@@ -9238,5 +9238,89 @@
         "postal_code": "52066",
         "description": "2er WG  ",
         "blocked": false
+    },
+    {
+        "title": "3er Wg Aachen Mitte",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13202379.html",
+        "price": "380.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Sophia",
+        "street": "Mauerstra\u00dfe 2",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG Zimmer unterzuvermieten",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13208387.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "N. Schons",
+        "street": "Vaalser Stra\u00dfe  61",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in top Lage mit Blick ins Gr\u00fcne",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.11509393.html",
+        "price": "365.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Janik",
+        "street": "Barbarossaplatz 3",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer bei Aachen Kaiserplatz/Hansemannplatz 359\u20ac warm",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13202975.html",
+        "price": "359.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Luca",
+        "street": "Rudolfstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "16-20qm Studentenwohnheim im Verbindungshaus",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12129388.html",
+        "price": "250.00 \u20ac",
+        "currency": "EUR",
+        "provider": "L. Ehmann",
+        "street": "Melatener Str.",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "10er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles Dachgeschoss-Zimmer in entspannter 3er-WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13159158.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Felix S.",
+        "street": "Gregorstra\u00dfe 11",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 2er WG zur Untermiete",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13208258.html",
+        "price": "490.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Marius Kr\u00e4mer",
+        "street": "Sebastianstra\u00dfe 10",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
