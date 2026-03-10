@@ -8962,5 +8962,29 @@
         "postal_code": "52062",
         "description": "4er WG  ",
         "blocked": false
+    },
+    {
+        "title": "neue MitbewohnerIn gesucht",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13185037.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Efrem K.",
+        "street": "Franzstra\u00dfe 24",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in renovierter Altbau-WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13171179.html",
+        "price": "496.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Paul Ernst",
+        "street": "Kurbrunnenstr 30",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG  ",
+        "blocked": false
     }
 ]
