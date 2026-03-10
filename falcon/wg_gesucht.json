@@ -8986,5 +8986,77 @@
         "postal_code": "52066",
         "description": "3er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Vollm\u00f6bliertes Zimmer in 6er WG \u2013 Burtscheid",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12762839.html",
+        "price": "460.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Abay Tekkol",
+        "street": "Neustra\u00dfe 1",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "6er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Lively Home & Spacious room in 3 Zimmer WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13207679.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "S. Kwatra",
+        "street": "Paul-R\u00f6ntgen-Stra\u00dfe 12",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gem\u00fctliche WG in bester Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13207687.html",
+        "price": "396.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Michael Vestner",
+        "street": "Paul-R\u00f6ntgen str. 9",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in netter 5er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11100088.html",
+        "price": "420.00 \u20ac",
+        "currency": "EUR",
+        "provider": "WG",
+        "street": "Rudolfstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gro\u00dfz\u00fcgiges WG-Zimmer (20qm) mit Dachterasse in Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13207702.html",
+        "price": "490.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Linus Schaper",
+        "street": "Bl\u00fccherplatz",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Bright & Cozy Room in a Friendly Two-Bedroom Flatshare",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Burtscheid.13153754.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Miguel Weber",
+        "street": "Annastra\u00dfe 27",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG  ",
+        "blocked": false
     }
 ]
