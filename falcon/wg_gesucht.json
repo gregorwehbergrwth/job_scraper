@@ -8854,5 +8854,89 @@
         "postal_code": "52070",
         "description": "5er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Frisch renoviert & hell: Dein neues WG-Zuhause am Bl\u00fccherplatz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13203016.html",
+        "price": "445.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Aysu Seven",
+        "street": "J\u00fclicher Stra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes 12qm-Zimmer in sch\u00f6ner und moderner 3er-WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13202114.html",
+        "price": "325.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Tomy",
+        "street": "Reumontstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 10er WG (Keine Verbindung)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13203636.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Kyra Jacobi",
+        "street": "Maria Theresia Allee",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "10er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Super helles 17qm Zimmer in netter 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13203338.html",
+        "price": "313.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Vivien L.",
+        "street": "Thomashofstr.",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Gem\u00fctliches Zimmer in ruhiger WG - direkt an RWTH und Pontstra\u00dfe",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13192329.html",
+        "price": "465.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Le Nam Long Nguyen",
+        "street": "Marienbongard",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "sch\u00f6nes WG-Zimmer nahe Innenstadt \ud83c\udf1f",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13197477.html",
+        "price": "467.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Melina K\u00fcgele",
+        "street": "M\u00f6rgensstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes Zimmer in 10er WG (keine Verbindung)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13203549.html",
+        "price": "470.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Georg S.",
+        "street": "Maria-Theresia-Allee 261",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "10er WG  ",
+        "blocked": false
     }
 ]
