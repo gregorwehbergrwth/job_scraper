@@ -9490,5 +9490,65 @@
         "postal_code": "52070",
         "description": "5er WG  ",
         "blocked": false
+    },
+    {
+        "title": "WG Zimmer am Elisenbrunnen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.5687167.html",
+        "price": "345.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Pascal",
+        "street": "Wirichsbongardstra\u00dfe 27",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "6er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "2er Wg Zimmer frei, unm\u00f6bliert",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Burtscheid.9601740.html",
+        "price": "460.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Philipp Lauprecht",
+        "street": "Gregorstra\u00dfe 26",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "22 m2 helles WG Zimmer in Aachen Mitte",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.10912422.html",
+        "price": "480.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Yannick",
+        "street": "Oberstr. 21",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "2er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes Zimmer in gro\u00dfer WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.13203549.html",
+        "price": "470.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Georg S.",
+        "street": "Maria-Theresia-Allee 261",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "10er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 10er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13203636.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Kyra Jacobi",
+        "street": "Maria Theresia Allee",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "10er WG  ",
+        "blocked": false
     }
 ]
