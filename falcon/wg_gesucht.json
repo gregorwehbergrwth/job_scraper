@@ -9550,5 +9550,17 @@
         "postal_code": "52074",
         "description": "10er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Ruhige 1,5 Zimmer in einer 4er-WG am Lousberg",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Lousberg.13076097.html",
+        "price": "410.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Beschte WG Nizzaallee",
+        "street": "Nizzaallee",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "4er WG  ",
+        "blocked": false
     }
 ]
