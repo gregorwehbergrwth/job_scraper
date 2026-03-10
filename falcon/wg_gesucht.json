@@ -9094,5 +9094,77 @@
         "postal_code": "52074",
         "description": "10er WG  ",
         "blocked": false
+    },
+    {
+        "title": "Sonniges, ger\u00e4umiges Zimmer bei Normaluhr",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13207916.html",
+        "price": "435.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Pauline",
+        "street": "Zollernstra\u00dfe 17",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles, m\u00f6bliertes WG-Zimmer in Loft-Haus zur Zwischenmiete",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13181033.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Rudolf WG",
+        "street": "Rudolfstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "WG mit XXL-Feeling (keine Verbindung)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.7392635.html",
+        "price": "121.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Laura T39",
+        "street": "Templergraben 39",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "17er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Zwischenmieter*in f\u00fcr inklusive 3er Altbau-WG mit Dachterrasse gesucht!\ud83c\udf08\ud83c\udff3\ufe0f\u200d\ud83c\udf08",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11294002.html",
+        "price": "475.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jakob",
+        "street": "Elsassstrasse 63",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Helles 5er WG-Zimmer in Zentraler Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13164002.html",
+        "price": "270.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Conrad",
+        "street": "Kleink\u00f6lnstra\u00dfe 18",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "5er WG  ",
+        "blocked": false
+    },
+    {
+        "title": "Teilm\u00f6bliertes 20qm Zimmer in 7er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.6362953.html",
+        "price": "313.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Conni Pfaff",
+        "street": "Melatener Weg 22",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "7er WG  ",
+        "blocked": false
     }
 ]
