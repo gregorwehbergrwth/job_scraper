@@ -1,5 +1,37 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010453/",
+        "Frist": "Frist: 10.06.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Getriebefertigung ",
+        "Nummer": "V000010453",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 10.03.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Fertigungstechnologie [417410]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010833/",
+        "Frist": "Frist: 31.03.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Sekretariat des Lehrstuhls ",
+        "Nummer": "V000010833",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 10.03.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Maschinelles Lernen und Inferenz (Informatik 6) [122010]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010853/",
+        "Frist": "Frist: 05.04.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Experimente zum Radfahren in einem robotergesteuerten Fahrradsimulator ",
+        "Nummer": "V000010853",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 10.03.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Regelungstechnik [416610]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010855/",
+        "Frist": "Frist: 15.04.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Akustik (e-Maschine, Fahrzeug, Komponenten) ",
+        "Nummer": "V000010855",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 10.03.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Thermodynamik mobiler Energiewandlungssysteme und Institut f\u00fcr Thermodynamik [412310]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010841/",
         "Frist": "Frist: 27.03.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Datenverarbeitung und Softwareentwicklung in Python ",
@@ -193,7 +225,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010759/",
-        "Frist": "Frist: 30.04.2026",
+        "Frist": "Frist: 11.03.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Softwareentwicklung/Webprogrammierung \u2013 Entwicklung von Serious Games bei Medien f\u00fcr die Lehre ",
         "Nummer": "V000010759",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 18.02.2026",
@@ -262,14 +294,6 @@
         "Nummer": "V000010727",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 09.02.2026",
         "Arbeitgeber": "Lehrstuhl f\u00fcr Technische Thermodynamik und Institut f\u00fcr Thermodynamik [412110]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010716/",
-        "Frist": "Frist: 09.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000010716",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.02.2026",
-        "Arbeitgeber": "Center f\u00fcr Lehr- und Lernservices (CLS) [026000]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010724/",
@@ -553,7 +577,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010507/",
-        "Frist": "Frist: 09.03.2026",
+        "Frist": "Frist: 31.08.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Digitale Fabrikplanung, Schwerpunkt Industrieberatung ",
         "Nummer": "V000010507",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 09.12.2025",
