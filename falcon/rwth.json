@@ -1,5 +1,21 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010856/",
+        "Frist": "Frist: 10.06.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Robotik und Machine Vision ",
+        "Nummer": "V000010856",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 16.03.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Werkzeugmaschinen [417310]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010893/",
+        "Frist": "Frist: 20.04.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000010893",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 16.03.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Thermodynamik mobiler Energiewandlungssysteme und Institut f\u00fcr Thermodynamik [412310]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010867/",
         "Frist": "Frist: 15.04.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Tutor*innen f\u00fcr den Treffpunkt Regelungstechnik gesucht ",
@@ -224,14 +240,6 @@
         "Arbeitgeber": "Lehrstuhl f\u00fcr Maschinelles Lernen auf Graphen [126010]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010775/",
-        "Frist": "Frist: 15.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Regional Innovation Lab ",
-        "Nummer": "V000010775",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 23.02.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Innovation, Strategie und Organisation [816410]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000008940/",
         "Frist": "Frist: 01.05.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Thermisch gespritzte Heizschichtsysteme ",
@@ -240,28 +248,12 @@
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010768/",
-        "Frist": "Frist: 15.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im International Student Center ",
-        "Nummer": "V000010768",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 20.02.2026",
-        "Arbeitgeber": "Abteilung 2.2 - International Support Services [010220]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010763/",
         "Frist": "Frist: 01.04.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung von Nutzerschnittstellen f\u00fcr Digitale Zwillinge (Flutter) ",
         "Nummer": "V000010763",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.02.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Mensch-Maschine-Interaktion [615210]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010766/",
-        "Frist": "Frist: 15.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 F\u00fcr Verwaltung und Online-Kommunikation ",
-        "Nummer": "V000010766",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.02.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Stra\u00dfenwesen [313410]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010745/",
@@ -310,14 +302,6 @@
         "Nummer": "V000010735",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 11.02.2026",
         "Arbeitgeber": "AZL - Aachener Zentrum f\u00fcr Integrativen Leichtbau [080014]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010734/",
-        "Frist": "Frist: 15.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung der Lehre in \"Chemische Verfahrenstechnik\" ",
-        "Nummer": "V000010734",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 10.02.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Chemische Verfahrenstechnik und Institut f\u00fcr Verfahrenstechnik [416110]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010727/",
@@ -441,7 +425,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010649/",
-        "Frist": "Frist: 31.05.2026",
+        "Frist": "Frist: 16.03.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich \"Integration of Personalized Environmental Control Systems into Building Automation System to Enhance Building Energy Performance\" ",
         "Nummer": "V000010649",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 21.01.2026",
@@ -534,14 +518,6 @@
         "Nummer": "V000010595",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 09.01.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010589/",
-        "Frist": "Frist: 15.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Team Robotik: Aufbau & Betrieb neuer Robotik-Versuchshalle ",
-        "Nummer": "V000010589",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 07.01.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Baumanagement, Digitales Bauen und Robotik im Bauwesen [312110]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010572/",
