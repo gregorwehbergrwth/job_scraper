@@ -1,5 +1,29 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010874/",
+        "Frist": "Frist: 15.05.2026",
+        "Titel": "Studentische  Hilfskraft (w/m/d) ",
+        "Nummer": "V000010874",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.03.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Regelungstechnik [416610]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010907/",
+        "Frist": "Frist: 31.05.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Produktionsplanung und Technologievorausschau ",
+        "Nummer": "V000010907",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.03.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010908/",
+        "Frist": "Frist: 31.05.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Experimentdesign und CAD-Entwicklung in der Zellfinalisierung ",
+        "Nummer": "V000010908",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.03.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010901/",
         "Frist": "Frist: 01.04.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Forschungsprojekt RoboTUNN ",
@@ -184,14 +208,6 @@
         "Arbeitgeber": "Lehrstuhl f\u00fcr Elektrochemische Energiewandlung und Speichersystemtechnik [618310]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010832/",
-        "Frist": "Frist: 19.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich \u00d6kobilanzierung (LCA) und zirkul\u00e4res Ressourcenmanagement ",
-        "Nummer": "V000010832",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.03.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Anthropogene Stoffkreisl\u00e4ufe und Institut f\u00fcr Aufbereitung, Kokerei und Brikettierung [512110]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010835/",
         "Frist": "Frist: 30.04.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Abteilung Lichtbogenschwei\u00dfen und Additive Fertigung ",
@@ -208,14 +224,6 @@
         "Arbeitgeber": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010807/",
-        "Frist": "Frist: 18.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Content Creation, Web- und Grafikdesign sowie Marketing ",
-        "Nummer": "V000010807",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 04.03.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Elektrische Maschinen und Antriebe und Institut f\u00fcr Elektrische Maschinen [614410]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010825/",
         "Frist": "Frist: 14.04.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 KI-Sprachmodell-gest\u00fctztes MBSE (Projekt KIMBA) ",
@@ -224,16 +232,8 @@
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Maschinenelemente und Systementwicklung [411710]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010793/",
-        "Frist": "Frist: 31.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Simulation von elektrischen Antrieben ",
-        "Nummer": "V000010793",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 03.03.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Elektrische Maschinen und Antriebe und Institut f\u00fcr Elektrische Maschinen [614410]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010795/",
-        "Frist": "Frist: 24.03.2026",
+        "Frist": "Frist: 20.03.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Weiterentwicklung gekoppelter elektromagnetischer und strukturdynamischer Simulationen ",
         "Nummer": "V000010795",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 03.03.2026",
@@ -558,30 +558,6 @@
         "Nummer": "V000010574",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.01.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010558/",
-        "Frist": "Frist: 19.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Physics AI in der Additiven Fertigung ",
-        "Nummer": "V000010558",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.12.2025",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010556/",
-        "Frist": "Frist: 18.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Simulation in der Additiven Fertigung ",
-        "Nummer": "V000010556",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 18.12.2025",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010557/",
-        "Frist": "Frist: 18.03.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 CAD und 3D-Druck ",
-        "Nummer": "V000010557",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 18.12.2025",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010515/",

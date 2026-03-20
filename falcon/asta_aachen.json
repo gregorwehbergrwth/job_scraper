@@ -1,5 +1,89 @@
 [
     {
+        "Titel": "Nachhilfelehrer f\u00fcr Mathe & Physik, Chemie, Wirtschaft (m/w/d)",
+        "Arbeitgeber": "ubimaster",
+        "Ort": "Remote",
+        "Link": "https://www.asta.rwth-aachen.de/job/ubimaster-36-nachhilfelehrer-fuer-mathe-physik-chemie-wirtschaft-m-w-d/",
+        "Datum": "2026-03-20"
+    },
+    {
+        "Titel": "Werkstudierende*r Simulation Validation, Data & AI-driven Engineering (m/w/d)",
+        "Arbeitgeber": "SIMCON kunststofftechnische Software GmbH",
+        "Ort": "W\u00fcrselen",
+        "Link": "https://www.asta.rwth-aachen.de/job/simcon-kunststofftechnische-software-gmbh-wuerselen-36-werkstudierender-simulation-validation-data-ai-driven-engineering-m-w-d/",
+        "Datum": "2026-03-20"
+    },
+    {
+        "Titel": "Studenten und Aushilfen (m/w/d) in der Carbonfaser Produktion",
+        "Arbeitgeber": "Teijin Carbon Europe GmbH",
+        "Ort": "Heinsberg",
+        "Link": "https://www.asta.rwth-aachen.de/job/teijin-carbon-europe-gmbh-heinsberg-36-studenten-und-aushilfen-m-w-d-in-der-carbonfaser-produktion/",
+        "Datum": "2026-03-19"
+    },
+    {
+        "Titel": "Werkstudent:in Next.js Development (w/m/d)",
+        "Arbeitgeber": "CBAM Estimator GmbH Green-Tech Startup building software for EU carbon compliance",
+        "Ort": "Stuttgart (Remote)",
+        "Link": "https://www.asta.rwth-aachen.de/job/cbam-estimator-gmbh-stuttgart-36-werkstudentin-next-js-development-w-m-d/",
+        "Datum": "2026-03-19"
+    },
+    {
+        "Titel": "Studentische Hilfskraft im Marketing (w/m/d)",
+        "Arbeitgeber": "RWTH International Academy gGmbH",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/rwth-international-academy-ggmbh-aachen-36-studentische-hilfskraft-im-marketing-w-m-d/",
+        "Datum": "2026-03-19"
+    },
+    {
+        "Titel": "Architekt",
+        "Arbeitgeber": "G\u00fcndogan Architektur",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/guendogan-architektur-aachen-36-architekt/",
+        "Datum": "2026-03-18"
+    },
+    {
+        "Titel": "Werkstudent/in in der Architektur",
+        "Arbeitgeber": "nesseler plan gmbh",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/nesseler-plan-gmbh-aachen-36-werkstudent-in-in-der-architektur/",
+        "Datum": "2026-03-17"
+    },
+    {
+        "Titel": "Werkstudent (m/w/d) Marketing",
+        "Arbeitgeber": "Speira GmbH Europ\u00e4isches f\u00fchrendes Aluminiumwalz- und Recyclingunternehmen.",
+        "Ort": "Grevenbroich",
+        "Link": "https://www.asta.rwth-aachen.de/job/speira-gmbh-grevenbroich-36-werkstudent-m-w-d-marketing/",
+        "Datum": "2026-03-17"
+    },
+    {
+        "Titel": "Ausbildung zum Kaufmann f\u00fcr Spedition und Logistikdienstleistung (m/w/d) 2026",
+        "Arbeitgeber": "Adam Offergeld Spedition Lagerung und Ferntransporte GmbH & Co. KG",
+        "Ort": "W\u00fcrselen",
+        "Link": "https://www.asta.rwth-aachen.de/job/adam-offergeld-spedition-lagerung-und-ferntransporte-gmbh-co-kg-wuerselen-36-ausbildung-zum-kaufmann-fuer-spedition-und-logistikdienstleistung-m-w-d-2026/",
+        "Datum": "2026-03-17"
+    },
+    {
+        "Titel": "Ausbildung zum KFZ-Mechatroniker (m/w/d) Schwerpunkt Nutzfahrzeuge 2026",
+        "Arbeitgeber": "Offergeld GmbH & Co. Kfz-Instandsetzungs-KG",
+        "Ort": "W\u00fcrselen",
+        "Link": "https://www.asta.rwth-aachen.de/job/offergeld-gmbh-co-kfz-instandsetzungs-kg-wuerselen-36-ausbildung-zum-kfz-mechatroniker-m-w-d-schwerpunkt-nutzfahrzeuge-2026/",
+        "Datum": "2026-03-17"
+    },
+    {
+        "Titel": "Ausbildung zum Fachinformatiker Fachrichtung Systemintegration (m/w/d) 2026",
+        "Arbeitgeber": "OZV GmbH & Co. KG",
+        "Ort": "W\u00fcrselen",
+        "Link": "https://www.asta.rwth-aachen.de/job/ozv-gmbh-co-kg-wuerselen-36-ausbildung-zum-fachinformatiker-fachrichtung-systemintegration-m-w-d-2026/",
+        "Datum": "2026-03-17"
+    },
+    {
+        "Titel": "Studentische Hilfskraft (m/w/d) Grafik / Mediendesign",
+        "Arbeitgeber": "Cosmodul Hanusch Geittner GbR Design-Studio und Werbeagentur",
+        "Ort": "Aachen",
+        "Link": "https://www.asta.rwth-aachen.de/job/cosmodul-hanusch-geittner-gbr-aachen-36-studentische-hilfskraft-m-w-d-grafik-mediendesign/",
+        "Datum": "2026-03-14"
+    },
+    {
         "Titel": "Nachhilfelehrer (m/w/d) in Aachen gesucht",
         "Arbeitgeber": "Studentenring",
         "Ort": "Aachen (Remote)",
@@ -264,89 +348,5 @@
         "Ort": "Aachen",
         "Link": "https://www.asta.rwth-aachen.de/job/blicklingsearch-aachen-36-werkstudierende-recruiting-talent-search-m-w-d-2/",
         "Datum": "2026-02-24"
-    },
-    {
-        "Titel": "Umzugshelfer \u2013 keine schweren Gegenst\u00e4nde oder M\u00f6bel! kurzfristig",
-        "Arbeitgeber": "Daniel Letes",
-        "Ort": "W\u00fcrselen/ Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/daniel-letes-wuerselen-aachen-35-umzugshelfer-keine-schweren-gegenstaende-oder-moebel-kurzfristig/",
-        "Datum": "2026-02-23"
-    },
-    {
-        "Titel": "Werkstudent:in Bauingenieurwesen (m/w/d)",
-        "Arbeitgeber": "TEAM Baumanagement GmbH",
-        "Ort": "K\u00f6ln oder Dortmund",
-        "Link": "https://www.asta.rwth-aachen.de/job/team-baumanagement-gmbh-koeln-oder-dortmund-36-werkstudentin-bauingenieurwesen-m-w-d/",
-        "Datum": "2026-02-23"
-    },
-    {
-        "Titel": "Leite Kurse im Bereich Bewegung oder Tanz an Schulen im Raum Aachen! (m/w/d)",
-        "Arbeitgeber": "Kinder- und Jugendsportschule NRW",
-        "Ort": "Raum Aachen (Eschweiler, Stolberg)",
-        "Link": "https://www.asta.rwth-aachen.de/job/kinder-und-jugendsportschule-nrw-raum-aachen-eschweiler-stolberg-36-leite-kurse-im-bereich-bewegung-oder-tanz-an-schulen-im-raum-aachen-m-w-d-13/",
-        "Datum": "2026-02-23"
-    },
-    {
-        "Titel": "Student Quality Assurance Engineer (Working Student) (w/d/m)",
-        "Arbeitgeber": "PrimeKey Labs GmbH - Part of Keyfactor",
-        "Ort": "Aachen & remote",
-        "Link": "https://www.asta.rwth-aachen.de/job/primekey-labs-gmbh-part-of-keyfactor-aachen-remote-36-student-quality-assurance-engineer-working-student/",
-        "Datum": "2026-02-20"
-    },
-    {
-        "Titel": "Werkstudent:in Commercial Excellence (m/w/d)",
-        "Arbeitgeber": "Gr\u00fcnenthal GmbH",
-        "Ort": "\u00dcberall",
-        "Link": "https://www.asta.rwth-aachen.de/job/gruenenthal-gmbh-36-werkstudentin-commercial-excellence-m-w-d/",
-        "Datum": "2026-02-20"
-    },
-    {
-        "Titel": "Studentische Aushilfe (m/w/d) auf Stundenbasis f\u00fcr die Reptilienauffangstation in der St\u00e4dteRegion Aachen gesucht",
-        "Arbeitgeber": "Tierheilpraxis Fehr",
-        "Ort": "Stolberg",
-        "Link": "https://www.asta.rwth-aachen.de/job/tierheilpraxis-fehr-stolberg-36-studentische-aushilfe-m-w-d-auf-stundenbasis-fuer-die-reptilienauffangstation-in-der-staedteregion-aachen-gesucht/",
-        "Datum": "2026-02-19"
-    },
-    {
-        "Titel": "Werkstudent(in) (m/w/d) im Einzelhandel f\u00fcr zwei Werktage (je 7 Std.)",
-        "Arbeitgeber": "B\u00e4ng B\u00e4ng Comic-Buchhandlung GmbH",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/baeng-baeng-comic-buchhandlung-gmbh-aachen-36-werkstudentin-m-w-d-im-einzelhandel-fuer-zwei-werktage-je-7-std-3/",
-        "Datum": "2026-02-19"
-    },
-    {
-        "Titel": "Masterarbeit \u2013 Identifikation und Charakterisierung neuer Dichtungs\u00admaterialien f\u00fcr die PEM\u2011 und AEM\u2011Wasser\u00adelektrolyse",
-        "Arbeitgeber": "Forschungs\u00adzentrum J\u00fclich",
-        "Ort": "J\u00fclich",
-        "Link": "https://www.asta.rwth-aachen.de/job/forschungszentrum-juelich-juelich-36-masterarbeit-identifikation-und-charakterisierung-neuer-dichtungsmaterialien-fuer-die-pem-und-aem-wasserelektrolyse/",
-        "Datum": "2026-02-19"
-    },
-    {
-        "Titel": "Werkstudent*in Grafik, Design, Video & Drohnenaufnahmen (m/w/d)",
-        "Arbeitgeber": "PH Immobiliengesellschaft mbH",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/ph-immobiliengesellschaft-mbh-aachen-36-werkstudentin-grafik-design-video-drohnenaufnahmen-m-w-d/",
-        "Datum": "2026-02-18"
-    },
-    {
-        "Titel": "Studentische Hilfskraft",
-        "Arbeitgeber": "Institut f\u00fcr Geschichte, Theorie und Ethik der Medizin, RWTH Aachen",
-        "Ort": "Institut f\u00fcr Geschichte, Theorie und Ethik der Medizin, Wendlingweg 2, 52074 Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/institut-fuer-geschichte-theorie-und-ethik-der-medizin-rwth-aachen-institut-fuer-geschichte-theorie-und-ethik-der-medizin-wendlingweg-2-52074-aachen-38-studentische-hilfskraft/",
-        "Datum": "2026-02-18"
-    },
-    {
-        "Titel": "Werkstudierende:r (m/w/d) HR im Bereich Recruiting / Talent Acquisition",
-        "Arbeitgeber": "cylib GmbH Next generation battery recycling",
-        "Ort": "Aachen",
-        "Link": "https://www.asta.rwth-aachen.de/job/cylib-gmbh-aachen-36-werkstudierender-m-w-d-hr-im-bereich-recruiting-talent-acquisition-2/",
-        "Datum": "2026-02-18"
-    },
-    {
-        "Titel": "Studentische Hilfskraft (m/w/d) / Studentenjob in der Augenarztpraxis",
-        "Arbeitgeber": "Augenarztpraxis Dr. med. Boris Kalinka",
-        "Ort": "D\u00fcren",
-        "Link": "https://www.asta.rwth-aachen.de/job/augenarztpraxis-dr-med-boris-kalinka-dueren-36-studentische-hilfskraft-m-w-d-studentenjob-in-der-augenarztpraxis/",
-        "Datum": "2026-02-17"
     }
 ]
