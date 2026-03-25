@@ -24,13 +24,15 @@ def bird(name, url, mode, test=False, site_count=1):
 
 if __name__ == "__main__":
     Test = False
-    testmouse = "gmp"
+    testmouse = "agentur"
     testmode = "hawk"
 
     links = get_file(name="links.json")
 
-    runmode = os.getenv("RUN_MODE", "wohnung")
+    runmode = os.getenv("RUN_MODE", "job")
     print(f"Running in {runmode} mode")
+
+    manual = os.getenv("MANUAL", "auto") == "manual"
 
     if Test:
         bird(name=testmouse, url=links[testmode][testmouse]["link"], mode=testmode, test=True, site_count=links[testmode][testmouse].get("site_count", 1))
@@ -43,7 +45,7 @@ if __name__ == "__main__":
             for style in links.keys():
                 for mouse, item in links[style].items():
                     start_time = time.perf_counter()
-                    if check(mouse=mouse, log=item, problem_log=problematic, now=now, runmode=runmode):
+                    if check(mouse=mouse, log=item, problem_log=problematic, now=now, runmode=runmode, manual=manual):
                         bird(name=mouse, url=item["link"], mode=style)
                         links[style][mouse]["last_checked"] = now
                         logs[now][mouse] = time.perf_counter() - start_time

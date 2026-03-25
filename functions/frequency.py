@@ -1,7 +1,7 @@
 import time
 
 
-def check(mouse, log, problem_log, now, runmode):
+def check(mouse, log, problem_log, now, runmode, manual):
     to_time = lambda x: time.mktime(time.strptime(x, "%Y-%m-%d %H:%M:%S"))
     time_difference = (to_time(now) - to_time(log["last_checked"])) / 3600
 
@@ -17,6 +17,9 @@ def check(mouse, log, problem_log, now, runmode):
     elif mouse in problem_log.keys():
         print(f"blocked {mouse} because it is in problem log")
         return False
+    elif manual:
+        print(f"allowed {mouse} to run in manual mode")
+        return True
     elif time_difference <= frequency_hours.get(log["frequency"], None):
         print(f"blocked {mouse} because frequency limit not reached: {time_difference} hours since last check, needs {frequency_hours.get(log['frequency'], None)} hours")
         return False

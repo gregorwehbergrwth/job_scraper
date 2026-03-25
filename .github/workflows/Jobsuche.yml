@@ -1,3 +1,4 @@
+# .github/workflows/Jobsuche.yml
 name: Run Jobsuche
 
 on:
@@ -9,6 +10,11 @@ on:
 #      - main
 
   workflow_dispatch:
+    inputs:
+      MANUAL:
+        description: 'Set to "manual" when triggered manually'
+        required: false
+        default: 'manual'
 
 jobs:
   build:
@@ -16,6 +22,7 @@ jobs:
 
     env:
       RUN_MODE: "job"
+      MANUAL: ${{ github.event.inputs.MANUAL }}
 
     steps:
       - name: Checkout repository
@@ -49,6 +56,7 @@ jobs:
           API_KEY: ${{ secrets.API_KEY }}
           USER_ID: ${{ secrets.USER_ID }}
           TZ: Europe/Berlin
+          MANUAL: ${{ env.MANUAL }}
         run: |
           python runme.py
 
