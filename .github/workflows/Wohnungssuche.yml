@@ -9,7 +9,11 @@ on:
 #      - main
 
   workflow_dispatch:
-
+    inputs:
+      MANUAL:
+        description: 'Set to "manual" when triggered manually'
+        required: false
+        default: 'manual'
 
 jobs:
   build:
@@ -17,7 +21,7 @@ jobs:
 
     env:
       RUN_MODE: "wohnung"
-
+      MANUAL: ${{ github.event.inputs.MANUAL }}
 
     steps:
       - name: Checkout repository
