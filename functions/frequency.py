@@ -17,7 +17,7 @@ def check(mouse, log, problem_log, now, runmode, manual):
     elif mouse in problem_log.keys():
         print(f"blocked {mouse} because it is in problem log")
         return False
-    elif manual:
+    elif manual and frequency_hours.get(log["frequency"], 0) < 1000:
         print(f"allowed {mouse} to run in manual mode")
         return True
     elif time_difference <= frequency_hours.get(log["frequency"], None):
