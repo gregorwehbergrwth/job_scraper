@@ -1,6 +1,30 @@
 import json
 from pathlib import Path
 from functions.handling import blockedwohnung
+from colorama import init, Fore, Style
+
+# Initialize Colorama
+init(autoreset=True) # "autoreset=True" automatically resets the color after each print statement
+
+# print(f"{Fore.RED}This text is red.")
+# print(f"{Fore.GREEN}This text is green with a {Style.BRIGHT}{Fore.YELLOW}bright yellow word{Style.NORMAL} in it.")
+# print("This text is back to the default color.")
+
+
+def equality(w1, w2):
+    same_counter = 0
+    not_same_counter = 0
+    for key in w1.keys():
+        if key in ["blocked", "currency", "city"]:
+            continue
+        if w1.get(key, None) == w2.get(key, None):
+            same_counter += 1
+            # print(f"w1: {w1.get(key, None)}, w2: {w2.get(key, None)}")
+        else:
+            not_same_counter += 1
+            # print(f"w1: {w1.get(key, None)}, w2: {w2.get(key, None)}")
+
+    return not_same_counter
 
 
 def wohnung_zusammenfassung(filepath="falcon/wg_gesucht.json"):
@@ -78,5 +102,55 @@ def filter_test():
     print(counter)
 
 
+def makered(txt):
+    return f"{Fore.RED}{txt}{Style.RESET_ALL}"
+
+def makegreen(txt):
+    return f"{Fore.GREEN}{txt}{Style.RESET_ALL}"
+
+
 if __name__ == "__main__":
-    wohnung_zusammenfassung(filepath=str(Path.cwd().parent) + "\\" "falcon\\wg_gesucht.json")
+    # wohnung_zusammenfassung(filepath=str(Path.cwd().parent) + "\\" "falcon\\wg_gesucht.json")
+
+    path = filepath = str(Path.cwd().parent) + "\\" "falcon\\wg_gesucht.json"
+
+    def get_file(name):
+        with open(name, "r") as file:
+            return json.load(file)
+
+    wohnungen = get_file(filepath)
+
+    already_checked = []
+    for i, wi in enumerate(wohnungen):
+        for j, wj in enumerate(wohnungen):
+            if i == j:
+                continue
+            if (j, i) in already_checked:
+                continue
+            elif (i, j) in already_checked:
+                continue
+            already_checked.append((i,j))
+            differences = equality(wj, wi)
+
+            # print(differences)
+
+            if differences == 0:
+                print("is the same")
+
+                # for key in wj.keys():
+                #     print(f"w1: {wj.get(key, None)}, w2: {wi.get(key, None)}")
+
+            elif differences <= 3:
+                print("possibly the same")
+
+
+                for key in wj.keys():
+                    if wj.get(key, None) == wi.get(key, None):
+                        # print("gleich:   ", end="")
+                        print(makered(f"w1: {wj.get(key, None)}, w2: {wi.get(key, None)}"))
+                    else:
+                        print(makegreen(f"w1: {wj.get(key, None)}, w2: {wi.get(key, None)}"))
+                        # print("ungleich: ", end="")
+
+                print("-_"*100)
+                # print()
