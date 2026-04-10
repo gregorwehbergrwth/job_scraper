@@ -394,5 +394,29 @@
         "postal_code": "52070",
         "description": "7er WG",
         "blocked": false
+    },
+    {
+        "title": "Gem\u00fctliches Zimmer mit Gartenzugang in 8er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.9350962.html",
+        "price": "440.00 \u20ac",
+        "currency": "EUR",
+        "provider": "High Way",
+        "street": "H\u00f6henweg 72",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "8er WG",
+        "blocked": false
+    },
+    {
+        "title": "1 Zimmer in 4er WG zu vermieten, 15 qm. Gemeinschaftsk\u00fcche, Bad mit Dusche, G\u00e4ste-WC, \u00fcberdachter Hof und Garten",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Wuerselen.13333902.html",
+        "price": "420.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Thomas",
+        "street": "Neuhauser Stra\u00dfe 120",
+        "city": "Aachen",
+        "postal_code": "52146",
+        "description": "4er WG",
+        "blocked": false
     }
 ]
