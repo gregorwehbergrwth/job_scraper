@@ -658,5 +658,41 @@
         "postal_code": "52074",
         "description": "2er WG",
         "blocked": false
+    },
+    {
+        "title": "Zimmer in toller WG zur Untermiete",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13317671.html",
+        "price": "307.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Gianluca Calabrese",
+        "street": "Karlsgraben",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "4er WG",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in geselliger 3er Wg am Stadtpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.10327437.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Johanna J.",
+        "street": "Robensstra\u00dfe 62",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "Room for Rent \u2013 City Center",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13334606.html",
+        "price": "465.00 \u20ac",
+        "currency": "EUR",
+        "provider": "A. Yadav",
+        "street": "40",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG",
+        "blocked": false
     }
 ]
