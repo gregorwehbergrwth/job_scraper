@@ -634,5 +634,29 @@
         "postal_code": "52066",
         "description": "8er WG",
         "blocked": false
+    },
+    {
+        "title": "Famili\u00e4re WG  am Hansemannplatz",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Mitte.11678051.html",
+        "price": "400.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Laska",
+        "street": "Peterstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "4er WG",
+        "blocked": false
+    },
+    {
+        "title": "Zwei m\u00f6blierte Zimmer in 2er WG zur Untermiete, Zeitraum flexibel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13276229.html",
+        "price": "418.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Kai Anlauf",
+        "street": "Vaalser Stra\u00dfe 182",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "2er WG",
+        "blocked": false
     }
 ]
