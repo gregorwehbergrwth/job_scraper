@@ -418,5 +418,53 @@
         "postal_code": "52146",
         "description": "4er WG",
         "blocked": false
+    },
+    {
+        "title": "Gem\u00fctliches Zimmer in einer 2er-M\u00e4dels-WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Mitte.13334094.html",
+        "price": "432.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jana",
+        "street": "Noppiusstra\u00dfe  20",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG",
+        "blocked": false
+    },
+    {
+        "title": "Ponttor - Lousberg - ideale Lage f\u00fcr TH-Studenten",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.3025575.html",
+        "price": "490.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Thomas",
+        "street": "Ludwigsallee 29",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "Wohnung am Templergraben",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13280362.html",
+        "price": "475.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jonas Tanedo",
+        "street": "Templergraben 28",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "Geteilt Wg 1 Person, ausgezeichnete Anbindung",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen.12419555.html",
+        "price": "415.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jainita Ramapur Sunil",
+        "street": "Welkenrather Strasse 118E",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "2er WG",
+        "blocked": false
     }
 ]
