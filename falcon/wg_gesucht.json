@@ -262,5 +262,77 @@
         "postal_code": "52062",
         "description": "2er WG",
         "blocked": false
+    },
+    {
+        "title": "Ruhige 1,5 Zimmer in einer 4er-WG am Lousberg",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Lousberg.13076097.html",
+        "price": "410.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Beschte WG Nizzaallee",
+        "street": "Nizzaallee",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "4er WG",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in einer netten 3er-WG in Aachen Mitte am Lousberg",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12975803.html",
+        "price": "420.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Dennis P.",
+        "street": "F\u00f6rsterstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "Sch\u00f6nes loftartiges WG-Zimmer in perfekter Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13333605.html",
+        "price": "478.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Rudolf WG",
+        "street": "Rudolfstra\u00dfe 56",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG",
+        "blocked": false
+    },
+    {
+        "title": "2er-WG im Frankenberger Viertel",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11288090.html",
+        "price": "385.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jana",
+        "street": "Drimbornstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "2er WG",
+        "blocked": false
+    },
+    {
+        "title": "s\u00fc\u00dfes WG Zimmer in ruhiger Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13202975.html",
+        "price": "359.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Luca",
+        "street": "Rudolfstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "Ich suche eine weibliche Nachmieterin f\u00fcr den 01.05",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Sued.13333617.html",
+        "price": "433.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Lea Messing",
+        "street": "Goethestra\u00dfe 2",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "3er WG",
+        "blocked": false
     }
 ]
