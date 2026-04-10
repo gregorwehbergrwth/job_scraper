@@ -586,5 +586,53 @@
         "postal_code": "52062",
         "description": "2er WG",
         "blocked": false
+    },
+    {
+        "title": "*** 1,5 ZI IN STUDENTEN 3-WG (Zi 308b), ab 01.04.26, inkl. Strom und Internet,*** nur RWTH und TH Studenten",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Laurensberg.13103112.html",
+        "price": "498.00 \u20ac",
+        "currency": "EUR",
+        "provider": "C. Living",
+        "street": "Roermonder Str. 101",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "Zentrales Zimmer mit Balkon in 2er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11038238.html",
+        "price": "470.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jasper Carniel",
+        "street": "Rosstr. 41b",
+        "city": "Aachen",
+        "postal_code": "52064",
+        "description": "2er WG",
+        "blocked": false
+    },
+    {
+        "title": "zwei sch\u00f6ne helle WG Zimmer im Frankenberger",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Frankenberger-Viertel.13219535.html",
+        "price": "490.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Meret",
+        "street": "Luisenstra\u00dfe 32",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "Helles, gem\u00fctliches WG-Zimmer im Frankenberger Viertel!",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11851996.html",
+        "price": "388.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Aachter WG",
+        "street": "Bismarckstra\u00dfe 172",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "8er WG",
+        "blocked": false
     }
 ]
