@@ -514,5 +514,77 @@
         "postal_code": "52064",
         "description": "2er WG",
         "blocked": false
+    },
+    {
+        "title": "Helles Zimmer in zentral gelegener 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13268214.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Christian",
+        "street": "Dahmengraben 1",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "Zwischenmiete  von Mai bis Juli in einer 3er WG",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.10652689.html",
+        "price": "440.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Dhaval",
+        "street": "Stolbergerstra\u00dfe 13",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes WG-Zimmer in zentraler Lage in Aachen",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13334380.html",
+        "price": "445.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jan Weisgerber",
+        "street": "Alexanderstra\u00dfe 63",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "Tolles Zimmer in Top-Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13325633.html",
+        "price": "470.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Burak A.",
+        "street": "Rudolfstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "Kleines, gem\u00fctliches Zimmer in 4er-WG sucht NachmieterIn",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.6865797.html",
+        "price": "250.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Ben",
+        "street": "Scheibenstra\u00dfe 28A",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "4er WG",
+        "blocked": false
+    },
+    {
+        "title": "Top-Lage in der Pontstra\u00dfe Helles 20m2 Zimmer in entspannter 2er-WG zu vermieten",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13330880.html",
+        "price": "388.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Yanxiao Yin",
+        "street": "PontStra\u00dfe 117",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG",
+        "blocked": false
     }
 ]
