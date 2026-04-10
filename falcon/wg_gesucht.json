@@ -694,5 +694,29 @@
         "postal_code": "52062",
         "description": "3er WG",
         "blocked": false
+    },
+    {
+        "title": "Ruhiger 2er-WG \u2013 zentrale Lage ab 01.05",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13334701.html",
+        "price": "330.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Herr Harfi",
+        "street": "Gneisenaustra\u00dfe 11",
+        "city": "Aachen",
+        "postal_code": "52068",
+        "description": "2er WG",
+        "blocked": false
+    },
+    {
+        "title": "Zentral gelegenes, m\u00f6bliertes Zimmer in 3er WG (Zwischenmiete)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.7537805.html",
+        "price": "420.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Alexander S.",
+        "street": "Dahmengraben 1",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG",
+        "blocked": false
     }
 ]
