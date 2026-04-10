@@ -154,5 +154,113 @@
         "postal_code": "52062",
         "description": "3er WG",
         "blocked": false
+    },
+    {
+        "title": "3er WG in Aachen Zentrum",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13307081.html",
+        "price": "420.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Haris N.",
+        "street": "Bergstra\u00dfe 31",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer in 6er-Haus nahe RWTH/FH \u2013 ruhig, zentral, m\u00f6bliert m\u00f6glich",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.5617222.html",
+        "price": "500.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Daniel Peters",
+        "street": "Benediktinerstra\u00dfe 42",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "6er WG",
+        "blocked": false
+    },
+    {
+        "title": "Nette 4er WG im Zentrum Aachens",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13056259.html",
+        "price": "450.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Michael S.",
+        "street": "Kockerellstra\u00dfe 6",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "4er WG",
+        "blocked": false
+    },
+    {
+        "title": "WG f\u00fcr 2 Personen neben Westpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13333515.html",
+        "price": "405.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Rajashree",
+        "street": "Welkenrather Stra\u00dfe 118E",
+        "city": "Aachen",
+        "postal_code": "52074",
+        "description": "2er WG",
+        "blocked": false
+    },
+    {
+        "title": "Tolles Zimmer in Top-Lage",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13325633.html",
+        "price": "470.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Burak A.",
+        "street": "Rudolfstra\u00dfe 34",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in wunderbarer Land-WG in Belgien",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Kettenis.7371093.html",
+        "price": "360.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Jan K",
+        "street": "Walhorner Str.",
+        "city": "Aachen",
+        "postal_code": "B 4701",
+        "description": "4er WG",
+        "blocked": false
+    },
+    {
+        "title": "2 Person Pauschaler Anteil (nur Bewerber)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12191713.html",
+        "price": "460.00 \u20ac",
+        "currency": "EUR",
+        "provider": "A. Dey",
+        "street": "Turmstra\u00dfe 16B",
+        "city": "Aachen",
+        "postal_code": "52072",
+        "description": "2er WG",
+        "blocked": false
+    },
+    {
+        "title": "M\u00f6bliertes Zimmer am Ponttor f\u00fcr Zwischenmiete (Zeitraum flexibel)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen-Mitte.9953314.html",
+        "price": "495.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Elen Ayanyan",
+        "street": "Pontwall 9",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG",
+        "blocked": false
+    },
+    {
+        "title": "WG-Zimmer am Ponttor zur Untermiete (1-3 Monate)",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12022671.html",
+        "price": "495.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Elen Ayanyan",
+        "street": "Pontwall 9",
+        "city": "Aachen",
+        "postal_code": "52062",
+        "description": "2er WG",
+        "blocked": false
     }
 ]
