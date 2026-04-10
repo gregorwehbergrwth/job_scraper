@@ -334,5 +334,65 @@
         "postal_code": "52064",
         "description": "3er WG",
         "blocked": false
+    },
+    {
+        "title": "1 Zimmer in 4er WG zu vermieten, 24 qm. Gemeinschaftsk\u00fcche, Bad mit Dusche, G\u00e4ste-WC, \u00fcberdachter Hof und Garten",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Wuerselen.13275266.html",
+        "price": "490.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Thomas",
+        "street": "Neuhauser Strasse 120",
+        "city": "Aachen",
+        "postal_code": "52146",
+        "description": "4er WG",
+        "blocked": false
+    },
+    {
+        "title": "Helles Zimmer in freundlicher 5er WG mit Billiardtisch",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13170882.html",
+        "price": "384.00 \u20ac",
+        "currency": "EUR",
+        "provider": "K W",
+        "street": "Zollernstra\u00dfe",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "5er WG",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in lustiger Wg",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12600882.html",
+        "price": "383.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Josue",
+        "street": "Kirberichshofer weg 10A",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "3er WG",
+        "blocked": false
+    },
+    {
+        "title": "Helles, gem\u00fctliches WG-Zimmer im Frankenberger Viertel!",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.11851996.html",
+        "price": "430.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Aachter WG",
+        "street": "Bismarckstra\u00dfe 172",
+        "city": "Aachen",
+        "postal_code": "52066",
+        "description": "8er WG",
+        "blocked": false
+    },
+    {
+        "title": "Zimmer in 7-er-WG nahe Stadtpark",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.13170202.html",
+        "price": "407.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Ole",
+        "street": "Passstra\u00dfe 155",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "7er WG",
+        "blocked": false
     }
 ]
