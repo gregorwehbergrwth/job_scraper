@@ -718,5 +718,17 @@
         "postal_code": "52062",
         "description": "3er WG",
         "blocked": false
+    },
+    {
+        "title": "Modernes 3er WG Zimmer in Aachen Mitte",
+        "url": "https://www.wg-gesucht.de/wg-zimmer-in-Aachen-Aachen.12202109.html",
+        "price": "440.00 \u20ac",
+        "currency": "EUR",
+        "provider": "Niels B.",
+        "street": "J\u00fclicher Stra\u00dfe 304",
+        "city": "Aachen",
+        "postal_code": "52070",
+        "description": "3er WG",
+        "blocked": false
     }
 ]
