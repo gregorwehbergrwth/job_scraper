@@ -1,1 +1,4 @@
-{}
+{
+    "inab": "Error extracting job infos for inab: 'NoneType' object has no attribute 'text'",
+    "goldbeck": "Error fetching content for https://www.goldbeck.de/job-finden?llat=50.7753455&llon=6.083886800000001&ldist=10: Message: \nStacktrace:\n#0 0x55baabd6d22a <unknown>\n#1 0x55baab76bab9 <unknown>\n#2 0x55baab7c0046 <unknown>\n#3 0x55baab7c0281 <unknown>\n#4 0x55baab80af74 <unknown>\n#5 0x55baab808116 <unknown>\n#6 0x55baab7b3662 <unknown>\n#7 0x55baab7b4451 <unknown>\n#8 0x55baabd30d8b <unknown>\n#9 0x55baabd33c65 <unknown>\n#10 0x55baabd1d458 <unknown>\n#11 0x55baabd347f0 <unknown>\n#12 0x55baabd041c0 <unknown>\n#13 0x55baabd5a168 <unknown>\n#14 0x55baabd5a305 <unknown>\n#15 0x55baabd6bc5e <unknown>\n#16 0x7f5879a9caa4 <unknown>\n#17 0x7f5879b29c6c <unknown>\n"
+}
