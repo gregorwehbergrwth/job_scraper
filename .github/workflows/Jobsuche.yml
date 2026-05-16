@@ -55,6 +55,7 @@ jobs:
         env:
           API_KEY: ${{ secrets.API_KEY }}
           USER_ID: ${{ secrets.USER_ID }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TZ: Europe/Berlin
           MANUAL: ${{ env.MANUAL }}
         run: |

@@ -109,7 +109,7 @@ def extract_infos(html, mouse, mode):
     config = modes[mode][mouse]
     soup = BeautifulSoup(html, 'lxml')
 
-    print(soup)
+    # print(soup)
 
     try:
         if mode == "hawk":

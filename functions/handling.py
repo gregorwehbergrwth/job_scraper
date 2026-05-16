@@ -3,10 +3,12 @@ import asyncio
 from telegram import Bot
 from telegram.error import BadRequest
 import re
+import os
+from dotenv import load_dotenv
 
-# api_key = '8030882097:AAHyDEN1DWhyRYUhbUOBA8b-Gz0AIpOEJlg'
-api_key = '8922735844:AAHnK_K6KH7eT5d9gituImL9kSDO4-amuNM'
-user_id = '5623557325'
+
+api_key = os.environ.get('TELEGRAM_BOT_TOKEN')
+user_id = os.environ.get('USER_ID')
 
 
 def problem(mouse, error, send_message=True):
@@ -72,7 +74,7 @@ def message(txt, test=False):
     async def send_message(text):
         bot = Bot(token=api_key)
         try:
-            await bot.send_message(chat_id=user_id, text=text)
+            await bot.send_message(chat_id=os.environ.get('USER_ID'), text=text)
         except BadRequest as e2:
             print(f"Telegram API Error: {e2}")
 
