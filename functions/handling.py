@@ -13,7 +13,7 @@ def problem(mouse, error, send_message=True):
     problem_dict = get_file("logs/problem_logs.json")
     problem_dict[mouse] = f"{problem_dict.get(mouse, '')}, {error}".strip(', ')
     write_file("logs/problem_logs.json", problem_dict)
-    messages([f"Error: {error}"]) if send_message else print(f"Error not sent as message: {error}")
+    messages([f"Error: {error}"]) if send_message else print(f"Error not sent as message: {error}") if mouse != "message" else print(f"Message error: {error}")
 
 
 def get_file(name):
