@@ -1,5 +1,29 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011110/",
+        "Frist": "Frist: 31.07.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000011110",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 01.06.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011153/",
+        "Frist": "Frist: 30.06.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Start-up-F\u00f6rderung und Qualit\u00e4tsmanagement in der Batterieforschung ",
+        "Nummer": "V000011153",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 01.06.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011156/",
+        "Frist": "Frist: 31.07.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000011156",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 01.06.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Textilmaschinenbau und Institut f\u00fcr Textiltechnik [419110]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011137/",
         "Frist": "Frist: 30.06.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) ",
@@ -257,7 +281,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011069/",
-        "Frist": "Frist: 16.06.2026",
+        "Frist": "Frist: 01.06.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Erstellung von Batterie-Systemmodellen ",
         "Nummer": "V000011069",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 12.05.2026",
@@ -336,14 +360,6 @@
         "Arbeitgeber": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011016/",
-        "Frist": "Frist: 31.05.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Batteriemodellierung und \u2011simulation mit PyBaMM ",
-        "Nummer": "V000011016",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 27.04.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Thermodynamik mobiler Energiewandlungssysteme und Institut f\u00fcr Thermodynamik [412310]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011001/",
         "Frist": "Frist: 30.06.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) ",
@@ -382,21 +398,5 @@
         "Nummer": "V000010942",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 13.04.2026",
         "Arbeitgeber": "Lehrstuhl f\u00fcr Geb\u00e4ude- und Raumklimatechnik [419510]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010981/",
-        "Frist": "Frist: 13.07.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 F\u00fcr das CAMMP Mathematik-Lernlabor ",
-        "Nummer": "V000010981",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 13.04.2026",
-        "Arbeitgeber": "Lehr- und Forschungsgebiet Kombinatorische Optimierung [125620]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010971/",
-        "Frist": "Frist: 30.06.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 F\u00fcr die Auslegung und Bewertung Nachhaltiger Luftfahrtantriebe ",
-        "Nummer": "V000010971",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 08.04.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Strahlantriebe und Turbomaschinen [413510]"
     }
 ]
