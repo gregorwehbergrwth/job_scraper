@@ -128,14 +128,6 @@
         "Arbeitgeber": "Fakult\u00e4t f\u00fcr Mathematik und Naturwissenschaften [100000]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011144/",
-        "Frist": "Frist: 11.06.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Zur Unterst\u00fctzung bei Fermentationsprozessen ",
-        "Nummer": "V000011144",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 28.05.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Bioverfahrenstechnik [416510]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011138/",
         "Frist": "Frist: 17.06.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) ",
@@ -398,5 +390,13 @@
         "Nummer": "V000011033",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 29.04.2026",
         "Arbeitgeber": "Lehrstuhl f\u00fcr Werkzeugmaschinen [417310]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011010/",
+        "Frist": "Frist: 01.07.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 AR/VR-Entwicklung in der additiven Fertigung ",
+        "Nummer": "V000011010",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 28.04.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
     }
 ]
