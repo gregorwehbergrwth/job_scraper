@@ -120,14 +120,6 @@
         "Arbeitgeber": "Lehrstuhl f\u00fcr Technische Thermodynamik und Institut f\u00fcr Thermodynamik [412110]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011146/",
-        "Frist": "Frist: 12.06.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Dekanat der Fakult\u00e4t f\u00fcr Mathematik und Naturwissenschaften ",
-        "Nummer": "V000011146",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 29.05.2026",
-        "Arbeitgeber": "Fakult\u00e4t f\u00fcr Mathematik und Naturwissenschaften [100000]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011138/",
         "Frist": "Frist: 17.06.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) ",
@@ -214,14 +206,6 @@
         "Nummer": "V000011132",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 26.05.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Maschinenelemente und Systementwicklung [411710]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011089/",
-        "Frist": "Frist: 12.06.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011089",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 22.05.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Ingenieurgeologie und Hydrogeologie [532110]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011112/",
@@ -398,5 +382,21 @@
         "Nummer": "V000011010",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 28.04.2026",
         "Arbeitgeber": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011001/",
+        "Frist": "Frist: 30.06.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000011001",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 20.04.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011002/",
+        "Frist": "Frist: 31.10.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) Innovationsmanagement ",
+        "Nummer": "V000011002",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 20.04.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
     }
 ]
