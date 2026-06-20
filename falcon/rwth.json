@@ -1,5 +1,29 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011189/",
+        "Frist": "Frist: 17.07.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 F\u00fcr das fIT-Team ",
+        "Nummer": "V000011189",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.06.2026",
+        "Arbeitgeber": "IT Center [022000]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011196/",
+        "Frist": "Frist: 17.07.2026",
+        "Titel": "Studentische Hilfskraft  (w/m/d) \u2013 F\u00fcr das fIT-Team \u2013 Durchf\u00fchrung SPSS-Kurs ",
+        "Nummer": "V000011196",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.06.2026",
+        "Arbeitgeber": "IT Center [022000]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011220/",
+        "Frist": "Frist: 31.08.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 F\u00fcr die Betreuung des MTL ",
+        "Nummer": "V000011220",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.06.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr fluidtechnische Antriebe und Systeme [412810]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011197/",
         "Frist": "Frist: 15.07.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Autonome Maritime Systeme \u2013 Simulation & Softwareentwicklung ",
@@ -94,14 +118,6 @@
         "Nummer": "V000011195",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 15.06.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011169/",
-        "Frist": "Frist: 18.06.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 QM und HR ",
-        "Nummer": "V000011169",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 10.06.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011182/",
@@ -214,6 +230,14 @@
         "Nummer": "V000011137",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 29.05.2026",
         "Arbeitgeber": "Lehrstuhl f\u00fcr Technische Thermodynamik und Institut f\u00fcr Thermodynamik [412110]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011138/",
+        "Frist": "Frist: 30.06.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000011138",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 27.05.2026",
+        "Arbeitgeber": "Fakult\u00e4t f\u00fcr Bauingenieurwesen [300000]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011139/",
@@ -373,30 +397,6 @@
         "Titel": "Studentische Hilfskraft (w/m/d) ",
         "Nummer": "V000011092",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.05.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011093/",
-        "Frist": "Frist: 31.05.2027",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011093",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.05.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011072/",
-        "Frist": "Frist: 10.07.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung in der Institutsverwaltung ",
-        "Nummer": "V000011072",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 18.05.2026",
-        "Arbeitgeber": "Institut f\u00fcr Elektrische Anlagen und Netze, Digitalisierung und Energiewirtschaft [614000]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011070/",
-        "Frist": "Frist: 15.08.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Laser Cladding und Thermisches Spritzen f\u00fcr Bremsscheiben ",
-        "Nummer": "V000011070",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 15.05.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
     }
 ]
