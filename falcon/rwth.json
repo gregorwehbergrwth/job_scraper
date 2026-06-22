@@ -1,5 +1,13 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011219/",
+        "Frist": "Frist: 10.07.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000011219",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 22.06.2026",
+        "Arbeitgeber": "Fakult\u00e4t f\u00fcr Maschinenwesen [400000]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011189/",
         "Frist": "Frist: 17.07.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 F\u00fcr das fIT-Team ",
@@ -62,6 +70,14 @@
         "Nummer": "V000011214",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 18.06.2026",
         "Arbeitgeber": "Lehrstuhl f\u00fcr Experimentalphysik (Festk\u00f6rperphysik) und II. Physikalisches Institut [132110]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011215/",
+        "Frist": "Frist: 31.07.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000011215",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 18.06.2026",
+        "Arbeitgeber": "Juniorprofessur f\u00fcr Sicherheits- und Nachhaltigkeitsbewertungen in der Zukunftsforschung [423430]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011198/",
@@ -382,21 +398,5 @@
         "Nummer": "V000011099",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 20.05.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Strahlantriebe und Turbomaschinen [413510]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011092/",
-        "Frist": "Frist: 31.05.2027",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011092",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.05.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011093/",
-        "Frist": "Frist: 31.05.2027",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011093",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.05.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
     }
 ]
