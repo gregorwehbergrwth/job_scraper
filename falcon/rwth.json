@@ -1,5 +1,21 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011210/",
+        "Frist": "Frist: 24.07.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000011210",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 23.06.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Informations-, Qualit\u00e4ts- und Sensorsysteme in der Produktion [417510]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011235/",
+        "Frist": "Frist: 01.06.2028",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000011235",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 23.06.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Nachhaltige Thermoprozesstechnik und Institut f\u00fcr Industrieofenbau und W\u00e4rmetechnik [525110]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011219/",
         "Frist": "Frist: 10.07.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) ",
@@ -224,28 +240,12 @@
         "Arbeitgeber": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011153/",
-        "Frist": "Frist: 30.06.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Start-up-F\u00f6rderung und Qualit\u00e4tsmanagement in der Batterieforschung ",
-        "Nummer": "V000011153",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 01.06.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Production Engineering of E-Mobility Components [420910]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011156/",
         "Frist": "Frist: 31.07.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) ",
         "Nummer": "V000011156",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 01.06.2026",
         "Arbeitgeber": "Lehrstuhl f\u00fcr Textilmaschinenbau und Institut f\u00fcr Textiltechnik [419110]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011137/",
-        "Frist": "Frist: 30.06.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011137",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 29.05.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Technische Thermodynamik und Institut f\u00fcr Thermodynamik [412110]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011138/",
@@ -376,6 +376,14 @@
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
     },
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011102/",
+        "Frist": "Frist: 24.07.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Zur Unterst\u00fctzung in Forschungs- und Bildungsprojekten im Bereich \"Circular Economy\" ",
+        "Nummer": "V000011102",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 21.05.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Informations-, Qualit\u00e4ts- und Sensorsysteme in der Produktion [417510]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011105/",
         "Frist": "Frist: 30.06.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung neuartiger Werkzeugbeschichtungen, Machine Learning, Werkstoffpr\u00fcfung ",
@@ -390,13 +398,5 @@
         "Nummer": "V000011108",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 21.05.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011099/",
-        "Frist": "Frist: 30.06.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011099",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 20.05.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Strahlantriebe und Turbomaschinen [413510]"
     }
 ]
