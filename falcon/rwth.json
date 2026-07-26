@@ -200,14 +200,6 @@
         "Arbeitgeber": "IT Center [022000]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011268/",
-        "Frist": "Frist: 24.07.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011268",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 06.07.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Bioverfahrenstechnik [416510]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011258/",
         "Frist": "Frist: 13.08.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) ",
@@ -262,14 +254,6 @@
         "Nummer": "V000011250",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 26.06.2026",
         "Arbeitgeber": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011210/",
-        "Frist": "Frist: 24.07.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011210",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 23.06.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Informations-, Qualit\u00e4ts- und Sensorsysteme in der Produktion [417510]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011235/",
@@ -396,6 +380,22 @@
         "Frist": "Frist: 26.08.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Auftragl\u00f6ten f\u00fcr den Verschlei\u00dfschutz. Entwicklung Lottape-basierter Reparatur- und Beschichtungsverfahren f\u00fcr hartstoffverst\u00e4rkte Oberfl\u00e4chen an Atmosph\u00e4re ",
         "Nummer": "V000011121",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 26.05.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011122/",
+        "Frist": "Frist: 26.08.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000011122",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 26.05.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011123/",
+        "Frist": "Frist: 26.08.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 KI-gest\u00fctzte Datenanalyse zur automatisierte Entwicklung von Hochleistungsschichten ",
+        "Nummer": "V000011123",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 26.05.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
     }
