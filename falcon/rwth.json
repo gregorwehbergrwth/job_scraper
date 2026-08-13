@@ -1,5 +1,37 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011382/",
+        "Frist": "Frist: 30.09.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 F\u00fcr Mediengestaltung und Kommunikation ",
+        "Nummer": "V000011382",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 12.08.2026",
+        "Arbeitgeber": "Center f\u00fcr Lehr- und Lernservices (CLS) [026000]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011401/",
+        "Frist": "Frist: 30.09.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 SelfAssessment ",
+        "Nummer": "V000011401",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 12.08.2026",
+        "Arbeitgeber": "Center f\u00fcr Lehr- und Lernservices (CLS) [026000]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011421/",
+        "Frist": "Frist: 30.09.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Optische Messtechnik / Auswertung ",
+        "Nummer": "V000011421",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 12.08.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Strahlantriebe und Turbomaschinen [413510]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011424/",
+        "Frist": "Frist: 12.11.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Konstruktion ",
+        "Nummer": "V000011424",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 12.08.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Textilmaschinenbau und Institut f\u00fcr Textiltechnik [419110]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011409/",
         "Frist": "Frist: 10.11.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich \"Reliable Power Electronics\" ",
@@ -200,14 +232,6 @@
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Maschinenelemente und Systementwicklung [411710]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011345/",
-        "Frist": "Frist: 31.08.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Computer Vision und Messtechnik ",
-        "Nummer": "V000011345",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 21.07.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Informations-, Qualit\u00e4ts- und Sensorsysteme in der Produktion [417510]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011330/",
         "Frist": "Frist: 31.08.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Batterien der n\u00e4chsten Generation ",
@@ -374,29 +398,5 @@
         "Nummer": "V000011191",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 15.06.2026",
         "Arbeitgeber": "Lehrstuhl f\u00fcr Textilmaschinenbau und Institut f\u00fcr Textiltechnik [419110]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011194/",
-        "Frist": "Frist: 15.09.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Beschichtungen f\u00fcr tribologische Anwendungen ",
-        "Nummer": "V000011194",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 15.06.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011195/",
-        "Frist": "Frist: 15.09.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Schutzschichten f\u00fcr Hochtemperaturanwendungen ",
-        "Nummer": "V000011195",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 15.06.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011165/",
-        "Frist": "Frist: 03.09.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung und KI-gest\u00fctzte Analyse der Beschichtungen im Thermischen Spritzen ",
-        "Nummer": "V000011165",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 03.06.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
     }
 ]
