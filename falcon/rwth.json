@@ -1,5 +1,37 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011441/",
+        "Frist": "Frist: 31.10.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Design Automation in der Entwicklung von Batteriespeichersystemen ",
+        "Nummer": "V000011441",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 18.08.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011451/",
+        "Frist": "Frist: 18.09.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Tutor*in im Fach Mechanik III Maschinenbau ",
+        "Nummer": "V000011451",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 18.08.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Strukturmechanik und Leichtbau [415610]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011452/",
+        "Frist": "Frist: 31.10.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Auslegung und Untersuchung von Spindellagern f\u00fcr Werkzeugmaschinen ",
+        "Nummer": "V000011452",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 18.08.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Werkzeugmaschinen [417310]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011454/",
+        "Frist": "Frist: 29.09.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Pr\u00fcfstandsbetrieb, Simulation und Messdatenauswertung ",
+        "Nummer": "V000011454",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 18.08.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Maschinenelemente und Systementwicklung [411710]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011382/",
         "Frist": "Frist: 30.09.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 F\u00fcr Mediengestaltung und Kommunikation ",
@@ -166,14 +198,6 @@
         "Nummer": "V000011314",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 28.07.2026",
         "Arbeitgeber": "K\u00e4te Hamburger Kolleg Kulturen des Forschens [080073]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011354/",
-        "Frist": "Frist: 18.08.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011354",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 28.07.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Psychologische Diagnostik und Intervention [721810]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011356/",
@@ -374,29 +398,5 @@
         "Nummer": "V000011110",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 01.06.2026",
         "Arbeitgeber": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011139/",
-        "Frist": "Frist: 30.09.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011139",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 27.05.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Technische Thermodynamik und Institut f\u00fcr Thermodynamik [412110]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011121/",
-        "Frist": "Frist: 26.08.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Auftragl\u00f6ten f\u00fcr den Verschlei\u00dfschutz. Entwicklung Lottape-basierter Reparatur- und Beschichtungsverfahren f\u00fcr hartstoffverst\u00e4rkte Oberfl\u00e4chen an Atmosph\u00e4re ",
-        "Nummer": "V000011121",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 26.05.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011122/",
-        "Frist": "Frist: 26.08.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011122",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 26.05.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
     }
 ]
