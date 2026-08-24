@@ -1,5 +1,37 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000010834/",
+        "Frist": "Frist: 07.09.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000010834",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 24.08.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Technik und Individuum [751110]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011213/",
+        "Frist": "Frist: 23.09.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 F\u00fcr den Bereich IT-Netzwerk-Support ",
+        "Nummer": "V000011213",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 24.08.2026",
+        "Arbeitgeber": "IT Center [022000]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011458/",
+        "Frist": "Frist: 07.09.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000011458",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 24.08.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Bioverfahrenstechnik [416510]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011461/",
+        "Frist": "Frist: 25.09.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Marketing und Social Media ",
+        "Nummer": "V000011461",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 24.08.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Fertigungstechnologie [417410]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011457/",
         "Frist": "Frist: 03.09.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Team Nachhaltigkeit & strukturelle Sicherheit ",
@@ -41,7 +73,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011454/",
-        "Frist": "Frist: 29.09.2026",
+        "Frist": "Frist: 24.08.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Pr\u00fcfstandsbetrieb, Simulation und Messdatenauswertung ",
         "Nummer": "V000011454",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 18.08.2026",
@@ -366,37 +398,5 @@
         "Nummer": "V000011195",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 15.06.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011165/",
-        "Frist": "Frist: 03.09.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung und KI-gest\u00fctzte Analyse der Beschichtungen im Thermischen Spritzen ",
-        "Nummer": "V000011165",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 03.06.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011167/",
-        "Frist": "Frist: 03.09.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Simulation von Partikelflugbahnen und Plasmafreistrahl beim Thermischen Spritzen ",
-        "Nummer": "V000011167",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 03.06.2026",
-        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011160/",
-        "Frist": "Frist: 02.09.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Abteilung Produktionsmanagement, Gruppe Prozessmanagement ",
-        "Nummer": "V000011160",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 02.06.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Produktionssystematik [417210]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011110/",
-        "Frist": "Frist: 31.08.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Marketing und Grafik ",
-        "Nummer": "V000011110",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 01.06.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
     }
 ]
