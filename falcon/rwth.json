@@ -49,7 +49,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011518/",
-        "Frist": "Frist: 01.01.2027",
+        "Frist": "Frist: 12.10.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Experimentelle Untersuchungen zur hochdynamischen Laserstrahlformung mittels diffraktiver neuronaler Netze ",
         "Nummer": "V000011518",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.10.2026",
@@ -168,36 +168,12 @@
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011502/",
-        "Frist": "Frist: 11.10.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011502",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 17.09.2026",
-        "Arbeitgeber": "Beauftragte f\u00fcr inklusives Studium [038000]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011536/",
         "Frist": "Frist: 30.11.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Unterst\u00fctzung im Bereich der Tribologie ",
         "Nummer": "V000011536",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 16.09.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr fluidtechnische Antriebe und Systeme [412810]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011520/",
-        "Frist": "Frist: 11.10.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Forschungs- und Projektarbeit im Bereich regionaler Strukturwandel ",
-        "Nummer": "V000011520",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 15.09.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Innovation, Strategie und Organisation [816410]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011526/",
-        "Frist": "Frist: 11.10.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich des thermischen Komforts im Fahrzeuginnenraum ",
-        "Nummer": "V000011526",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 14.09.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Geb\u00e4ude- und Raumklimatechnik [419510]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011530/",
@@ -397,6 +373,30 @@
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Entwicklung und Optimierung von Lottape-Architekturen f\u00fcr das Auftragl\u00f6ten hartstoffverst\u00e4rkter Verschlei\u00dfschutzschichten ",
         "Nummer": "V000011129",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 26.05.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011112/",
+        "Frist": "Frist: 31.12.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Triboaktive Schichten in Kettenantrieben ",
+        "Nummer": "V000011112",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 22.05.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011092/",
+        "Frist": "Frist: 31.05.2027",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000011092",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.05.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011093/",
+        "Frist": "Frist: 31.05.2027",
+        "Titel": "Studentische Hilfskraft (w/m/d) ",
+        "Nummer": "V000011093",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.05.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
     }
 ]
