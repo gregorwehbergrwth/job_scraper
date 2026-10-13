@@ -1,5 +1,13 @@
 [
     {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011617/",
+        "Frist": "Frist: 23.12.2026",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich Konstruktion und Designautomatisierung ",
+        "Nummer": "V000011617",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 12.10.2026",
+        "Arbeitgeber": "Lehrstuhl f\u00fcr Digitale Additive Produktion [421510]"
+    },
+    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011615/",
         "Frist": "Frist: 23.12.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich digitale Fabrikplanung \u2013 Schwerpunkt Industrieberatung ",
@@ -9,7 +17,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011602/",
-        "Frist": "Frist: 31.12.2026",
+        "Frist": "Frist: 14.10.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) ",
         "Nummer": "V000011602",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 07.10.2026",
@@ -46,14 +54,6 @@
         "Nummer": "V000011589",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 06.10.2026",
         "Arbeitgeber": "Lehr- und Forschungsgebiet Lerntechnologien [122420]"
-    },
-    {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011518/",
-        "Frist": "Frist: 12.10.2026",
-        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Experimentelle Untersuchungen zur hochdynamischen Laserstrahlformung mittels diffraktiver neuronaler Netze ",
-        "Nummer": "V000011518",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 05.10.2026",
-        "Arbeitgeber": "Lehrstuhl f\u00fcr Technologie optischer Systeme [418910]"
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011581/",
@@ -176,14 +176,6 @@
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr fluidtechnische Antriebe und Systeme [412810]"
     },
     {
-        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011530/",
-        "Frist": "Frist: 31.03.2027",
-        "Titel": "Studentische Hilfskraft (w/m/d) ",
-        "Nummer": "V000011530",
-        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 14.09.2026",
-        "Arbeitgeber": "Lehr- und Forschungsgebiet Berg-, Umwelt- und Europarecht [511220]"
-    },
-    {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011519/",
         "Frist": "Frist: 31.10.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Im Bereich experimentelle Untersuchung des thermischen Durchgehens von Batteriezellen ",
@@ -249,7 +241,7 @@
     },
     {
         "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011477/",
-        "Frist": "Frist: 16.10.2026",
+        "Frist": "Frist: 13.10.2026",
         "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Pr\u00fcfstandsarbeit, Messsdatenauswertung ",
         "Nummer": "V000011477",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 27.08.2026",
@@ -397,6 +389,14 @@
         "Titel": "Studentische Hilfskraft (w/m/d) ",
         "Nummer": "V000011093",
         "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 19.05.2026",
+        "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
+    },
+    {
+        "Link": "https://www.rwth-aachen.de/go/id/kbag/file/V000011066/",
+        "Frist": "Frist: 11.02.2027",
+        "Titel": "Studentische Hilfskraft (w/m/d) \u2013 Prozessentwicklung: Laserunterst\u00fctztes Lichtbogendrahtspritzen ",
+        "Nummer": "V000011066",
+        "Ver\u00f6ffentlichungsdatum": "ver\u00f6ffentlicht am 11.05.2026",
         "Arbeitgeber": "Lehrstuhl und Institut f\u00fcr Oberfl\u00e4chentechnik im Maschinenbau [419010]"
     }
 ]
